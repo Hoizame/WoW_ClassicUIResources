@@ -1,1 +1,0 @@
-# WoW_ClassicUIResources
