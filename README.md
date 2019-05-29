@@ -1,6 +1,6 @@
 ### AreaTable.lua
 AreaTable with a List or areaID's that are used with
-- [C_Map.GetAreaInfo(areaID)](https://wow.gamepedia.com/API_C_Map.GetAreaInfo)
+- [C_Map.GetAreaInfo(areaID) @wowpedia](https://wow.gamepedia.com/API_C_Map.GetAreaInfo)
 
 
 ### GlobalStrings.lua
@@ -9,7 +9,7 @@ AreaTable with a List or areaID's that are used with
 
 ### ItemBagFamily.lua / ItemClass.lua / ItemSubClass.lua
 Item related Informations
-- [wowpedia.org](https://wow.gamepedia.com/ItemType)
+- [ItemType @wowpedia.org](https://wow.gamepedia.com/ItemType)
 
 
 ### ItemSet.lua
@@ -27,3 +27,6 @@ All aviable spells within the game
 
 ### UiTextureAtlas.lua + UiAtlasTextureFiles
 - [Texture:SetAtlas @wowpedia.org](https://wow.gamepedia.com/API_Texture_SetAtlas)
+
+### Faction.lua
+- [GetFactionInfoByID(factionID) @wowpedia.org](https://wow.gamepedia.com/API_GetFactionInfoByID)
