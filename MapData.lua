@@ -1,4 +1,5 @@
---This file is automatic generated and changes are not be reflected in future updates
+-- This file is automatic generated and changes are not be reflected in future updates
+-- 1.13.2.30682
 -- [MapID] = { MapName_lang, Directory, MapType, InstanceType, ResetInterval, MaxPlayers }
 [0] = { "Eastern Kingdoms", "Azeroth", 1, 0, 0, 5 },
 [1] = { "Kalimdor", "Kalimdor", 1, 0, 0, 5 },

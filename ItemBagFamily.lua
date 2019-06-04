@@ -1,4 +1,5 @@
---This file is automatic generated and changes are not be reflected in future updates
+-- This file is automatic generated and changes are not be reflected in future updates
+-- 1.13.2.30682
 -- [ID] = Name_lang
 [0] = "NONE",
 [1] = "Arrows",

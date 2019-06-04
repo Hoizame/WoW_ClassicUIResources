@@ -1,4 +1,5 @@
---This file is automatic generated and changes are not be reflected in future updates
+-- This file is automatic generated and changes are not be reflected in future updates
+-- 1.13.2.30682
 -- [BaseTag] = TagText_lang
 BUG_BUTTON = "Bugs & Suggestions"
 CHARACTER_BUTTON = "Character Info"
@@ -17401,3 +17402,6 @@ BLIZZARD_GROUPS_SHORT = "Groups"
 BINDING_NAME_TOGGLEBLIZZARDGROUPSTAB = "Toggle Blizzard Groups Pane"
 LAUNCH_ETA = "The world is scheduled to be available in approximately %d hours."
 LAUNCH_ETA_SOON = "The world is scheduled to be available soon."
+GRAPHICS_QUALITY_CLASSIC = "Graphics Quality (Classic)"
+SHOW_MINIMAP_CLOCK = "Show Minimap Clock"
+OPTION_TOOLTIP_SHOW_MINIMAP_CLOCK = "Uncheck this to hide the clock below the minimap."
