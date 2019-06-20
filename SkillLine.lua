@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30786
+-- 1.13.2.30862
 -- [ID] = { DisplayName_lang, Description_lang, CategoryID },
 [6] = { "Frost", "", 7 },
 [8] = { "Fire", "", 7 },

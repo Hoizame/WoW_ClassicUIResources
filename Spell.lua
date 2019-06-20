@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30786
+-- 1.13.2.30862
 -- [ID] = { SpellName, NameSubtext_lang, Description_lang, CategoryCD, CD, GCD }, -- CD -> ms
 [1] = { "Word of Recall (OLD)", "", "", 0, 0, 0 },
 [5] = { "Death Touch", "", "Instantly Kills the target.  I hope you feel good about yourself now.....", 0, 0, 0 },
