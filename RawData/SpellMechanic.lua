@@ -1,0 +1,32 @@
+-- This file is automatic generated and changes are not be reflected in future updates
+-- 1.13.2.30862
+-- ID, StateName_lang
+SpellMechanic = {
+	{ 1, "charmed" },
+	{ 2, "disoriented" },
+	{ 3, "disarmed" },
+	{ 4, "distracted" },
+	{ 5, "fleeing" },
+	{ 6, "clumsy" },
+	{ 7, "rooted" },
+	{ 8, "pacified" },
+	{ 9, "silenced" },
+	{ 10, "asleep" },
+	{ 11, "ensnared" },
+	{ 12, "stunned" },
+	{ 13, "frozen" },
+	{ 14, "incapacitated" },
+	{ 15, "bleeding" },
+	{ 16, "healing" },
+	{ 17, "polymorphed" },
+	{ 18, "banished" },
+	{ 19, "shielded" },
+	{ 20, "shackled" },
+	{ 21, "mounted" },
+	{ 22, "seduced" },
+	{ 23, "turned" },
+	{ 24, "horrified" },
+	{ 25, "invulnerable" },
+	{ 26, "interrupted" },
+	{ 27, "dazed" },
+}

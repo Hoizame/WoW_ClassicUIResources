@@ -1,0 +1,32 @@
+-- This file is automatic generated and changes are not be reflected in future updates
+-- 1.13.2.30862
+-- ID, Name_lang, BackgroundFile, OrderIndex, RaceMask, ClassMask
+TalentTab = {
+	{ 41, "Fire", "MageFire", 1, 511, 128 },
+	{ 61, "Frost", "MageFrost", 2, 511, 128 },
+	{ 81, "Arcane", "MageArcane", 0, 511, 128 },
+	{ 161, "Arms", "WarriorArms", 0, 511, 1 },
+	{ 163, "Protection", "WarriorProtection", 2, 511, 1 },
+	{ 164, "Fury", "WarriorFury", 1, 511, 1 },
+	{ 181, "Combat", "RogueCombat", 1, 511, 8 },
+	{ 182, "Assassination", "RogueAssassination", 0, 511, 8 },
+	{ 183, "Subtlety", "RogueSubtlety", 2, 511, 8 },
+	{ 201, "Discipline", "PriestDiscipline", 0, 511, 16 },
+	{ 202, "Holy", "PriestHoly", 1, 511, 16 },
+	{ 203, "Shadow", "PriestShadow", 2, 511, 16 },
+	{ 261, "Elemental", "ShamanElementalCombat", 0, 511, 64 },
+	{ 262, "Restoration", "ShamanRestoration", 2, 511, 64 },
+	{ 263, "Enhancement", "ShamanEnhancement", 1, 511, 64 },
+	{ 281, "Feral Combat", "DruidFeralCombat", 1, 511, 1024 },
+	{ 282, "Restoration", "DruidRestoration", 2, 511, 1024 },
+	{ 283, "Balance", "DruidBalance", 0, 511, 1024 },
+	{ 301, "Destruction", "WarlockDestruction", 2, 511, 256 },
+	{ 302, "Affliction", "WarlockCurses", 0, 511, 256 },
+	{ 303, "Demonology", "WarlockSummoning", 1, 511, 256 },
+	{ 361, "Beast Mastery", "HunterBeastMastery", 0, 511, 4 },
+	{ 362, "Survival", "HunterSurvival", 2, 511, 4 },
+	{ 363, "Marksmanship", "HunterMarksmanship", 1, 511, 4 },
+	{ 381, "Retribution", "PaladinCombat", 2, 511, 2 },
+	{ 382, "Holy", "PaladinHoly", 0, 511, 2 },
+	{ 383, "Protection", "PaladinProtection", 1, 511, 2 },
+}

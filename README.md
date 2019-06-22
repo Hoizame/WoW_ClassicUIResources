@@ -1,4 +1,7 @@
 ### AreaTable.lua
+RawData now contains all .db2 files as Lua table.
+
+### AreaTable.lua
 AreaTable with a List or areaID's that are used with
 - [C_Map.GetAreaInfo(areaID) @wowpedia](https://wow.gamepedia.com/API_C_Map.GetAreaInfo)
 
