@@ -58,12 +58,7 @@ Spell = {
 	{ 355, "", "Taunts the target to attack you, but has no effect if the target is already attacking you.", "" },
 	{ 370, "Rank 1", "Purges the enemy target, removing $m1 magic $leffect:effects;.", "" },
 	{ 403, "Rank 1", "Casts a bolt of lightning at the target for $s1 Nature damage.", "" },
-	{ 408, "Rank 1", "Finishing move that stuns the target.  Lasts longer per combo point:
-   1 point  : 1 second
-   2 points: 2 seconds
-   3 points: 3 seconds
-   4 points: 4 seconds
-   5 points: 5 seconds", "Stunned." },
+	{ 408, "Rank 1", "Finishing move that stuns the target.  Lasts longer per combo point: \n    1 point  : 1 second \n    2 points: 2 seconds \n    3 points: 3 seconds \n    4 points: 4 seconds \n    5 points: 5 seconds", "Stunned." },
 	{ 421, "Rank 1", "Hurls a lightning bolt at the enemy, dealing $s1 Nature damage and then jumping to additional nearby enemies.  Each jump reduces the damage by 30%.  Affects $x1 total targets.", "" },
 	{ 427, "", "Teleport to the Monastery!!!", "" },
 	{ 430, "", "Restores $o1 mana over $d.  Must remain seated while drinking.", "Restores $/5;s1 mana per second." },
@@ -162,9 +157,7 @@ Spell = {
 	{ 581, "", "Summons and dismisses a rideable winter wolf.", "Increases speed by $s2%." },
 	{ 585, "Rank 1", "Smite an enemy for $s1 Holy damage.", "" },
 	{ 586, "Rank 1", "Fade out, discouraging enemies from attacking you for $d.", "Reduced threat level." },
-	{ 587, "Rank 1", "Conjures $s1 $lmuffin:muffins;, providing the mage and $ghis:her; allies with something to eat.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 587, "Rank 1", "Conjures $s1 $lmuffin:muffins;, providing the mage and $ghis:her; allies with something to eat. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 588, "Rank 1", "A burst of Holy energy fills the caster, increasing armor by $s1.  Each melee or ranged damage hit against the priest will remove one charge.  Lasts $d or until $n charges are used.", "Increases armor by $s1." },
 	{ 589, "Rank 1", "A word of darkness that causes $o1 Shadow damage over $d.", "$s1 Shadow damage every $t1 seconds." },
 	{ 591, "Rank 2", "Smite an enemy for $s1 Holy damage.", "" },
@@ -172,9 +165,7 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 594, "Rank 2", "A word of darkness that causes $o1 Shadow damage over $d.", "$s1 Shadow damage every $t1 seconds." },
 	{ 595, "", "Increase party's armor until duration expires or the priest stops praying.", "" },
 	{ 596, "Rank 1", "A powerful prayer heals party members within $a1 yards for $s1.", "" },
-	{ 597, "Rank 2", "Conjures $s1 $lloaf:loaves; of bread, providing the mage and $ghis:her; allies with something to eat.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 597, "Rank 2", "Conjures $s1 $lloaf:loaves; of bread, providing the mage and $ghis:her; allies with something to eat. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 598, "Rank 3", "Smite an enemy for $s1 Holy damage.", "" },
 	{ 600, "Rank 3", "Draws on the soul of the party member to shield them, absorbing $s1 damage.  Lasts $d.  While the shield holds, spellcasting will not be interrupted by damage.  Once shielded, the target cannot be shielded again for $6788d.", "Absorbs damage." },
 	{ 601, "Rank 1", "Increases your attack rating with One-Handed Swords by $s1.", "" },
@@ -226,9 +217,7 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 689, "Rank 1", "Transfers $s1 health every second from the target to the caster.  Lasts $d.", "Drains $s1 health each second to the caster." },
 	{ 690, "", "Blasts a target for $s1 Fire damage.", "" },
 	{ 691, "Summon", "Summons a Felhunter under the command of the Warlock.", "" },
-	{ 693, "", "Creates a Minor Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $3026s1 health and $3026q1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 693, "", "Creates a Minor Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $3026s1 health and $3026q1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 694, "Rank 1", "A mocking attack that causes $s1 damage, a moderate amount of threat and forces the target to focus attacks on you for $d.", "Taunted." },
 	{ 695, "Rank 2", "Sends a shadowy bolt at the enemy, causing $s1 Shadow damage.", "" },
 	{ 696, "Rank 2", "Protects the caster, increasing armor by $m1 and restores $s2 Health per 5 sec. for $d.", "Increases armor by $s1 and restores $s2 Health per 5 sec." },
@@ -269,36 +258,23 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 746, "Rank 1", "Heals $o1 damage over $d.", "Healing $s1 damage every $t1 seconds." },
 	{ 755, "Rank 1", "Gives $s1 health to the caster's pet every second for $d as long as the caster channels.", "Transferring Life." },
 	{ 758, "Rank 1", "Enchants the main hand weapon with fire, granting each attack a chance to deal $17809s1 additional fire damage.", "" },
-	{ 759, "", "Conjures a mana agate that can be used to instantly restore $5405s1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 759, "", "Conjures a mana agate that can be used to instantly restore $5405s1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 766, "Rank 1", "Teaches Water Elemental (Rank 1).", "" },
-	{ 768, "Shapeshift", "Shapeshift into cat form, increasing melee attack power by $3025s1 plus Agility.  Also protects the caster from Polymorph effects and allows the use of various cat abilities.
-
-The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immunity to Polymorph effects.  Increases melee attack power by $3025s1 plus Agility." },
+	{ 768, "Shapeshift", "Shapeshift into cat form, increasing melee attack power by $3025s1 plus Agility.  Also protects the caster from Polymorph effects and allows the use of various cat abilities. \n  \n The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immunity to Polymorph effects.  Increases melee attack power by $3025s1 plus Agility." },
 	{ 769, "Rank 3", "Swipe $x1 nearby enemies, inflicting $s1 damage.", "" },
 	{ 770, "Rank 1", "Decrease the armor of the target by $s1 for $d.  While affected, the target cannot stealth or turn invisible.", "Decreases armor by $s1.  Cannot stealth or turn invisible." },
 	{ 772, "Rank 1", "Wounds the target causing them to bleed for $o1 damage over $d.", "Bleeding for $s1 damage every $t1 seconds." },
 	{ 774, "Rank 1", "Heals the target for $o1 over $d.", "Heals $s1 damage every $t1 seconds." },
-	{ 775, "Shapeshift", "Transforms the druid into a tree form, removing all harmful physical effects and protecting from all physical attacks for $d, but during that time you cannot attack, move or cast spells.  Also protects the caster from polymorph effects.
-
-The act of shapeshifting frees the caster of roots, snares, and freeze effects.", "Immune to all physical attacks and polymorph effects.  Cannot attack, move or cast spells." },
+	{ 775, "Shapeshift", "Transforms the druid into a tree form, removing all harmful physical effects and protecting from all physical attacks for $d, but during that time you cannot attack, move or cast spells.  Also protects the caster from polymorph effects. \n  \n The act of shapeshifting frees the caster of roots, snares, and freeze effects.", "Immune to all physical attacks and polymorph effects.  Cannot attack, move or cast spells." },
 	{ 776, "Rank 1", "Abolishes all magic on the friendly target, and prevents any magic from affecting the target for $d.", "" },
 	{ 778, "Rank 2", "Decrease the armor of the target by $s1 for $d.  While affected, the target cannot stealth or turn invisible.", "Decreases armor by $s1.  Cannot stealth or turn invisible." },
 	{ 779, "Rank 1", "Swipe $x1 nearby enemies, inflicting $s1 damage.", "" },
 	{ 780, "Rank 2", "Swipe $x1 nearby enemies, inflicting $s1 damage.", "" },
 	{ 781, "Rank 1", "Attempts to disengage from the target, reducing threat.  Character exits combat mode.", "" },
 	{ 782, "Rank 2", "Thorns sprout from the friendly target causing $s1 Nature damage to attackers when hit.  Lasts $d.", "Causes $s1 Nature damage to attackers." },
-	{ 783, "Shapeshift", "Transforms the druid into a travel form, increasing movement speed by $5419s1%.  Also protects the caster from Polymorph effects.  Only useable outdoors.
-
-The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Movement speed increased by $5419s1%." },
+	{ 783, "Shapeshift", "Transforms the druid into a travel form, increasing movement speed by $5419s1%.  Also protects the caster from Polymorph effects.  Only useable outdoors. \n  \n The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Movement speed increased by $5419s1%." },
 	{ 784, "Rank 1", "Teaches Faerie Fire (Rank 1).", "" },
-	{ 785, "", "", "Charmed.
-Damage increased by $s2%.
-Spells cast instantly.
-All resistances increased by $2313s2.
-Movement speed increased by $2313s3%.
-" },
+	{ 785, "", "", "Charmed. \n Damage increased by $s2%. \n Spells cast instantly. \n All resistances increased by $2313s2. \n Movement speed increased by $2313s3%. \n " },
 	{ 786, "Rank 1", "Teaches Thorns (Rank 1).", "" },
 	{ 788, "Rank 1", "Teaches Rejuvenation (Rank 1).", "" },
 	{ 789, "Rank 1", "Teaches Divine Escape (Rank 1).", "" },
@@ -308,8 +284,7 @@ Movement speed increased by $2313s3%.
 	{ 793, "Rank 2", "Teaches Faerie Fire (Rank 2).", "" },
 	{ 795, "Rank 2", "Teaches Thorns (Rank 2).", "" },
 	{ 796, "Rank 2", "", "" },
-	{ 802, "", "", "Health is increased by $s1%.
-Damage dealt is increased by $s3%." },
+	{ 802, "", "", "Health is increased by $s1%. \n Damage dealt is increased by $s3%." },
 	{ 804, "", "", "Preparing to explode." },
 	{ 806, "", "Increases Strength by $s1 and does $s2 damage to you every $m2 sec for $d.", "Increased Strength and periodic damage." },
 	{ 812, "", "Periodically casts mana burn.", "Periodically casts mana burn." },
@@ -401,9 +376,7 @@ Damage dealt is increased by $s3%." },
 	{ 985, "Rank 4", "Teaches Holy Smite (Rank 4).", "" },
 	{ 988, "Rank 2", "Dispels magic on the target, removing $s1 harmful $lspell:spells; from a friend or $s1 beneficial $lspell:spells; from an enemy.", "" },
 	{ 989, "Rank 2", "Teaches Dispel Magic (Rank 2).", "" },
-	{ 990, "Rank 3", "Conjures $s1 $lloaf:loaves; of rye, providing the mage and $ghis:her; allies with something to eat.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 990, "Rank 3", "Conjures $s1 $lloaf:loaves; of rye, providing the mage and $ghis:her; allies with something to eat. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 991, "Rank 3", "Teaches Conjure Food (Rank 3).", "" },
 	{ 992, "Rank 4", "A word of darkness that causes $o1 Shadow damage over $d.", "$s1 Shadow damage every $t1 seconds." },
 	{ 993, "Rank 4", "Teaches Shadow Word: Pain (Rank 4).", "" },
@@ -447,18 +420,11 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 1062, "Rank 2", "Roots the target in place and causes $o2 Nature damage over $d.  Damage caused may interrupt the effect.  Only useable outdoors.", "Rooted.  Causes $s2 Nature damage every $t2 seconds." },
 	{ 1063, "Rank 2", "Teaches Entangling Roots (Rank 2).", "" },
 	{ 1064, "Rank 1", "Heals the friendly target for $s1, then jumps to heal additional nearby targets.  If cast on a party member, the heal will only jump to other party members.  Each jump is $*100;F1% as effective as the previous target.  Heals $x1 total targets.", "" },
-	{ 1066, "Shapeshift", "Shapeshift into aquatic form, increasing swim speed by $5421s1% and allowing the druid to breathe underwater.  Also protects the caster from Polymorph effects.
-
-The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Increases swim speed by $5421s1% and allows underwater breathing." },
+	{ 1066, "Shapeshift", "Shapeshift into aquatic form, increasing swim speed by $5421s1% and allowing the druid to breathe underwater.  Also protects the caster from Polymorph effects. \n  \n The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Increases swim speed by $5421s1% and allows underwater breathing." },
 	{ 1070, "Rank 3", "Teaches Faerie Fire (Rank 3).", "" },
 	{ 1075, "Rank 3", "Thorns sprout from the friendly target causing $s1 Nature damage to attackers when hit.  Lasts $d.", "Causes $s1 Nature damage to attackers." },
 	{ 1076, "Rank 3", "Teaches Thorns (Rank 3).", "" },
-	{ 1079, "Rank 1", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power:
-   1 point  : 42 damage over $d.
-   2 points: 66 damage over $d.
-   3 points: 90 damage over $d.
-   4 points: 114 damage over $d.
-   5 points: 138 damage over $d.", "Bleed damage every $t1 seconds." },
+	{ 1079, "Rank 1", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power: \n    1 point  : 42 damage over $d. \n    2 points: 66 damage over $d. \n    3 points: 90 damage over $d. \n    4 points: 114 damage over $d. \n    5 points: 138 damage over $d.", "Bleed damage every $t1 seconds." },
 	{ 1082, "Rank 1", "Claw the enemy, causing $s1 additional damage.  Awards $s2 combo $lpoint:points;.", "" },
 	{ 1086, "Rank 2", "Protects the caster, increasing armor by $s1, Shadow resistance by $s2 and restores $s3 health every 5 sec. for $d.", "Increases armor by $s1, Shadow resistance by $s2 and restores $s3 health every 5 sec." },
 	{ 1087, "Rank 2", "Teaches Demon Armor (Rank 2).", "" },
@@ -593,12 +559,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 	{ 1906, "", "Charge an enemy - slowing their movement for $d.", "Movement speed reduced by $s3%" },
 	{ 1908, "", "Heal target to full every $d1 seconds", "Healed to full every $d1 seconds" },
 	{ 1940, "", "Inflicts $s1 Fire damage in a 3 yard radius.", "" },
-	{ 1943, "Rank 1", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:
-   1 point  : 40 damage over 8 secs
-   2 points: 60 damage over 10 secs
-   3 points: 84 damage over 12 secs
-   4 points: 112 damage over 14 secs
-   5 points: 144 damage over 16 secs", "$s1 damage every $t1 seconds." },
+	{ 1943, "Rank 1", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point: \n    1 point  : 40 damage over 8 secs \n    2 points: 60 damage over 10 secs \n    3 points: 84 damage over 12 secs \n    4 points: 112 damage over 14 secs \n    5 points: 144 damage over 16 secs", "$s1 damage every $t1 seconds." },
 	{ 1949, "Rank 1", "Ignites the area surrounding the caster, causing $s2 Fire damage to $ghimself:herself; and $5857s1 Fire damage to all nearby enemies every $t2 sec.  Lasts $d.", "Damages self and all nearby enemies." },
 	{ 1953, "", "Teleports the caster 20 yards forward, unless something is in the way.  Also frees the caster from stuns and bonds.", "Blinking." },
 	{ 1966, "Rank 1", "Performs a feint, causing no damage but lowering your threat by a small amount, making the enemy less likely to attack you.", "" },
@@ -616,12 +577,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 	{ 2091, "Rank 5", "Heals the target for $o1 over $d.", "Heals $s1 damage every $t1 seconds." },
 	{ 2094, "", "Blinds the target, causing it to wander disoriented for up to $d.  Any damage caused will remove the effect.", "Disoriented." },
 	{ 2096, "Rank 1", "Allows the caster to see through the target's eyes for $d.", "Sight granted through target's eyes." },
-	{ 2098, "Rank 1", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 6-10 damage
-   2 points: 11-15 damage
-   3 points: 16-20 damage
-   4 points: 21-25 damage
-   5 points: 26-30 damage", "" },
+	{ 2098, "Rank 1", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 6-10 damage \n    2 points: 11-15 damage \n    3 points: 16-20 damage \n    4 points: 21-25 damage \n    5 points: 26-30 damage", "" },
 	{ 2108, "Apprentice", "Allows a leatherworker to make leather armor, up to to a maximum potential skill of 75.  Requires leather scraps and hides gathered with the Skinning skill.", "" },
 	{ 2115, "Rank 1", "Increases your mana regeneration rate.", "" },
 	{ 2116, "Rank 1", "Increase resistance to all types of spells by 1.", "" },
@@ -647,9 +603,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 	{ 2259, "Apprentice", "Allows an alchemist to brew basic potions up to a maximum potential skill of 75.  Requires Herbs found with the Herbalism skill.", "" },
 	{ 2329, "", "With the mixture of Snakeroot for physical improvement and crushed Silverleaf for enhancement, a potion to to bring out one's inner lion is brewed.", "" },
 	{ 2342, "", "Teaches you how to make an Elixir of Minor Agility.", "" },
-	{ 2362, "", "Creates a Spellstone for the caster.  When equipped and used, the Spellstone removes all magic effects from the caster and will absorb $128s2 magic damage for $128d.  In addition, equipping the Spellstone improves your chance to get a critical strike with spells by $18384s1%.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 2362, "", "Creates a Spellstone for the caster.  When equipped and used, the Spellstone removes all magic effects from the caster and will absorb $128s2 magic damage for $128d.  In addition, equipping the Spellstone improves your chance to get a critical strike with spells by $18384s1%. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 2363, "", "Teaches you how to make an Elixir of Minor Fortitude.", "" },
 	{ 2364, "", "Teaches you how to make a Swiftness Potion.", "" },
 	{ 2365, "", "Teaches you how to make an Elixir of Tongues.", "" },
@@ -720,10 +674,8 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 2817, "", "WOOF, WOOF!", "" },
 	{ 2818, "Rank 1", "", "Target takes $s1 Nature damage every $t1 seconds." },
 	{ 2819, "Rank 2", "", "Target takes $s1 Nature damage every $t1 seconds." },
-	{ 2823, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy for $2818o1 Nature damage over $2818d.  Stacks up to 5 times on a single target.  60 charges.", "" },
-	{ 2824, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy for $2819o1 Nature damage over $2819d.  Stacks up to 5 times on a single target.  75 charges.", "" },
+	{ 2823, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy for $2818o1 Nature damage over $2818d.  Stacks up to 5 times on a single target.  60 charges.", "" },
+	{ 2824, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy for $2819o1 Nature damage over $2819d.  Stacks up to 5 times on a single target.  75 charges.", "" },
 	{ 2828, "Rank 1", "Increase sharp weapon damage by 2 for 30 minutes.", "" },
 	{ 2829, "", "Increase sharp weapon damage by 3 for 30 minutes.", "" },
 	{ 2830, "", "Increase sharp weapon damage by 4 for 30 minutes.", "" },
@@ -731,11 +683,9 @@ Each strike has a $h% chance of poisoning the enemy for $2819o1 Nature damage ov
 	{ 2832, "", "Permanently increase the armor value of an item worn on the chest, legs, hands or feet by 16.", "" },
 	{ 2833, "", "Permanently increase the armor value of an item worn on the chest, legs, hands or feet by 24.  Only usable on items level 15 and above.", "" },
 	{ 2834, "", "Periodically casts Thunderclap.", "Periodically casts Thunderclap." },
-	{ 2835, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy for $2818o1 Nature damage over $2818d.  Stacks up to 5 times on a single target.  60 charges.", "" },
+	{ 2835, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy for $2818o1 Nature damage over $2818d.  Stacks up to 5 times on a single target.  60 charges.", "" },
 	{ 2836, "Passive", "Greatly increased chance to detect traps.", "Detecting traps." },
-	{ 2837, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy for $2819o1 Nature damage over $2819d.  Stacks up to 5 times on a single target.  75 charges.", "" },
+	{ 2837, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy for $2819o1 Nature damage over $2819d.  Stacks up to 5 times on a single target.  75 charges.", "" },
 	{ 2842, "", "You can create and mix poisons, with both found and storebought ingredients.", "" },
 	{ 2855, "", "Detects beneficial magic effects on the target for $d.", "Magic detection." },
 	{ 2860, "Rank 3", "Hurls a lightning bolt at the enemy, dealing $s1 Nature damage and then jumping to additional nearby enemies.  Each jump reduces the damage by 30%.  Affects $x1 total targets.", "" },
@@ -819,21 +769,17 @@ Each strike has a 30% chance of poisoning the enemy for $2819o1 Nature damage ov
 	{ 3129, "", "Inflicts $s1 Frost damage to nearby enemies.", "" },
 	{ 3130, "", "Inflicts normal damage plus $s2 to an enemy, and increases the time between its attacks by $s1% for $d.", "Time between attacks increased by $s1%." },
 	{ 3131, "", "Inflicts $s1 Frost damage to an enemy.", "" },
-	{ 3132, "", "Inflicts $s1 Frost damage to an enemy every $t1 sec., slowing its movement speed by $s2% for $d.", "$s1 Frost damage inflicted every $t1 sec.
-Movement speed reduced by $s2% of normal." },
+	{ 3132, "", "Inflicts $s1 Frost damage to an enemy every $t1 sec., slowing its movement speed by $s2% for $d.", "$s1 Frost damage inflicted every $t1 sec. \n Movement speed reduced by $s2% of normal." },
 	{ 3136, "", "Increases the attack speed of nearby allies by $s1% for $d.", "Attack speed increased by $s1%." },
 	{ 3140, "Rank 4", "Hurls a fiery ball that causes $s1 Fire damage and an additional $o2 Fire damage over $d.", "$s2 Fire damage every $t2 seconds." },
 	{ 3141, "Rank 1", "Teaches Feather Fall.", "" },
 	{ 3143, "", "Inflicts $s2 Frost damage to nearby enemies, stunning them for $d.", "Stunned." },
 	{ 3145, "", "Reduces an enemy's movement speed by $s1% for $d.", "Movement speed reduced by $s1%." },
-	{ 3146, "", "Reduces nearby enemies' Strength by $s1 and Agility by $s2 for $d.", "Strength reduced by $s1.
-Agility reduced by $s2." },
+	{ 3146, "", "Reduces nearby enemies' Strength by $s1 and Agility by $s2 for $d.", "Strength reduced by $s1. \n Agility reduced by $s2." },
 	{ 3147, "", "Inflicts $s1 damage to an enemy every $t1 sec. for $d.", "$s1 damage inflicted every $t1 sec." },
 	{ 3148, "", "Reduces an enemy's Stamina by $s1 for $d.", "Stamina reduced by $s1." },
 	{ 3149, "", "Increases the Strength of nearby party members by $s1 for $d.", "Strength increased by $s1." },
-	{ 3150, "", "Reduces the rate of an enemy's health regeneration by $s1%, in addition to lowering its Strength by $s2 and its Agility by $s3, for $d.", "Health regeneration rate reduced by $s1%.
-Strength reduced by $s2.
-Agility reduced by $s3." },
+	{ 3150, "", "Reduces the rate of an enemy's health regeneration by $s1%, in addition to lowering its Strength by $s2 and its Agility by $s3, for $d.", "Health regeneration rate reduced by $s1%. \n Strength reduced by $s2. \n Agility reduced by $s3." },
 	{ 3151, "", "Increases the caster's attack speed by $s1% for $d.", "Attack speed increased by $s1%." },
 	{ 3169, "", "Imbiber is immune to physical attacks for the next $d.", "Immune to physical attacks." },
 	{ 3180, "", "Teaches you how to make a Minor Magic Resistance Potion.", "" },
@@ -861,15 +807,10 @@ Agility reduced by $s3." },
 	{ 3247, "", "Increases the Physical damage taken by an enemy by $s1 for $d.", "Physical damage taken is increased by $s1." },
 	{ 3248, "", "Increases the caster's chance to block by $s1% for $d.", "Chance to block increased by $s1%." },
 	{ 3252, "", "Reduces an enemy's armor by $s1 for $d.", "Armor reduced by $s1." },
-	{ 3256, "", "Reduces Strength by $s1, Agility by $s2, and Intellect by $s3 for all enemies in a selected area for $d.", "Strength reduced by $s1.
-Agility reduced by $s2.
-Intellect reduced by $s3." },
-	{ 3260, "", "", "Armor increased by $s3.
-Cannot move or attack.
-$s2 damage inflicted to melee attackers." },
+	{ 3256, "", "Reduces Strength by $s1, Agility by $s2, and Intellect by $s3 for all enemies in a selected area for $d.", "Strength reduced by $s1. \n Agility reduced by $s2. \n Intellect reduced by $s3." },
+	{ 3260, "", "", "Armor increased by $s3. \n Cannot move or attack. \n $s2 damage inflicted to melee attackers." },
 	{ 3261, "", "Inflicts $s1 Fire damage to an enemy every $t1 sec. for $d.", "$s1 Fire damage inflicted every $t1 sec." },
-	{ 3263, "", "Stuns an enemy and reduces its armor by $s2 for $d.", "Stunned.
-Armor reduced by $s2." },
+	{ 3263, "", "Stuns an enemy and reduces its armor by $s2 for $d.", "Stunned. \n Armor reduced by $s2." },
 	{ 3264, "", "Increases the Physical damage taken by nearby enemies by $s1 for $d.", "Physical damage taken is increased by $s1." },
 	{ 3267, "Rank 3", "Heals $o1 damage over $d.", "Healing $s1 damage every $t1 seconds." },
 	{ 3268, "Rank 4", "Heals $o1 damage over $d.", "Healing $s1 damage every $t1 seconds." },
@@ -906,41 +847,29 @@ Armor reduced by $s2." },
 	{ 3381, "", "Teaches you how to cook a Murloc Fin Soup.", "" },
 	{ 3382, "", "Teaches you how to cook a Blood Sausage.", "" },
 	{ 3383, "", "Teaches you how to cook a Barbecued Buzzard Wing.", "" },
-	{ 3385, "", "Increases the Physical damage dealt by the caster by $s2 and its movement speed by $s1% for $d.", "Physical damage dealt is increased by $s2.
-Movement speed increased by $s1%." },
-	{ 3387, "", "Inflicts $s2 Shadow damage to an enemy every $t2 sec., increasing the Physical damage it takes by $s1 for $d.", "$s2 Shadow damage inflicted every $t2 sec.
-Physical damage taken is increased by $s1." },
+	{ 3385, "", "Increases the Physical damage dealt by the caster by $s2 and its movement speed by $s1% for $d.", "Physical damage dealt is increased by $s2. \n Movement speed increased by $s1%." },
+	{ 3387, "", "Inflicts $s2 Shadow damage to an enemy every $t2 sec., increasing the Physical damage it takes by $s1 for $d.", "$s2 Shadow damage inflicted every $t2 sec. \n Physical damage taken is increased by $s1." },
 	{ 3389, "", "Gives the caster $s1% chance to reflect harmful spells for $d.", "$s1% chance to reflect spells." },
 	{ 3391, "", "Gives the caster $s1 extra attacks.", "" },
 	{ 3393, "", "Drains $s1 health from an enemy, healing the caster for up to 150% of that amount.", "" },
-	{ 3396, "", "Reduces an enemy's armor by $s2 and inflicts $s1 Nature damage every $t1 sec. for $d.", "$s1 Nature damage inflicted every $t1 sec.
-Armor reduced by $s2." },
+	{ 3396, "", "Reduces an enemy's armor by $s2 and inflicts $s1 Nature damage every $t1 sec. for $d.", "$s1 Nature damage inflicted every $t1 sec. \n Armor reduced by $s2." },
 	{ 3401, "", "Teaches you how to cook a Big Bear Steak.", "" },
 	{ 3402, "", "Teaches you how to cook up some Hot Lion Chops.", "" },
 	{ 3403, "", "Teaches you how to cook a Tasty Lion Steak.", "" },
 	{ 3404, "", "Teaches you how to cook a Soothing Turtle Bisque.", "" },
 	{ 3405, "", "Drains $s1 mana from an enemy, transferring it to the caster.", "" },
 	{ 3407, "", "Opens certain Dalaran-sealed containers.", "" },
-	{ 3408, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, slowing their movement speed by $3409s1% for $3409d.", "" },
+	{ 3408, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, slowing their movement speed by $3409s1% for $3409d.", "" },
 	{ 3413, "Expert", "Allows a cook to make mouth watering recipes up to a maximum potential skill of 225.", "" },
-	{ 3416, "", "Sends the caster into a rage that lasts $d., increasing the Physical damage it deals by $s2, but increasing the time between its attacks by $s3%.", "Physical damage dealt is increased by $s2.
-Time between attacks increased by $s3%." },
+	{ 3416, "", "Sends the caster into a rage that lasts $d., increasing the Physical damage it deals by $s2, but increasing the time between its attacks by $s3%.", "Physical damage dealt is increased by $s2. \n Time between attacks increased by $s3%." },
 	{ 3417, "", "Adds a chance to do two additional attacks", "" },
-	{ 3420, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy, slowing their movement speed by $3409s1% for $3409d.", "" },
-	{ 3421, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy, slowing their movement speed by $11201s1% for $11201d.", "" },
+	{ 3420, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy, slowing their movement speed by $3409s1% for $3409d.", "" },
+	{ 3421, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy, slowing their movement speed by $11201s1% for $11201d.", "" },
 	{ 3424, "", "Gives nearby allies $h% chance to poison an enemy on hit. Lasts $d.", "$h% chance to poison an enemy on hit." },
 	{ 3429, "", "Diseases an enemy for $d., draining $s1 mana every $t1 sec. and transferring it to the caster.", "$s1 mana leeched every $t1 sec." },
-	{ 3436, "", "Diseases an enemy for $d., increasing the Physical damage it takes by $s1 and reducing its Stamina by $s2. The diseased target has $h% chance of spreading its illness to one of its nearby allies when struck in combat.", "Physical damage taken is increased by $s1.
-Stamina reduced by $s2.
-$h% chance to spread Wandering Plague on hit." },
-	{ 3439, "", "", "Physical damage taken is increased by $s1.
-Stamina reduced by $s2.
-$h% chance to spread Wandering Plague on hit." },
-	{ 3442, "", "Takes control of a humanoid enemy up to level $s1 for $d., but increases the time between its attacks by $s2%.", "Charmed.
-Time between attacks increased by $s2%." },
+	{ 3436, "", "Diseases an enemy for $d., increasing the Physical damage it takes by $s1 and reducing its Stamina by $s2. The diseased target has $h% chance of spreading its illness to one of its nearby allies when struck in combat.", "Physical damage taken is increased by $s1. \n Stamina reduced by $s2. \n $h% chance to spread Wandering Plague on hit." },
+	{ 3439, "", "", "Physical damage taken is increased by $s1. \n Stamina reduced by $s2. \n $h% chance to spread Wandering Plague on hit." },
+	{ 3442, "", "Takes control of a humanoid enemy up to level $s1 for $d., but increases the time between its attacks by $s2%.", "Charmed. \n Time between attacks increased by $s2%." },
 	{ 3446, "", "Inflicts Physical damage to an enemy, stunning it for $d.", "Stunned." },
 	{ 3455, "", "Teaches you how to make an Elixir of Fortitude.", "" },
 	{ 3456, "", "Teaches you how to make a Mighty Troll's Blood Potion.", "" },
@@ -949,8 +878,7 @@ Time between attacks increased by $s2%." },
 	{ 3474, "Rank 6", "Teaches Holy Light (Rank 6).", "" },
 	{ 3485, "", "Inflicts $o1 Shadow damage over $d. to nearby enemies.", "$o1 Shadow damage inflicted over $d." },
 	{ 3488, "", "Kills the caster to summon a copy of itself.", "" },
-	{ 3490, "", "Increases the caster's attack speed by $s1% for $d., but reduces the Physical damage dealt by $s2.", "Attack speed increased by $s1%.
-Physical damage dealt is reduced by $s2." },
+	{ 3490, "", "Increases the caster's attack speed by $s1% for $d., but reduces the Physical damage dealt by $s2.", "Attack speed increased by $s1%. \n Physical damage dealt is reduced by $s2." },
 	{ 3510, "", "", "Time between attacks increased by $s1%." },
 	{ 3526, "", "Teaches you how to make a Jade Serpentblade.", "" },
 	{ 3528, "", "Teaches you how to make a Golden Iron Destroyer.", "" },
@@ -965,12 +893,8 @@ Physical damage dealt is reduced by $s2." },
 	{ 3537, "", "Summons Sloth and Sludge, the minions of Lord Malathrom. Each minion lasts $d.", "" },
 	{ 3538, "Expert", "Allows a Blacksmith to make masterful weapons and armor up to a maximum potential skill of 225.", "" },
 	{ 3542, "", "Immobilizes an enemy for $d.", "Immobilized." },
-	{ 3547, "", "Drives the caster into a maddened frenzy for $d. Increases the caster's attack speed by $s1%, but slows its movement by $s2% and reduces the Physical damage it deals by $s3.", "Attack speed increased by $s1%.
-Physical damage dealt is reduced by $s3.
-Movement speed reduced by $s2%." },
-	{ 3552, "", "Conjures a mana jade that can be used to instantly restore $10052s1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 3547, "", "Drives the caster into a maddened frenzy for $d. Increases the caster's attack speed by $s1%, but slows its movement by $s2% and reduces the Physical damage it deals by $s3.", "Attack speed increased by $s1%. \n Physical damage dealt is reduced by $s3. \n Movement speed reduced by $s2%." },
+	{ 3552, "", "Conjures a mana jade that can be used to instantly restore $10052s1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 3559, "Rank 1", "Teaches Ethereal Form (Rank 1).", "" },
 	{ 3561, "", "Teleports the caster to Stormwind.", "" },
 	{ 3562, "", "Teleports the caster to Ironforge.", "" },
@@ -981,8 +905,7 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 3567, "", "Teleports the caster to Orgrimmar.", "" },
 	{ 3569, "", "Allows the miner to smelt a chunk of iron ore and a lump of coal together into a steel bar.  Smelting steel requires a forge.", "" },
 	{ 3570, "Expert", "How to find and gather more difficult to harvest herbs.   Gives a potential herbalism skill of 225.", "" },
-	{ 3574, "", "", "Armor increased by $s1.
-Movement speed reduced by $s2%." },
+	{ 3574, "", "", "Armor increased by $s1. \n Movement speed reduced by $s2%." },
 	{ 3583, "", "Inflicts $s1 Nature damage to an enemy every $t1 sec. for $d.", "$s1 Nature damage inflicted every $t1 sec." },
 	{ 3584, "", "Infects an enemy for $d., causing it to inflict $3585s1 Nature damage to its nearby allies every $t1 sec.", "Inflicting $3585s1 Nature damage to nearby allies every $t1 sec." },
 	{ 3586, "", "Infects an enemy for $d., causing it to inflict $3587s1 Nature damage to its nearby allies every $t1 sec.", "Inflicting $3587s1 Nature damage to nearby allies every $t1 sec." },
@@ -1006,8 +929,7 @@ Movement speed reduced by $s2%." },
 	{ 3644, "", "Speak with the heads of the dead.", "" },
 	{ 3648, "", "Caster phases out of sight", "" },
 	{ 3650, "", "Tosses mud into an enemy's eyes, reducing its chance to hit by $s1% for $d.", "Chance to hit reduced by $s1%." },
-	{ 3651, "", "Gives the caster $s1% chance to reflect spells for $d. at the cost of rendering it unable to move or cast spells.", "$s1% chance to reflect spells.
-Cannot move or cast spells." },
+	{ 3651, "", "Gives the caster $s1% chance to reflect spells for $d. at the cost of rendering it unable to move or cast spells.", "$s1% chance to reflect spells. \n Cannot move or cast spells." },
 	{ 3652, "", "Summons $s1 $lSpirit of Old:Spirits of Old; to aid the caster in battle for $d.", "" },
 	{ 3659, "", "Ansirem's spell of scrying", "" },
 	{ 3660, "", "Creates a Soul Gem", "" },
@@ -1115,9 +1037,7 @@ Cannot move or cast spells." },
 	{ 4056, "", "Blasts open simple locked doors.", "" },
 	{ 4057, "", "Absorbs $s1 fire damage.  Lasts $d.", "Absorbs $s1 fire damage." },
 	{ 4060, "", "Transforms the target into a Leper Gnome, reducing its melee and spell damage by $s3 and its movement rate by $s2% for $d.", "Transformed into a Leper Gnome, reducing melee and spell damage by $s3 and its movement rate by $s2%." },
-	{ 4063, "", "", "Transformed into Skeletal Warlord.
-Physical damage dealt is increased by $s2.
-Attack speed increased by $s3%." },
+	{ 4063, "", "", "Transformed into Skeletal Warlord. \n Physical damage dealt is increased by $s2. \n Attack speed increased by $s3%." },
 	{ 4064, "", "Inflicts $s1 Fire damage and stuns targets in a 3 yard radius for $d.  Any damage will break the effect.", "Stunned.  Any damage will break the effect." },
 	{ 4065, "", "Inflicts $s1 Fire damage and stuns targets in a 5 yard radius for $d.  Any damage will break the effect.", "Stunned.  Any damage will break the effect." },
 	{ 4068, "", "Inflicts $s1 Fire damage and stuns targets for $d in a 3 yard radius.  Any damage will break the effect.", "Stunned.  Any damage will break the effect." },
@@ -1159,8 +1079,7 @@ Attack speed increased by $s3%." },
 	{ 4141, "", "Summon Myzrael from the Shards of Myzrael.", "" },
 	{ 4142, "", "Steals life from a target after delivering a fatal blow.", "" },
 	{ 4144, "", "Adds a chance to poison on a successful hit.", "" },
-	{ 4146, "", "Increases the Strength of nearby party members by $s1 and boosts their Agility by $s2 for $d.", "Strength increased by $s1.
-Agility increased by $s2." },
+	{ 4146, "", "Increases the Strength of nearby party members by $s1 and boosts their Agility by $s2 for $d.", "Strength increased by $s1. \n Agility increased by $s2." },
 	{ 4147, "", "Adds $m1 strength and $m2 agility to party members in a $a1 yard radius for $d", "" },
 	{ 4148, "", "Grants the user $m1 additional hitpoints for $d", "" },
 	{ 4149, "", "Increases armor value by $m1 for $d", "" },
@@ -1312,9 +1231,7 @@ Agility increased by $s2." },
 	{ 4316, "", "Reduces strength by $m1 and agility by $m2 for $d", "" },
 	{ 4317, "", "Chance to Eye Peck, which lowers a target's chance to hit.", "" },
 	{ 4318, "", "Increases your Agility by $s1 for $d.", "Increased Agility." },
-	{ 4320, "", "Silences, inflicts $s2 Frost damage every $t2 sec., and reduces an enemy's attack speed by $s3% for $d.", "Silenced.
-$s2 Frost damage inflicted every $t2 sec.
-Attack speed reduced by $s3%." },
+	{ 4320, "", "Silences, inflicts $s2 Frost damage every $t2 sec., and reduces an enemy's attack speed by $s3% for $d.", "Silenced. \n $s2 Frost damage inflicted every $t2 sec. \n Attack speed reduced by $s3%." },
 	{ 4328, "Rank 1", "Increases your chance to parry with One-Handed Maces by 2%.", "" },
 	{ 4329, "Rank 2", "Increases your chance to parry with One-Handed Maces by 4%.", "" },
 	{ 4330, "Rank 3", "Increases your chance to parry with One-Handed Maces by 5%.", "" },
@@ -1412,9 +1329,7 @@ Attack speed reduced by $s3%." },
 	{ 4422, "Rank 2", "Increases your chance to get a critical hit with a Two-Handed Sword by 2%.", "" },
 	{ 4423, "Rank 3", "Increases your chance to get a critical hit with a Two-Handed Sword by 1%.", "" },
 	{ 4424, "Rank 2", "Increases your chance to parry with a Two-Handed Axe by 2%.", "" },
-	{ 4425, "Spider", "Teaches your tamed spider the Spider Poison ability. Spider Poison deals damage over time to an enemy.
-Requires: 
-Pet Level 13+", "" },
+	{ 4425, "Spider", "Teaches your tamed spider the Spider Poison ability. Spider Poison deals damage over time to an enemy. \n Requires:  \n Pet Level 13+", "" },
 	{ 4426, "Rank 1", "Increases your chance to parry with Two-Handed Maces by 2%.", "" },
 	{ 4427, "Rank 1", "Increases your chance to parry with a Two-Handed mace by 2%.", "" },
 	{ 4428, "Rank 2", "Increases your chance to parry with Two-Handed Maces by 4%.", "" },
@@ -1494,9 +1409,7 @@ Pet Level 13+", "" },
 	{ 4503, "Rank 8", "Increases your damage with Staves by 4.", "" },
 	{ 4509, "", "Teaches you how to make a Discolored Healing Potion.", "" },
 	{ 4511, "", "Shifts the imp out of phase with the world, making it unattackable unless it attacks.", "" },
-	{ 4514, "", "Speeds the caster's attacks by $s2% and its movement by $s3% for $d., but also inflicts $s1 Shadow damage to the caster every $t1 sec.", "$s1 Shadow damage inflicted every $t1 sec.
-Attack speed increased by $s2%.
-Movement speed increased by $s3%." },
+	{ 4514, "", "Speeds the caster's attacks by $s2% and its movement by $s3% for $d., but also inflicts $s1 Shadow damage to the caster every $t1 sec.", "$s1 Shadow damage inflicted every $t1 sec. \n Attack speed increased by $s2%. \n Movement speed increased by $s3%." },
 	{ 4517, "Rank 2", "Restores 12 mana per minute.", "" },
 	{ 4518, "Rank 3", "Restores 24 mana per minute.", "" },
 	{ 4519, "Rank 4", "Restores 36 mana per minute.", "" },
@@ -1517,8 +1430,7 @@ Movement speed increased by $s3%." },
 	{ 4535, "Rank 6", "Increases your armor by $4531s1.", "" },
 	{ 4536, "Rank 7", "Increases your armor by $4532s1.", "" },
 	{ 4537, "Rank 8", "Increases your armor by $4533s1.", "" },
-	{ 4538, "", "Stuns the succubus and the target for $d, stealing $o1 health from the target over that time.", "$s1 health leeched every $t1 sec.
-Stunned." },
+	{ 4538, "", "Stuns the succubus and the target for $d, stealing $o1 health from the target over that time.", "$s1 health leeched every $t1 sec. \n Stunned." },
 	{ 4539, "", "Increases the damage that the Infernal does by $s1, but decreases it's attack speed by $s2% for $d.", "" },
 	{ 4540, "Rank 2", "Increase Holy resistance by $s1.", "" },
 	{ 4541, "Rank 3", "Increase Holy resistance by $s1.", "" },
@@ -1689,9 +1601,7 @@ Stunned." },
 	{ 4712, "Rank 7", "Increases damage done to Giants with either spells or physical attacks by 3.", "" },
 	{ 4713, "Rank 8", "Increases damage done to Giants with either spells or physical attacks by 3.", "" },
 	{ 4714, "Rank 1", "Increases damage done to Undead with either spells or physical attacks by $s1.", "" },
-	{ 4715, "Bear", "Teaches your tamed bear the Growl of Fortitude ability. Growl of Fortitude increases the maximum health of the bear.
-Requires: 
-Pet Level 22+", "" },
+	{ 4715, "Bear", "Teaches your tamed bear the Growl of Fortitude ability. Growl of Fortitude increases the maximum health of the bear. \n Requires:  \n Pet Level 22+", "" },
 	{ 4716, "Rank 1", "Increases damage done to Undead with either spells or physical attacks by 3.", "" },
 	{ 4717, "Rank 2", "Increases damage done to Undead with either spells or physical attacks by $s1.", "" },
 	{ 4718, "Rank 3", "Increases damage done to Undead with either spells or physical attacks by $s1.", "" },
@@ -1707,60 +1617,24 @@ Pet Level 22+", "" },
 	{ 4728, "Rank 6", "Increases damage done to Undead with either spells or physical attacks by 5.", "" },
 	{ 4729, "Rank 7", "Increases damage done to Undead with either spells or physical attacks by 6.", "" },
 	{ 4730, "Rank 8", "Increases damage done to Undead with either spells or physical attacks by 3.", "" },
-	{ 4731, "Bear", "Teaches your tamed bear the Enraging Bite ability. Enraging Bite reduces an enemy's resistance to physical attacks as well as drawing its attention.
-Requires: 
-Pet Level 13+", "" },
-	{ 4732, "Bear", "Teaches your tamed bear the Roar of Fortitude ability. Roar of Fortitude increases the maximum health of everyone in your party.
-Requires: 
-Pet Level 36+", "" },
-	{ 4733, "Boar", "Teaches your tamed boar the Gore ability. Gore deals physical damage over time to an enemy.
-Requires: 
-Pet Level 13+", "" },
-	{ 4734, "Boar", "Teaches your tamed boar the Toughen Hide ability. Toughen Hide increases resistance to physical attacks.
-Requires: 
-Pet Level 22+", "" },
-	{ 4735, "Boar", "Teaches your tamed boar the Vital Wound ability. Vital Wound slows the attack speed of an enemy.
-Requires: 
-Pet Level 36+", "" },
-	{ 4736, "Bird", "Teaches your tamed bird the Flight of the Peregrine ability. Flight of the Peregrine increase the movement speed of the bird.
-Requires: 
-Pet Level 13+", "" },
-	{ 4737, "Bird", "Teaches your tamed bird the Eye Peck ability. Eye Peck causes an enemy to miss more often in combat.
-Requires: 
-Pet Level 22+", "" },
-	{ 4739, "Bird", "Teaches your tamed bird the Pester ability. Pester greatly increases the attack speed of the bird at the cost of dealing less damage. Every successful attack while in this mode renders the target unable to cast spells for a short time.
-Requires: 
-Pet Level 36+", "" },
-	{ 4740, "Cat", "Teaches your tamed cat the Ferocity ability. Ferocity increases attack speed of the cat at the cost of receiving more damage when hit by phsical attacks.
-Requires: 
-Pet Level 13+", "" },
-	{ 4741, "Cat", "Teaches your tamed cat the Open Wound ability. Open Wound deals physical damage over time to an enemy as well as increasing damage received by physical attacks for a short time.
-Requires: 
-Pet Level 36+", "" },
-	{ 4742, "Crab - Rank 1", "Teaches your tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 13+", "" },
-	{ 4743, "Crab", "Teaches your tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 21+", "" },
-	{ 4744, "Crab - Rank 3", "Teaches your tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 28+", "" },
-	{ 4745, "Crab - Rank 4", "Teaches your tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 36+", "" },
-	{ 4746, "Crab", "Teaches your tamed crab the Tight Pinch ability. Tight Pinch deals additional damage on the crab's next hit as well as stunning the enemy.
-Requires: 
-Pet Level 22+", "" },
-	{ 4747, "Crab", "Teaches your tamed crab the Clenched Pinchers ability. Clenched Pinchers holds an enemy in place while dealing physical damage over time to it. While holding the enemy, the crab will be unable to attack or perform any other actions.
-Requires: 
-Pet Level 36+", "" },
-	{ 4748, "Crocilisk", "Teaches your tamed crocilisk the Quick Snap ability. Quick Snap gives your crocilisk a chance to counterattack when hit.
-Requires: 
-Pet Level 22+", "" },
-	{ 4750, "Crocilisk", "Teaches your tamed crocilisk the Consume Flesh ability. Consume Flesh gives your crocilisk a chance to steal health from an enemy when attacking.
-Requires: 
-Pet Level 36+", "" },
+	{ 4731, "Bear", "Teaches your tamed bear the Enraging Bite ability. Enraging Bite reduces an enemy's resistance to physical attacks as well as drawing its attention. \n Requires:  \n Pet Level 13+", "" },
+	{ 4732, "Bear", "Teaches your tamed bear the Roar of Fortitude ability. Roar of Fortitude increases the maximum health of everyone in your party. \n Requires:  \n Pet Level 36+", "" },
+	{ 4733, "Boar", "Teaches your tamed boar the Gore ability. Gore deals physical damage over time to an enemy. \n Requires:  \n Pet Level 13+", "" },
+	{ 4734, "Boar", "Teaches your tamed boar the Toughen Hide ability. Toughen Hide increases resistance to physical attacks. \n Requires:  \n Pet Level 22+", "" },
+	{ 4735, "Boar", "Teaches your tamed boar the Vital Wound ability. Vital Wound slows the attack speed of an enemy. \n Requires:  \n Pet Level 36+", "" },
+	{ 4736, "Bird", "Teaches your tamed bird the Flight of the Peregrine ability. Flight of the Peregrine increase the movement speed of the bird. \n Requires:  \n Pet Level 13+", "" },
+	{ 4737, "Bird", "Teaches your tamed bird the Eye Peck ability. Eye Peck causes an enemy to miss more often in combat. \n Requires:  \n Pet Level 22+", "" },
+	{ 4739, "Bird", "Teaches your tamed bird the Pester ability. Pester greatly increases the attack speed of the bird at the cost of dealing less damage. Every successful attack while in this mode renders the target unable to cast spells for a short time. \n Requires:  \n Pet Level 36+", "" },
+	{ 4740, "Cat", "Teaches your tamed cat the Ferocity ability. Ferocity increases attack speed of the cat at the cost of receiving more damage when hit by phsical attacks. \n Requires:  \n Pet Level 13+", "" },
+	{ 4741, "Cat", "Teaches your tamed cat the Open Wound ability. Open Wound deals physical damage over time to an enemy as well as increasing damage received by physical attacks for a short time. \n Requires:  \n Pet Level 36+", "" },
+	{ 4742, "Crab - Rank 1", "Teaches your tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 13+", "" },
+	{ 4743, "Crab", "Teaches your tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 21+", "" },
+	{ 4744, "Crab - Rank 3", "Teaches your tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 28+", "" },
+	{ 4745, "Crab - Rank 4", "Teaches your tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 36+", "" },
+	{ 4746, "Crab", "Teaches your tamed crab the Tight Pinch ability. Tight Pinch deals additional damage on the crab's next hit as well as stunning the enemy. \n Requires:  \n Pet Level 22+", "" },
+	{ 4747, "Crab", "Teaches your tamed crab the Clenched Pinchers ability. Clenched Pinchers holds an enemy in place while dealing physical damage over time to it. While holding the enemy, the crab will be unable to attack or perform any other actions. \n Requires:  \n Pet Level 36+", "" },
+	{ 4748, "Crocilisk", "Teaches your tamed crocilisk the Quick Snap ability. Quick Snap gives your crocilisk a chance to counterattack when hit. \n Requires:  \n Pet Level 22+", "" },
+	{ 4750, "Crocilisk", "Teaches your tamed crocilisk the Consume Flesh ability. Consume Flesh gives your crocilisk a chance to steal health from an enemy when attacking. \n Requires:  \n Pet Level 36+", "" },
 	{ 4751, "Rank 2", "Increases your chance to dodge by $s1%.", "" },
 	{ 4752, "Rank 3", "Increases your chance to dodge by $s1%.", "" },
 	{ 4753, "Rank 2", "Increases your chance to dodge by 1%.", "" },
@@ -1773,53 +1647,25 @@ Pet Level 36+", "" },
 	{ 4763, "Rank 3", "Increases your chance to block with a Shield (not a Buckler) by 5% and reflects $s2% of hostile spells back at the caster.", "" },
 	{ 4764, "Rank 2", "Increases your chance to block with a Shield (not a Buckler) by 2% and reflects 1% of hostile spells back at the caster.", "" },
 	{ 4765, "Rank 3", "Increases your chance to block with a Shield (not a Buckler) by 1%.", "" },
-	{ 4766, "Horse", "Teaches your tamed horse the Rapid Gallop ability. Rapid Gallop increases the movement speed of your horse.
-Requires: 
-Pet Level 13+", "" },
-	{ 4767, "Horse", "Teaches your tamed horse the Stomp ability. Stomp deals additional damage as well as slowing the movement speed of the enemy.
-Requires: 
-Pet Level 36+", "" },
-	{ 4768, "Raptor", "Teaches your tamed raptor the Feast of Prey ability. Feast of Prey allows your raptor to recover health every time it kills an enemy.
-Requires: 
-Pet Level 13+", "" },
-	{ 4769, "Raptor", "Teaches your tamed raptor the Vulnerable ability. Vulnerable increases all physical damage done to an enemy for a short time.
-Requires: 
-Pet Level 22+", "" },
-	{ 4770, "Raptor", "Teaches your tamed raptor the Tendon Slice ability. Tendon Slice deals damage over time as well as slowing the enemies movement speed.
-Requires: 
-Pet Level 36+", "" },
-	{ 4771, "Gorilla - Rank 1", "Teaches your tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking.
-Requires: 
-Pet Level 13+", "" },
-	{ 4772, "Gorilla - Rank 2", "Teaches your tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking.
-Requires: 
-Pet Level 21+", "" },
-	{ 4773, "Gorilla - Rank 3", "Teaches your tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking.
-Requires: 
-Pet Level 28+", "" },
-	{ 4774, "Gorilla - Rank 4", "Teaches your tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking.
-Requires: 
-Pet Level 36+", "" },
-	{ 4775, "Gorilla - Rank 1", "Teaches your tamed gorilla the Throw Rock ability. Throw Rock is a ranged attack.
-Requires: 
-Pet Level 22+", "" },
+	{ 4766, "Horse", "Teaches your tamed horse the Rapid Gallop ability. Rapid Gallop increases the movement speed of your horse. \n Requires:  \n Pet Level 13+", "" },
+	{ 4767, "Horse", "Teaches your tamed horse the Stomp ability. Stomp deals additional damage as well as slowing the movement speed of the enemy. \n Requires:  \n Pet Level 36+", "" },
+	{ 4768, "Raptor", "Teaches your tamed raptor the Feast of Prey ability. Feast of Prey allows your raptor to recover health every time it kills an enemy. \n Requires:  \n Pet Level 13+", "" },
+	{ 4769, "Raptor", "Teaches your tamed raptor the Vulnerable ability. Vulnerable increases all physical damage done to an enemy for a short time. \n Requires:  \n Pet Level 22+", "" },
+	{ 4770, "Raptor", "Teaches your tamed raptor the Tendon Slice ability. Tendon Slice deals damage over time as well as slowing the enemies movement speed. \n Requires:  \n Pet Level 36+", "" },
+	{ 4771, "Gorilla - Rank 1", "Teaches your tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking. \n Requires:  \n Pet Level 13+", "" },
+	{ 4772, "Gorilla - Rank 2", "Teaches your tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking. \n Requires:  \n Pet Level 21+", "" },
+	{ 4773, "Gorilla - Rank 3", "Teaches your tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking. \n Requires:  \n Pet Level 28+", "" },
+	{ 4774, "Gorilla - Rank 4", "Teaches your tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking. \n Requires:  \n Pet Level 36+", "" },
+	{ 4775, "Gorilla - Rank 1", "Teaches your tamed gorilla the Throw Rock ability. Throw Rock is a ranged attack. \n Requires:  \n Pet Level 22+", "" },
 	{ 4776, "Gorilla - Rank 2", "", "" },
-	{ 4777, "Gorilla", "Teaches your tamed gorilla the Quickness ability. Quickness is an attack that can hit multiple enemies.
-Requires: 
-Pet Level 36+", "" },
+	{ 4777, "Gorilla", "Teaches your tamed gorilla the Quickness ability. Quickness is an attack that can hit multiple enemies. \n Requires:  \n Pet Level 36+", "" },
 	{ 4778, "Rank 1", "Increases your defense by $s1.", "" },
 	{ 4779, "Rank 1", "Increases your defense by 1.", "" },
 	{ 4780, "Rank 2", "Increases your defense by $s1.", "" },
 	{ 4781, "Rank 2", "Increases your defense by 1.", "" },
-	{ 4782, "Spider - Rank 1", "Teaches your tamed spider the Web ability. Web renders an enemy unable to move.
-Requires: 
-Pet Level 22+", "" },
-	{ 4783, "Spider - Rank 2", "Teaches your tamed spider the Web ability. Web renders an enemy unable to move.
-Requires: 
-Pet Level 30+", "" },
-	{ 4785, "Spider - Rank 3", "Teaches your tamed spider the Web ability. Web renders an enemy unable to move.
-Requires: 
-Pet Level 37+", "" },
+	{ 4782, "Spider - Rank 1", "Teaches your tamed spider the Web ability. Web renders an enemy unable to move. \n Requires:  \n Pet Level 22+", "" },
+	{ 4783, "Spider - Rank 2", "Teaches your tamed spider the Web ability. Web renders an enemy unable to move. \n Requires:  \n Pet Level 30+", "" },
+	{ 4785, "Spider - Rank 3", "Teaches your tamed spider the Web ability. Web renders an enemy unable to move. \n Requires:  \n Pet Level 37+", "" },
 	{ 4786, "Rank 2", "Increases your Holy Magic skill by $s1 and reduces your Shadow Resistance by $s2.", "" },
 	{ 4787, "Rank 2", "Increases your Holy Magic skill by 4 and reduces your Shadow Resistance by 2.", "" },
 	{ 4788, "Rank 1", "Increases your Fire Magic skill by $s1 and reduces your Frost Resistance by $s2.", "" },
@@ -1834,33 +1680,19 @@ Pet Level 37+", "" },
 	{ 4797, "Rank 1", "Increases your Frost Magic skill by 4 and reduces your Fire Resistance by 2.", "" },
 	{ 4798, "Rank 2", "Increases your Frost Magic skill by $s1 and decreases your Fire Resistance by $s2.", "" },
 	{ 4799, "Rank 2", "Increases your Frost Magic skill by 4 and reduces your Fire Resistance by 2.", "" },
-	{ 4804, "Spider", "Teaches your tamed spider the Poisonous Spit ability. Poisonous Spit ranged attack that deals damage over time to an enemy.
-Requires: 
-Pet Level 36+", "" },
+	{ 4804, "Spider", "Teaches your tamed spider the Poisonous Spit ability. Poisonous Spit ranged attack that deals damage over time to an enemy. \n Requires:  \n Pet Level 36+", "" },
 	{ 4805, "", "Adds $m1 damage taken on a target.", "" },
-	{ 4806, "Tall Strider", "Teaches your tamed tall strider the Distracting Spit ability. Distracting Spit increases physical damage dealt to an enemy.
-Requires: 
-Pet Level 13+", "" },
-	{ 4807, "Tall Strider - Rank 1", "Teaches your tamed tall strider the Healing Tongue ability. Healing Tongue heals friendly targets from a short range.
-Requires: 
-Pet Level 22+", "" },
-	{ 4808, "Tall Strider - Rank 2", "Teaches your tamed tall strider the Healing Tongue ability. Healing Tongue heals friendly targets from a short range.
-Requires: 
-Pet Level 28+", "" },
+	{ 4806, "Tall Strider", "Teaches your tamed tall strider the Distracting Spit ability. Distracting Spit increases physical damage dealt to an enemy. \n Requires:  \n Pet Level 13+", "" },
+	{ 4807, "Tall Strider - Rank 1", "Teaches your tamed tall strider the Healing Tongue ability. Healing Tongue heals friendly targets from a short range. \n Requires:  \n Pet Level 22+", "" },
+	{ 4808, "Tall Strider - Rank 2", "Teaches your tamed tall strider the Healing Tongue ability. Healing Tongue heals friendly targets from a short range. \n Requires:  \n Pet Level 28+", "" },
 	{ 4809, "Rank 1", "Increases your chance to get a critical with a spell by 2%.", "" },
 	{ 4810, "Rank 2", "Increases your chance to get a critical with a spell by $s1%.", "" },
 	{ 4811, "Rank 3", "Increases your chance to get a critical with a spell by $s1%.", "" },
 	{ 4812, "Rank 2", "Increases your chance to get a critical with a spell by 2%.", "" },
 	{ 4813, "Rank 3", "Increases your chance to get a critical with a spell by 2%.", "" },
-	{ 4814, "Tall Strider", "Teaches your tamed tall strider the Strider Presence ability. Strider Presence helps regenerate health and mana.
-Requires: 
-Pet Level 36+", "" },
-	{ 4815, "Wolf", "Teaches your tamed wolf the Enraged Howl ability. Enraged Howl increases your party's strength and agility.
-Requires: 
-Pet Level 13+", "" },
-	{ 4816, "Wolf", "Teaches your tamed wolf the Rabid Maw ability. Rabid Maw decreases an enemy's strength and agility.
-Requires: 
-Pet Level 36+", "" },
+	{ 4814, "Tall Strider", "Teaches your tamed tall strider the Strider Presence ability. Strider Presence helps regenerate health and mana. \n Requires:  \n Pet Level 36+", "" },
+	{ 4815, "Wolf", "Teaches your tamed wolf the Enraged Howl ability. Enraged Howl increases your party's strength and agility. \n Requires:  \n Pet Level 13+", "" },
+	{ 4816, "Wolf", "Teaches your tamed wolf the Rabid Maw ability. Rabid Maw decreases an enemy's strength and agility. \n Requires:  \n Pet Level 36+", "" },
 	{ 4832, "Rank 1", "Increases Fire spell damage by $s1.", "" },
 	{ 4833, "Rank 1", "Increases Fire spell damage by 1.", "" },
 	{ 4834, "Rank 2", "Increases Fire spell damage by $s1.", "" },
@@ -1949,31 +1781,24 @@ Pet Level 36+", "" },
 	{ 4924, "Rank 3", "Increases your chance to critical with all Guns by $s1%.", "" },
 	{ 4925, "Rank 2", "Increases your chance to critical with Guns by 2%.", "" },
 	{ 4926, "Rank 3", "Increases your chance to critical with Guns by 2%.", "" },
-	{ 4932, "", "Renders the caster immune to magical damage, reduces the Physical damage it takes by $s3, and causes it to summon a Prismatic Exile when hit. Lasts $d.", "Immune to magical damage.
-Physical damage taken is reduced by $s3.
-Summoning a Prismatic Exile when hit." },
+	{ 4932, "", "Renders the caster immune to magical damage, reduces the Physical damage it takes by $s3, and causes it to summon a Prismatic Exile when hit. Lasts $d.", "Immune to magical damage. \n Physical damage taken is reduced by $s3. \n Summoning a Prismatic Exile when hit." },
 	{ 4937, "", "Summons $s1 $lPrismatic Exile:Prismatic Exiles; to aid the caster in battle for $d.", "" },
 	{ 4938, "", "Inflicts normal damage plus $s1 to nearby enemies.", "" },
 	{ 4941, "", "Increases armor by $s1 for $d.", "Increased armor." },
 	{ 4943, "", "Teaches you how to make a Lesser Stoneshield Potion.", "" },
 	{ 4945, "", "Place upon the Seaworn Altar, if you dare...", "" },
 	{ 4947, "", "Unleashes destructive force", "" },
-	{ 4948, "", "Shapeshifts into a bear for $d., increasing armor and hit points, as well as allowing the use of various bear abilities.", "Shapeshifted into bear.
-Armor and hit points increased." },
+	{ 4948, "", "Shapeshifts into a bear for $d., increasing armor and hit points, as well as allowing the use of various bear abilities.", "Shapeshifted into bear. \n Armor and hit points increased." },
 	{ 4950, "", "Summons $s1 $lPuppet of Helcular:Puppets of Helcular; to aid the caster in battle for $d.", "" },
 	{ 4951, "", "Adds a chance to summon allies when caster takes damage.", "" },
 	{ 4952, "", "Grants invisibility to the master of the caster for $d. at the cost of rendering the master unable to attack.", "" },
 	{ 4954, "", "Right click near a forge to break.", "" },
-	{ 4955, "", "Gives the caster an additional $s3 damage per hit for $d., but reduces its movement speed by $s1% and increases the time between its attacks by $s2%.", "Physical damage dealt is increased by $s3.
-Movement speed reduced by $s1%.
-Time between attacks increased by $s2%." },
+	{ 4955, "", "Gives the caster an additional $s3 damage per hit for $d., but reduces its movement speed by $s1% and increases the time between its attacks by $s2%.", "Physical damage dealt is increased by $s3. \n Movement speed reduced by $s1%. \n Time between attacks increased by $s2%." },
 	{ 4961, "", "Heals an ally for $s1.", "" },
-	{ 4962, "", "Immobilizes an enemy and increases the time between its attacks by $s2% for $d.", "Immobilized.
-Time between attacks increased by $s2%." },
+	{ 4962, "", "Immobilizes an enemy and increases the time between its attacks by $s2% for $d.", "Immobilized. \n Time between attacks increased by $s2%." },
 	{ 4970, "", "", "$s1 damage healed every $t1 sec." },
 	{ 4971, "", "Summons a ward that lasts $d. and periodically heals allies in an area around it.", "" },
-	{ 4974, "", "Reduces an enemy's Stamina by $s1 and Spirit by $s2 for $d.", "Stamina reduced by $s1.
-Spirit reduced by $s2." },
+	{ 4974, "", "Reduces an enemy's Stamina by $s1 and Spirit by $s2 for $d.", "Stamina reduced by $s1. \n Spirit reduced by $s2." },
 	{ 4975, "", "Invokes Winterhoof spirits of cleansing.", "" },
 	{ 4976, "", "Right-click to fill the Crystal Phial at the Shadowglen moonwell.", "" },
 	{ 4977, "", "Invokes Thunderhorn spirits of cleansing.", "" },
@@ -2079,23 +1904,15 @@ Spirit reduced by $s2." },
 	{ 5144, "Rank 2", "Launches Arcane Missiles at the enemy, causing $7269s1 Arcane damage each second for $d.", "" },
 	{ 5145, "Rank 3", "Launches Arcane Missiles at the enemy, causing $7270s1 Arcane damage each second for $d.", "" },
 	{ 5149, "", "Lets the Hunter train his pet with various abilities that he has learned.", "" },
-	{ 5150, "", "Allows a hunter to teach $ghis:her; tamed boar the Gore ability. Gore deals physical damage over time to an enemy.
-Requires: 
-Pet Level 13+", "" },
-	{ 5159, "", "Inflicts $o1 Fire damage to nearby enemies and reduces their movement speed by $s2% for $d.", "$o1 Fire damage inflicted over $d.
-Movement speed reduced by $s2%." },
+	{ 5150, "", "Allows a hunter to teach $ghis:her; tamed boar the Gore ability. Gore deals physical damage over time to an enemy. \n Requires:  \n Pet Level 13+", "" },
+	{ 5159, "", "Inflicts $o1 Fire damage to nearby enemies and reduces their movement speed by $s2% for $d.", "$o1 Fire damage inflicted over $d. \n Movement speed reduced by $s2%." },
 	{ 5161, "", "This dig rat is still struggling, why don't you let it go?", "" },
 	{ 5162, "", "Oops!", "" },
 	{ 5164, "", "Knocks an enemy down, stunning it for $d", "Stunned." },
 	{ 5166, "", "Digs up silithid eggs.", "" },
 	{ 5169, "", "Disguise yourself as a Defias Footpad.", "" },
 	{ 5170, "", "This skill allows the Rogue to apply disguises.", "" },
-	{ 5171, "Rank 1", "Finishing move that increases melee attack speed by $s2%.  Lasts longer per combo point:
-   1 point  : 9 seconds
-   2 points: 12 seconds
-   3 points: 15 seconds
-   4 points: 18 seconds
-   5 points: 21 seconds", "Melee attack speed increased by $s2%." },
+	{ 5171, "Rank 1", "Finishing move that increases melee attack speed by $s2%.  Lasts longer per combo point: \n    1 point  : 9 seconds \n    2 points: 12 seconds \n    3 points: 15 seconds \n    4 points: 18 seconds \n    5 points: 21 seconds", "Melee attack speed increased by $s2%." },
 	{ 5172, "", "Summons $s1 $lDefias Companion:Defias Companions; to accompany the caster until dismissed.", "" },
 	{ 5174, "Rank 4", "Heals the caster for $s1.", "" },
 	{ 5176, "Rank 1", "Causes $s1 Nature damage to the target.", "" },
@@ -2108,13 +1925,10 @@ Movement speed reduced by $s2%." },
 	{ 5201, "Rank 3", "Claw the enemy, causing $s1 additional damage.  Awards $s2 combo $lpoint:points;.", "" },
 	{ 5206, "", "Plant these seeds in the Stagnant Oasis fissure.", "" },
 	{ 5208, "", "Inflicts normal damage plus $s2 to an enemy, then an additional $s1 Nature damage every $t1 sec. for $d.", "$s1 Nature damage inflicted every $t1 sec." },
-	{ 5213, "", "Inflicts $s1 Fire damage every $t1 sec. to an enemy, increasing the time between its attacks by $s3% and its movement by $s2% for $d.", "$s1 Fire damage inflicted every $t1 sec.
-Movement speed reduced by $s2%.
-Time between attacks increased by $s3%." },
+	{ 5213, "", "Inflicts $s1 Fire damage every $t1 sec. to an enemy, increasing the time between its attacks by $s3% and its movement by $s2% for $d.", "$s1 Fire damage inflicted every $t1 sec. \n Movement speed reduced by $s2%. \n Time between attacks increased by $s3%." },
 	{ 5215, "Rank 1", "Allows the Druid to prowl around, but reduces your movement speed by $s2%.  Lasts until cancelled.", "Stealthed.  Movement speed slowed by $s2%." },
 	{ 5217, "Rank 1", "Increases damage done by $s1 for $d.", "Increases damage done by $s1." },
-	{ 5219, "", "", "Immobilized.
-$s1 health leeched every $t1 sec." },
+	{ 5219, "", "", "Immobilized. \n $s1 health leeched every $t1 sec." },
 	{ 5220, "", "", "Attack speed increased by $s2%." },
 	{ 5221, "Rank 1", "Shred the target, causing $s2% damage plus 54 to the target.  Must be behind the target.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 5225, "", "Shows the location of all nearby humanoids on the minimap.  Only one type of thing can be tracked at a time.", "Tracking humanoids." },
@@ -2141,8 +1955,7 @@ $s1 health leeched every $t1 sec." },
 	{ 5273, "Rank 1", "Learn how to disguise yourself as a Dark Iron Dwarf.", "" },
 	{ 5274, "Rank 1", "Learn how to disguise yourself as a Syndicate Highwayman.", "" },
 	{ 5275, "Rank 1", "Learn how to disguise yourself as a South Seas pirate.", "" },
-	{ 5276, "", "Inflicts $s1 Frost damage to an enemy every $t1 sec., stunning it for $d.", "Stunned.
-$s1 Frost damage inflicted every $t1 sec." },
+	{ 5276, "", "Inflicts $s1 Frost damage to an enemy every $t1 sec., stunning it for $d.", "Stunned. \n $s1 Frost damage inflicted every $t1 sec." },
 	{ 5277, "", "The rogue's dodge chance will increase by $s1% for $d.", "Increases dodge chance by $s1%." },
 	{ 5280, "Rank 1", "Causes thorns to sprout from the caster, inflicting $s1 Nature damage to melee attackers. The thorns last $d.", "$s1 Nature damage inflicted to melee attackers." },
 	{ 5285, "Rank 1", "Teaches Mark of the Wild (Rank 1).", "" },
@@ -2192,24 +2005,16 @@ $s1 Frost damage inflicted every $t1 sec." },
 	{ 5367, "Rank 4", "Increases armor by $s1.", "" },
 	{ 5376, "", "Disarms a target as well as dealing $o1 damage over $d.", "" },
 	{ 5377, "", "Adds a chance to render a target unable to attack on a hit.", "" },
-	{ 5378, "Turtle - Rank 1", "Teaches your tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 13+", "" },
+	{ 5378, "Turtle - Rank 1", "Teaches your tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 13+", "" },
 	{ 5380, "Turtle - Rank 2", "", "" },
 	{ 5381, "Turtle - Rank 3", "", "" },
 	{ 5382, "Turtle - Rank 4", "", "" },
-	{ 5383, "Turtle", "Teaches your tamed turtle the Hand Snap ability. Hand Snap disarms an enemy as well as causing damage over time.
-Requires: 
-Pet Level 22+", "" },
+	{ 5383, "Turtle", "Teaches your tamed turtle the Hand Snap ability. Hand Snap disarms an enemy as well as causing damage over time. \n Requires:  \n Pet Level 22+", "" },
 	{ 5384, "", "Feign death which may trick enemies into ignoring you.  Lasts up to $d.", "Feigning death." },
 	{ 5394, "Rank 1", "Summons a Healing Stream Totem with $s1 health at the feet of the caster for $d that heals group members within $5672a1 yards for $5672s1 every $5672t1 seconds.", "" },
 	{ 5395, "", "Creates a Death Capsule, which is used to Feign Death.", "" },
-	{ 5398, "Scorpion", "Teaches your tamed scorpion the Claw Cover ability. Claw Cover increases your scorpion's chance to parry.
-Requires: 
-Pet Level 36+", "" },
-	{ 5399, "Scorpion", "Teaches your tamed scorpion the Minor Scorpion Venom ability. Minor Scorpion Venom deals damage over time to an enemy.
-Requires: 
-Pet Level 13+", "" },
+	{ 5398, "Scorpion", "Teaches your tamed scorpion the Claw Cover ability. Claw Cover increases your scorpion's chance to parry. \n Requires:  \n Pet Level 36+", "" },
+	{ 5399, "Scorpion", "Teaches your tamed scorpion the Minor Scorpion Venom ability. Minor Scorpion Venom deals damage over time to an enemy. \n Requires:  \n Pet Level 13+", "" },
 	{ 5403, "", "Inflicts $s1 Frost damage to nearby enemies, stunning them for $d.", "Stunned." },
 	{ 5405, "Rank 1", "Restores $s1 mana.", "" },
 	{ 5412, "", "Sergra Darkthorn's spell of balance.", "" },
@@ -2217,8 +2022,7 @@ Pet Level 13+", "" },
 	{ 5416, "", "Inflicts $s2 Nature damage to an enemy, then an additional $s1 damage every $t1 sec. for $d.", "$s1 Nature damage inflicted every $t1 sec." },
 	{ 5421, "Passive", "Increases swimming speed by $s1% and allow's the druid to breathe underwater.", "" },
 	{ 5422, "", "", "Movement speed reduced by $s2%." },
-	{ 5424, "", "Immobilizes an enemy and inflicts $o1 damage over $d.", "Immobilized.
-$o1 damage inflicted over $d." },
+	{ 5424, "", "Immobilizes an enemy and inflicts $o1 damage over $d.", "Immobilized. \n $o1 damage inflicted over $d." },
 	{ 5426, "", "Increases the caster's chance to dodge by $s1% for $d.", "Chance to dodge increased by $s1%." },
 	{ 5427, "Rank 16", "Increases your damage with Two-Handed Axes by $s1 and gives a 2% chance of reducing enemy armor by 200 for 15 seconds.", "" },
 	{ 5428, "Rank 9", "Increases your damage with One-Handed Axes by $s1.", "" },
@@ -2264,9 +2068,7 @@ $o1 damage inflicted over $d." },
 	{ 5482, "Rank 2", "Increases your chance to get a critical with One-Handed Swords by $s1%.", "" },
 	{ 5483, "Rank 3", "Increases your chance to get a critical with One-Handed Swords by $s1%.", "" },
 	{ 5484, "Rank 1", "Howl, causing $i enemies within $a1 yds to flee in terror for $d.  Damage caused may interrupt the effect.", "Fleeing in terror." },
-	{ 5487, "Shapeshift", "Shapeshift into a bear, increasing melee attack power by $1178s3, armor contribution from items by $1178s1%, and health by $1178s2.  Also protects the caster from Polymorph effects and allows the use of various bear abilities.
-
-The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Increases melee attack power by $1178s3, armor contribution from items by $1178s1%, and health by $1178s2." },
+	{ 5487, "Shapeshift", "Shapeshift into a bear, increasing melee attack power by $1178s3, armor contribution from items by $1178s1%, and health by $1178s2.  Also protects the caster from Polymorph effects and allows the use of various bear abilities. \n  \n The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Increases melee attack power by $1178s3, armor contribution from items by $1178s1%, and health by $1178s2." },
 	{ 5489, "Rank 9", "Increases your damage with One-Handed Swords by 2.", "" },
 	{ 5490, "Rank 10", "Increases your damage with One-Handed Swords by 2 and your chance to parry by 3%.", "" },
 	{ 5491, "Rank 11", "Increases your damage with One-Handed Swords by 2.", "" },
@@ -2278,15 +2080,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 	{ 5498, "Rank 3", "Increases your chances to score a critical hit with a One-Handed Sword by 1%.", "" },
 	{ 5500, "", "Shows the location of all nearby demons on the minimap until cancelled.  Only one type of tracking can be used at a time.", "Detecting Demons." },
 	{ 5502, "", "Shows the location of all nearby undead on the minimap until cancelled.   Only one type of tracking can be used at a time.", "Detecting Undead." },
-	{ 5504, "Rank 1", "Conjures $s1 $lbottle:bottles; of water, providing the mage and $ghis:her; allies with something to drink.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 5505, "Rank 2", "Conjures $s1 $lbottle:bottles; of fresh water, providing the mage and $ghis:her; allies with something to drink.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 5506, "Rank 3", "Conjures $s1 $lbottle:bottles; of purified water, providing the mage and $ghis:her; allies with something to drink.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 5504, "Rank 1", "Conjures $s1 $lbottle:bottles; of water, providing the mage and $ghis:her; allies with something to drink. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 5505, "Rank 2", "Conjures $s1 $lbottle:bottles; of fresh water, providing the mage and $ghis:her; allies with something to drink. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 5506, "Rank 3", "Conjures $s1 $lbottle:bottles; of purified water, providing the mage and $ghis:her; allies with something to drink. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 5508, "Rank 1", "Decreases Armor by $s1% for $d.", "" },
 	{ 5509, "Rank 1", "Increases your chance to get a critical with One-Handed Axes by $s1%.", "" },
 	{ 5510, "Rank 2", "Increases your chance to get a critical with One-Handed Axes by $s1%.", "" },
@@ -2359,8 +2155,7 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 5615, "Rank 3", "Causes $s1 Holy damage to an Undead or Demon target.", "" },
 	{ 5626, "Rank 1", "Increases your damage with Guns by $s1.", "" },
 	{ 5627, "Rank 2", "The targeted undead enemy will be compelled to flee for up to $d.  Damage caused may interrupt the effect.  Only one target can be turned at a time.", "Compelled to flee." },
-	{ 5628, "", "", "Attack speed increased by $s1%.
-Movement speed increased by $s2%." },
+	{ 5628, "", "", "Attack speed increased by $s1%. \n Movement speed increased by $s2%." },
 	{ 5630, "Rank 2", "Increases your damage with Guns by $s1.", "" },
 	{ 5631, "Rank 3", "Increases your damage with Guns by $s1.", "" },
 	{ 5632, "Rank 4", "Increases your damage with Guns by $s1.", "" },
@@ -2415,9 +2210,7 @@ Movement speed increased by $s2%." },
 	{ 5693, "Rank 8", "Increases your defense by 1.", "" },
 	{ 5696, "Rank 1", "Charge an enemy, generate $/10;s2 rage and stun them for $7922d.", "" },
 	{ 5697, "", "Allows the target to breathe underwater for $d.", "Underwater Breathing." },
-	{ 5699, "", "Creates a Healthstone that can be used to instantly restore $5720s1 health.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 5699, "", "Creates a Healthstone that can be used to instantly restore $5720s1 health. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 5703, "Rank 1", "Stuns an enemy for $d.", "Stunned." },
 	{ 5707, "", "Restores $s1 health every $t1 sec.", "" },
 	{ 5708, "", "Inflicts normal damage plus $s1 to enemies in a cone in front of the caster, stunning them for $d.", "Stunned." },
@@ -2448,14 +2241,11 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 5756, "Rank 15", "Increases your damage with Bows and by $s1 and has a 2% chance of bleeding the target for 180 damage over 10 seconds.", "" },
 	{ 5757, "Rank 1", "Increases your attack rating with Crossbows by $s1.", "" },
 	{ 5758, "Rank 2", "Increases your attack rating with Crossbows by $s1.", "" },
-	{ 5759, "", "Shapeshifts into a cat for $d., increasing attack power and allowing the use of various cat abilities.", "Shapeshifted into cat.
-Melee attack power increased." },
+	{ 5759, "", "Shapeshifts into a cat for $d., increasing attack power and allowing the use of various cat abilities.", "Shapeshifted into cat. \n Melee attack power increased." },
 	{ 5760, "Rank 1", "", "Casting speed slowed by $s1%." },
-	{ 5761, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, increasing their casting time by $5760s1% for $5760d.  50 charges.", "" },
+	{ 5761, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, increasing their casting time by $5760s1% for $5760d.  50 charges.", "" },
 	{ 5762, "Rank 1", "Increases your attack rating with Crossbow by 3.", "" },
-	{ 5763, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy, increasing their casting time by $5760s1% for $5760d.  50 charges.", "" },
+	{ 5763, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy, increasing their casting time by $5760s1% for $5760d.  50 charges.", "" },
 	{ 5764, "Rank 2", "Increases your attack rating with Crossbow by 3.", "" },
 	{ 5765, "Rank 1", "Increases your damage with Bows by 1.", "" },
 	{ 5766, "Rank 2", "Increases your damage with Bows by 1.", "" },
@@ -2472,8 +2262,7 @@ Each strike has a 20% chance of poisoning the enemy, increasing their casting ti
 	{ 5778, "Rank 13", "Increases your damage with Bows by 3.", "" },
 	{ 5779, "Rank 14", "Increases your damage with Bows by 3 and adds a 2% chance that you will bleed the target for 180 damage over 10 seconds.", "" },
 	{ 5780, "Rank 15", "Increases your damage with Bows by 4.", "" },
-	{ 5781, "", "Reduces an enemy's Strength by $s1 and Agility by $s2 for $d.", "Strength reduced by $s1.
-Agility reduced by $s2." },
+	{ 5781, "", "Reduces an enemy's Strength by $s1 and Agility by $s2 for $d.", "Strength reduced by $s1. \n Agility reduced by $s2." },
 	{ 5782, "Rank 1", "Strikes fear in the enemy, causing it to run in fear for up to $d.  Damage caused may interrupt the effect.  Only 1 target can be feared at a time.", "Feared." },
 	{ 5784, "Summon", "Summons a Felsteed, which serves as a mount for the caster.  Speed is increased by $s2%.", "Increases speed by $s2%." },
 	{ 5786, "Rank 1", "Increases your armor by $s1 while using a Shield or Buckler.", "" },
@@ -2499,8 +2288,7 @@ Agility reduced by $s2." },
 	{ 5806, "Rank 7", "Increases your armor while wearing a Shield or Buckler by 50.", "" },
 	{ 5807, "Rank 8", "Increases your armor while wearing a Shield or Buckler by 55.", "" },
 	{ 5809, "", "Creates a bowl of scrying.", "" },
-	{ 5810, "", "", "Physical damage taken is reduced by $s1.
-Movement speed reduced by $s2%." },
+	{ 5810, "", "", "Physical damage taken is reduced by $s1. \n Movement speed reduced by $s2%." },
 	{ 5812, "Rank 1", "Increases your chance to Critical Hit with Nature Magic by $s1%.", "" },
 	{ 5813, "Rank 2", "Increases your chance to Critical Hit with Nature Magic by $s1%.", "" },
 	{ 5814, "Rank 3", "Increases your chance to Critical Hit with Nature Magic by $s1%.", "" },
@@ -2603,12 +2391,8 @@ Movement speed reduced by $s2%." },
 	{ 5946, "Rank 2", "Increases your defense by 3.", "" },
 	{ 5947, "Rank 3", "Increases your defense by 3.", "" },
 	{ 5948, "Rank 4", "Increases your defense by 3.", "" },
-	{ 5949, "", "Allows a hunter to teach $ghis:her; tamed boar the Toughen Hide ability. Toughen Hide increases resistance to physical attacks.
-Requires: 
-Pet Level 22+", "" },
-	{ 5950, "", "Allows a hunter to teach $ghis:her; tamed boar the Vital Wound ability. Vital Wound slows the attack speed of an enemy.
-Requires: 
-Pet Level 36+", "" },
+	{ 5949, "", "Allows a hunter to teach $ghis:her; tamed boar the Toughen Hide ability. Toughen Hide increases resistance to physical attacks. \n Requires:  \n Pet Level 22+", "" },
+	{ 5950, "", "Allows a hunter to teach $ghis:her; tamed boar the Vital Wound ability. Vital Wound slows the attack speed of an enemy. \n Requires:  \n Pet Level 36+", "" },
 	{ 5952, "Rank 1", "Increases your damage with Throwing Weapons by $s1.", "" },
 	{ 5953, "Rank 2", "Increases your damage with Throwing Weapons by $s1.", "" },
 	{ 5954, "Rank 3", "Increases your damage with Throwing Weapons by $s1.", "" },
@@ -2643,145 +2427,53 @@ Pet Level 36+", "" },
 	{ 5987, "Rank 5", "Increases your damage with Crossbows by 2 and adds a 2% chance of bleeding the target for 90 damage over 10 seconds.", "" },
 	{ 5988, "Rank 6", "Increases your damage with Crossbows by 2.", "" },
 	{ 5989, "Rank 7", "Increases your damage with Crossbows by 3 and adds a 2% chance of bleeding the target for 180 damage over 10 seconds.", "" },
-	{ 5993, "", "Allows a hunter to teach $ghis:her; tamed bear the Enraging Bite ability. Enraging Bite reduces an enemy's resistance to physical attacks as well as drawing its attention.
-Requires: 
-Pet Level 13+", "" },
-	{ 5994, "", "Allows a hunter to teach $ghis:her; tamed bear the Growl of Fortitude ability. Growl of Fortitude increases the maximum health of the bear.
-Requires: 
-Pet Level 22+", "" },
-	{ 5995, "", "Allows a hunter to teach $ghis:her; tamed bear the Roar of Fortitude ability. Roar of Fortitude increases the maximum health of everyone in your party.
-Requires: 
-Pet Level 36+", "" },
-	{ 5996, "", "Allows a hunter to teach $ghis:her; tamed bird the Flight of the Peregrine ability. Flight of the Peregrine increase the movement speed of the bird.
-Requires: 
-Pet Level 13+", "" },
-	{ 5997, "", "Allows a hunter to teach $ghis:her; tamed bird the Eye Peck ability. Eye Peck causes an enemy to miss more often in combat.
-Requires: 
-Pet Level 22+", "" },
-	{ 5998, "", "Allows a hunter to teach $ghis:her; tamed bird the Pester ability. Pester greatly increases the attack speed of the bird at the cost of dealing less damage. Every successful attack while in this mode renders the target unable to cast spells for a short time.
-Requires: 
-Pet Level 36+", "" },
-	{ 5999, "", "Allows a hunter to teach $ghis:her; tamed cat the Ferocity ability. Ferocity increases attack speed of the cat at the cost of receiving more damage when hit by phsical attacks.
-Requires: 
-Pet Level 13+", "" },
-	{ 6000, "", "Allows a hunter to teach $ghis:her; tamed cat the Open Wound ability. Open Wound deals physical damage over time to an enemy as well as increasing damage received by physical attacks for a short time.
-Requires: 
-Pet Level 36+", "" },
-	{ 6001, "Rank 1", "Allows a hunter to teach $ghis:her; tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 13+", "" },
-	{ 6002, "Rank 2", "Allows a hunter to teach $ghis:her; tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 21+", "" },
-	{ 6003, "Rank 3", "Allows a hunter to teach $ghis:her; tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 28+", "" },
-	{ 6004, "Rank 4", "Allows a hunter to teach $ghis:her; tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 36+", "" },
-	{ 6005, "", "Allows a hunter to teach $ghis:her; tamed crab the Tight Pinch ability.
-Requires: 
-Pet Level 22+", "" },
-	{ 6006, "", "Allows a hunter to teach $ghis:her; tamed crab the Clenched Pinchers ability. Clenched Pinchers holds an enemy in place while dealing physical damage over time to it. While holding the enemy, the crab will be unable to attack or perform any other actions.
-Requires: 
-Pet Level 36+", "" },
-	{ 6007, "", "Allows a hunter to teach $ghis:her; tamed crocilisk the Quick Snap ability. Quick Snap gives your crocilisk a chance to counterattack when hit.
-Requires: 
-Pet Level 22+", "" },
-	{ 6008, "", "Allows a hunter to teach $ghis:her; tamed crocilisk the Consume Flesh ability. Consume Flesh gives your crocilisk a chance to steal health from an enemy when attacking.
-Requires: 
-Pet Level 36+", "" },
-	{ 6009, "Rank 1", "Allows a hunter to teach $ghis:her; tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking.
-Requires: 
-Pet Level 13+", "" },
-	{ 6010, "Rank 2", "Allows a hunter to teach $ghis:her; tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking.
-Requires: 
-Pet Level 18+", "" },
-	{ 6011, "Rank 3", "Allows a hunter to teach $ghis:her; tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking.
-Requires: 
-Pet Level +25", "" },
-	{ 6012, "Rank 4", "Allows a hunter to teach $ghis:her; tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking.
-Requires: 
-Pet Level 32+", "" },
-	{ 6013, "Rank 1", "Allows a hunter to teach $ghis:her; tamed gorilla the Throw Rock ability. Throw Rock is a ranged attack.
-Requires: 
-Pet Level 22+", "" },
-	{ 6014, "Rank 2", "Allows a hunter to teach $ghis:her; tamed gorilla the Throw Rock ability. Throw Rock is a ranged attack.
-Requires: 
-Pet Level 29+", "" },
-	{ 6015, "", "Allows a hunter to teach $ghis:her; tamed gorilla the Quickness ability. Quickness is an attack that can hit multiple enemies.
-Requires: 
-Pet Level 36+", "" },
+	{ 5993, "", "Allows a hunter to teach $ghis:her; tamed bear the Enraging Bite ability. Enraging Bite reduces an enemy's resistance to physical attacks as well as drawing its attention. \n Requires:  \n Pet Level 13+", "" },
+	{ 5994, "", "Allows a hunter to teach $ghis:her; tamed bear the Growl of Fortitude ability. Growl of Fortitude increases the maximum health of the bear. \n Requires:  \n Pet Level 22+", "" },
+	{ 5995, "", "Allows a hunter to teach $ghis:her; tamed bear the Roar of Fortitude ability. Roar of Fortitude increases the maximum health of everyone in your party. \n Requires:  \n Pet Level 36+", "" },
+	{ 5996, "", "Allows a hunter to teach $ghis:her; tamed bird the Flight of the Peregrine ability. Flight of the Peregrine increase the movement speed of the bird. \n Requires:  \n Pet Level 13+", "" },
+	{ 5997, "", "Allows a hunter to teach $ghis:her; tamed bird the Eye Peck ability. Eye Peck causes an enemy to miss more often in combat. \n Requires:  \n Pet Level 22+", "" },
+	{ 5998, "", "Allows a hunter to teach $ghis:her; tamed bird the Pester ability. Pester greatly increases the attack speed of the bird at the cost of dealing less damage. Every successful attack while in this mode renders the target unable to cast spells for a short time. \n Requires:  \n Pet Level 36+", "" },
+	{ 5999, "", "Allows a hunter to teach $ghis:her; tamed cat the Ferocity ability. Ferocity increases attack speed of the cat at the cost of receiving more damage when hit by phsical attacks. \n Requires:  \n Pet Level 13+", "" },
+	{ 6000, "", "Allows a hunter to teach $ghis:her; tamed cat the Open Wound ability. Open Wound deals physical damage over time to an enemy as well as increasing damage received by physical attacks for a short time. \n Requires:  \n Pet Level 36+", "" },
+	{ 6001, "Rank 1", "Allows a hunter to teach $ghis:her; tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 13+", "" },
+	{ 6002, "Rank 2", "Allows a hunter to teach $ghis:her; tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 21+", "" },
+	{ 6003, "Rank 3", "Allows a hunter to teach $ghis:her; tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 28+", "" },
+	{ 6004, "Rank 4", "Allows a hunter to teach $ghis:her; tamed crab the Tough Shell ability. Tough Shell gives your crab a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 36+", "" },
+	{ 6005, "", "Allows a hunter to teach $ghis:her; tamed crab the Tight Pinch ability. \n Requires:  \n Pet Level 22+", "" },
+	{ 6006, "", "Allows a hunter to teach $ghis:her; tamed crab the Clenched Pinchers ability. Clenched Pinchers holds an enemy in place while dealing physical damage over time to it. While holding the enemy, the crab will be unable to attack or perform any other actions. \n Requires:  \n Pet Level 36+", "" },
+	{ 6007, "", "Allows a hunter to teach $ghis:her; tamed crocilisk the Quick Snap ability. Quick Snap gives your crocilisk a chance to counterattack when hit. \n Requires:  \n Pet Level 22+", "" },
+	{ 6008, "", "Allows a hunter to teach $ghis:her; tamed crocilisk the Consume Flesh ability. Consume Flesh gives your crocilisk a chance to steal health from an enemy when attacking. \n Requires:  \n Pet Level 36+", "" },
+	{ 6009, "Rank 1", "Allows a hunter to teach $ghis:her; tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking. \n Requires:  \n Pet Level 13+", "" },
+	{ 6010, "Rank 2", "Allows a hunter to teach $ghis:her; tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking. \n Requires:  \n Pet Level 18+", "" },
+	{ 6011, "Rank 3", "Allows a hunter to teach $ghis:her; tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking. \n Requires:  \n Pet Level +25", "" },
+	{ 6012, "Rank 4", "Allows a hunter to teach $ghis:her; tamed gorilla the Bruise ability. Bruise gives your gorilla a chance to reduce the armor value of an enemy when attacking. \n Requires:  \n Pet Level 32+", "" },
+	{ 6013, "Rank 1", "Allows a hunter to teach $ghis:her; tamed gorilla the Throw Rock ability. Throw Rock is a ranged attack. \n Requires:  \n Pet Level 22+", "" },
+	{ 6014, "Rank 2", "Allows a hunter to teach $ghis:her; tamed gorilla the Throw Rock ability. Throw Rock is a ranged attack. \n Requires:  \n Pet Level 29+", "" },
+	{ 6015, "", "Allows a hunter to teach $ghis:her; tamed gorilla the Quickness ability. Quickness is an attack that can hit multiple enemies. \n Requires:  \n Pet Level 36+", "" },
 	{ 6016, "", "Reduces an enemy's armor by $s1% for $d.", "Armor reduced by $s1%." },
-	{ 6017, "", "Allows a hunter to teach $ghis:her; tamed horse the Rapid Gallop ability. Rapid Gallop increases the movement speed of your horse.
-Requires: 
-Pet Level 13+", "" },
-	{ 6019, "", "Allows a hunter to teach $ghis:her; tamed horse the Stomp ability. Stomp deals additional damage as well as slowing the movement speed of the enemy.
-Requires: 
-Pet Level 36+", "" },
-	{ 6020, "", "Allows a hunter to teach $ghis:her; tamed raptor the Feast of Prey ability. Feast of Prey allows your raptor to recover health every time it kills an enemy.
-Requires: 
-Pet Level 13+", "" },
-	{ 6021, "", "Allows a hunter to teach $ghis:her; tamed raptor the Vulnerable ability.
-Requires: 
-Pet Level 22+", "" },
-	{ 6022, "", "Allows a hunter to teach $ghis:her; tamed Raptor the Tendon Slice ability. Tendon Slice deals damage over time as well as slowing the enemies movement speed.
-Requires: 
-Pet Level 36+", "" },
-	{ 6023, "", "Allows a hunter to teach $ghis:her; tamed Scorpion the Minor Scorpion Venom ability. Minor Scorpion Venom deals damage over time to an enemy.
-Requires: 
-Pet Level 13+", "" },
-	{ 6024, "", "Allows a hunter to teach $ghis:her; tamed Scorpion the Claw Cover ability. Claw Cover increases your scorpion's chance to parry.
-Requires: 
-Pet Level 36+", "" },
-	{ 6025, "", "Allows a hunter to teach $ghis:her; tamed Spider the Spider Poison ability. Spider Poison deals damage over time to an enemy.
-Requires: 
-Pet Level 13+", "" },
-	{ 6026, "Rank 1", "Allows a hunter to teach $ghis:her; tamed Spider the Web ability. Web renders an enemy unable to move.
-Requires: 
-Pet Level 22+", "" },
-	{ 6027, "Rank 2", "Allows a hunter to teach $ghis:her; tamed Spider the Web ability. Web renders an enemy unable to move.
-Requires: 
-Pet Level 30+", "" },
-	{ 6028, "Rank 3", "Allows a hunter to teach $ghis:her; tamed Spider the Web ability. Web renders an enemy unable to move.
-Requires: 
-Pet Level 37+", "" },
-	{ 6029, "", "Allows a hunter to teach $ghis:her; tamed Spider the Poisonous Spit ability. Poisonous Spit ranged attack that deals damage over time to an enemy.
-Requires: 
-Pet Level 36+", "" },
-	{ 6030, "", "Allows a hunter to teach $ghis:her; tamed tall strider the Distracting Spit ability. Distracting Spit increases physical damage dealt to an enemy.
-Requires: 
-Pet Level 13+", "" },
-	{ 6031, "Rank 1", "Allows a hunter to teach $ghis:her; tamed tall strider the Healing Tongue ability. Healing Tongue heals friendly targets from a short range.
-Requires: 
-Pet Level 22+", "" },
-	{ 6032, "Rank 2", "Allows a hunter to teach $ghis:her; tamed tall strider the Healing Tongue ability. Healing Tongue heals friendly targets from a short range.
-Requires: 
-Pet Level 28+", "" },
-	{ 6033, "", "Allows a hunter to teach $ghis:her; tamed tall strider the Strider Presence ability. Strider Presence helps regenerate health and mana.
-Requires: 
-Pet Level 36+", "" },
-	{ 6034, "Rank 1", "Allows a hunter to teach $ghis:her; tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 13+", "" },
-	{ 6035, "Rank 2", "Allows a hunter to teach $ghis:her; tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 18+", "" },
-	{ 6036, "Rank 3", "Allows a hunter to teach $ghis:her; tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 25+", "" },
-	{ 6037, "Rank 4", "Allows a hunter to teach $ghis:her; tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit.
-Requires: 
-Pet Level 32+", "" },
-	{ 6038, "Rank 1", "Allows a hunter to teach $ghis:her; tamed turtle the Hand Snap ability. Hand Snap disarms an enemy as well as causing damage over time.
-Requires: 
-Pet Level 22+", "" },
-	{ 6039, "", "Allows a hunter to teach $ghis:her; tamed wolf the Enraged Howl ability. Enraged Howl increases your party's strength and agility.
-Requires: 
-Pet Level 13+", "" },
-	{ 6040, "", "Allows a hunter to teach $ghis:her; tamed wolf the Rabid Maw ability. Rabid Maw decreases an enemy's strength and agility.
-Requires: 
-Pet Level 36+", "" },
+	{ 6017, "", "Allows a hunter to teach $ghis:her; tamed horse the Rapid Gallop ability. Rapid Gallop increases the movement speed of your horse. \n Requires:  \n Pet Level 13+", "" },
+	{ 6019, "", "Allows a hunter to teach $ghis:her; tamed horse the Stomp ability. Stomp deals additional damage as well as slowing the movement speed of the enemy. \n Requires:  \n Pet Level 36+", "" },
+	{ 6020, "", "Allows a hunter to teach $ghis:her; tamed raptor the Feast of Prey ability. Feast of Prey allows your raptor to recover health every time it kills an enemy. \n Requires:  \n Pet Level 13+", "" },
+	{ 6021, "", "Allows a hunter to teach $ghis:her; tamed raptor the Vulnerable ability. \n Requires:  \n Pet Level 22+", "" },
+	{ 6022, "", "Allows a hunter to teach $ghis:her; tamed Raptor the Tendon Slice ability. Tendon Slice deals damage over time as well as slowing the enemies movement speed. \n Requires:  \n Pet Level 36+", "" },
+	{ 6023, "", "Allows a hunter to teach $ghis:her; tamed Scorpion the Minor Scorpion Venom ability. Minor Scorpion Venom deals damage over time to an enemy. \n Requires:  \n Pet Level 13+", "" },
+	{ 6024, "", "Allows a hunter to teach $ghis:her; tamed Scorpion the Claw Cover ability. Claw Cover increases your scorpion's chance to parry. \n Requires:  \n Pet Level 36+", "" },
+	{ 6025, "", "Allows a hunter to teach $ghis:her; tamed Spider the Spider Poison ability. Spider Poison deals damage over time to an enemy. \n Requires:  \n Pet Level 13+", "" },
+	{ 6026, "Rank 1", "Allows a hunter to teach $ghis:her; tamed Spider the Web ability. Web renders an enemy unable to move. \n Requires:  \n Pet Level 22+", "" },
+	{ 6027, "Rank 2", "Allows a hunter to teach $ghis:her; tamed Spider the Web ability. Web renders an enemy unable to move. \n Requires:  \n Pet Level 30+", "" },
+	{ 6028, "Rank 3", "Allows a hunter to teach $ghis:her; tamed Spider the Web ability. Web renders an enemy unable to move. \n Requires:  \n Pet Level 37+", "" },
+	{ 6029, "", "Allows a hunter to teach $ghis:her; tamed Spider the Poisonous Spit ability. Poisonous Spit ranged attack that deals damage over time to an enemy. \n Requires:  \n Pet Level 36+", "" },
+	{ 6030, "", "Allows a hunter to teach $ghis:her; tamed tall strider the Distracting Spit ability. Distracting Spit increases physical damage dealt to an enemy. \n Requires:  \n Pet Level 13+", "" },
+	{ 6031, "Rank 1", "Allows a hunter to teach $ghis:her; tamed tall strider the Healing Tongue ability. Healing Tongue heals friendly targets from a short range. \n Requires:  \n Pet Level 22+", "" },
+	{ 6032, "Rank 2", "Allows a hunter to teach $ghis:her; tamed tall strider the Healing Tongue ability. Healing Tongue heals friendly targets from a short range. \n Requires:  \n Pet Level 28+", "" },
+	{ 6033, "", "Allows a hunter to teach $ghis:her; tamed tall strider the Strider Presence ability. Strider Presence helps regenerate health and mana. \n Requires:  \n Pet Level 36+", "" },
+	{ 6034, "Rank 1", "Allows a hunter to teach $ghis:her; tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 13+", "" },
+	{ 6035, "Rank 2", "Allows a hunter to teach $ghis:her; tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 18+", "" },
+	{ 6036, "Rank 3", "Allows a hunter to teach $ghis:her; tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 25+", "" },
+	{ 6037, "Rank 4", "Allows a hunter to teach $ghis:her; tamed turtle the Thick Skin ability. Thick Skin gives your turtle a chance to increase it's armor value when hit. \n Requires:  \n Pet Level 32+", "" },
+	{ 6038, "Rank 1", "Allows a hunter to teach $ghis:her; tamed turtle the Hand Snap ability. Hand Snap disarms an enemy as well as causing damage over time. \n Requires:  \n Pet Level 22+", "" },
+	{ 6039, "", "Allows a hunter to teach $ghis:her; tamed wolf the Enraged Howl ability. Enraged Howl increases your party's strength and agility. \n Requires:  \n Pet Level 13+", "" },
+	{ 6040, "", "Allows a hunter to teach $ghis:her; tamed wolf the Rabid Maw ability. Rabid Maw decreases an enemy's strength and agility. \n Requires:  \n Pet Level 36+", "" },
 	{ 6041, "Rank 6", "Casts a bolt of lightning at the target for $s1 Nature damage.", "" },
 	{ 6042, "Rank 2", "Teaches Create Lesser Healthstone.", "" },
 	{ 6057, "Rank 1", "Increases your damage with Wands by $s1%.", "" },
@@ -2823,12 +2515,8 @@ Pet Level 36+", "" },
 	{ 6113, "Rank 9", "Increases your damage with Wands by 2.", "" },
 	{ 6114, "", "Increases your Intellect by $s1 and decreases your Stamina by $s2 for $d.", "Increased Intellect and decreased Stamina." },
 	{ 6117, "Rank 1", "Increases your resistance to all magic by $s1 and allows $s2% of your mana regeneration to continue while casting.  Only one type of Armor spell can be active on the Mage at any time.  Lasts $d.", "Resistance to all magic schools increased by $s1 and allows $s2% of your mana regeneration to continue while casting." },
-	{ 6127, "Rank 4", "Conjures $s1 $lbottle:bottles; of spring water, providing the mage and $ghis:her; allies with something to drink.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 6129, "Rank 4", "Conjures $s1 $lloaf:loaves; of pumpernickel, providing the mage and $ghis:her; allies with something to eat.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 6127, "Rank 4", "Conjures $s1 $lbottle:bottles; of spring water, providing the mage and $ghis:her; allies with something to drink. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 6129, "Rank 4", "Conjures $s1 $lloaf:loaves; of pumpernickel, providing the mage and $ghis:her; allies with something to eat. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 6131, "Rank 3", "Blasts enemies near the caster for $s1 Frost damage and freezes them in place for up to $d.  Damage caused may interrupt the effect.", "Frozen in place." },
 	{ 6136, "Rank 1", "", "Movement slowed by $s2% and time between attacks increased by $s1%." },
 	{ 6141, "Rank 2", "Ice shards pelt the target area doing $o1 Frost damage over $d.", "$s1 Frost damage every $t1 $lsecond:seconds;." },
@@ -2856,12 +2544,8 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 6196, "", "Changes the caster's viewpoint to the targeted location.  Lasts $d.  Only useable outdoors.", "Cannot move while using Farsight." },
 	{ 6197, "", "Zooms in the hunter's vision.  Only usable outdoors.  Lasts $d.", "" },
 	{ 6199, "", "Will invoke bittersweet memories of Anaia's past beau hunk.", "" },
-	{ 6201, "", "Creates a Minor Healthstone that can be used to instantly restore $6262s1 health.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 6202, "", "Creates a Lesser Healthstone that can be used to instantly restore $6263s1 health.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 6201, "", "Creates a Minor Healthstone that can be used to instantly restore $6262s1 health. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 6202, "", "Creates a Lesser Healthstone that can be used to instantly restore $6263s1 health. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 6205, "Rank 3", "Damage caused by the target is reduced by $s1 for $d.  Only one Curse per Warlock can be active on any one target.", "Physical damage done reduced by $s1." },
 	{ 6213, "Rank 2", "Strikes fear in the enemy, causing it to run in fear for up to $d.  Damage caused may interrupt the effect.  Only 1 target can be feared at a time.", "Feared." },
 	{ 6215, "Rank 3", "Strikes fear in the enemy, causing it to run in fear for up to $d.  Damage caused may interrupt the effect.  Only 1 target can be feared at a time.", "Feared." },
@@ -2877,8 +2561,7 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 6254, "", "Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing $s1 Nature damage to each.", "" },
 	{ 6257, "", "", "$s2 Fire damage inflicted every $t2 sec." },
 	{ 6266, "", "Inflicts normal damage plus $s1 to nearby enemies, stunning them for $d.", "Stunned." },
-	{ 6268, "Rank 1", "Increases the caster's movement speed by $s1% for $d. and causes it to inflict an additional $s2 damage on its first attack.", "Movement speed increased by $s1%.
-Inflicts an additional $s2 damage on first attack." },
+	{ 6268, "Rank 1", "Increases the caster's movement speed by $s1% for $d. and causes it to inflict an additional $s2 damage on its first attack.", "Movement speed increased by $s1%. \n Inflicts an additional $s2 damage on first attack." },
 	{ 6270, "", "Summons Myzrael from the Shards of Myzrael.", "" },
 	{ 6280, "Rank 1", "Increases the health of the pet by $s1.", "" },
 	{ 6281, "Rank 2", "Increases the health of the pet by $s1.", "" },
@@ -2940,9 +2623,7 @@ Inflicts an additional $s2 damage on first attack." },
 	{ 6363, "Rank 2", "Summons a Searing Totem with $s1 health at your feet for $d that repeatedly attacks an enemy within $6350r yards for $6350s1 Fire damage.", "" },
 	{ 6364, "Rank 3", "Summons a Searing Totem with $s1 health at your feet for $d that repeatedly attacks an enemy within $6351r yards for $6351s1 Fire damage.", "" },
 	{ 6365, "Rank 4", "Summons a Searing Totem with $s1 health at your feet for $d that repeatedly attacks an enemy within $6352r yards for $6352s1 Fire damage.", "" },
-	{ 6366, "", "Creates a Lesser Firestone which can be equipped in the off hand.  When equipped, enchants the main hand weapon with fire, granting each attack a chance to deal $17809s1 additional Fire damage.  In addition, equipping the Lesser Firestone increases the damage done by fire spells by $23480s1.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 6366, "", "Creates a Lesser Firestone which can be equipped in the off hand.  When equipped, enchants the main hand weapon with fire, granting each attack a chance to deal $17809s1 additional Fire damage.  In addition, equipping the Lesser Firestone increases the damage done by fire spells by $23480s1. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 6371, "Rank 2", "", "Heals $s1 every $t1 seconds." },
 	{ 6372, "Rank 3", "", "Heals $s1 every $t1 seconds." },
 	{ 6375, "Rank 2", "Summons a Healing Stream Totem with $s1 health at the feet of the caster for $d that heals group members within $6371a1 yards for $6371s1 every $6371t1 seconds.", "" },
@@ -3007,12 +2688,8 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 6534, "", "Teaches you how to cook a Crocolisk Steak.", "" },
 	{ 6535, "", "Creates a cloud of lightning that lasts $d., blasting all enemies in a selected area for $s1 Nature damage and inflicting $s2 additional damage every $t2 sec.", "" },
 	{ 6538, "", "Allows your scorpion to go into stealth, but it cannot move and it's sight range will be reduced. If it attacks from this position it will deal $s2 additional damage.", "" },
-	{ 6539, "Scorpion", "Teaches your tamed scorpion the Dig Trap ability. Dig Trap allows the pet to enter stealth mode but will be rendered unable to move. If the scorpion attacks from this position it will deal additional damage.
-Requires: 
-Pet Level 22+", "" },
-	{ 6540, "", "Allows a hunter to teach $ghis:her; tamed scorpion the Dig Trap ability. Dig Trap allows the pet to enter stealth mode but will be rendered unable to move. If the scorpion attacks from this position it will deal additional damage.
-Requires: 
-Pet Level 22+", "" },
+	{ 6539, "Scorpion", "Teaches your tamed scorpion the Dig Trap ability. Dig Trap allows the pet to enter stealth mode but will be rendered unable to move. If the scorpion attacks from this position it will deal additional damage. \n Requires:  \n Pet Level 22+", "" },
+	{ 6540, "", "Allows a hunter to teach $ghis:her; tamed scorpion the Dig Trap ability. Dig Trap allows the pet to enter stealth mode but will be rendered unable to move. If the scorpion attacks from this position it will deal additional damage. \n Requires:  \n Pet Level 22+", "" },
 	{ 6546, "Rank 2", "Wounds the target causing them to bleed for $o1 damage over $d.", "Bleeding for $s1 damage every $t1 seconds." },
 	{ 6547, "Rank 3", "Wounds the target causing them to bleed for $o1 damage over $d.", "Bleeding for $s1 damage every $t1 seconds." },
 	{ 6548, "Rank 4", "Wounds the target causing them to bleed for $o1 damage over $d.", "Bleeding for $s1 damage every $t1 seconds." },
@@ -3022,19 +2699,11 @@ Pet Level 22+", "" },
 	{ 6572, "Rank 1", "Instantly counterattack an enemy for $s1 damage and a high amount of threat.   Revenge must follow a block, dodge or parry.", "" },
 	{ 6574, "Rank 2", "Instantly counterattack an enemy for $s1 damage and a high amount of threat.   Revenge must follow a block, dodge or parry.", "" },
 	{ 6576, "", "Target creature becomes frightened and runs away at an increased speed for $d", "" },
-	{ 6577, "Wolf", "Teaches your tamed wolf the Intimidating Growl ability. Intimidating Growl causes an enemy to run away in fear at an increased movement speed.
-Requires: 
-Pet Level 22+", "" },
-	{ 6579, "", "Allows a hunter to teach $ghis:her; tamed wolf the Intimidating Growl ability. Intimidating Growl causes an enemy to run away in fear at an increased movement speed.
-Requires: 
-Pet Level 22+", "" },
+	{ 6577, "Wolf", "Teaches your tamed wolf the Intimidating Growl ability. Intimidating Growl causes an enemy to run away in fear at an increased movement speed. \n Requires:  \n Pet Level 22+", "" },
+	{ 6579, "", "Allows a hunter to teach $ghis:her; tamed wolf the Intimidating Growl ability. Intimidating Growl causes an enemy to run away in fear at an increased movement speed. \n Requires:  \n Pet Level 22+", "" },
 	{ 6580, "", "Knocks down an enemy and reduces it's movement speed for 6 sec.", "" },
-	{ 6582, "Crocilisk", "Teaches your tamed crocilisk the Pierce Ankle ability. Pierce Ankle knocks down an enemy and reduces it's movement speed.
-Requires: 
-Pet Level 13+", "" },
-	{ 6583, "", "Allows a hunter to teach $ghis:her; tamed crocilisk the Pierce Ankle ability. Pierce Ankle knocks down an enemy and reduces it's movement speed.
-Requires: 
-Pet Level 13+", "" },
+	{ 6582, "Crocilisk", "Teaches your tamed crocilisk the Pierce Ankle ability. Pierce Ankle knocks down an enemy and reduces it's movement speed. \n Requires:  \n Pet Level 13+", "" },
+	{ 6583, "", "Allows a hunter to teach $ghis:her; tamed crocilisk the Pierce Ankle ability. Pierce Ankle knocks down an enemy and reduces it's movement speed. \n Requires:  \n Pet Level 13+", "" },
 	{ 6595, "", "Inflicts normal damage plus $s1 on an enemy, but only if attacking from behind.", "" },
 	{ 6598, "", "Summons $s1 $lSavannah Cub:Savannah Cubs; to accompany the caster until dismissed.", "" },
 	{ 6605, "", "Causes nearby enemies to flee in fear for $d.", "Fleeing in fear." },
@@ -3068,8 +2737,7 @@ Pet Level 13+", "" },
 	{ 6644, "Rank 3", "Teaches Frost Nova (Rank 3).", "" },
 	{ 6647, "Rank 1", "A fast acting poison that does $s1 damage to the target.", "" },
 	{ 6648, "", "Summons and dismisses a rideable Chestnut Mare.", "Increases speed by $s2%." },
-	{ 6650, "", "Coats a sword or dagger with poison that lasts for 30 minutes.
-Each strike has a chance of poisoning the enemy which instantly inflicts 10-30 damage.", "" },
+	{ 6650, "", "Coats a sword or dagger with poison that lasts for 30 minutes. \n Each strike has a chance of poisoning the enemy which instantly inflicts 10-30 damage.", "" },
 	{ 6652, "", "Teaches you how to make an Instant Toxin.", "" },
 	{ 6653, "", "Summons and dismisses a rideable Dire Wolf.", "Increases speed by $s2%." },
 	{ 6654, "", "Summons and dismisses a rideable Brown Wolf.", "Increases speed by $s2%." },
@@ -3077,12 +2745,8 @@ Each strike has a chance of poisoning the enemy which instantly inflicts 10-30 d
 	{ 6659, "Rank 1", "Teaches Healing Touch (Rank 1).", "" },
 	{ 6660, "", "Shoots at an enemy, inflicting Physical damage.", "" },
 	{ 6664, "", "Stuns an enemy and attempts to run away causing the enemy to lose interest in attacking the cat.", "" },
-	{ 6666, "Cat", "Teaches your tamed cat the Survival Instinct ability. Survival Instinct stuns an enemy and attempts to run away causing the enemy to lose interest in attacking the cat.
-Requires: 
-Pet Level 22+", "" },
-	{ 6667, "", "Allows a hunter to teach $ghis:her; tamed cat the Survival Instinct ability. Survival Instinct stuns an enemy and attempts to run away causing the enemy to lose interest in attacking the cat.
-Requires: 
-Pet Level 13+", "" },
+	{ 6666, "Cat", "Teaches your tamed cat the Survival Instinct ability. Survival Instinct stuns an enemy and attempts to run away causing the enemy to lose interest in attacking the cat. \n Requires:  \n Pet Level 22+", "" },
+	{ 6667, "", "Allows a hunter to teach $ghis:her; tamed cat the Survival Instinct ability. Survival Instinct stuns an enemy and attempts to run away causing the enemy to lose interest in attacking the cat. \n Requires:  \n Pet Level 13+", "" },
 	{ 6668, "", "Shoots a firework into the air that bursts into a thousand red stars.", "" },
 	{ 6669, "", "Runs away from an enemy", "" },
 	{ 6673, "Rank 1", "The warrior shouts, increasing the melee attack power of all party members within $a1 yards by $s1.  Lasts $d.", "Increases your melee attack power by $s1." },
@@ -3117,34 +2781,14 @@ Pet Level 13+", "" },
 	{ 6756, "Rank 3", "Increases the friendly target's armor by $s1 and all attributes by $s2 for $d.", "Increases armor by $s1 and all attributes by $s2." },
 	{ 6758, "", "The ultimate party favor!", "" },
 	{ 6759, "", "Feeling funky!", "" },
-	{ 6760, "Rank 2", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 14-22 damage
-   2 points: 25-33 damage
-   3 points: 36-44 damage
-   4 points: 47-55 damage
-   5 points: 58-66 damage", "" },
-	{ 6761, "Rank 3", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 25-39 damage
-   2 points: 44-58 damage
-   3 points: 63-77 damage
-   4 points: 82-96 damage
-   5 points: 101-115 damage", "" },
-	{ 6762, "Rank 4", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 41-61 damage
-   2 points: 72-92 damage
-   3 points: 103-123 damage
-   4 points: 134-154 damage
-   5 points: 165-185 damage", "" },
+	{ 6760, "Rank 2", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 14-22 damage \n    2 points: 25-33 damage \n    3 points: 36-44 damage \n    4 points: 47-55 damage \n    5 points: 58-66 damage", "" },
+	{ 6761, "Rank 3", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 25-39 damage \n    2 points: 44-58 damage \n    3 points: 63-77 damage \n    4 points: 82-96 damage \n    5 points: 101-115 damage", "" },
+	{ 6762, "Rank 4", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 41-61 damage \n    2 points: 72-92 damage \n    3 points: 103-123 damage \n    4 points: 134-154 damage \n    5 points: 165-185 damage", "" },
 	{ 6767, "", "Marks the player with a purple arrow. Lasts for 10 minutes.", "You have failed the Test of Lore! You carry the Mark of Shame! For shame!!" },
 	{ 6768, "Rank 2", "Performs a feint, causing no damage but lowering your threat by a medium amount, making the enemy less likely to attack you.", "" },
 	{ 6770, "Rank 1", "Incapacitates the target for up to $d.  Must be stealthed.  Only works on Humanoids that are not in combat.    Any damage caused will revive the target.  Only 1 target may be sapped at a time.", "Incapacitated." },
 	{ 6772, "Rank 2", "Trips the enemy humanoid, causing $s2 damage and knocking the opponent down for $d.  Awards $s3 combo point.", "" },
-	{ 6774, "Rank 2", "Finishing move that increases melee attack speed by $s2%.  Lasts longer per combo point:
-   1 point  : 9 seconds
-   2 points: 12 seconds
-   3 points: 15 seconds
-   4 points: 18 seconds
-   5 points: 21 seconds", "Melee attack speed increased by $s2%." },
+	{ 6774, "Rank 2", "Finishing move that increases melee attack speed by $s2%.  Lasts longer per combo point: \n    1 point  : 9 seconds \n    2 points: 12 seconds \n    3 points: 15 seconds \n    4 points: 18 seconds \n    5 points: 21 seconds", "Melee attack speed increased by $s2%." },
 	{ 6777, "", "Summons and dismisses a rideable gray ram.", "Increases speed by $s2%." },
 	{ 6780, "Rank 6", "Causes $s1 Nature damage to the target.", "" },
 	{ 6783, "Rank 2", "Allows the Druid to prowl around, but reduces your movement speed by $s2%.  Lasts until cancelled.", "Stealthed.  Movement speed slowed by $s2%." },
@@ -3159,20 +2803,16 @@ Pet Level 13+", "" },
 	{ 6808, "Rank 2", "Increases the druid's next attack by $s1 damage.", "" },
 	{ 6809, "Rank 3", "Increases the druid's next attack by $s1 damage.", "" },
 	{ 6813, "", "", "$s1 damage inflicted to melee attackers." },
-	{ 6814, "", "Inflicts $s1 Nature damage to an enemy every $t1 sec., increasing the time between its attacks by $s3% and slowing its movement by $s2% for $d.", "$s1 Nature damage inflicted every $t1 sec.
-Time between attacks increased by $s3%.
-Movement speed reduced by $s2%." },
+	{ 6814, "", "Inflicts $s1 Nature damage to an enemy every $t1 sec., increasing the time between its attacks by $s3% and slowing its movement by $s2% for $d.", "$s1 Nature damage inflicted every $t1 sec. \n Time between attacks increased by $s3%. \n Movement speed reduced by $s2%." },
 	{ 6816, "", "", "Strength reduced by $s1." },
 	{ 6817, "", "", "Agility reduced by $s1." },
 	{ 6818, "", "Reduces the Intellect of nearby enemies by $s1 for $d.", "Intellect reduced by $s1." },
 	{ 6819, "", "", "Stamina reduced by $s1." },
-	{ 6864, "", "Increases the Physical damage of the caster by $s1, but reduces movement speed by $s3%. Lasts $d.", "Physical damage dealt is increased by $s1.
-Movement speed reduced by $s3%." },
+	{ 6864, "", "Increases the Physical damage of the caster by $s1, but reduces movement speed by $s3%. Lasts $d.", "Physical damage dealt is increased by $s1. \n Movement speed reduced by $s3%." },
 	{ 6866, "", "Makes an enemy likely to drop its weapon. Lasts $d.", "Chance to drop melee weapon when attacking." },
 	{ 6870, "", "Makes an enemy likely to fall down when hit. Lasts $d.", "Chance to fall down when hit." },
 	{ 6873, "", "Increases the Frost damage taken by an enemy by $s1 for $d.", "Frost damage taken is increased by $s1." },
-	{ 6894, "", "", "Asleep.
-$s2 Shadow damage inflicted after $t2 sec." },
+	{ 6894, "", "", "Asleep. \n $s2 Shadow damage inflicted after $t2 sec." },
 	{ 6896, "", "Summons and dismisses a rideable black ram.", "Increases speed by $s2%." },
 	{ 6897, "", "Summons and dismisses a rideable blue ram.", "Increases speed by $s2%." },
 	{ 6898, "", "Summons and dismisses a rideable white ram.", "Increases speed by $s2%." },
@@ -3180,24 +2820,19 @@ $s2 Shadow damage inflicted after $t2 sec." },
 	{ 6900, "", "Finds a tuber in the ground.", "" },
 	{ 6902, "", "Makes you sneeze!", "" },
 	{ 6905, "", "Summons $s1 $lIllusionary Nightmare:Illusionary Nightmares; to aid the caster in battle for $d.", "" },
-	{ 6907, "", "Increases the time between an enemy's attacks by $s1% and its movement by $s2% for $d.", "Time between attacks increased by $s1%.
-Movement speed reduced by $s2%." },
+	{ 6907, "", "Increases the time between an enemy's attacks by $s1% and its movement by $s2% for $d.", "Time between attacks increased by $s1%. \n Movement speed reduced by $s2%." },
 	{ 6909, "", "Curses an enemy for $d., giving it $h% chance to take $6910s1 damage on attack.", "$h% chance to take $6910s1 damage on attack." },
 	{ 6913, "", "Summons $s1 $lForce of Nature:Forces of Nature; to aid the caster in battle for $d.", "" },
 	{ 6917, "", "Spits poison at an enemy, inflicting Nature damage, then additional damage every $t2 sec. for $d.", "Nature damage inflicted every $t2 sec." },
 	{ 6918, "", "Use in Razorfen Kraul near buried tubers to summon a Snufflenose Gopher.", "" },
 	{ 6920, "Rank 2", "Puts the caster in stealth mode. Lasts until cancelled.", "Stealthed." },
-	{ 6921, "Rank 1", "Increases the Physical damage dealt by the caster by $s2 and speeds its movement by $s1% for $d. Also curses an enemy on the first successful hit, reducing the Physical damage it deals by $6922s2, reducing the magical damage it deals by $6922s3, and increasing the Physical damage it takes by $6922s1 for $6922d.", "Movement speed increased by $s1%.
-Physical damage dealt is increased by $s2." },
-	{ 6922, "", "", "Physical damage taken is increased by $s1.
-Physical damage dealt is reduced by $s2.
-Magical damage dealt is reduced by $s3." },
+	{ 6921, "Rank 1", "Increases the Physical damage dealt by the caster by $s2 and speeds its movement by $s1% for $d. Also curses an enemy on the first successful hit, reducing the Physical damage it deals by $6922s2, reducing the magical damage it deals by $6922s3, and increasing the Physical damage it takes by $6922s1 for $6922d.", "Movement speed increased by $s1%. \n Physical damage dealt is increased by $s2." },
+	{ 6922, "", "", "Physical damage taken is increased by $s1. \n Physical damage dealt is reduced by $s2. \n Magical damage dealt is reduced by $s3." },
 	{ 6927, "Rank 1", "Inflicts normal damage plus $s2 to an enemy when attacking from stealth, stunning it $d. Awards $s3 combo $lpoint:points;.", "Stunned." },
 	{ 6940, "Rank 1", "Places a Blessing on the party member, transfering $s1 damage taken per hit to the caster.  Lasts $d.  Players may only have one Blessing on them per Paladin at any one time.", "Transfers $s1 damage taken per hit to the paladin." },
 	{ 6946, "", "", "Your heart has been weakened...." },
 	{ 6949, "Rank 1", "Launches a bolt of ice at an enemy, inflicting $s1 Frost damage.", "" },
-	{ 6950, "", "Reduces an enemy's armor by $s1 for $d. While affected, the target cannot use stealth or invisibility.", "Armor reduced by $s1.
-Cannot use stealth or invisibility." },
+	{ 6950, "", "Reduces an enemy's armor by $s1 for $d. While affected, the target cannot use stealth or invisibility.", "Armor reduced by $s1. \n Cannot use stealth or invisibility." },
 	{ 6951, "", "Reduces an enemy's Strength by $s1 for $d.", "Strength reduced by $s1." },
 	{ 6957, "Rank 1", "Increases an ally's Strength by $s1 for $d.", "Strength increased by $s1." },
 	{ 6960, "Rank 1", "Surrounds an ally with a shield of crackling electricity that lasts $d. and inflicts $s1 Nature damage to melee attackers.", "$s1 Nature damage inflicted to melee attackers." },
@@ -3232,44 +2867,32 @@ Cannot use stealth or invisibility." },
 	{ 7068, "", "Reduces healing effects for an enemy by $s1% for $d.", "Healing effects reduced by $s1%." },
 	{ 7069, "", "Increases the Physical damage dealt by nearby party members by $s1. Players may only have one aura on them per paladin at any one time. The aura lasts until cancelled.", "Physical damage dealt is increased by $s1." },
 	{ 7072, "", "", "Physical damage dealt is increased by $s1." },
-	{ 7090, "Shapeshift", "Shapeshifts into a bear for $d., increasing armor and hit points, as well as allowing the use of various bear abilities.", "Shapeshifted into bear.
-Armor and hit points increased." },
+	{ 7090, "Shapeshift", "Shapeshifts into a bear for $d., increasing armor and hit points, as well as allowing the use of various bear abilities.", "Shapeshifted into bear. \n Armor and hit points increased." },
 	{ 7092, "", "Increases the next attack by $s1 damage.", "" },
 	{ 7093, "", "Intimidates an enemy, causing it to flee in terror for $d. Only 1 target can be feared at a time.", "Fleeing in fear." },
 	{ 7098, "", "Curses an enemy for $d., giving it $h% chance to heal its target by $7099s1 on attack.", "$h% chance to heal enemy target on hit." },
 	{ 7101, "Rank 3", "Inflicts $s1 Fire damage to an enemy.", "" },
-	{ 7102, "", "Increases the time betwen an enemy's attacks by $s1% and its casting by $s2%, as well as adding $h% chance to spread the contagion to an ally when hit. Lasts $d.", "Time between attacks increased by $s1%.
-Casting speed reduced by $s2%.
-$h% chance to spread contagion to allies when hit." },
-	{ 7103, "", "", "Time between attacks increased by $s1%.
-Casting speed reduced by $s2%.
-$h% chance to spread contagion to allies when hit." },
+	{ 7102, "", "Increases the time betwen an enemy's attacks by $s1% and its casting by $s2%, as well as adding $h% chance to spread the contagion to an ally when hit. Lasts $d.", "Time between attacks increased by $s1%. \n Casting speed reduced by $s2%. \n $h% chance to spread contagion to allies when hit." },
+	{ 7103, "", "", "Time between attacks increased by $s1%. \n Casting speed reduced by $s2%. \n $h% chance to spread contagion to allies when hit." },
 	{ 7104, "", "Allows the caster to play the animation for stealth without the invis.", "" },
 	{ 7105, "Rank 1", "Fire at the target with a ranged weapon.", "" },
 	{ 7106, "", "Heals the caster's pet for $s1.", "" },
 	{ 7107, "", "Summons $s1 $lWolfguard Worg:Wolfguard Worgs; to accompany the caster until dismissed.", "" },
 	{ 7108, "Rank 1", "Removes 1 negative spell effect from user.  Cleans with the power of lemon.", "" },
-	{ 7120, "", "", "Armor increased by $s1.
-Stamina increased by $s2." },
+	{ 7120, "", "", "Armor increased by $s1. \n Stamina increased by $s2." },
 	{ 7121, "", "Creates an anti-magic shell around the caster, giving it magic immunity for $d.", "Immune to magic." },
 	{ 7122, "", "Drains $s1 health from an enemy, healing the caster for up to twice that amount.", "" },
 	{ 7124, "", "Inflicts $s1 Shadow damage to an enemy every $t1 sec. for $d.", "$s1 Shadow damage inflicted every $t1 sec." },
-	{ 7125, "", "Inflicts $s1 Nature damage to an enemy every $t1 sec. Also drains $s2 mana every $t2 sec., transferring it to the caster. Lasts $d.", "$s1 Nature damage inflicted every $t1 sec.
-$s2 mana leeched every $t2 sec." },
-	{ 7127, "", "Increases the time between an enemy's attacks speed by $s1%, slows its casting speed by $s3%, and slows its movement by $s2%. Lasts $d.", "Time between attacks increased by $s1%.
-Casting speed reduced by $s3%.
-Movement speed reduced by $s2%." },
+	{ 7125, "", "Inflicts $s1 Nature damage to an enemy every $t1 sec. Also drains $s2 mana every $t2 sec., transferring it to the caster. Lasts $d.", "$s1 Nature damage inflicted every $t1 sec. \n $s2 mana leeched every $t2 sec." },
+	{ 7127, "", "Increases the time between an enemy's attacks speed by $s1%, slows its casting speed by $s3%, and slows its movement by $s2%. Lasts $d.", "Time between attacks increased by $s1%. \n Casting speed reduced by $s3%. \n Movement speed reduced by $s2%." },
 	{ 7128, "Rank 2", "A burst of Holy energy fills the caster, increasing armor by $s1.  Each melee or ranged damage hit against the priest will remove one charge.  Lasts $d or until $n charges are used.", "Increases armor by $s1." },
 	{ 7129, "Rank 2", "Teaches Inner Fire (Rank 1).", "" },
 	{ 7132, "", "Summons $s1 $lLupine Delusion:Lupine Delusions; to aid the caster in battle for $d.", "" },
 	{ 7134, "", "Teaches you how to craft Fine Leather Pants.", "" },
 	{ 7136, "", "", "Teleporting..." },
-	{ 7137, "Rank 1", "Charge an enemy, increasing speed and causing an additional $s2 damage on the first attack.", "Movement speed increased by $s1%.
-Inflicting an additional $s2 Physical damage on first attack." },
-	{ 7139, "", "Inflicts normal damage plus $s1 to nearby enemies, stunning them for $d. and increasing the Physical damage they take by $s3.", "Stunned.
-Physical damage taken is increased by $s3." },
-	{ 7144, "", "Invokes the power of stone for $d., rendering the caster immune to Physical attack, but unable to act. During this time, the caster heals $s2 damage every $t2 sec.", "$s2 damage healed every $t2 sec.
-Immune to Physical attack, but unable to act." },
+	{ 7137, "Rank 1", "Charge an enemy, increasing speed and causing an additional $s2 damage on the first attack.", "Movement speed increased by $s1%. \n Inflicting an additional $s2 Physical damage on first attack." },
+	{ 7139, "", "Inflicts normal damage plus $s1 to nearby enemies, stunning them for $d. and increasing the Physical damage they take by $s3.", "Stunned. \n Physical damage taken is increased by $s3." },
+	{ 7144, "", "Invokes the power of stone for $d., rendering the caster immune to Physical attack, but unable to act. During this time, the caster heals $s2 damage every $t2 sec.", "$s2 damage healed every $t2 sec. \n Immune to Physical attack, but unable to act." },
 	{ 7145, "", "Inflicts normal damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.", "" },
 	{ 7150, "", "Teaches you how to craft Barbaric Leggings.", "" },
 	{ 7154, "", "Uses dark magic to heal an ally for $s1.", "" },
@@ -3337,13 +2960,11 @@ Immune to Physical attack, but unable to act." },
 	{ 7270, "Rank 3", "Launches an Arcane Missile at the enemy, causing $s1 Arcane damage.", "" },
 	{ 7272, "", "Reduces nearby enemies' chance to hit by $s1% for $d.", "Chance to hit reduced by $s1%." },
 	{ 7278, "", "Summons $s1 $lHarvester Swarm:Harvester Swarms; to aid the caster in battle for $d.", "" },
-	{ 7279, "", "Increases the time between the attacks of nearby enemies by $s1% and slows their movement speed by $s2% for $d.", "Time between attacks increased by $s1%.
-Movement speed reduced by $s2%." },
+	{ 7279, "", "Increases the time between the attacks of nearby enemies by $s1% and slows their movement speed by $s2% for $d.", "Time between attacks increased by $s1%. \n Movement speed reduced by $s2%." },
 	{ 7280, "", "Teaches you how to make Shadow Oil.", "" },
 	{ 7285, "", "Place in the Maraudine War Horn, and blow.", "" },
 	{ 7288, "Rank 1", "Burns the enemy for $s1 damage and then an additional $o1 damage over $d.", "" },
-	{ 7289, "", "Reduces an enemy's Strength by $s1 and Stamina by $s2 for $d.", "Strength reduced by $s1.
-Stamina reduced by $s2." },
+	{ 7289, "", "Reduces an enemy's Strength by $s1 and Stamina by $s2 for $d.", "Strength reduced by $s1. \n Stamina reduced by $s2." },
 	{ 7290, "Rank 1", "Drains $o1 health over $d. from an enemy and its nearest ally, healing the caster for up to twice the amount of health stolen.", "$o1 health leeched over $d." },
 	{ 7291, "", "Restores 60 health over $d.  Combat cancels.", "" },
 	{ 7293, "", "", "Transformed into Wretched Zombie." },
@@ -3359,25 +2980,19 @@ Stamina reduced by $s2." },
 	{ 7331, "Rank 1", "Heals the Paladin and nearby group members for $s1 every tick.", "" },
 	{ 7342, "Rank 1", "Inflicts normal damage plus $s1 to enemies in a cone in front of the caster.", "" },
 	{ 7353, "", "Increases your Spirit by $s1.", "Increases Spirit by $s1." },
-	{ 7357, "", "Inflicts $s3 Nature damage to an enemy every $t3 sec., increasing the time between its attacks by $s1% and its movement by $s2% for $d.", "$s3 Nature damage inflicted every $t3 sec.
-Time between attacks increased by $s1%.
-Movement speed reduced by $s2%." },
+	{ 7357, "", "Inflicts $s3 Nature damage to an enemy every $t3 sec., increasing the time between its attacks by $s1% and its movement by $s2% for $d.", "$s3 Nature damage inflicted every $t3 sec. \n Time between attacks increased by $s1%. \n Movement speed reduced by $s2%." },
 	{ 7359, "", "Builds a campfire that increases the spirits of those nearby by 8 and allows cooking.", "" },
 	{ 7363, "Rank 1", "Increase the Spirit of nearby party members by $M1.", "" },
 	{ 7365, "", "Tosses a bottle of poison at an enemy, inflicting $s1 Nature damage every $t1 sec. for $d.", "$s1 Nature damage inflicted every $t1 sec." },
 	{ 7366, "Rank 1", "Assumes an aggressive stance that generates rage when the warrior strikes an opponent. Lasts $d.", "" },
-	{ 7367, "", "Inflicts $s1 Nature damage to an enemy every $t1 sec. and increases the Physical damage it takes by $s2 for $d.", "$s1 Nature damage inflicted every $t1 sec.
-Physical damage taken is increased by $s2." },
+	{ 7367, "", "Inflicts $s1 Nature damage to an enemy every $t1 sec. and increases the Physical damage it takes by $s2 for $d.", "$s1 Nature damage inflicted every $t1 sec. \n Physical damage taken is increased by $s2." },
 	{ 7369, "Rank 2", "A sweeping attack that does your weapon damage plus $s1 to the target and his nearest ally.", "" },
 	{ 7371, "Rank 1", "Charges an enemy, immobilizes it for $7922d, and adds $s2 melee attack power to the boar's next attack.", "" },
 	{ 7372, "Rank 2", "Maims the enemy, causing $s1 damage and slowing the enemy's movement by $s2% for $d.", "Movement slowed by $s2%." },
 	{ 7373, "Rank 3", "Maims the enemy, causing $s1 damage and slowing the enemy's movement by $s2% for $d.", "Movement slowed by $s2%." },
-	{ 7376, "", "Decreases damage taken from all sources by $s1%.  Decreases damage caused by $s2%.
-Increases threat generated by $s3%.", "" },
+	{ 7376, "", "Decreases damage taken from all sources by $s1%.  Decreases damage caused by $s2%. \n Increases threat generated by $s3%.", "" },
 	{ 7379, "Rank 3", "Instantly counterattack an enemy for $s1 damage and a high amount of threat.   Revenge must follow a block, dodge or parry.", "" },
-	{ 7381, "", "Increases crit chance by $s1%.
-Increases all damage taken by $s2%.
-Decreases threat generated by $s3%.", "" },
+	{ 7381, "", "Increases crit chance by $s1%. \n Increases all damage taken by $s2%. \n Decreases threat generated by $s3%.", "" },
 	{ 7383, "", "", "Immune to Physical damage." },
 	{ 7384, "Rank 1", "Instantly overpower the enemy, causing weapon damage plus $s1.  Only useable after the target dodges.  The Overpower cannot be blocked, dodged or parried.", "" },
 	{ 7386, "Rank 1", "Sunders the target's armor, reducing it by $s1 per Sunder Armor and causes a high amount of threat.  Can be applied up to 5 times.  Lasts $d.", "Armor decreased by $s1." },
@@ -3428,10 +3043,8 @@ Decreases threat generated by $s3%.", "" },
 	{ 7597, "", "Improves your chance to get a critical strike by $s1%.", "" },
 	{ 7617, "", "When struck in combat has a $h% chance of inflicting $16783s1 Shadow damage to the attacker.", "" },
 	{ 7619, "", "When struck in combat has a $h% chance of inflicting $16784s1 Shadow damage to the attacker.", "" },
-	{ 7620, "Apprentice", "Equip a fishing pole and find a body of water to fish.  Right-Click on the bob in the water when it splashes to catch your fish.  Higher skill increases your chance of fishing successfully in higher level areas.
-", "" },
-	{ 7621, "", "Transforms an enemy into a Shadowfang Glutton, enslaving it to the caster's will for $d.", "Charmed.
-Transformed into Shadowfang Glutton." },
+	{ 7620, "Apprentice", "Equip a fishing pole and find a body of water to fish.  Right-Click on the bob in the water when it splashes to catch your fish.  Higher skill increases your chance of fishing successfully in higher level areas. \n ", "" },
+	{ 7621, "", "Transforms an enemy into a Shadowfang Glutton, enslaving it to the caster's will for $d.", "Charmed. \n Transformed into Shadowfang Glutton." },
 	{ 7631, "", "Teaches you how to sew a Red Linen Vest.", "" },
 	{ 7632, "", "Teaches you how to sew a Blue Linen Vest.", "" },
 	{ 7635, "", "Teaches you how to sew a Blue Linen Robe.", "" },
@@ -3445,10 +3058,8 @@ Transformed into Shadowfang Glutton." },
 	{ 7651, "Rank 4", "Transfers $s1 health every second from the target to the caster.  Lasts $d.", "Drains $s1 health each second to the caster." },
 	{ 7653, "Rank 4", "Teaches Drain Life (Rank 4).", "" },
 	{ 7655, "", "Curses an enemy, reducing the Physical damage it deals by $8320s1 and decreasing its magical damage by $8320s2 for $8320d. Also, the curse increases the Physical damage the caster deals by $7657s1 and enhances its magical damage by $7657s2 for $7657d.", "" },
-	{ 7656, "", "", "Physical damage dealt is reduced by $s1.
-Magical damage dealt is reduced by $s2." },
-	{ 7657, "", "", "Physical damage dealt is increased by $s1.
-Magical damage dealt is increased by $s2." },
+	{ 7656, "", "", "Physical damage dealt is reduced by $s1. \n Magical damage dealt is reduced by $s2." },
+	{ 7657, "", "", "Physical damage dealt is increased by $s1. \n Magical damage dealt is increased by $s2." },
 	{ 7658, "Rank 2", "Curses the target with recklessness, increasing melee attack power by $s1 but reducing armor by $s2 for $d.  Cursed enemies will not flee and will ignore Fear and Horror effects.  Only one Curse per Warlock can be active on any one target.", "Increases melee attack power by $s1 and decreases armor by $s2.   Target will not flee and will ignore Fear and Horror effects." },
 	{ 7659, "Rank 3", "Curses the target with recklessness, increasing melee attack power by $s1 but reducing armor by $s2 for $d.  Cursed enemies will not flee and will ignore Fear and Horror effects.  Only one Curse per Warlock can be active on any one target.", "Increases melee attack power by $s1 and decreases armor by $s2.   Target will not flee and will ignore Fear and Horror effects." },
 	{ 7669, "", "Removes the Hex of Ravenclaw.", "" },
@@ -3460,8 +3071,7 @@ Magical damage dealt is increased by $s2." },
 	{ 7711, "", "Adds 2 fire damage to your melee attacks.", "" },
 	{ 7712, "", "Does $s1 additional Fire damage to the target.", "" },
 	{ 7713, "", "Reduces all the attributes of nearby enemies by $s1% for $d.", "All attributes reduced by $s1%." },
-	{ 7720, "", "Triggered by ritual of summoning to summon a player
-", "" },
+	{ 7720, "", "Triggered by ritual of summoning to summon a player \n ", "" },
 	{ 7721, "", "Adds 4 fire damage to your weapon attack.", "" },
 	{ 7722, "", "Adds 6 fire damage to your weapon attack.", "" },
 	{ 7723, "", "Adds 8 fire damage to your weapon attack.", "" },
@@ -3555,8 +3165,7 @@ Magical damage dealt is increased by $s2." },
 	{ 7934, "", "Creates 3 Vials of Anti-Venom.", "" },
 	{ 7935, "", "Creates 3 Vials of Strong Anti-Venom.", "" },
 	{ 7937, "", "Teaches you how to make Strong Anti-Venom.", "" },
-	{ 7939, "Rank 1", "Puts the caster in stealth mode, but slows its movement to $s2% of normal. Lasts until cancelled.", "Stealthed.
-Movement speed reduced to $s2% of normal." },
+	{ 7939, "Rank 1", "Puts the caster in stealth mode, but slows its movement to $s2% of normal. Lasts until cancelled.", "Stealthed. \n Movement speed reduced to $s2% of normal." },
 	{ 7948, "", "Heals the caster for $s1 damage every $t1 sec. for $d.", "$s1 damage healed every $t1 sec." },
 	{ 7950, "", "", "Immobilized." },
 	{ 7951, "", "Inflicts Nature damage to an enemy.", "" },
@@ -3565,19 +3174,14 @@ Movement speed reduced to $s2% of normal." },
 	{ 7958, "", "Teaches you how to craft a Deviate Scale Belt.", "" },
 	{ 7960, "Rank 1", "Conjures $M1 $lloaf:loaves; of bread, providing the mage and his allies with something to eat.", "" },
 	{ 7964, "", "Casts a smoke bomb, stunning nearby enemies for $d.", "Stunned." },
-	{ 7965, "", "Shapeshifts into a serpent for $d., increasing attack damage by $s2, and increasing the time between attacks by $s3%.", "Transformed into serpent.
-Physical damage dealt is increased by $s2.
-Time between attacks increased by $s3%." },
+	{ 7965, "", "Shapeshifts into a serpent for $d., increasing attack damage by $s2, and increasing the time between attacks by $s3%.", "Transformed into serpent. \n Physical damage dealt is increased by $s2. \n Time between attacks increased by $s3%." },
 	{ 7966, "", "Causes $s1 Nature damage to any creature that strikes a nearby party member. Players may only have one aura on them per paladin at any one time. The aura lasts $d.", "$s1 Nature damage inflicted to melee attackers." },
 	{ 7967, "", "Puts the enemy target to sleep for up to $d. Any hostile action will awaken the target. Only one target can be slept at a time.", "Asleep." },
 	{ 7974, "Rank 1", "Gives Flight to Lord Azrethoc.", "" },
 	{ 7979, "", "Summons $s1 $lCompact Harvest Reaper:Compact Harvest Reapers; to aid the caster in battle for $d. A Reaper cannot be healed, but it can be looted after it has been destroyed.", "" },
-	{ 7992, "", "Increases the time between an enemy's attacks by $s1% and slows its movement by $s2% for $d.", "Time between attacks increased by $s1%.
-Movement speed reduced by $s2%." },
+	{ 7992, "", "Increases the time between an enemy's attacks by $s1% and slows its movement by $s2% for $d.", "Time between attacks increased by $s1%. \n Movement speed reduced by $s2%." },
 	{ 7993, "", "Summons $s1 $lTreant Ally:Treant Allies; to accompany the caster until dismissed.", "" },
-	{ 7997, "", "Reduces an enemy's Strength by $s1, Agility by $s2, and Stamina by $s3 for $d.", "Strength reduced by $s1.
-Agility reduced by $s2.
-Stamina reduced by $s3." },
+	{ 7997, "", "Reduces an enemy's Strength by $s1, Agility by $s2, and Stamina by $s3 for $d.", "Strength reduced by $s1. \n Agility reduced by $s2. \n Stamina reduced by $s3." },
 	{ 8000, "Rank 1", "Calls down a pillar of flame, burning all enemies in a selected area for $s1 Fire damage and an additional $s2 damage every $t2 sec. for $d.", "$s2 Fire damage inflicted every $t2 sec." },
 	{ 8005, "Rank 7", "Heals a friendly target for $s1.", "" },
 	{ 8012, "Rank 2", "Purges the enemy target, removing $m1 beneficial magic $leffect:effects;.", "" },
@@ -3591,9 +3195,7 @@ Stamina reduced by $s3." },
 	{ 8033, "Rank 1", "Imbue the Shaman's weapon with frost.  Each hit has a chance of causing $8034s2 additional Frost damage and slowing the target's movement speed by $8034s1% for $8034d.  Lasts for 5 minutes.", "" },
 	{ 8037, "Rank 2", "", "Movement slowed by $s1%." },
 	{ 8038, "Rank 2", "Imbue the Shaman's weapon with frost.  Each hit has a chance of causing $8037s2 additional Frost damage and slowing the target's movement speed by $8037s1% for $8037d.  Lasts for 5 minutes.", "" },
-	{ 8041, "Shapeshift", "Shapeshifts into a serpent for $d., increasing Physical damage by $s3, but sacrificing the ability to cast spells.", "Transformed into snake.
-Physical damage dealt is increased by $s3.
-Cannot cast spells." },
+	{ 8041, "Shapeshift", "Shapeshifts into a serpent for $d., increasing Physical damage by $s3, but sacrificing the ability to cast spells.", "Transformed into snake. \n Physical damage dealt is increased by $s3. \n Cannot cast spells." },
 	{ 8042, "Rank 1", "Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat.", "" },
 	{ 8044, "Rank 2", "Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat.", "" },
 	{ 8045, "Rank 3", "Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat.", "" },
@@ -3613,8 +3215,7 @@ Cannot cast spells." },
 	{ 8072, "Rank 1", "", "Reduces melee damage taken by $s1." },
 	{ 8075, "Rank 1", "Summons a Strength of Earth Totem with $s1 health at the feet of the caster.  The totem increases the strength of party members within $8076a1 yards by $8076s1.  Lasts $d.", "" },
 	{ 8076, "Rank 1", "", "Increases Strength by $s1." },
-	{ 8078, "", "Inflicts $s1 Nature damage to nearby enemies, increasing the time between their attacks by $s3% and slowing their movement by $s2% for $d.", "Time between attacks increased by $s3%.
-Movement speed reduced by $s2%." },
+	{ 8078, "", "Inflicts $s1 Nature damage to nearby enemies, increasing the time between their attacks by $s3% and slowing their movement by $s2% for $d.", "Time between attacks increased by $s3%. \n Movement speed reduced by $s2%." },
 	{ 8087, "", "When applied to your fishing pole, increases Fishing by 25 for 10 min.", "" },
 	{ 8088, "", "When applied to your fishing pole, increases Fishing by 50 for 10 min.", "" },
 	{ 8089, "", "When applied to your fishing pole, increases Fishing by 100 for 5 minutes.", "" },
@@ -3651,17 +3252,14 @@ Movement speed reduced by $s2%." },
 	{ 8133, "Rank 1", "Teaches Taunt (Rank 1).", "" },
 	{ 8134, "Rank 5", "The caster is surrounded by $n balls of lightning.  When a spell, melee or ranged attack hits the caster, the attacker will be struck for $26369s1 Nature damage.  This expends one lightning ball.  Only one ball will fire every few seconds.  Lasts $d.", "Causes $26369s1 Nature damage to attacker on hit." },
 	{ 8137, "", "Increases the Physical damage taken by an enemy by $s1% for $d.", "Physical damage taken is increased by $s1%." },
-	{ 8139, "", "Reduces an enemy's Intellect by $s1 and its Spirit by $s2 for $d.", "Intellect reduced by $s1.
-Spirit reduced by $s2." },
+	{ 8139, "", "Reduces an enemy's Intellect by $s1 and its Spirit by $s2 for $d.", "Intellect reduced by $s1. \n Spirit reduced by $s2." },
 	{ 8140, "Rank 1", "Reduces an enemy's casting speed by $s1% for $d.", "Casting speed reduced by $s1%." },
 	{ 8142, "", "Inflicts Physical damage to nearby enemies, knocking them down and immobilizing them for $d.", "Immobilized." },
 	{ 8143, "", "Summons a Tremor Totem with $s1 health at the feet of the caster that shakes the ground around it, removing Fear, Charm and Sleep effects from party members within $8146a1 yards.  Lasts $d.", "" },
-	{ 8147, "Rank 1", "Inflicts $s1 Nature damage to nearby enemies, increasing the time between their attacks by $s3% and slowing their movement by $s2% for $d.", "Time between attacks increased by $s3%.
-Movement speed reduced by $s2%." },
+	{ 8147, "Rank 1", "Inflicts $s1 Nature damage to nearby enemies, increasing the time between their attacks by $s3% and slowing their movement by $s2% for $d.", "Time between attacks increased by $s3%. \n Movement speed reduced by $s2%." },
 	{ 8150, "Rank 1", "Inflicts $s1 Nature damage to nearby enemies, stunning them for $d.", "Stunned." },
 	{ 8151, "Rank 1", "Inflicts normal damage plus $s1 to an enemy when attacking from stealth, stunning the target for $d.", "Stunned." },
-	{ 8152, "Rank 1", "Puts the caster in stealth mode, but slows its movement by $s2%. Lasts until cancelled.", "Stealthed.
-Movement speed reduced by $s2%." },
+	{ 8152, "Rank 1", "Puts the caster in stealth mode, but slows its movement by $s2%. Lasts until cancelled.", "Stealthed. \n Movement speed reduced by $s2%." },
 	{ 8153, "Shapeshift", "Transforms the druid into a flying form, increasing movement speed.", "" },
 	{ 8154, "Rank 2", "Summons a Stoneskin Totem with $s1 health at the feet of the caster.  The totem protects party members within $8156a1 yards, reducing melee damage taken by $8156s1.  Lasts $d.", "" },
 	{ 8155, "Rank 3", "Summons a Stoneskin Totem with $s1 health at the feet of the caster.  The totem protects party members within $8157a1 yards, reducing melee damage taken by $8157s1.  Lasts $d.", "" },
@@ -3708,8 +3306,7 @@ Movement speed reduced by $s2%." },
 	{ 8258, "", "Gives $s1 additional armor to nearby party members for $d. Players may only have one aura on them per paladin at any one time.", "Armor increased by $s1." },
 	{ 8262, "Rank 1", "Summons an Elemental Protection Totem at the caster's feet. Totem lasts $d. and increases nearby party members' resistance to harmful magic.", "" },
 	{ 8264, "Rank 1", "Summons a Lava Spout Totem at the caster's feet. Totem lasts $d. and inflicts $8265s1 Fire damage to nearby enemies every $8266t1 sec.", "" },
-	{ 8269, "", "Increases the caster's attack speed by $s2% and the Physical damage it deals by $s1 for $d.", "Physical damage dealt is increased by $s1.
-Attack speed increased by $s2%." },
+	{ 8269, "", "Increases the caster's attack speed by $s2% and the Physical damage it deals by $s1 for $d.", "Physical damage dealt is increased by $s1. \n Attack speed increased by $s2%." },
 	{ 8270, "", "Summons $s1 $lStone Rumbler:Stone Rumblers; to accompany the caster until dismissed.", "" },
 	{ 8271, "", "Summons $s1 $lWind Howler:Wind Howlers; to accompany the caster until dismissed.", "" },
 	{ 8274, "", "Summons $s1 $lTamed Battleboar:Tamed Battleboars; to accompany the caster until dismissed.", "" },
@@ -3737,8 +3334,7 @@ Attack speed increased by $s2%." },
 	{ 8348, "Rank 1", "Heals wielder of $o1 damage over $d.", "Heals $s1 damage every $t1 sec." },
 	{ 8356, "afsadf", "dasfasdf", "" },
 	{ 8358, "", "Restores the caster's mana.", "" },
-	{ 8359, "", "", "Feigning death.
-Cannot attack or cast spells." },
+	{ 8359, "", "", "Feigning death. \n Cannot attack or cast spells." },
 	{ 8361, "", "Makes the caster immune to all attacks and spells for $d.", "Immune to all attacks and spells." },
 	{ 8362, "", "Heals an ally for $s1 damage every $t1 sec. for $d.", "$s1 damage healed every $t1 sec." },
 	{ 8364, "", "Calls down a blizzard that lasts $d., inflicting $s1 Frost damage every $t1 sec. to all enemies in a selected area.", "" },
@@ -3751,8 +3347,7 @@ Cannot attack or cast spells." },
 	{ 8375, "QASpell", "Permanently enchant gloves to grant +$13838s1 mining skill.", "" },
 	{ 8376, "", "Summons an Earthgrab Totem that lasts $d. and periodically immobilizes nearby enemies.", "" },
 	{ 8380, "Rank 3", "Sunders the target's armor, reducing it by $s1 per Sunder Armor and causes a high amount of threat.  Can be applied up to 5 times.  Lasts $d.", "Armor decreased by $s1." },
-	{ 8385, "", "", "Increases movement speed by $s1%
-Increases attack speed by $s2%" },
+	{ 8385, "", "", "Increases movement speed by $s1% \n Increases attack speed by $s2%" },
 	{ 8387, "Rank 2", "Nearby herb bushes appear on the minimap.   Only one type of thing can be tracked at a time.", "Finding Herbs." },
 	{ 8388, "Rank 2", "Nearby mineral veins appear on the minimap.   Only one type of thing can be tracked at a time.", "Finding Minerals." },
 	{ 8394, "", "Summons and dismisses a rideable Striped Frostsaber.", "Increases speed by $s2%." },
@@ -3805,97 +3400,46 @@ Increases attack speed by $s2%" },
 	{ 8593, "Rank 1", "The Symbol of Life will bring the person attuned to it back to life.", "" },
 	{ 8594, "", "Summons $s1 $lMoonstalker Runt:Moonstalker Runts; to accompany the caster until dismissed.", "" },
 	{ 8598, "Rank 3", "Blasts an enemy with lightning for $s1 Nature damage.", "" },
-	{ 8599, "", "", "Physical damage dealt is increased by $s1.
-Attack speed increased by $s2%." },
+	{ 8599, "", "", "Physical damage dealt is increased by $s1. \n Attack speed increased by $s2%." },
 	{ 8600, "", "Inflicts $s1 Nature damage to an enemy, then an additional $s2 damage every $t2 sec. for $d.", "$s2 Nature damage inflicted every $t2 sec." },
 	{ 8605, "", "Teaches you how to cook a Herb Baked Egg.", "" },
 	{ 8606, "", "Summons Cyclonian.", "" },
 	{ 8608, "", "Teaches you how to cook Smoked Bear Meat.", "" },
-	{ 8611, "", "", "Invisible, but unable to act.
-Immune to all attacks and spells." },
+	{ 8611, "", "", "Invisible, but unable to act. \n Immune to all attacks and spells." },
 	{ 8612, "", "Adds a chance to turn invisible when hit.", "" },
 	{ 8613, "Apprentice", "The basics of how to skin animals for their pelts and furs for use in Leatherworking.  Gives a potential skinning skill of 75.  Requires a Skinning Knife.", "" },
 	{ 8616, "Rank 1", "Teaches Berserker Stance (Rank 1).  Teaches Intercept (Rank 1).", "" },
 	{ 8617, "Journeyman", "Advanced skills in skinning the leather from beasts for use in Leatherworking.  Gives a potential skinning skill of 150. Requires a Skinning Knife.", "" },
 	{ 8618, "Expert", "Expert skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 225.  Requires a Skinning Knife.", "" },
 	{ 8621, "Rank 6", "An instant strike that causes $s1 damage in addition to your normal weapon damage.  Awards $s2 combo $lpoint:points;.", "" },
-	{ 8623, "Rank 5", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 60-90 damage
-   2 points: 105-135 damage
-   3 points: 150-180 damage
-   4 points: 195-225 damage
-   5 points: 240-270 damage", "" },
-	{ 8624, "Rank 6", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 99-143 damage
-   2 points: 176-220 damage
-   3 points: 253-297 damage
-   4 points: 330-374 damage
-   5 points: 407-451 damage", "" },
+	{ 8623, "Rank 5", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 60-90 damage \n    2 points: 105-135 damage \n    3 points: 150-180 damage \n    4 points: 195-225 damage \n    5 points: 240-270 damage", "" },
+	{ 8624, "Rank 6", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 99-143 damage \n    2 points: 176-220 damage \n    3 points: 253-297 damage \n    4 points: 330-374 damage \n    5 points: 407-451 damage", "" },
 	{ 8627, "Rank 1", "Backstab the target, causing $s2% of weapon damage plus an additional $s1 to the target.  Must be stealthed and behind the target.  Awards $s3 combo point.", "" },
 	{ 8629, "Rank 3", "Causes $s1 damage, incapacitating the opponent for $d, and turns off your attack.  Target must be facing you.  Any damage caused will revive the target.  Awards $s2 combo $lpoint:points;.", "Incapacitated." },
 	{ 8631, "Rank 2", "Garrote the enemy, causing $o1 damage over $d, increased by your Attack Power.  Must be stealthed and behind the target.  Awards $s2 combo $lpoint:points;.", "$s1 damage every $t1 seconds." },
 	{ 8632, "Rank 3", "Garrote the enemy, causing $o1 damage over $d, increased by your Attack Power.  Must be stealthed and behind the target.  Awards $s2 combo $lpoint:points;.", "$s1 damage every $t1 seconds." },
 	{ 8633, "Rank 4", "Garrote the enemy, causing $o1 damage over $d, increased by your Attack Power.  Must be stealthed and behind the target.  Awards $s2 combo $lpoint:points;.", "$s1 damage every $t1 seconds." },
 	{ 8637, "Rank 3", "Performs a feint, causing no damage but lowering your threat by a large amount, making the enemy less likely to attack you.", "" },
-	{ 8639, "Rank 2", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:
-   1 point  : 60 damage over 8 secs
-   2 points: 90 damage over 10 secs
-   3 points: 126 damage over 12 secs
-   4 points: 168 damage over 14 secs
-   5 points: 216 damage over 16 secs", "$s1 damage every $t1 seconds." },
-	{ 8640, "Rank 3", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:
-   1 point  : 88 damage over 8 secs
-   2 points: 130 damage over 10 secs
-   3 points: 180 damage over 12 secs
-   4 points: 238 damage over 14 secs
-   5 points: 304 damage over 16 secs", "$s1 damage every $t1 seconds." },
-	{ 8643, "Rank 2", "Finishing move that stuns the target.  Lasts longer per combo point:
-   1 point  : 2 seconds
-   2 points: 3 seconds
-   3 points: 4 seconds
-   4 points: 5 seconds
-   5 points: 6 seconds", "Stunned." },
-	{ 8647, "Rank 1", "Finishing move that exposes the target for $d, reducing armor per combo point:
-   1 point  : 80 armor
-   2 points: 160 armor
-   3 points: 240 armor
-   4 points: 320 armor
-   5 points: 400 armor", "Armor decreased." },
-	{ 8649, "Rank 2", "Finishing move that exposes the target for $d, reducing armor per combo point:
-   1 point  : 145 armor
-   2 points: 290 armor
-   3 points: 435 armor
-   4 points: 580 armor
-   5 points: 725 armor", "Armor decreased." },
-	{ 8650, "Rank 3", "Finishing move that exposes the target for $d, reducing armor per combo point:
-   1 point  : 210 armor
-   2 points: 420 armor
-   3 points: 630 armor
-   4 points: 840 armor
-   5 points: 1050 armor", "Armor decreased." },
+	{ 8639, "Rank 2", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point: \n    1 point  : 60 damage over 8 secs \n    2 points: 90 damage over 10 secs \n    3 points: 126 damage over 12 secs \n    4 points: 168 damage over 14 secs \n    5 points: 216 damage over 16 secs", "$s1 damage every $t1 seconds." },
+	{ 8640, "Rank 3", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point: \n    1 point  : 88 damage over 8 secs \n    2 points: 130 damage over 10 secs \n    3 points: 180 damage over 12 secs \n    4 points: 238 damage over 14 secs \n    5 points: 304 damage over 16 secs", "$s1 damage every $t1 seconds." },
+	{ 8643, "Rank 2", "Finishing move that stuns the target.  Lasts longer per combo point: \n    1 point  : 2 seconds \n    2 points: 3 seconds \n    3 points: 4 seconds \n    4 points: 5 seconds \n    5 points: 6 seconds", "Stunned." },
+	{ 8647, "Rank 1", "Finishing move that exposes the target for $d, reducing armor per combo point: \n    1 point  : 80 armor \n    2 points: 160 armor \n    3 points: 240 armor \n    4 points: 320 armor \n    5 points: 400 armor", "Armor decreased." },
+	{ 8649, "Rank 2", "Finishing move that exposes the target for $d, reducing armor per combo point: \n    1 point  : 145 armor \n    2 points: 290 armor \n    3 points: 435 armor \n    4 points: 580 armor \n    5 points: 725 armor", "Armor decreased." },
+	{ 8650, "Rank 3", "Finishing move that exposes the target for $d, reducing armor per combo point: \n    1 point  : 210 armor \n    2 points: 420 armor \n    3 points: 630 armor \n    4 points: 840 armor \n    5 points: 1050 armor", "Armor decreased." },
 	{ 8656, "", "Summons $s1 $lCrawler:Crawlers; to accompany the caster until dismissed.", "" },
 	{ 8676, "Rank 1", "Ambush the target, causing $s2% weapon damage plus 70 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
-	{ 8679, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy which instantly inflicts $8680s1 Nature damage.  40 charges.", "" },
-	{ 8681, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy which instantly inflicts $8680s1 Nature damage.  40 charges.", "" },
-	{ 8686, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy which instantly inflicts $8685s1 Nature damage.  55 charges.", "" },
-	{ 8687, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy which instantly inflicts $8685s1 Nature damage.  55 charges.", "" },
-	{ 8688, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy which instantly inflicts $8689s1 Nature damage.  70 charges.", "" },
+	{ 8679, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy which instantly inflicts $8680s1 Nature damage.  40 charges.", "" },
+	{ 8681, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy which instantly inflicts $8680s1 Nature damage.  40 charges.", "" },
+	{ 8686, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy which instantly inflicts $8685s1 Nature damage.  55 charges.", "" },
+	{ 8687, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy which instantly inflicts $8685s1 Nature damage.  55 charges.", "" },
+	{ 8688, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy which instantly inflicts $8689s1 Nature damage.  70 charges.", "" },
 	{ 8690, "", "Returns you to $z.  Speak to an Innkeeper in a different place to change your home location.", "" },
-	{ 8691, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy which instantly inflicts $8689s1 Nature damage.  70 charges.", "" },
+	{ 8691, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy which instantly inflicts $8689s1 Nature damage.  70 charges.", "" },
 	{ 8692, "Rank 2", "", "Casting speed slowed by $s1%." },
-	{ 8693, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, increasing their casting time by $8692s1% for $8692d.  75 charges.", "" },
-	{ 8694, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy, increasing their casting time by $8692s1% for $8692d.  75 charges.", "" },
+	{ 8693, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, increasing their casting time by $8692s1% for $8692d.  75 charges.", "" },
+	{ 8694, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy, increasing their casting time by $8692s1% for $8692d.  75 charges.", "" },
 	{ 8696, "Rank 2", "Increases the rogue's movement speed by $s1% for $d.  Does not break stealth.", "Movement speed increased by $s1%." },
-	{ 8699, "", "Increases an ally's attack speed by $s1% for $d., but also inflicts $s2 Nature damage to that ally every $t2 sec.", "Attack speed increased by $s1%.
-$s2 Nature damage inflicted every $t2 sec." },
+	{ 8699, "", "Increases an ally's attack speed by $s1% for $d., but also inflicts $s2 Nature damage to that ally every $t2 sec.", "Attack speed increased by $s1%. \n $s2 Nature damage inflicted every $t2 sec." },
 	{ 8712, "Rank 1", "Call forth a felhunter using the summoning circle.", "" },
 	{ 8713, "", "Causes the caster to periodically inflict $8714s1 Nature damage to all enemies in a selected area, interrupting their casting for $8714d. Lasts until cancelled.", "" },
 	{ 8716, "", "Stuns an enemy and reduces its movement speed by $s2%, in addition to increasing the caster's melee damage by $s1. Lasts $d.", "Movement speed reduced by $s2%." },
@@ -3905,9 +3449,7 @@ $s2 Nature damage inflicted every $t2 sec." },
 	{ 8724, "Rank 2", "Ambush the target, causing $s2% weapon damage plus 100 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 8725, "Rank 3", "Ambush the target, causing $s2% weapon damage plus 125 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 8732, "", "Damages all nearby enemies for $s1 nature damage", "" },
-	{ 8733, "", "", "Increases intellect by $s1
-Increases spirit by $s2
-Increases frost damage done by $s3" },
+	{ 8733, "", "", "Increases intellect by $s1 \n Increases spirit by $s2 \n Increases frost damage done by $s3" },
 	{ 8735, "", "Sends player to Blackfathom Deeps", "" },
 	{ 8736, "Rank 1", "Conjures food to eat.", "" },
 	{ 8747, "", "Increases swim speed by $s1%.", "Increases swim speed by $s1%." },
@@ -3976,8 +3518,7 @@ Increases frost damage done by $s3" },
 	{ 8985, "", "Summons $s1 $lFire Elemental:Fire Elementals; to accompany the caster until dismissed.", "" },
 	{ 8986, "", "Summons $s1 $lIllusionary Phantasm:Illusionary Phantasms; to aid the caster in battle for $d.", "" },
 	{ 8988, "Rank 1", "Silences nearby enemies, preventing them from casting spells for $d.", "Cannot cast spells." },
-	{ 8989, "Rank 1", "Attacks nearby enemies in a whirlwind of steel that lasts $d., inflicting weapon damage plus $3231s1 every $t1 sec. Grants the caster temporary magic immunity.", "Immune to magic.
-Inflicting normal damage plus $3231s1 every $t1 sec to nearby enemies." },
+	{ 8989, "Rank 1", "Attacks nearby enemies in a whirlwind of steel that lasts $d., inflicting weapon damage plus $3231s1 every $t1 sec. Grants the caster temporary magic immunity.", "Immune to magic. \n Inflicting normal damage plus $3231s1 every $t1 sec to nearby enemies." },
 	{ 8990, "Rank 1", "Causes $s1 Holy damage to any creature that strikes a nearby party member. Players may only have one aura on them per paladin at any one time. The aura lasts until cancelled.", "$s1 Holy damage inflicted to melee attackers." },
 	{ 8992, "Rank 3", "Shred the target, causing $s2% damage plus 99 to the target.  Must be behind the target.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 8994, "", "Banishes an enemy, preventing all action but making it invulnerable for up to $d. Only one target can be banished at a time.", "Immune to all attacks and spells, but unable to act." },
@@ -4037,8 +3578,7 @@ Inflicting normal damage plus $3231s1 every $t1 sec to nearby enemies." },
 	{ 9433, "Rank 4", "Sends out a blast wave of magic, inflicting $s1 Arcane damage to nearby enemies.", "" },
 	{ 9436, "", "", "Able to detect invisible targets." },
 	{ 9437, "", "Used to capture a rabid thistle bear.", "" },
-	{ 9438, "", "", "Immune to all attacks and spells.
-Cannot attack or use spells." },
+	{ 9438, "", "", "Immune to all attacks and spells. \n Cannot attack or use spells." },
 	{ 9440, "", "Teaches you how to craft Green Leather Armor.", "" },
 	{ 9452, "Rank 1", "Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by $67s1% for $67d.", "" },
 	{ 9453, "Rank 1", "Increases your chance to resist Fear and Disorient effects by an additional $s1%.", "" },
@@ -4052,27 +3592,15 @@ Cannot attack or use spells." },
 	{ 9485, "Rank 2", "Shackles the target undead enemy for up to $d.  The shackled unit is unable to move, attack or cast spells.  Any damage caused will release the target.  Only one target can be shackled at a time.", "Shackled." },
 	{ 9489, "", "Creates a bowl of scrying that will contact Talvash.", "" },
 	{ 9490, "Rank 3", "The druid roars, decreasing nearby enemies' melee attack power by $s1.  Lasts $d.", "Decreases melee attack power by $s1." },
-	{ 9492, "Rank 2", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power:
-   1 point  : 66 damage over $d.
-   2 points: 108 damage over $d.
-   3 points: 150 damage over $d.
-   4 points: 192 damage over $d.
-   5 points: 234 damage over $d.", "Bleed damage every $t1 seconds." },
-	{ 9493, "Rank 3", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power:
-   1 point  : 90 damage over $d.
-   2 points: 144 damage over $d.
-   3 points: 198 damage over $d.
-   4 points: 252 damage over $d.
-   5 points: 306 damage over $d.", "Bleed damage every $t1 seconds." },
+	{ 9492, "Rank 2", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power: \n    1 point  : 66 damage over $d. \n    2 points: 108 damage over $d. \n    3 points: 150 damage over $d. \n    4 points: 192 damage over $d. \n    5 points: 234 damage over $d.", "Bleed damage every $t1 seconds." },
+	{ 9493, "Rank 3", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power: \n    1 point  : 90 damage over $d. \n    2 points: 144 damage over $d. \n    3 points: 198 damage over $d. \n    4 points: 252 damage over $d. \n    5 points: 306 damage over $d.", "Bleed damage every $t1 seconds." },
 	{ 9512, "", "Instantly restores $s1 energy.", "" },
 	{ 9514, "", "Teaches you how to brew a Thistle Tea.", "" },
 	{ 9515, "", "Summons a tracking hound that will protect you for $d.", "" },
 	{ 9532, "", "Blasts an enemy with lightning, inflicting Nature damage.", "" },
-	{ 9552, "", "Burns an enemy for $s2 damage, then prevents it from spellcasting for $d. and inflicts an additional $s1 Fire damage every $t1 sec.", "$s1 Fire damage inflicted every $t1 sec.
-Cannot cast spells." },
+	{ 9552, "", "Burns an enemy for $s2 damage, then prevents it from spellcasting for $d. and inflicts an additional $s1 Fire damage every $t1 sec.", "$s1 Fire damage inflicted every $t1 sec. \n Cannot cast spells." },
 	{ 9574, "", "Inflicts $s1 Fire damage to an enemy and increases the Fire damage it takes by $s2 for $d.", "Fire damage taken is increased by $s2." },
-	{ 9576, "", "Immobilizes the caster and increases the Physical damage it deals by $s1 for $d.", "Immobilized.
-Physical damage dealt is increased by $s1." },
+	{ 9576, "", "Immobilizes the caster and increases the Physical damage it deals by $s1 for $d.", "Immobilized. \n Physical damage dealt is increased by $s1." },
 	{ 9577, "", "Place in the Uldaman map room.", "" },
 	{ 9578, "Rank 2", "Fade out, discouraging enemies from attacking you for $d.  More effective than Fade (rank 1).", "Reduced threat level." },
 	{ 9579, "Rank 3", "Fade out, discouraging enemies from attacking you for $d.  More effective than Fade (rank 2).", "Reduced threat level." },
@@ -4088,9 +3616,7 @@ Physical damage dealt is increased by $s1." },
 	{ 9613, "", "Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.", "" },
 	{ 9614, "", "Marks an enemy with a tracking device. After $d., $9615s1 Lost One Rift Travelers will find and attack the enemy. Lost One Rift Travelers are unstable at the subatomic level and so cannot maintain physical form past $9615d.", "Rift Travelers are locking onto your position. They will find you after $d." },
 	{ 9632, "Rank 1", "You attack all nearby enemies for $d causing weapon damage plus an additional $9633s1 every $t1 sec.", "Attacking all nearby enemies for weapon damage + $9633s1." },
-	{ 9634, "Shapeshift", "Shapeshift into a dire bear, increasing melee attack power by $9635s3, armor contribution from items by $9635s1%, and health by $9635s2.  Also protects the caster from Polymorph effects and allows the use of various bear abilities.
-
-The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Increases melee attack power by $9635s3, armor contribution from items by $9635s1%, and health by $9635s2." },
+	{ 9634, "Shapeshift", "Shapeshift into a dire bear, increasing melee attack power by $9635s3, armor contribution from items by $9635s1%, and health by $9635s2.  Also protects the caster from Polymorph effects and allows the use of various bear abilities. \n  \n The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Increases melee attack power by $9635s3, armor contribution from items by $9635s1%, and health by $9635s2." },
 	{ 9636, "", "Summons $s1 $lSwamp Spirit:Swamp Spirits; to aid the caster in battle for $d.", "" },
 	{ 9653, "", "Summons $s1 $lGelkis Rumbler:Gelkis Rumblers; to accompany the caster until dismissed.", "" },
 	{ 9654, "", "Hurls a lightning bolt that inflicts Nature damage to an enemy and its nearest ally.", "" },
@@ -4106,12 +3632,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 	{ 9747, "Rank 4", "The druid roars, decreasing nearby enemies' melee attack power by $s1.  Lasts $d.", "Decreases melee attack power by $s1." },
 	{ 9749, "Rank 3", "Decrease the armor of the target by $s1 for $d.  While affected, the target cannot stealth or turn invisible.", "Decreases armor by $s1.  Cannot stealth or turn invisible." },
 	{ 9750, "Rank 6", "Heals a friendly target for $s1 and another $o2 over $d.", "Heals $s2 every $t2 seconds." },
-	{ 9752, "Rank 4", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power:
-   1 point  : 138 damage over $d.
-   2 points: 222 damage over $d.
-   3 points: 306 damage over $d.
-   4 points: 390 damage over $d.
-   5 points: 474 damage over $d.", "Bleed damage every $t1 seconds." },
+	{ 9752, "Rank 4", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power: \n    1 point  : 138 damage over $d. \n    2 points: 222 damage over $d. \n    3 points: 306 damage over $d. \n    4 points: 390 damage over $d. \n    5 points: 474 damage over $d.", "Bleed damage every $t1 seconds." },
 	{ 9754, "Rank 4", "Swipe $x1 nearby enemies, inflicting $s1 damage.", "" },
 	{ 9756, "Rank 5", "Thorns sprout from the friendly target causing $s1 Nature damage to attackers when hit.  Lasts $d.", "Causes $s1 Nature damage to attackers." },
 	{ 9758, "Rank 8", "Heals a friendly target for $s1.", "" },
@@ -4119,9 +3640,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 	{ 9771, "", "Inflicts Nature damage to an enemy, and has a chance of irradiating it.", "" },
 	{ 9773, "", "Hurls a fiery ball that causes $s1 fire damage and an additional $o2 damage over $d.", "$s2 fire damage every $t2 seconds." },
 	{ 9774, "", "Removes existing Immobilizing effects and makes you immune to Immobilizing effects for $d.", "Immune to Immobilizing effects for $d." },
-	{ 9775, "", "", "Emitting radiation.
-Nature damage inflicted every $t1 sec.
-Periodically inflicting Nature damage on nearby party members." },
+	{ 9775, "", "", "Emitting radiation. \n Nature damage inflicted every $t1 sec. \n Periodically inflicting Nature damage on nearby party members." },
 	{ 9778, "", "When struck in combat has a 3% chance to heal you for $9777s1.", "" },
 	{ 9781, "", "Attaches a Mithril Spike to your shield that deals damage every time you block with it.", "" },
 	{ 9783, "", "Attaches spurs to your boots that increase your mounted movement speed slightly.", "" },
@@ -4172,18 +3691,8 @@ Periodically inflicting Nature damage on nearby party members." },
 	{ 9888, "Rank 9", "Heals a friendly target for $s1.", "" },
 	{ 9889, "Rank 10", "Heals a friendly target for $s1.", "" },
 	{ 9892, "Rank 3", "Cower, causing no damage but lowering your threat a large amount, making the enemy less likely to attack you.", "" },
-	{ 9894, "Rank 5", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power:
-   1 point  : 192 damage over $d.
-   2 points: 312 damage over $d.
-   3 points: 432 damage over $d.
-   4 points: 552 damage over $d.
-   5 points: 672 damage over $d.", "Bleed damage every $t1 seconds." },
-	{ 9896, "Rank 6", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power:
-   1 point  : 270 damage over $d.
-   2 points: 438 damage over $d.
-   3 points: 606 damage over $d.
-   4 points: 774 damage over $d.
-   5 points: 942 damage over $d.", "Bleed damage every $t1 seconds." },
+	{ 9894, "Rank 5", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power: \n    1 point  : 192 damage over $d. \n    2 points: 312 damage over $d. \n    3 points: 432 damage over $d. \n    4 points: 552 damage over $d. \n    5 points: 672 damage over $d.", "Bleed damage every $t1 seconds." },
+	{ 9896, "Rank 6", "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power: \n    1 point  : 270 damage over $d. \n    2 points: 438 damage over $d. \n    3 points: 606 damage over $d. \n    4 points: 774 damage over $d. \n    5 points: 942 damage over $d.", "Bleed damage every $t1 seconds." },
 	{ 9898, "Rank 5", "The druid roars, decreasing nearby enemies' melee attack power by $s1.  Lasts $d.", "Decreases melee attack power by $s1." },
 	{ 9900, "", "Increase sharp weapon damage by 6 for 30 minutes.", "" },
 	{ 9901, "Rank 3", "Soothes the target beast, reducing the range at which it will attack you by $s1 yards.  Only affects Beast targets level 70 or lower.  Lasts $d.", "Reduced distance at which target will attack." },
@@ -4223,21 +3732,15 @@ Periodically inflicting Nature damage on nearby party members." },
 	{ 10018, "Rank 3", "Mmmm.. Cheesey.", "You need cheese." },
 	{ 10020, "", "Teaches you how to make Barbaric Iron Gloves.", "" },
 	{ 10052, "Rank 2", "Restores $s1 mana.", "" },
-	{ 10053, "", "Conjures a mana citrine that can be used to instantly restore $10057s1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 10054, "", "Conjures a mana ruby that can be used to instantly restore $10058s1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 10053, "", "Conjures a mana citrine that can be used to instantly restore $10057s1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 10054, "", "Conjures a mana ruby that can be used to instantly restore $10058s1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 10057, "Rank 3", "Restores $s1 mana.", "" },
 	{ 10058, "Rank 4", "Restores $s1 mana.", "" },
 	{ 10059, "", "Creates a portal, teleporting group members that use it to Stormwind.", "" },
 	{ 10060, "", "Infuses the target with power, increasing their spell damage and healing by $s2%.  Lasts $d.", "Spell damage and healing done increased by $s2%." },
-	{ 10093, "", "", "Cannot cast spells.
-Movement speed reduced by $s1%." },
+	{ 10093, "", "", "Cannot cast spells. \n Movement speed reduced by $s1%." },
 	{ 10094, "", "Summons $s1 $lSand Storm:Sand Storms; to aid the caster in battle for $d.", "" },
-	{ 10096, "", "", "Strength reduced by $s1.
-Stamina reduced by $s2." },
+	{ 10096, "", "", "Strength reduced by $s1. \n Stamina reduced by $s2." },
 	{ 10097, "", "Allows the miner to smelt a chunk of mithril ore into a mithril bar.  Smelting mithril requires a forge.", "" },
 	{ 10098, "", "Allows the miner to smelt a chunk of truesilver ore into a truesilver bar.  Smelting truesilver requires a forge.", "" },
 	{ 10101, "", "Inflicts normal damage plus $s1 to an enemy and knocks it back.", "" },
@@ -4245,21 +3748,11 @@ Stamina reduced by $s2." },
 	{ 10134, "", "", "Confused." },
 	{ 10136, "", "", "All stats are decreased by $s1." },
 	{ 10137, "", "Blow on the whistle to let Fizzule know you're an ally.", "" },
-	{ 10138, "Rank 5", "Conjures $s1 $lbottle:bottles; of mineral water, providing the mage and $ghis:her; allies with something to drink.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 10139, "Rank 6", "Conjures $s1 $lbottle:bottles; of sparkling water, providing the mage and $ghis:her; allies with something to drink.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 10140, "Rank 7", "Conjures $s1 $lbottle:bottles; of crystal water, providing the mage and $ghis:her; allies with something to drink.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 10144, "Rank 5", "Conjures $s1 $lloaf:loaves; of sourdough, providing the mage and $ghis:her; allies with something to eat.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 10145, "Rank 6", "Conjures $s1 $lsweet roll:sweet rolls;, providing the mage and $ghis:her; allies with something to eat.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 10138, "Rank 5", "Conjures $s1 $lbottle:bottles; of mineral water, providing the mage and $ghis:her; allies with something to drink. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 10139, "Rank 6", "Conjures $s1 $lbottle:bottles; of sparkling water, providing the mage and $ghis:her; allies with something to drink. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 10140, "Rank 7", "Conjures $s1 $lbottle:bottles; of crystal water, providing the mage and $ghis:her; allies with something to drink. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 10144, "Rank 5", "Conjures $s1 $lloaf:loaves; of sourdough, providing the mage and $ghis:her; allies with something to eat. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 10145, "Rank 6", "Conjures $s1 $lsweet roll:sweet rolls;, providing the mage and $ghis:her; allies with something to eat. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 10148, "Rank 8", "Hurls a fiery ball that causes $s1 Fire damage and an additional $o2 Fire damage over $d.", "$s2 Fire damage every $t2 seconds." },
 	{ 10149, "Rank 9", "Hurls a fiery ball that causes $s1 Fire damage and an additional $o2 Fire damage over $d.", "$s2 Fire damage every $t2 seconds." },
 	{ 10150, "Rank 10", "Hurls a fiery ball that causes $s1 Fire damage and an additional $o2 Fire damage over $d.", "$s2 Fire damage every $t2 seconds." },
@@ -4340,9 +3833,7 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 10344, "", "Permanently increase the armor value of an item worn on the chest, legs, hands or feet by 32.  Only usable on items level 25 and above.", "" },
 	{ 10345, "", "Repairs a nearby mechanical ally for $s1 damage every $t1 sec. over $d.", "$s1 damage repaired every $t1 sec." },
 	{ 10346, "", "Fires at an enemy, inflicting Physical damage.", "" },
-	{ 10348, "", "", "Attack speed increased by $s1%.
-Casting speed increased by $s2%.
-Movement speed increased by $s3%." },
+	{ 10348, "", "", "Attack speed increased by $s1%. \n Casting speed increased by $s2%. \n Movement speed increased by $s3%." },
 	{ 10351, "", "Defense +$s1 for $d1.", "Increased defense." },
 	{ 10368, "Rank 1", "Instantly shields the target, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted by physical attacks.", "Absorbs damage." },
 	{ 10370, "", "Increases damage done to target by physical attacks by $s1 for $d1. Stacks up to 5 times.", "Increases melee damage taken by $s1." },
@@ -4438,9 +3929,7 @@ Movement speed increased by $s3%." },
 	{ 10623, "Rank 3", "Heals the friendly target for $s1, then jumps to heal additional nearby targets.  If cast on a party member, the heal will only jump to other party members.  Each jump is $*100;F1% as effective as the previous target.  Heals $x1 total targets.", "" },
 	{ 10626, "Rank 2", "", "Increases Agility by $s1." },
 	{ 10627, "Rank 2", "Summons a Grace of Air Totem with $s1 health at the feet of the caster.  The totem increases the agility of party members within $10626a1 yards by $10626s1.  Lasts $d.", "" },
-	{ 10651, "", "Curses a target by lowering damage done by $m1 for $d", "Cursed by the Eye of Paleth!
-Physical damage dealt is reduced by $s1.
-Casting speed reduced by $s2%." },
+	{ 10651, "", "Curses a target by lowering damage done by $m1 for $d", "Cursed by the Eye of Paleth! \n Physical damage dealt is reduced by $s1. \n Casting speed reduced by $s2%." },
 	{ 10654, "", "Test Spell - For Debugging", "" },
 	{ 10656, "", "Allows a leatherworker to make special dragonscale armors that are unavailable to a normal leatherworker.  Dragonscale armor is all mail armor.", "" },
 	{ 10658, "", "Allows a leatherworker to make special elemental armors that are unavailable to a normal leatherworker.", "" },
@@ -4472,8 +3961,7 @@ Casting speed reduced by $s2%." },
 	{ 10722, "", "Summons $s1 $lSilithid Swarm:Silithid Swarms; to accompany the caster until dismissed.", "" },
 	{ 10723, "", "Cure for the Touch of Zanzil.", "Cure for the Touch of Zanzil." },
 	{ 10730, "", "Pacifies an enemy, rendering it unable to attack for $d.", "Unable to attack." },
-	{ 10732, "", "Speeds the attack of nearby mechanical allies by $s2% and increases the Physical damage they deal by $s1 for $d.", "Physical damage dealt is increased by $s1.
-Attack speed increased by $s2%." },
+	{ 10732, "", "Speeds the attack of nearby mechanical allies by $s2% and increases the Physical damage they deal by $s1 for $d.", "Physical damage dealt is increased by $s1. \n Attack speed increased by $s2%." },
 	{ 10767, "", "Increases Spirit by $s1.", "Increases Spirit by $s1." },
 	{ 10768, "Artisan", "Artisan skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 300.  Requires a Skinning Knife.", "" },
 	{ 10770, "", "Creates Weegli's Barrel.", "" },
@@ -4492,10 +3980,8 @@ Attack speed increased by $s2%." },
 	{ 10849, "", "Transform into a Moonstalker and become invisible for $d.", "" },
 	{ 10850, "", "Brings a dead player back to life with $s1% of their health and mana.  Cannot be used when in combat.", "" },
 	{ 10851, "", "Grabs an enemy's weapon, disarming the enemy for $d.", "Not wielding a weapon." },
-	{ 10852, "", "Immobilizes nearby enemies for $d.", "Waiting for players...
-Immobilized." },
-	{ 10855, "", "Increases the time between an enemy's attacks by $s1% and its movement by $s2% for $d. Lag also results in link death, stunning the enemy for $10856d.", "Time between attacks increased by $s1%.
-Movement speed reduced by $s2%." },
+	{ 10852, "", "Immobilizes nearby enemies for $d.", "Waiting for players... \n Immobilized." },
+	{ 10855, "", "Increases the time between an enemy's attacks by $s1% and its movement by $s2% for $d. Lag also results in link death, stunning the enemy for $10856d.", "Time between attacks increased by $s1%. \n Movement speed reduced by $s2%." },
 	{ 10857, "", "", "The flames of chaos envelop you." },
 	{ 10858, "", "Summons $s1 $lDupe Bug:Dupe Bugs; to aid the caster in battle for $d.", "" },
 	{ 10859, "", "Creates Divino-matic Rod.", "" },
@@ -4557,8 +4043,7 @@ Movement speed reduced by $s2%." },
 	{ 11016, "", "Drains $s1 health and $s2 mana from an enemy, transferring them to the caster.", "" },
 	{ 11017, "", "Summons $s1 $lWitherbark Felhunter:Witherbark Felhunters; to aid the caster in battle for $d.", "" },
 	{ 11019, "", "Strikes enemies in a cone in front of the caster, knocking them back.", "" },
-	{ 11020, "", "Stuns an enemy, but increases its armor by $s2% for $d.", "Stunned.
-Armor increased by $s2%." },
+	{ 11020, "", "Stuns an enemy, but increases its armor by $s2% for $d.", "Stunned. \n Armor increased by $s2%." },
 	{ 11048, "", "Disguises the caster as the Priestess Tyriona indefinitely.", "" },
 	{ 11067, "", "Disguises the caster as the Tyrion indefinitely.", "" },
 	{ 11069, "Rank 1", "Reduces the casting time of your Fireball spell by $/1000;S1 sec.", "" },
@@ -4570,8 +4055,7 @@ Armor increased by $s2%." },
 	{ 11083, "Rank 1", "Gives your Fire spells a $s1% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by $s2%.", "" },
 	{ 11084, "", "Instantly throws a bolt of lightning at an enemy, inflicting $s1 Nature damage.", "" },
 	{ 11086, "", "Casts a Ward of Zum'rah totem, which lasts $d. and periodically summons a Skeleton of Zum'rah. Each Skeleton lasts $11088d.", "" },
-	{ 11089, "", "", "Immune to Shadow damage.
-Immune to Physical damage." },
+	{ 11089, "", "", "Immune to Shadow damage. \n Immune to Physical damage." },
 	{ 11094, "Rank 1", "Causes your Fire Ward to have a $s1% chance to reflect Fire spells while active.", "" },
 	{ 11095, "Rank 1", "Your Scorch spells have a $s1% chance to cause your target to be vulnerable to Fire damage.  This vulnerability increases the Fire damage dealt to your target by $22959s1% and lasts $22959d.  Stacks up to $22959u times.", "" },
 	{ 11100, "Rank 1", "Increases the range of your Fire spells by $s1 yards.", "" },
@@ -4595,20 +4079,9 @@ Immune to Physical damage." },
 	{ 11189, "Rank 1", "Increases the armor and resistances given by your Frost Armor and Ice Armor spells by $s1%.  In addition, gives your Frost Ward a $s2% chance to reflect Frost spells and effects while active.", "" },
 	{ 11190, "Rank 1", "Increases the damage dealt by your Cone of Cold spell by $s1%.", "" },
 	{ 11196, "", "", "Cannot be bandaged again." },
-	{ 11197, "Rank 4", "Finishing move that exposes the target for $d, reducing armor per combo point:
-   1 point  : 275 armor
-   2 points: 550 armor
-   3 points: 825 armor
-   4 points: 1100 armor
-   5 points: 1375 armor", "Armor decreased." },
-	{ 11198, "Rank 5", "Finishing move that exposes the target for $d, reducing armor per combo point:
-   1 point  : 340 armor
-   2 points: 680 armor
-   3 points: 1020 armor
-   4 points: 1360 armor
-   5 points: 1700 armor", "Armor decreased." },
-	{ 11202, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, slowing their movement speed by $11201s1% for $11201d.", "" },
+	{ 11197, "Rank 4", "Finishing move that exposes the target for $d, reducing armor per combo point: \n    1 point  : 275 armor \n    2 points: 550 armor \n    3 points: 825 armor \n    4 points: 1100 armor \n    5 points: 1375 armor", "Armor decreased." },
+	{ 11198, "Rank 5", "Finishing move that exposes the target for $d, reducing armor per combo point: \n    1 point  : 340 armor \n    2 points: 680 armor \n    3 points: 1020 armor \n    4 points: 1360 armor \n    5 points: 1700 armor", "Armor decreased." },
+	{ 11202, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, slowing their movement speed by $11201s1% for $11201d.", "" },
 	{ 11207, "Rank 1", "Increases the critical strike damage bonus of your Frost spells by $s1%.", "" },
 	{ 11209, "Rank 1", "Summons a Hammer of Expertise.", "" },
 	{ 11210, "Rank 1", "Reduces your target's resistance to all your spells by $s2 and reduces the threat caused by your Arcane spells by $s1%.", "" },
@@ -4625,24 +4098,9 @@ Each strike has a $h% chance of poisoning the enemy, slowing their movement spee
 	{ 11267, "Rank 4", "Ambush the target, causing $s2% weapon damage plus 185 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 11268, "Rank 5", "Ambush the target, causing $s2% weapon damage plus 230 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 11269, "Rank 6", "Ambush the target, causing $s2% weapon damage plus 290 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
-	{ 11273, "Rank 4", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:
-   1 point  : 128 damage over 8 secs
-   2 points: 185 damage over 10 secs
-   3 points: 252 damage over 12 secs
-   4 points: 329 damage over 14 secs
-   5 points: 416 damage over 16 secs", "$s1 damage every $t1 seconds." },
-	{ 11274, "Rank 5", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:
-   1 point  : 176 damage over 8 secs
-   2 points: 255 damage over 10 secs
-   3 points: 348 damage over 12 secs
-   4 points: 455 damage over 14 secs
-   5 points: 576 damage over 16 secs", "$s1 damage every $t1 seconds." },
-	{ 11275, "Rank 6", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:
-   1 point  : 272 damage over 8 secs
-   2 points: 380 damage over 10 secs
-   3 points: 504 damage over 12 secs
-   4 points: 644 damage over 14 secs
-   5 points: 800 damage over 16 secs", "$s1 damage every $t1 seconds." },
+	{ 11273, "Rank 4", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point: \n    1 point  : 128 damage over 8 secs \n    2 points: 185 damage over 10 secs \n    3 points: 252 damage over 12 secs \n    4 points: 329 damage over 14 secs \n    5 points: 416 damage over 16 secs", "$s1 damage every $t1 seconds." },
+	{ 11274, "Rank 5", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point: \n    1 point  : 176 damage over 8 secs \n    2 points: 255 damage over 10 secs \n    3 points: 348 damage over 12 secs \n    4 points: 455 damage over 14 secs \n    5 points: 576 damage over 16 secs", "$s1 damage every $t1 seconds." },
+	{ 11275, "Rank 6", "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point: \n    1 point  : 272 damage over 8 secs \n    2 points: 380 damage over 10 secs \n    3 points: 504 damage over 12 secs \n    4 points: 644 damage over 14 secs \n    5 points: 800 damage over 16 secs", "$s1 damage every $t1 seconds." },
 	{ 11279, "Rank 6", "Backstab the target, causing $s2% weapon damage plus 135 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 11280, "Rank 7", "Backstab the target, causing $s2% weapon damage plus 165 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 11281, "Rank 8", "Backstab the target, causing $s2% weapon damage plus 210 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
@@ -4653,18 +4111,8 @@ Each strike has a $h% chance of poisoning the enemy, slowing their movement spee
 	{ 11293, "Rank 7", "An instant strike that causes $s1 damage in addition to your normal weapon damage.  Awards $s2 combo $lpoint:points;.", "" },
 	{ 11294, "Rank 8", "An instant strike that causes $s1 damage in addition to your normal weapon damage.  Awards $s2 combo $lpoint:points;.", "" },
 	{ 11297, "Rank 3", "Incapacitates the target for up to $d.  Must be stealthed.  Only works on Humanoids that are not in combat.    Any damage caused will revive the target.  Only 1 target may be sapped at a time.", "Incapacitated." },
-	{ 11299, "Rank 7", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 144-212 damage
-   2 points: 254-322 damage
-   3 points: 364-432 damage
-   4 points: 474-542 damage
-   5 points: 584-652 damage", "" },
-	{ 11300, "Rank 8", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 199-295 damage
-   2 points: 350-446 damage
-   3 points: 501-597 damage
-   4 points: 652-748 damage
-   5 points: 803-899 damage", "" },
+	{ 11299, "Rank 7", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 144-212 damage \n    2 points: 254-322 damage \n    3 points: 364-432 damage \n    4 points: 474-542 damage \n    5 points: 584-652 damage", "" },
+	{ 11300, "Rank 8", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 199-295 damage \n    2 points: 350-446 damage \n    3 points: 501-597 damage \n    4 points: 652-748 damage \n    5 points: 803-899 damage", "" },
 	{ 11303, "Rank 4", "Performs a feint, causing no damage but lowering your threat by a large amount, making the enemy less likely to attack you.", "" },
 	{ 11305, "Rank 3", "Increases the rogue's movement speed by $s1% for $d.  Does not break stealth.", "Movement speed increased by $s1%." },
 	{ 11314, "Rank 4", "Summons a Fire Nova Totem that has $s1 health and lasts $d.  Unless it is destroyed within $11310t1 sec., the totem inflicts $11306s1 fire damage to enemies within $11306a1 yd.", "" },
@@ -4672,29 +4120,19 @@ Each strike has a $h% chance of poisoning the enemy, slowing their movement spee
 	{ 11319, "", "Lets you walk on water for $d.", "Allows walking over water and water-like surfaces." },
 	{ 11327, "Rank 1", "", "Improved stealth." },
 	{ 11329, "Rank 2", "", "Improved stealth." },
-	{ 11338, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy which instantly inflicts $11335s1 Nature damage.  85 charges.", "" },
-	{ 11339, "Rank 5", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy which instantly inflicts $11336s1 Nature damage.  100 charges.", "" },
-	{ 11340, "Rank 6", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy which instantly inflicts $11337s1 Nature damage.  115 charges.", "" },
-	{ 11341, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy which instantly inflicts $11335s1 Nature damage.  85 charges.", "" },
-	{ 11342, "Rank 5", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy which instantly inflicts $11336s1 Nature damage.  100 charges.", "" },
-	{ 11343, "Rank 6", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy which instantly inflicts $11337s1 Nature damage.  115 charges.", "" },
+	{ 11338, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy which instantly inflicts $11335s1 Nature damage.  85 charges.", "" },
+	{ 11339, "Rank 5", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy which instantly inflicts $11336s1 Nature damage.  100 charges.", "" },
+	{ 11340, "Rank 6", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy which instantly inflicts $11337s1 Nature damage.  115 charges.", "" },
+	{ 11341, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy which instantly inflicts $11335s1 Nature damage.  85 charges.", "" },
+	{ 11342, "Rank 5", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy which instantly inflicts $11336s1 Nature damage.  100 charges.", "" },
+	{ 11343, "Rank 6", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy which instantly inflicts $11337s1 Nature damage.  115 charges.", "" },
 	{ 11350, "", "Does $11351s1 fire damage to any enemies within a $11351a1 yard radius around the caster every 3 seconds for $d", "$11351s1 Fire damage dealt to nearby enemies within $11351a1 yards every 3 seconds." },
 	{ 11353, "Rank 3", "", "Target takes $s1 Nature damage every $t1 seconds." },
 	{ 11354, "Rank 4", "", "Target takes $s1 Nature damage every $t1 seconds." },
-	{ 11355, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy for $11353o1 Nature damage over $11353d.  Stacks up to 5 times on a single target.  90 charges.", "" },
-	{ 11356, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy for $11354o1 Nature damage over $11354d.  Stacks up to 5 times on a single target.  105 charges.", "" },
-	{ 11357, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy for $11353o1 Nature damage over $11353d.  Stacks up to 5 times on a single target.  90 charges.", "" },
-	{ 11358, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy for $11354o1 Nature damage over $11354d.  Stacks up to 5 times on a single target.  105 charges.", "" },
+	{ 11355, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy for $11353o1 Nature damage over $11353d.  Stacks up to 5 times on a single target.  90 charges.", "" },
+	{ 11356, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy for $11354o1 Nature damage over $11354d.  Stacks up to 5 times on a single target.  105 charges.", "" },
+	{ 11357, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy for $11353o1 Nature damage over $11353d.  Stacks up to 5 times on a single target.  90 charges.", "" },
+	{ 11358, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy for $11354o1 Nature damage over $11354d.  Stacks up to 5 times on a single target.  105 charges.", "" },
 	{ 11359, "Rank 1", "Removes 1 magic, curse, poison or disease effect on you every 5 seconds for 30 seconds.", "Removes 1 magic, curse, poison or disease effect on you every 5 seconds for 30 seconds." },
 	{ 11362, "", "Sends player to Gnomeregan.", "" },
 	{ 11365, "", "Returns you to your home.  Your home is currently $z.", "" },
@@ -4710,13 +4148,10 @@ Each strike has a 30% chance of poisoning the enemy for $11354o1 Nature damage o
 	{ 11390, "", "Increases spell damage by up to $s1 for $d.", "Magical damage dealt by spells and abilities is increased by up to $s1." },
 	{ 11391, "", "", "You feel strange." },
 	{ 11392, "", "Gives the imbiber invisibility for $d.", "Invisibility" },
-	{ 11397, "", "Inflicts normal damage plus $s1 to an enemy, reducing its Strength by $s2 and its Agility by $s3 for $d.", "Strength reduced by $s2.
-Agility reduced by $s3." },
+	{ 11397, "", "Inflicts normal damage plus $s1 to an enemy, reducing its Strength by $s2 and its Agility by $s3 for $d.", "Strength reduced by $s2. \n Agility reduced by $s3." },
 	{ 11398, "Rank 3", "", "Casting speed slowed by $s1%." },
-	{ 11399, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, increasing their casting time by $11398s1% for $11398d.  100 charges.", "" },
-	{ 11400, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 20% chance of poisoning the enemy, increasing their casting time by $11398s1% for $11398d.  100 charges.", "" },
+	{ 11399, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, increasing their casting time by $11398s1% for $11398d.  100 charges.", "" },
+	{ 11400, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 20% chance of poisoning the enemy, increasing their casting time by $11398s1% for $11398d.  100 charges.", "" },
 	{ 11402, "", "Ring to call Shay back to you.", "" },
 	{ 11403, "Summon", "Gives you a dream vision that lets you explore areas that are too dangerous to explore in person.", "In a dream vision." },
 	{ 11405, "", "Increases your Strength by $s1 for $d.", "Increases Strength by $s1." },
@@ -4730,19 +4165,15 @@ Each strike has a 20% chance of poisoning the enemy, increasing their casting ti
 	{ 11418, "", "Creates a portal, teleporting group members that use it to Undercity.", "" },
 	{ 11419, "", "Creates a portal, teleporting group members that use it to Darnassus.", "" },
 	{ 11420, "", "Creates a portal, teleporting group members that use it to Thunder Bluff.", "" },
-	{ 11426, "Rank 1", "Instantly shields you, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted.
-", "Absorbs damage." },
+	{ 11426, "Rank 1", "Instantly shields you, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted. \n ", "Absorbs damage." },
 	{ 11430, "", "Slams an enemy to the ground, inflicting Physical damage and stunning it for $d.", "Stunned." },
 	{ 11431, "", "Calls upon Nature magic to heal an ally.", "" },
 	{ 11433, "", "Invokes the malignant power of death and decay, inflicting Shadow damage to all enemies in a selected area for $d.", "" },
 	{ 11435, "", "Use at the Jintha'Alor Altar to create the Mallet of Zul'Farrak.", "" },
 	{ 11438, "", "Join together the Lower, Middle and Upper Map Fragments.", "" },
 	{ 11441, "", "Adds a chance to cast Withered Touch on enemy when hit by a melee attack.", "" },
-	{ 11442, "", "Diseases an enemy, inflicting $s1 Shadow damage every $t1 sec. and draining $s2 mana every $t2 sec., transferring it to the caster. Lasts $d.", "$s1 Shadow damage inflicted every $t1 sec.
-$s2 mana leeched every $t2 sec." },
-	{ 11443, "", "Increases the time between an enemy's attacks by $s2% and its movement by $s1%, in addition to reducing its Strength by $s3%. Lasts $d.", "Movement speed reduced by $s1%.
-Time between attacks increased by $s2%.
-Strength reduced by $s3%." },
+	{ 11442, "", "Diseases an enemy, inflicting $s1 Shadow damage every $t1 sec. and draining $s2 mana every $t2 sec., transferring it to the caster. Lasts $d.", "$s1 Shadow damage inflicted every $t1 sec. \n $s2 mana leeched every $t2 sec." },
+	{ 11443, "", "Increases the time between an enemy's attacks by $s2% and its movement by $s1%, in addition to reducing its Strength by $s3%. Lasts $d.", "Movement speed reduced by $s1%. \n Time between attacks increased by $s2%. \n Strength reduced by $s3%." },
 	{ 11444, "", "Shackles an undead enemy for up to $d., preventing it from casting spells, attacking, or moving. Any damage caused will release the target. Only one target can be shackled at a time.", "Stunned." },
 	{ 11445, "", "Encases the caster in bone armor, absorbing $s1 damage for $d. While the armor holds, spellcasting cannot be interrupted by Physical attacks.", "Damage is absorbed by bone armor." },
 	{ 11446, "", "Controls a humanoid mind up to level $s1.  Lasts $d, but the target gets a chance to break free every 5 seconds.", "Charmed." },
@@ -4849,12 +4280,8 @@ Strength reduced by $s3%." },
 	{ 11722, "Rank 3", "Curses the target for $d, reducing Fire and Frost resistances by $s1 and increasing Fire and Frost damage taken by $s2%.  Only one Curse per Warlock can be active on any one target.", "Reduces Fire and Frost resistances by $s1.  Increases Fire and Frost damage taken by $s2%." },
 	{ 11725, "Rank 2", "Enslaves the target demon, up to level $m1, forcing it to do your bidding.  While enslaved, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.  If you repeatedly enslave the same demon, it will become more difficult to control with each attempt.", "Enslaved." },
 	{ 11726, "Rank 3", "Enslaves the target demon, up to level $m1, forcing it to do your bidding.  While enslaved, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.  If you repeatedly enslave the same demon, it will become more difficult to control with each attempt.", "Enslaved." },
-	{ 11729, "", "Creates a Greater Healthstone that can be used to instantly restore $5723s1 health.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 11730, "", "Creates a Major Healthstone that can be used to instantly restore $11732s1 health.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 11729, "", "Creates a Greater Healthstone that can be used to instantly restore $5723s1 health. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 11730, "", "Creates a Major Healthstone that can be used to instantly restore $11732s1 health. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 11733, "Rank 3", "Protects the caster, increasing armor by $s1, Shadow resistance by $s2 and restores $s3 health every 5 sec. for $d.", "Increases armor by $s1, Shadow resistance by $s2 and restores $s3 health every 5 sec." },
 	{ 11734, "Rank 4", "Protects the caster, increasing armor by $s1, Shadow resistance by $s2 and restores $s3 health every 5 sec. for $d.", "Increases armor by $s1, Shadow resistance by $s2 and restores $s3 health every 5 sec." },
 	{ 11735, "Rank 5", "Protects the caster, increasing armor by $s1, Shadow resistance by $s2 and restores $s3 health every 5 sec. for $d.", "Increases armor by $s1, Shadow resistance by $s2 and restores $s3 health every 5 sec." },
@@ -4888,8 +4315,7 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 11829, "", "Calls down a pillar of flame, burning all enemies in a selected area and inflicting additional damage every $t2 sec. for $d.", "Fire damage inflicted every $t2 sec." },
 	{ 11831, "", "Inflicts Frost damage to nearby enemies, immobilizing them for up to $d.", "Immobilized." },
 	{ 11835, "", "Wraps an ally in a shield that lasts up to $d., absorbing fixed amount of Physical or magical damage. While the shield holds, spells will not be interrupted by Physical attacks.", "Shielded against Physical and magical damage." },
-	{ 11836, "", "Stuns an enemy and inflicts $s1 Frost damage every $t1 sec. for $d.", "Stunned.
-$s1 Frost damage inflicted every $t1 sec." },
+	{ 11836, "", "Stuns an enemy and inflicts $s1 Frost damage every $t1 sec. for $d.", "Stunned. \n $s1 Frost damage inflicted every $t1 sec." },
 	{ 11840, "", "Summons Edana Hatetalon.", "" },
 	{ 11841, "", "Surrounds the caster with a shield of lightning that lasts $d and inflicts $s1 Nature damage to melee attackers.", "$s1 Nature damage inflicted to melee attackers." },
 	{ 11876, "", "Inflicts normal damage plus $s3 to nearby enemies, knocking them back and stunning them for $d.", "Stunned." },
@@ -4899,18 +4325,15 @@ $s1 Frost damage inflicted every $t1 sec." },
 	{ 11887, "", "Shrink and Capture a Fallen Hippogryph.", "" },
 	{ 11888, "", "Shrink and Capture a Fallen Faerie Dragon.", "" },
 	{ 11889, "", "Shrink and Capture a Fallen Mountain Giant.", "" },
-	{ 11892, "", "Reduces nearby enemies' Strength by $s1 and Stamina by $s2 for $d.", "Strength reduced by $s1.
-Stamina reduced by $s2." },
+	{ 11892, "", "Reduces nearby enemies' Strength by $s1 and Stamina by $s2 for $d.", "Strength reduced by $s1. \n Stamina reduced by $s2." },
 	{ 11895, "", "Heal your target for $s1.", "" },
 	{ 11898, "", "Drains $s1 health from nearby enemies, healing the caster for up to three times the amount stolen.", "" },
-	{ 11922, "", "Entangles an enemy in roots, inflicting Nature damage every $t2 sec. and immobilizing it for up to $d.", "Immobilized.
-Nature damage inflicted every $t2 sec." },
+	{ 11922, "", "Entangles an enemy in roots, inflicting Nature damage every $t2 sec. and immobilizing it for up to $d.", "Immobilized. \n Nature damage inflicted every $t2 sec." },
 	{ 11923, "", "The sword must be reforged before it can be used.  Reforging the sword requires 4 Steel Bars, 4 Strong Flux , 2 Elemental Fire and 2 Heavy Grinding Stones.", "" },
 	{ 11939, "", "Summons an Imp to accompany the caster until dismissed.", "" },
 	{ 11958, "", "You become encased in a block of ice, protecting you from all physical attacks and spells for $d, but during that time you cannot attack, move or cast spells.", "Immune to all attacks and spells.  Cannot attack, move or use spells." },
 	{ 11960, "", "", "Melee attack power reduced by $s1." },
-	{ 11963, "", "Reduces an enemy's Strength by $s1 and its Stamina by $s2 for $d.", "Strength reduced by $s1.
-Stamina reduced by $s2." },
+	{ 11963, "", "Reduces an enemy's Strength by $s1 and its Stamina by $s2 for $d.", "Strength reduced by $s1. \n Stamina reduced by $s2." },
 	{ 11968, "", "Inflicts $s1 Fire damage to nearby enemies.", "" },
 	{ 11969, "", "Inflicts Fire damage to nearby enemies.", "" },
 	{ 11971, "", "Hacks at an enemy's armor, reducing it by $s1 per Sunder Armor. Can be applied up to 5 times. Lasts $d.", "Reduced armor." },
@@ -4927,14 +4350,11 @@ Stamina reduced by $s2." },
 	{ 11992, "", "Nearby Gahz'ridian appears on the minimap.", "" },
 	{ 11993, "Artisan", "How to find and gather more difficult to harvest herbs.   Gives a potential herbalism skill of 300.", "" },
 	{ 11998, "", "Strikes at an enemy, inflicting increased melee damage.", "" },
-	{ 12001, "", "", "Strength reduced by $s1.
-Agility reduced by $s2.
-Intellect reduced by $s3." },
+	{ 12001, "", "", "Strength reduced by $s1. \n Agility reduced by $s2. \n Intellect reduced by $s3." },
 	{ 12020, "", "Inflicts $s1 Shadow damage to nearby enemies after $t1 sec.", "$s1 Shadow damage inflicted after $t1 sec." },
 	{ 12021, "", "Causes an enemy to fixate upon the caster and increases the caster's attack speed by $s2% for $d. While the target is fixated upon the caster, the target is very reluctant to attack anything else.", "" },
 	{ 12022, "", "Gives $M1 additional stamina to party members within $a1 yards.", "Stamina increased by $s1." },
-	{ 12040, "", "Surrounds the caster with a shield woven of Shadow magic. The shield lasts $d., absorbs up to $s1 Physical or magical damage, and inflicts $s2 damage to melee attackers.", "Shielded against Physical and magical damage.
-$s2 Shadow damage inflicted to melee attackers." },
+	{ 12040, "", "Surrounds the caster with a shield woven of Shadow magic. The shield lasts $d., absorbs up to $s1 Physical or magical damage, and inflicts $s2 damage to melee attackers.", "Shielded against Physical and magical damage. \n $s2 Shadow damage inflicted to melee attackers." },
 	{ 12042, "", "When activated, your spells deal $s1% more damage while costing $s2% more mana to cast.  This effect lasts $D.", "Increased damage and mana cost for your spells." },
 	{ 12043, "", "When activated, your next Mage spell with a casting time less than 10 sec becomes an instant cast spell.", "Your next Mage spell with a casting time less than 10 sec will be an instant cast spell." },
 	{ 12051, "", "While channeling this spell, your mana regeneration is active and increased by $s1%.  Lasts $d.", "Mana regeneration increased by $s1%." },
@@ -4984,8 +4404,7 @@ $s2 Shadow damage inflicted to melee attackers." },
 	{ 12251, "", "", "Nature damage inflicted every $t1 sec." },
 	{ 12252, "", "Immobilizes enemies in a cone in front of the caster for $d.", "Immobilized." },
 	{ 12253, "", "Use on an Eternal Flame.", "" },
-	{ 12255, "", "Reduces the casting speed of nearby enemies by $s1%, and increases the time between their attacks by $s2%. Lasts $d.", "Casting speed reduced by $s1%.
-Time between attacks increased by $s2%." },
+	{ 12255, "", "Reduces the casting speed of nearby enemies by $s1%, and increases the time between their attacks by $s2%. Lasts $d.", "Casting speed reduced by $s1%. \n Time between attacks increased by $s2%." },
 	{ 12257, "", "Deals $12278s1 Fire damage every $m1 sec for $d1 to all enemies in front of you. Gets you quite drunk too!", "" },
 	{ 12261, "", "Teaches you how to make Silvered Bronze Leggings.", "" },
 	{ 12281, "Rank 1", "Gives you a $h% chance to get an extra attack on the same target after dealing damage with your Sword.", "" },
@@ -5089,16 +4508,14 @@ Time between attacks increased by $s2%." },
 	{ 12525, "Rank 6", "Hurls an immense fiery boulder that causes $s1 Fire damage and an additional $o2 Fire damage over $d.", "$s2 Fire damage every $t2 seconds." },
 	{ 12526, "Rank 7", "Hurls an immense fiery boulder that causes $s1 Fire damage and an additional $o2 Fire damage over $d.", "$s2 Fire damage every $t2 seconds." },
 	{ 12530, "", "Reduces all attributes of nearby enemies by $s1 for $d.", "All attributes reduced by $s1." },
-	{ 12531, "", "", "Time between attacks increased by $s1%.
-Movement speed reduced by $s2%." },
+	{ 12531, "", "", "Time between attacks increased by $s1%. \n Movement speed reduced by $s2%." },
 	{ 12533, "", "Inflicts $s2 Nature damage and an additional $s1 damage every $t1 sec. to enemies in a cone in front of the caster. Lasts $d.", "$s1 Nature damage inflicted every $t1 sec." },
 	{ 12534, "", "Use on a Sentry Brazier.", "" },
 	{ 12536, "", "", "Your next damage spell has its mana cost reduced by $/10;s1%." },
 	{ 12540, "", "Inflicts $s1 damage to an enemy and stuns it for up to $d. You will automatically stop attacking. Target must be facing you. Any damage received by the stunned target will revive it.", "Incapacitated." },
 	{ 12541, "", "", "Chance to hit reduced by $s1%." },
 	{ 12542, "", "Strikes fear in an enemy, causing it to flee in terror for $d. Only 1 target can be feared at a time.", "Fleeing in fear." },
-	{ 12544, "", "Encases the caster in a layer of frost that lasts $d. The thick ice increases armor by $s1, slows melee attackers' movement to $6136s2%, and increases the time between their attacks by $6136s1%.", "Armor increased by $s1.
-Slowing melee attackers' movement and attacks." },
+	{ 12544, "", "Encases the caster in a layer of frost that lasts $d. The thick ice increases armor by $s1, slows melee attackers' movement to $6136s2%, and increases the time between their attacks by $6136s1%.", "Armor increased by $s1. \n Slowing melee attackers' movement and attacks." },
 	{ 12549, "", "Inflicts Nature damage to enemies in a cone in front of the caster.", "" },
 	{ 12550, "", "Surrounds the caster with $n balls of lightning that have $h% chance of striking melee or ranged attackers for $s1 damage. Each time the lightning shield strikes, a ball of lightning dissipates. Thus, the shield expires after $d. or after it has struck $n times.", "$h% chance of inflicting $s1 Nature damage on hit." },
 	{ 12551, "", "Shoots at an enemy, inflicting $s1 additional Frost damage and slowing its movement by $s2% for $d.", "Movement speed reduced by $s2%." },
@@ -5279,9 +4696,7 @@ Slowing melee attackers' movement and attacks." },
 	{ 12885, "", "Sends player to Razelikh's plateau.", "" },
 	{ 12886, "Rank 2", "Reduces the cooldown of your Challenging Shout ability by $/60000;s1 mins.", "" },
 	{ 12887, "", "Inflicts normal damage plus $s1 to enemies in a cone in front of the caster, knocking them back.", "" },
-	{ 12888, "", "Drives an enemy target temporarily insane, speeding its attacks by $s2% and its movement by $s3%, as well as causing it to attack its own allies for $d.", "Charmed.
-Attack speed increased by $s2%.
-Movement speed increased by $s3%." },
+	{ 12888, "", "Drives an enemy target temporarily insane, speeding its attacks by $s2% and its movement by $s3%, as well as causing it to attack its own allies for $d.", "Charmed. \n Attack speed increased by $s2%. \n Movement speed increased by $s3%." },
 	{ 12889, "", "Forces nearby enemies to speak in Demonic, reducing their casting speed by $s1% for $d. Only one curse per warlock can be active on any one target.", "Casting speed reduced by $s1%." },
 	{ 12890, "", "Lulls an enemy into a deep sleep for $d., rendering it unable to act, but also making it invulnerable.", "Immune to all attacks and spells, but unable to act." },
 	{ 12894, "", "Teaches you how to make an Inlaid Mithril Cylinder.  This item is used by Gnomish Engineers.", "" },
@@ -5289,9 +4704,7 @@ Movement speed increased by $s3%." },
 	{ 12938, "", "Weakens the servants of Razelikh the Defiler. Must be within close proximity of the target to activate.", "" },
 	{ 12944, "Rank 3", "Allows your Shield Block ability to block an additional attack and increases the duration by $/1000;s2 seconds.", "" },
 	{ 12945, "Rank 1", "Allows your Shield Block ability to block an additional attack and increases the duration by $/1000;S2 second.", "" },
-	{ 12946, "", "Reduces nearby enemies' Strength by $s2 and Agility by $s3 for $d., as well as preventing them from casting spells.", "Strength reduced by $s2.
-Agility reduced by $s3.
-Cannot cast spells." },
+	{ 12946, "", "Reduces nearby enemies' Strength by $s2 and Agility by $s3 for $d., as well as preventing them from casting spells.", "Strength reduced by $s2. \n Agility reduced by $s3. \n Cannot cast spells." },
 	{ 12950, "Rank 2", "Increases the bonus damage done by your Cleave ability by $s1%.", "" },
 	{ 12952, "Rank 2", "Increases the damage done by your Frost spells by $s1%.", "" },
 	{ 12953, "Rank 3", "Increases the damage done by your Frost spells by $s1%.", "" },
@@ -5328,8 +4741,7 @@ Cannot cast spells." },
 	{ 13003, "", "", "Attack power reduced by $s1." },
 	{ 13004, "", "", "Increased size and attack power." },
 	{ 13006, "", "Shrinks the target reducing their attack power by $13003s1.  Thats what it usually does anyway.....", "" },
-	{ 13007, "", "Protects the caster from all attacks and spells for $d., but during that time the caster also cannot attack or use spells.", "Immune to all attacks and spells.
-Cannot attack or use spells." },
+	{ 13007, "", "Protects the caster from all attacks and spells for $d., but during that time the caster also cannot attack or use spells.", "Immune to all attacks and spells. \n Cannot attack or use spells." },
 	{ 13008, "", "Causes $s1 Holy damage to any creature that strikes a nearby party member. Players may only have one aura on them per paladin at any one time. The aura lasts until cancelled.", "$s1 Holy damage inflicted to melee attackers." },
 	{ 13009, "", "Knocks an enemy back.", "" },
 	{ 13010, "", "", "Decreased size and attack power." },
@@ -5338,12 +4750,9 @@ Cannot attack or use spells." },
 	{ 13020, "Rank 4", "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for $s1 Fire damage, and dazing them for $d.", "Dazed." },
 	{ 13021, "Rank 5", "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for $s1 Fire damage, and dazing them for $d.", "Dazed." },
 	{ 13022, "", "Reflect fire and arcane spells back at the caster", "Fire and Arcane spells are reflected to the caster" },
-	{ 13031, "Rank 2", "Instantly shields you, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted.
-", "Absorbs damage." },
-	{ 13032, "Rank 3", "Instantly shields you, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted.
-", "Absorbs damage." },
-	{ 13033, "Rank 4", "Instantly shields you, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted.
-", "Absorbs damage." },
+	{ 13031, "Rank 2", "Instantly shields you, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted. \n ", "Absorbs damage." },
+	{ 13032, "Rank 3", "Instantly shields you, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted. \n ", "Absorbs damage." },
+	{ 13033, "Rank 4", "Instantly shields you, absorbing $s1 damage.  Lasts $d.  While the shield holds, spells will not be interrupted. \n ", "Absorbs damage." },
 	{ 13043, "Rank 2", "Causes your Fire Ward to have a $s1% chance to reflect Fire spells while active.", "" },
 	{ 13045, "Rank 2", "Gives you a $14201s1% melee damage bonus for $14201d up to a maximum of $14201n swings after being the victim of a critical strike.", "" },
 	{ 13046, "Rank 3", "Gives you a $14202s1% melee damage bonus for $14202d up to a maximum of $14202n swings after being the victim of a critical strike.", "" },
@@ -5352,8 +4761,7 @@ Cannot attack or use spells." },
 	{ 13049, "", "Calls forth an Emerald Dragon Whelp to protect you in battle for a short period of time.", "" },
 	{ 13099, "", "", "Unable to move." },
 	{ 13120, "", "Captures the target in a net for $13099d.  The net has a lot of hooks however and sometimes gets caught in the user's clothing when fired......", "" },
-	{ 13138, "", "", "The Net-o-Matic has backfired!
-Immobilized." },
+	{ 13138, "", "", "The Net-o-Matic has backfired! \n Immobilized." },
 	{ 13141, "", "These boots significantly increase your run speed for $d.  WARNING:  Their power supply and gyros do not always function as intended.", "Increased run speed.  Gyrostabilizers are known to be unstable causing occasional erratic movement." },
 	{ 13143, "", "Use at the Altar of the Defiler to summon Razelikh the Defiler.", "" },
 	{ 13158, "", "", "Out of control!" },
@@ -5362,31 +4770,22 @@ Immobilized." },
 	{ 13163, "", "The hunter takes on the aspects of a monkey, increasing chance to dodge by $s1%.  Only one Aspect can be active at a time.", "Increases chance to dodge by $s1%." },
 	{ 13165, "Rank 1", "The hunter takes on the aspects of a hawk, increasing Ranged Attack Power by $s1.  Only one Aspect can be active at a time.", "Increases Ranged Attack Power by $s1." },
 	{ 13166, "", "Creates a Battle Chicken that will fight for you for $d or until it is destroyed.", "" },
-	{ 13168, "", "Increases the Physical damage dealt by the chicken by $s1% and speeds the chicken's attack by $s2% for $d.", "Physical damage dealt is increased by $s1%.
-Attack speed increased by $s2%." },
+	{ 13168, "", "Increases the Physical damage dealt by the chicken by $s1% and speeds the chicken's attack by $s2% for $d.", "Physical damage dealt is increased by $s1%. \n Attack speed increased by $s2%." },
 	{ 13169, "", "Teaches you how to make a Solid Iron Maul.", "" },
 	{ 13180, "", "Engage in mental combat with a humanoid target to try and control their mind.  If all works well, you will control the mind of the target for $13181d .....", "" },
 	{ 13183, "", "Deals $13184s1 fire damage for $d to all targets in a cone in front of the engineer using the weapon.   That is unless it explodes.....", "Dealing $13184s1 fire damage per second." },
 	{ 13218, "Rank 1", "", "All healing effects reduced by $s1." },
-	{ 13219, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, reducing all healing effects used on them by $13218s1 for $13218d.  Stacks up to 5 times on a single target.  60 charges.", "" },
-	{ 13220, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by $13218s1 for $13218d.", "" },
+	{ 13219, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, reducing all healing effects used on them by $13218s1 for $13218d.  Stacks up to 5 times on a single target.  60 charges.", "" },
+	{ 13220, "Rank 1", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by $13218s1 for $13218d.", "" },
 	{ 13222, "Rank 2", "", "All healing effects reduced by $s1." },
 	{ 13223, "Rank 3", "", "All healing effects reduced by $s1." },
 	{ 13224, "Rank 4", "", "All healing effects reduced by $s1." },
-	{ 13225, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, reducing all healing effects used on them by $13222s1 for $13222d.  Stacks up to 5 times on a single target.  75 charges.", "" },
-	{ 13226, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, reducing all healing effects used on them by $13223s1 for $13223d.  Stacks up to 5 times on a single target.  90 charges.", "" },
-	{ 13227, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, reducing all healing effects used on them by $13224s1 for $13224d.  Stacks up to 5 times on a single target.  105 charges.", "" },
-	{ 13228, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by $13222s1 for $13222d.", "" },
-	{ 13229, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by $13223s1 for $13223d.", "" },
-	{ 13230, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by $13224s1 for $13224d.", "" },
+	{ 13225, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, reducing all healing effects used on them by $13222s1 for $13222d.  Stacks up to 5 times on a single target.  75 charges.", "" },
+	{ 13226, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, reducing all healing effects used on them by $13223s1 for $13223d.  Stacks up to 5 times on a single target.  90 charges.", "" },
+	{ 13227, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy, reducing all healing effects used on them by $13224s1 for $13224d.  Stacks up to 5 times on a single target.  105 charges.", "" },
+	{ 13228, "Rank 2", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by $13222s1 for $13222d.", "" },
+	{ 13229, "Rank 3", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by $13223s1 for $13223d.", "" },
+	{ 13230, "Rank 4", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by $13224s1 for $13224d.", "" },
 	{ 13234, "", "A shield of force protects you from the next $s1 damage done over the next $d1. WARNING:  Force Field may overload when struck temporarily removing the wearer from this dimension.", "Absorbs damage.  Effectiveness not guaranteed." },
 	{ 13235, "", "", "Invulnerable, but unable to act." },
 	{ 13237, "", "Inflicts $s1 Fire damage and stuns the targets in a $a1 yard radius for $d.", "Stunned." },
@@ -5398,8 +4797,7 @@ Each strike has a 30% chance of poisoning the enemy, reducing all healing effect
 	{ 13278, "", "The devices charges over time using your life force and then directs a burst of energy at your opponent.", "Charging death ray using your life force." },
 	{ 13281, "", "Shocks an enemy with concussive force, inflicting Nature damage and interrupting the spell being cast for $d.", "" },
 	{ 13318, "", "Wounds the target causing them to bleed for $o1 damage over $d.", "Bleeding for $s1 damage every $t1 sec." },
-	{ 13323, "", "Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Any damage will transform the target back into its normal form. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.", "Cannot attack or cast spells.
-Health regeneration increased." },
+	{ 13323, "", "Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Any damage will transform the target back into its normal form. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.", "Cannot attack or cast spells. \n Health regeneration increased." },
 	{ 13326, "", "Increases an ally's Intellect by $s1 for $d.", "Intellect increased by $s1." },
 	{ 13327, "", "Charge an enemy, knocking it silly for $d. Also knocks you down, stunning you for a short period of time. Any damage caused will revive the target.", "Incapacitated." },
 	{ 13338, "", "Forces an enemy to speak in Demonic, reducing its casting speed by $s1% for $d. Only one curse per warlock can be active on any one target.", "Casting speed reduced by $s1%." },
@@ -5462,8 +4860,7 @@ Health regeneration increased." },
 	{ 13555, "Rank 8", "Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.", "Causes $s1 Nature damage every $t1 seconds." },
 	{ 13564, "", "Use on the Dark Coffer in the Black Vault.", "" },
 	{ 13565, "", "Use on the Secure Safe in the Lower Vault", "" },
-	{ 13578, "", "Surrounds the caster with searing magic for $d. The flames increase armor by $s2% and inflict $s1 damage to melee attackers.", "Armor increased by $s2%.
-$s1 Fire damage inflicted to melee attackers." },
+	{ 13578, "", "Surrounds the caster with searing magic for $d. The flames increase armor by $s2% and inflict $s1 damage to melee attackers.", "Armor increased by $s2%. \n $s1 Fire damage inflicted to melee attackers." },
 	{ 13584, "", "Strikes at an enemy, inflicting normal damage plus $s1.", "" },
 	{ 13585, "", "Surrounds an ally with $n balls of lightning that have $h% chance of striking melee or ranged attackers for $s1 damage. Each time the lightning shield strikes, a ball of lightning dissipates. Thus, the shield expires after $d. or after it has struck $n times.", "$h% chance of inflicting $s1 Nature damage on hit." },
 	{ 13586, "", "Sprays water in all directions, inflicting Frost damage to nearby enemies and knocking them back.", "" },
@@ -5509,8 +4906,7 @@ $s1 Fire damage inflicted to melee attackers." },
 	{ 13688, "", "Teaches you how to permanently enchant a pair of boots to grant +3 Spirit.", "" },
 	{ 13689, "", "Permanently enchant a shield to give +2% chance to block.", "" },
 	{ 13691, "", "Teaches you how to permanently enchant a shield to grant +2% blocking.", "" },
-	{ 13692, "", "Reduces an enemy's Strength by $s1 and its Agility by $s2 for $d.", "Strength reduced by $s1.
-Agility reduced by $s2." },
+	{ 13692, "", "Reduces an enemy's Strength by $s1 and its Agility by $s2 for $d.", "Strength reduced by $s1. \n Agility reduced by $s2." },
 	{ 13693, "", "Permanently enchant a Melee Weapon to do 3 additional points of damage.", "" },
 	{ 13695, "", "Permanently enchant a Two-handed Melee Weapon to do 5 additional points of damage.", "" },
 	{ 13698, "", "Permanently enchant gloves to grant +5 skinning skill.", "" },
@@ -5538,14 +4934,11 @@ Agility reduced by $s2." },
 	{ 13743, "Rank 1", "Gives a $s1% chance to remove all movement impairing effects when you activate your Sprint ability.", "" },
 	{ 13744, "Rank 1", "Increases Fire resistance by $s2 and reduces all Fire damage taken by up to 25 for $d.", "Increased Fire resistance and reduces fire damage taken." },
 	{ 13746, "", "Permanently enchant a cloak to give 50 additional armor.", "" },
-	{ 13747, "", "Increases the time between nearby enemies' attacks by $s1% and slows their movement by $s2% for $d.", "Time between attacks increased by $s1%.
-Movement speed reduced by $s2%." },
+	{ 13747, "", "Increases the time between nearby enemies' attacks by $s1% and slows their movement by $s2% for $d.", "Time between attacks increased by $s1%. \n Movement speed reduced by $s2%." },
 	{ 13748, "", "Hurls a magical bolt at an enemy, inflicting Arcane damage.", "" },
 	{ 13750, "", "Increases your Energy regeneration rate by $s1% for $d.", "Energy regeneration increased by $s1%." },
 	{ 13754, "Rank 1", "Gives your Kick ability a $h% chance to silence the target for $18425d.", "" },
-	{ 13787, "", "Protects the caster, increasing armor by $s1, Shadow resistance by $s2, and health regeneration for $d.", "Armor increased by $s1.
-Shadow resistance increased by $s2.
-Increased health regeneration." },
+	{ 13787, "", "Protects the caster, increasing armor by $s1, Shadow resistance by $s2, and health regeneration for $d.", "Armor increased by $s1. \n Shadow resistance increased by $s2. \n Increased health regeneration." },
 	{ 13788, "Rank 2", "Increases your Dodge chance by $s1%.", "" },
 	{ 13789, "Rank 3", "Increases your Dodge chance by $s1%.", "" },
 	{ 13790, "Rank 4", "Increases your Dodge chance by $s1%.", "" },
@@ -5582,9 +4975,7 @@ Increased health regeneration." },
 	{ 13844, "Rank 4", "Increases your chance to hit with melee weapons by $s1%.", "" },
 	{ 13845, "Rank 5", "Increases your chance to hit with melee weapons by $s1%.", "" },
 	{ 13846, "", "Permanently enchants bracers to give +7 Spirit.", "" },
-	{ 13847, "", "", "Immune to fear effects.
-All attacks do critical hits.
-Armor reduced by $s2%." },
+	{ 13847, "", "", "Immune to fear effects. \n All attacks do critical hits. \n Armor reduced by $s2%." },
 	{ 13848, "Rank 2", "Increases the damage done by your offhand weapon by $s1%.", "" },
 	{ 13849, "Rank 3", "Increases the damage done by your offhand weapon by $s1%.", "" },
 	{ 13850, "", "Teaches you how to permanently enchant a bracer to give +7 Spirit.", "" },
@@ -5605,17 +4996,14 @@ Armor reduced by $s2%." },
 	{ 13868, "", "Permanently enchant gloves to grant +5 herbalism skill.", "" },
 	{ 13869, "", "Teaches you how to permanently enchant gloves to give +5 herbalism skill.", "" },
 	{ 13872, "Rank 2", "Reduces the cooldown of your Sprint and Evasion abilities by $/60000;S1 min.", "" },
-	{ 13874, "", "Protects the caster from all attacks and spells for $d., but also increases the time between attacks by $s2% during that time.", "Immune to all attacks and spells.
-Time between attacks increased by $s2%." },
+	{ 13874, "", "Protects the caster from all attacks and spells for $d., but also increases the time between attacks by $s2% during that time.", "Immune to all attacks and spells. \n Time between attacks increased by $s2%." },
 	{ 13875, "Rank 2", "Gives a $s1% chance to remove all movement impairing effects when you activate your Sprint ability.", "" },
 	{ 13877, "", "Increases your attack speed by $s1%.  In addition, attacks strike an additional nearby opponent.  Lasts $d.", "Attack speed increased by $s1%.  Weapon attacks strike an additional nearby opponent." },
 	{ 13878, "", "Scorches an enemy for Fire damage.", "" },
-	{ 13880, "", "", "$s2 Fire damage inflicted every $t2 sec.
-Armor reduced by $s3." },
+	{ 13880, "", "", "$s2 Fire damage inflicted every $t2 sec. \n Armor reduced by $s3." },
 	{ 13882, "", "Permanently enchant a cloak to give 3 Agility.", "" },
 	{ 13883, "", "Teaches you how to permanently enchant a cloak so it grants +3 Agility.", "" },
-	{ 13884, "", "", "Nature damage inflicted every $t1 sec.
-Reduced Strength and Agility." },
+	{ 13884, "", "", "Nature damage inflicted every $t1 sec. \n Reduced Strength and Agility." },
 	{ 13887, "", "Permanently enchant gloves to grant +5 Strength.", "" },
 	{ 13890, "", "Permanently enchant boots to give a slight movement speed increase.", "" },
 	{ 13895, "", "Summons $s3 $lSpawn of Bael'Gar:lSpawns of Bael'Gar; in a selected area to aid the caster in battle for $d. The violent summoning also inflicts $s1 Fire damage to enemies in the selected area.", "" },
@@ -5689,8 +5077,7 @@ Reduced Strength and Agility." },
 	{ 14095, "Rank 3", "Gives you a $s1% chance to return to stealth mode after using your Sap ability.", "" },
 	{ 14102, "", "Inflicts normal damage plus $s1 on an enemy, stunning it for $d.", "Stunned." },
 	{ 14105, "", "Blasts a target for $s1 Frost damage.", "" },
-	{ 14110, "", "Poisons an enemy for $d. and drains its mana every $t2 sec., transferring it to the caster.", "Nature damage inflicted every $t1 sec.
-Mana leeched every $t2 sec." },
+	{ 14110, "", "Poisons an enemy for $d. and drains its mana every $t2 sec., transferring it to the caster.", "Nature damage inflicted every $t1 sec. \n Mana leeched every $t2 sec." },
 	{ 14113, "Rank 1", "Increases the chance to apply poisons to your target by $s1%.", "" },
 	{ 14114, "Rank 2", "Increases the chance to apply poisons to your target by $s1%.", "" },
 	{ 14115, "Rank 3", "Increases the chance to apply poisons to your target by $s1%.", "" },
@@ -5700,8 +5087,7 @@ Mana leeched every $t2 sec." },
 	{ 14125, "", "Use on the Secret Safe.", "" },
 	{ 14128, "Rank 1", "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by $s1%.", "" },
 	{ 14129, "", "Cleanses a friendly target, removing $m1 poison $leffect:effects;, $m2 disease $leffect:effects;, and $m3 magic $leffect:effects;.", "" },
-	{ 14130, "", "", "Spirit reduced by $s1.
-Strength reduced by $s2." },
+	{ 14130, "", "", "Spirit reduced by $s1. \n Strength reduced by $s2." },
 	{ 14132, "Rank 2", "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by $s1%.", "" },
 	{ 14134, "", "Purifies the friendly target, removing $m1 disease $leffect:effects; and $m2 poison $leffect:effects;.", "" },
 	{ 14135, "Rank 3", "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by $s1%.", "" },
@@ -5714,8 +5100,7 @@ Strength reduced by $s2." },
 	{ 14142, "Rank 5", "Increases your critical strike chance by $s1%.", "" },
 	{ 14143, "Rank 1", "", "Critical strike chance for your next Sinister Strike, Backstab, Ambush, or Ghostly strike increased by $s1%." },
 	{ 14144, "Rank 1", "After killing an opponent that yields experience or honor, gives you a $14143s1% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts $14143d.", "" },
-	{ 14147, "", "", "$s1 Nature damage inflicted every $t1 sec.
-Armor reduced by $s2." },
+	{ 14147, "", "", "$s1 Nature damage inflicted every $t1 sec. \n Armor reduced by $s2." },
 	{ 14148, "Rank 2", "After killing an opponent that yields experience or honor, gives you a $14149s1% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts $14149d.", "" },
 	{ 14149, "Rank 2", "", "Critical strike chance for your next Sinister Strike, Backstab, Ambush, or Ghostly strike increased by $s1%." },
 	{ 14156, "Rank 1", "Gives your finishing moves a $h% chance to add a combo point to your target.", "" },
@@ -5841,8 +5226,7 @@ Armor reduced by $s2." },
 	{ 14535, "", "Reduces all attributes of nearby enemies by $s1% for $d.", "All attributes reduced by $s1%." },
 	{ 14537, "", "Blasts enemies in front of you with the power of wind, fire, all that kind of thing!", "" },
 	{ 14538, "", "Reduces the casting speed of nearby enemies by $s1% for $d.", "Casting speed reduced by $s1%." },
-	{ 14539, "", "Increases the Nature damage taken by nearby enemies by $s1% and increases the Shadow damage they take by $s2%. Lasts $d.", "Nature damage taken is increased by $s1%.
-Shadow damage taken is increased by $s2%." },
+	{ 14539, "", "Increases the Nature damage taken by nearby enemies by $s1% and increases the Shadow damage they take by $s2%. Lasts $d.", "Nature damage taken is increased by $s1%. \n Shadow damage taken is increased by $s2%." },
 	{ 14540, "", "+$s1 Fire Resistance.", "" },
 	{ 14541, "", "+$s1 Frost Resistance.", "" },
 	{ 14621, "", "Transforms you into a sheep, forcing you to wander around for up to $d.  While wandering, you cannot attack or cast spells and any damage will transform you back into your normal form.", "Cannot attack or cast spells." },
@@ -5889,8 +5273,7 @@ Shadow damage taken is increased by $s2%." },
 	{ 14824, "", "Increases ranged attack speed by $s1%.", "" },
 	{ 14847, "", "Permanently enchant a melee weapon to do 8 additional points of fire damage.", "" },
 	{ 14868, "", "Curses an enemy with agony, inflicting Shadow damage every $t1 sec. over $d. Only one curse per warlock can be active on any one target.", "Shadow damage inflicted every $t1 sec." },
-	{ 14872, "", "Increases the caster's attack speed by $s1% and increases the Physical damage it deals by $s2 for $d.", "Attack speed increased by $s1%.
-Physical damage dealt is increased by $s2." },
+	{ 14872, "", "Increases the caster's attack speed by $s1% and increases the Physical damage it deals by $s2 for $d.", "Attack speed increased by $s1%. \n Physical damage dealt is increased by $s2." },
 	{ 14888, "", "Transforms you into a real ancient!", "" },
 	{ 14890, "", "Forces an enemy to dismount.", "Forced to dismount." },
 	{ 14891, "", "Allows the miner to smelt chunks of dark iron ore into a dark iron bar.  Smelting Dark Iron can only be done at the Black Forge in Blackrock Depths.", "" },
@@ -6064,8 +5447,7 @@ Physical damage dealt is increased by $s2." },
 	{ 15448, "Rank 2", "Reduces the cooldown of your Psychic Scream spell by $/1000;s1 sec.", "" },
 	{ 15450, "Rank 3", "Decreases an enemy's chance to resist your Psychic Scream spell by $s1%.", "" },
 	{ 15464, "", "Improves your chance to hit by $s1%.", "" },
-	{ 15471, "", "Immobilizes an enemy, increases the time between its attacks by $s2%, and prevents it from casting spells for $d.", "Unable to move or cast spells.
-Time between attacks increased by $s2%." },
+	{ 15471, "", "Immobilizes an enemy, increases the time between its attacks by $s2%, and prevents it from casting spells for $d.", "Unable to move or cast spells. \n Time between attacks increased by $s2%." },
 	{ 15473, "", "Assume a Shadowform, increasing your Shadow damage by $s2% and reducing Physical damage done to you by $s3%.  However, you may not cast Holy spells while in this form.", "Shadow damage you deal increased by $s2%.  Physical damage you take reduced by $s3%.  You may not cast Holy spells." },
 	{ 15474, "", "Immobilizes nearby enemies for $d.", "Immobilized." },
 	{ 15475, "", "Inflicts $s2 Nature damage and an additional $s1 damage every $t1 sec. to nearby enemies for $d.", "$s1 Nature damage inflicted every $t1 sec." },
@@ -6095,8 +5477,7 @@ Time between attacks increased by $s2%." },
 	{ 15632, "Rank 6", "Distract the target, causing threat.  More effective than Distracting Shot (Rank 5).", "" },
 	{ 15634, "", "Teaches you how to make a Pet Bombling.", "" },
 	{ 15635, "", "Teaches you how to make your own Lil' Smoky robot.", "" },
-	{ 15636, "", "Surrounds the caster in flames for $d., giving the caster magic immunity and the ability to inflict $15643s1 Fire damage to an enemy on attack.", "Immune to magic.
-Inflicting $15643s1 Fire damage on attack." },
+	{ 15636, "", "Surrounds the caster in flames for $d., giving the caster magic immunity and the ability to inflict $15643s1 Fire damage to an enemy on attack.", "Immune to magic. \n Inflicting $15643s1 Fire damage on attack." },
 	{ 15642, "", "", "Melee critical-hit chance increased by $s1%." },
 	{ 15646, "Rank 1", "Reduces mana cost of all spells by 100 for $d.", "Reduced mana cost." },
 	{ 15647, "", "Release the kitten near the Jadefire Satyrs' corrupted moonwell.", "" },
@@ -6122,8 +5503,7 @@ Inflicting $15643s1 Fire damage on attack." },
 	{ 15756, "", "Teaches you how to make a Moonsteel Broadsword.", "" },
 	{ 15757, "", "Teaches you how to make a Massive Iron Axe.", "" },
 	{ 15779, "", "Summons and dismisses a rideable mechanical tallstrider.   This is a very fast mount.", "Increases speed by $s2%." },
-	{ 15784, "", "Encases an ally in a layer of frost that lasts $d. The thick ice increases armor by $s1, slows melee attackers' movement to $6136s2%, and increases the time between their attacks by $6136s1%.", "Armor increased by $s1.
-Slowing melee attackers' movement and attacks." },
+	{ 15784, "", "Encases an ally in a layer of frost that lasts $d. The thick ice increases armor by $s1, slows melee attackers' movement to $6136s2%, and increases the time between their attacks by $6136s1%.", "Armor increased by $s1. \n Slowing melee attackers' movement and attacks." },
 	{ 15786, "", "Summons an Earthbind Totem that lasts $d. and periodically reduces the movement speed of nearby enemies to $3600s1% of normal.", "" },
 	{ 15787, "", "Summons a Moonflare Totem at the caster's feet. Totem lasts $d. and inflicts Arcane damage to nearby enemies every $15789t1 sec.", "" },
 	{ 15791, "", "Launches magical missiles at an enemy, inflicting Arcane damage.", "" },
@@ -6198,12 +5578,10 @@ Slowing melee attackers' movement and attacks." },
 	{ 16119, "Rank 4", "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by an additional $s1%.", "" },
 	{ 16120, "Rank 5", "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by an additional $s1%.", "" },
 	{ 16122, "", "", "Stealthed." },
-	{ 16128, "", "Inflicts Nature damage to an enemy every $t1 sec. and increases the Physical damage it takes for $d.", "Nature damage inflicted every $t1 sec.
-Increased Physical damage taken." },
+	{ 16128, "", "Inflicts Nature damage to an enemy every $t1 sec. and increases the Physical damage it takes for $d.", "Nature damage inflicted every $t1 sec. \n Increased Physical damage taken." },
 	{ 16130, "Rank 2", "Increases the health of your Stoneclaw Totem by $s1% and the radius of your Earthbind Totem by $s2%.", "" },
 	{ 16138, "", "Increase sharp weapon damage by 8 for 30 minutes.", "" },
-	{ 16143, "", "", "$s1 Shadow damage inflicted every $t1 sec.
-Health regeneration rate reduced by $s2%." },
+	{ 16143, "", "", "$s1 Shadow damage inflicted every $t1 sec. \n Health regeneration rate reduced by $s2%." },
 	{ 16147, "", "", "Prevents a Broken Cadaver from rising out of the corpse." },
 	{ 16153, "", "Allows the miner to smelt a chunk of thorium ore into a thorium bar.  Smelting thorium requires a forge.", "" },
 	{ 16160, "Rank 2", "Increases the damage done by your Fire Totems by $s1%.", "" },
@@ -6257,9 +5635,7 @@ Health regeneration rate reduced by $s2%." },
 	{ 16227, "Rank 3", "Reduces the casting time of your Healing Wave spell by $/1000;S1 sec.", "" },
 	{ 16228, "Rank 4", "Reduces the casting time of your Healing Wave spell by $/1000;S1 sec.", "" },
 	{ 16229, "Rank 5", "Reduces the casting time of your Healing Wave spell by $/1000;S1 sec.", "" },
-	{ 16231, "", "Increases an enemy's attack power by $s1, but reduces its armor by $s2 for $d. Cursed enemies will ignore fear effects and refuse to flee from combat. Only one curse per warlock can be active on any one target.", "Melee attack power increased by $s1.
-Armor reduced by $s2.
-Ignoring fear effects." },
+	{ 16231, "", "Increases an enemy's attack power by $s1, but reduces its armor by $s2 for $d. Cursed enemies will ignore fear effects and refuse to flee from combat. Only one curse per warlock can be active on any one target.", "Melee attack power increased by $s1. \n Armor reduced by $s2. \n Ignoring fear effects." },
 	{ 16232, "Rank 3", "Gives you a $s1% chance to avoid interruption caused by damage while casting any healing spell.", "" },
 	{ 16233, "Rank 4", "Gives you a $s1% chance to avoid interruption caused by damage while casting any healing spell.", "" },
 	{ 16234, "Rank 5", "Gives you a $s1% chance to avoid interruption caused by damage while casting any healing spell.", "" },
@@ -6315,14 +5691,12 @@ Ignoring fear effects." },
 	{ 16339, "Rank 4", "Imbue the Shaman's weapon with fire.  Each hit causes $/77;10445m1 to $/25;10445M1 additional Fire damage, based on the speed of the weapon.  Slower weapons cause more fire damage per swing.  Lasts for 5 minutes.", "" },
 	{ 16341, "Rank 5", "Imbue the Shaman's weapon with fire.  Each hit causes $/77;16343m1 to $/25;16343M1 additional Fire damage, based on the speed of the weapon.  Slower weapons cause more fire damage per swing.  Lasts for 5 minutes.", "" },
 	{ 16342, "Rank 6", "Imbue the Shaman's weapon with fire.  Each hit causes $/77;16344m1 to $/25;16344M1 additional Fire damage, based on the speed of the weapon.  Slower weapons cause more fire damage per swing.  Lasts for 5 minutes.", "" },
-	{ 16350, "", "Sends out an ice blast that stuns and damages enemies in a cone in front of the caster, then inflicts additional Frost damage every $t1 sec. for $d.", "Stunned.
-Frost damage inflicted every $t1 sec." },
+	{ 16350, "", "Sends out an ice blast that stuns and damages enemies in a cone in front of the caster, then inflicts additional Frost damage every $t1 sec. for $d.", "Stunned. \n Frost damage inflicted every $t1 sec." },
 	{ 16352, "Rank 4", "", "Movement slowed by $s1%." },
 	{ 16353, "Rank 5", "", "Movement slowed by $s1%." },
 	{ 16355, "Rank 4", "Imbue the Shaman's weapon with frost.  Each hit has a chance of causing $16352s2 additional Frost damage and slowing the target's movement speed by $16352s1% for $16352d.  Lasts for 5 minutes.", "" },
 	{ 16356, "Rank 5", "Imbue the Shaman's weapon with frost.  Each hit has a chance of causing $16353s2 additional Frost damage and slowing the target's movement speed by $16353s1% for $16353d.  Lasts for 5 minutes.", "" },
-	{ 16359, "", "Shoots a cloud of acidic breath at enemies in a cone in front of the caster, reducing their armor and inflicting Nature damage every $t1 sec. for $d.", "Reduced armor.
-Nature damage inflicted every $t1 sec." },
+	{ 16359, "", "Shoots a cloud of acidic breath at enemies in a cone in front of the caster, reducing their armor and inflicting Nature damage every $t1 sec. for $d.", "Reduced armor. \n Nature damage inflicted every $t1 sec." },
 	{ 16362, "Rank 4", "Imbue the Shaman's weapon with wind.  Each hit has a 20% chance of granting you $16361s2 extra $lattack:attacks; with $16361s1 extra melee attack power.  Lasts for 5 minutes.", "" },
 	{ 16378, "", "Take a reading of the temperature at a hot spot.", "" },
 	{ 16380, "", "Turns the caster invisible until the effect is cancelled.", "Invisible." },
@@ -6331,22 +5705,17 @@ Nature damage inflicted every $t1 sec." },
 	{ 16418, "", "Summons $s1 $lCrypt Scarab:Crypt Scarabs; to aid the caster in battle for $d.", "" },
 	{ 16421, "", "", "Transformed into dragon." },
 	{ 16429, "", "Reduces an enemy's Shadow resistance by $s1 for $d.", "Shadow resistance reduced by $s1." },
-	{ 16430, "", "Taps into an enemy's soul. Steals $s1 health every $t1 sec. and $s2 mana every $t2 sec., transferring them to the caster. Lasts $d.", "$s1 health leeched every $t1 sec.
-$s2 mana leeched every $t2 sec." },
-	{ 16432, "", "", "$s1 Nature damage every $t1 seconds.
-Cannot use stealth or invisibility." },
+	{ 16430, "", "Taps into an enemy's soul. Steals $s1 health every $t1 sec. and $s2 mana every $t2 sec., transferring them to the caster. Lasts $d.", "$s1 health leeched every $t1 sec. \n $s2 mana leeched every $t2 sec." },
+	{ 16432, "", "", "$s1 Nature damage every $t1 seconds. \n Cannot use stealth or invisibility." },
 	{ 16447, "", "At Urok's Tribute Pile, combine Omokk's Head with the Roughshod Pike.", "" },
 	{ 16448, "", "Reduces an enemy's chance to dodge by $s1% for $d.", "Chance to dodge reduced by $s1%." },
-	{ 16449, "", "Reduces an enemy's melee attack power by $s1 and its ranged attack power by $s2 for $d.", "Melee attack power reduced by $s1.
-Ranged attack power reduced by $s2." },
+	{ 16449, "", "Reduces an enemy's melee attack power by $s1 and its ranged attack power by $s2 for $d.", "Melee attack power reduced by $s1. \n Ranged attack power reduced by $s2." },
 	{ 16450, "", "Right Click to summon and dismiss your Smolderweb hatchling.", "" },
 	{ 16451, "", "Imprisons enemy target, preventing all action but making it invulnerable for up to $d.", "Invulnerable, but unable to act." },
 	{ 16454, "", "Blasts a target for $s1 Fire damage and increases damage done to target by Fire damage by $s2 for $d1.", "" },
 	{ 16457, "", "Summons one of Slim's Friends to aid him when he enters combat.", "" },
-	{ 16458, "", "Reduces the movement speed of an enemy by $s1%, and reduces all physical and magical damage it deals by $s2. Lasts $d.", "Movement speed reduced by $s1%.
-Physical and magical damage dealt is reduced by $s2." },
-	{ 16460, "", "Reduces an enemy's chance to critically hit with a melee attack by $s1%, and reduces its chance to critically hit with a spell attack by $s2%. Lasts $d.", "Melee critical-hit chance reduced by $s1%.
-Spell critical-hit chance reduced by $s2%." },
+	{ 16458, "", "Reduces the movement speed of an enemy by $s1%, and reduces all physical and magical damage it deals by $s2. Lasts $d.", "Movement speed reduced by $s1%. \n Physical and magical damage dealt is reduced by $s2." },
+	{ 16460, "", "Reduces an enemy's chance to critically hit with a melee attack by $s1%, and reduces its chance to critically hit with a spell attack by $s2%. Lasts $d.", "Melee critical-hit chance reduced by $s1%. \n Spell critical-hit chance reduced by $s2%." },
 	{ 16461, "", "Reduces the Stamina of an enemy by $s1% for $d.", "Stamina reduced by $s1%." },
 	{ 16468, "", "Poisons nearby enemies. Until the poison is entirely removed from the bloodstream by a knowledgeable medical professional, it will periodically immobilize a poisoned individual and any nearby allies.", "Chance to become immobilized, along with nearby allies. Lasts until the poison is dispelled or the caster is milked." },
 	{ 16469, "", "Renders a target unable to move for $d", "" },
@@ -6365,8 +5734,7 @@ Spell critical-hit chance reduced by $s2%." },
 	{ 16514, "Rank 2", "Increases the damage dealt by your poisons by $s1% and gives your poisons an additional $s3% chance to resist dispel effects.", "" },
 	{ 16515, "Rank 3", "Increases the damage dealt by your poisons by $s1% and gives your poisons an additional $s3% chance to resist dispel effects.", "" },
 	{ 16527, "", "Increases Stealth Detection", "Increases Stealth Detection" },
-	{ 16528, "", "Inflicts numbing pain that deals $m1 Nature damage every 2 sec and increases time between target's attacks by 10% for $d.", "Deals $s1 Nature damage every $t1 seconds.
-Increases time between attacks by $s2%." },
+	{ 16528, "", "Inflicts numbing pain that deals $m1 Nature damage every 2 sec and increases time between target's attacks by 10% for $d.", "Deals $s1 Nature damage every $t1 seconds. \n Increases time between attacks by $s2%." },
 	{ 16530, "", "", "Increases Nature Protection." },
 	{ 16537, "", "Cures $s1 poison $leffect:effects;.", "" },
 	{ 16538, "Rank 1", "Increases the damage you deal with One-Handed Melee weapons by $s1%.", "" },
@@ -6378,18 +5746,15 @@ Increases time between attacks by $s2%." },
 	{ 16550, "Rank 1", "Deals $s1 damage when you are the victim of a critical melee strike.", "" },
 	{ 16551, "", "All attacks are guaranteed to land and will be critical strikes for the next $d.", "" },
 	{ 16552, "", "Spits poison at an enemy, causing harm and inflicting additional Nature damage every $t2 sec. for $d.", "Nature damage inflicted every $t2 sec." },
-	{ 16555, "", "", "Swim speed reduced by $s1%.
-Agility reduced by $s2%." },
+	{ 16555, "", "", "Swim speed reduced by $s1%. \n Agility reduced by $s2%." },
 	{ 16559, "", "Envelops the caster with a Fire shield for 15 sec and shoots a ring of fire dealing $s1 damage to all nearby enemies.", "" },
 	{ 16560, "", "", "Increased Fire resistance and inflicts $s1 Fire damage to attackers." },
 	{ 16561, "", "Heals an ally for a fixed amount, then heals additional damage every $t2 sec. for $d.", "Damage healed every $t2 sec." },
 	{ 16563, "", "Gives the caster $h% chance to cast Drowning Death on enemy when hit by a melee attack. Lasts until cancelled.", "" },
 	{ 16565, "", "Wails with anguish, inflicting Shadow damage to an enemy.", "" },
 	{ 16567, "", "", "Intellect reduced by $s1%." },
-	{ 16568, "", "Inflicts Shadow damage to an enemy and reduces its movement speed for $d.", "Shadow damage inflicted over $d.
-Reduced movement speed." },
-	{ 16569, "", "Channels the power of Shadow for $d., healing an ally for up to $o1 damage, but reducing the caster's own health regeneration by $s2%.", "$o1 of the target's damage healed over $d.
-Caster's health regeneration rate reduced by $s2%." },
+	{ 16568, "", "Inflicts Shadow damage to an enemy and reduces its movement speed for $d.", "Shadow damage inflicted over $d. \n Reduced movement speed." },
+	{ 16569, "", "Channels the power of Shadow for $d., healing an ally for up to $o1 damage, but reducing the caster's own health regeneration by $s2%.", "$o1 of the target's damage healed over $d. \n Caster's health regeneration rate reduced by $s2%." },
 	{ 16572, "Rank 1", "Fire at an X, Y, Z location with a ranged weapon.  Each location needs a separate copy of this spell.", "" },
 	{ 16573, "", "", "Inflicts nature damage every $t1 sec and prevents health regeneration." },
 	{ 16574, "", "Adds a chance to cast Putrid Bile on enemy when hit by a melee attack.", "" },
@@ -6405,8 +5770,7 @@ Caster's health regeneration rate reduced by $s2%." },
 	{ 16589, "", "Drink Me.", "" },
 	{ 16590, "", "Calls forth $s1 $lSummoned Zombie:Summoned Zombies; to aid the caster in battle for $d.", "" },
 	{ 16591, "", "", "You've stopped breathing..." },
-	{ 16592, "", "Assumes a Shadowform, increasing Shadow damage dealt by $s2% and reducing melee damage taken by $s1%. Shadowform lasts until cancelled.", "Shadow damage dealt is increased by $s2%.
-Melee damage taken is reduced by $s1%." },
+	{ 16592, "", "Assumes a Shadowform, increasing Shadow damage dealt by $s2% and reducing melee damage taken by $s1%. Shadowform lasts until cancelled.", "Shadow damage dealt is increased by $s2%. \n Melee damage taken is reduced by $s1%." },
 	{ 16593, "", "", "You feel light..." },
 	{ 16595, "", "", "You feel smaller..." },
 	{ 16597, "", "", "Slowed." },
@@ -6418,8 +5782,7 @@ Melee damage taken is reduced by $s1%." },
 	{ 16608, "", "Transfers $s1 health every $t1 from the target to the caster for $d.", "Drains $s1 health each second to the caster." },
 	{ 16609, "", "Increases hitpoints by 300. 15% haste to melee attacks. 10 mana regen every 5 seconds.", "Increases hitpoints by 300. 15% haste to melee attacks. 10 mana regen every 5 seconds." },
 	{ 16610, "", "Provides armor and returns damage.", "Provides armor and returns damage." },
-	{ 16611, "", "When struck has a 3% chance of stealing $16608o1 life from the attacker over $16608d.
-", "" },
+	{ 16611, "", "When struck has a 3% chance of stealing $16608o1 life from the attacker over $16608d. \n ", "" },
 	{ 16612, "", "Increases Strength by $s1.", "Increases Strength by $s1." },
 	{ 16613, "", "Reveal temporal parasites near grain silos in Andorhal.", "" },
 	{ 16614, "", "Does $s1 additional Lightning damage to the target.", "" },
@@ -6505,8 +5868,7 @@ Melee damage taken is reduced by $s1%." },
 	{ 16782, "", "Blasts a target for $s1 Nature damage.", "" },
 	{ 16785, "", "Inflicts Fire damage to nearby enemies, knocking them back.", "" },
 	{ 16786, "", "Fire at an X, Y, Z location with a ranged weapon.  Each location needs a separate copy of this spell.", "" },
-	{ 16789, "", "Increases the Physical damage dealt by the caster by $s1 and speeds its attack by $s2% for $d.", "Physical damage dealt is increased by $s1.
-Attack speed increased by $s2%." },
+	{ 16789, "", "Increases the Physical damage dealt by the caster by $s1 and speeds its attack by $s2% for $d.", "Physical damage dealt is increased by $s1. \n Attack speed increased by $s2%." },
 	{ 16790, "", "Inflicts $s2 damage to an enemy and its nearest allies, stunning them for $d. Affects up to $x1 targets.", "Stunned." },
 	{ 16796, "", "Place at the Stone of Shy-Rotam.", "" },
 	{ 16798, "", "Lulls an enemy to sleep for up to $d. Any damage caused will awaken the target. Only one target can be asleep at a time.", "Asleep." },
@@ -6717,8 +6079,7 @@ Attack speed increased by $s2%." },
 	{ 17123, "Rank 1", "Reduces threat caused by Tranquility by $s1%.", "" },
 	{ 17124, "Rank 2", "Reduces threat caused by Tranquility by $s1%.", "" },
 	{ 17133, "", "Attach the pieces into a whole.", "" },
-	{ 17134, "", "", "Movement speed reduced by $s1%.
-Increases time between attacks by $s2%." },
+	{ 17134, "", "", "Movement speed reduced by $s1%. \n Increases time between attacks by $s2%." },
 	{ 17140, "", "Consumes an enemy in flames, burning it and inflicting additional Fire damage every $t2 sec. over $d.", "Fire damage inflicted every $t2 sec." },
 	{ 17147, "", "Inflicts Holy damage to an undead enemy.", "" },
 	{ 17148, "", "Wounds the target for $s1 damage and lowers Intellect of target by $s2 for $d.", "Lowered Intellect." },
@@ -6735,8 +6096,7 @@ Increases time between attacks by $s2%." },
 	{ 17174, "", "Dazes an enemy, reducing its movement speed by $s1% for $d.", "Movement speed reduced by $s1%." },
 	{ 17175, "", "Increases an ally's Arcane resistance by $s1 for $d.", "Arcane resistance increased by $s1." },
 	{ 17176, "", "Opens Panther Cage", "" },
-	{ 17177, "", "Protects a targeted party member from all attacks for $d., as well as preventing it from attacking or using abilities. Players may only have one seal on them per paladin at any one time.", "Immune to Physical attack.
-Cannot attack or use abilities." },
+	{ 17177, "", "Protects a targeted party member from all attacks for $d., as well as preventing it from attacking or using abilities. Players may only have one seal on them per paladin at any one time.", "Immune to Physical attack. \n Cannot attack or use abilities." },
 	{ 17178, "", "Defense +1000. Consider yourself born again hardcore!", "" },
 	{ 17179, "", "Use on Ras Frostwhisper, the lich, to make him mortal.", "" },
 	{ 17182, "", "Create Enchanted Leather for use in other tradeskills.", "" },
@@ -6754,11 +6114,9 @@ Cannot attack or use abilities." },
 	{ 17229, "", "Summons and dismisses a rideable Winterspring Frostsaber.  This is a very fast mount.", "Increases speed by $s2%." },
 	{ 17231, "", "Summons $s1 $lIllusory Wraith:Illusory Wraiths; to aid the caster in battle for $d.", "" },
 	{ 17233, "Rank 1", "Heals an ally for an amount equal to the caster's maximum health. Drains all of the caster's remaining mana when used.", "" },
-	{ 17244, "", "Takes control of a humanoid enemy up to level $s1 for $d. and increases its maximum health by $s3%.", "Charmed.
-Maximum health increased by $s3." },
+	{ 17244, "", "Takes control of a humanoid enemy up to level $s1 for $d. and increases its maximum health by $s3%.", "Charmed. \n Maximum health increased by $s3." },
 	{ 17245, "Rank 1", "Increases the chance for your Nature's Grasp to entangle an enemy by $s1%.", "" },
-	{ 17246, "", "", "Charmed.
-Damage dealt is increased by $s1%." },
+	{ 17246, "", "", "Charmed. \n Damage dealt is increased by $s1%." },
 	{ 17247, "Rank 2", "Increases the chance for your Nature's Grasp to entangle an enemy by $s1%.", "" },
 	{ 17248, "Rank 3", "Increases the chance for your Nature's Grasp to entangle an enemy by $s1%.", "" },
 	{ 17249, "Rank 4", "Increases the chance for your Nature's Grasp to entangle an enemy by $s1%.", "" },
@@ -6777,8 +6135,7 @@ Damage dealt is increased by $s1%." },
 	{ 17276, "", "Scalds an enemy for Fire damage, stunning it for $d.", "Stunned." },
 	{ 17283, "", "Deals $s1 Fire damage to all targets in a cone in front of the caster.", "" },
 	{ 17291, "", "Inflicts between 438 and 562 damage to Undead in a 10 yard radius.", "" },
-	{ 17293, "", "Stuns an enemy and inflicts $o2 Fire damage over $d.", "Stunned.
-$o2 Fire damage inflicted over $d." },
+	{ 17293, "", "Stuns an enemy and inflicts $o2 Fire damage over $d.", "Stunned. \n $o2 Fire damage inflicted over $d." },
 	{ 17307, "", "Inflicts normal damage plus $s1 to an enemy, knocking it back and stunning it for $d.", "Stunned." },
 	{ 17308, "", "Knocks target silly for $d1.", "Stunned." },
 	{ 17311, "Rank 2", "Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d and slowing their movement speed by $s2%.", "Movement speed slowed by $s2%." },
@@ -6906,13 +6263,11 @@ $o2 Fire damage inflicted over $d." },
 	{ 17644, "", "Teaches you how to make a Flask of Supreme Power.", "" },
 	{ 17645, "", "Teaches you how to make a Flask of Chromatic Resistance.", "" },
 	{ 17650, "", "Damage dealt is decreased by $s1%.", "Damage dealt is decreased by $s1%." },
-	{ 17651, "", "Summons $17653s1 $lSpectral Projection:Spectral Projections; to fight in the place of the caster, who becomes invisible and invulnerable, though unable to act. After $d., these apparitions sacrifice their lives to heal the caster, who resumes the battle.", "Invisible, but unable to act.
-Immune to all attacks and spells." },
+	{ 17651, "", "Summons $17653s1 $lSpectral Projection:Spectral Projections; to fight in the place of the caster, who becomes invisible and invulnerable, though unable to act. After $d., these apparitions sacrifice their lives to heal the caster, who resumes the battle.", "Invisible, but unable to act. \n Immune to all attacks and spells." },
 	{ 17668, "", "Harness the power of lightning to strike down all enemies around you for $17669s1 Nature damage.", "" },
 	{ 17670, "", "", "Allows for acquisition of Scourgestones on behalf of the Argent Dawn." },
 	{ 17686, "", "", "$o1 Nature damage inflicted over $d." },
-	{ 17691, "", "", "Stunned.
-You will be revived automatically in $d" },
+	{ 17691, "", "", "Stunned. \n You will be revived automatically in $d" },
 	{ 17692, "", "", "$o1 Shadow damage inflicted over $d." },
 	{ 17695, "", "Surrounds the caster with an aura that periodically reduces the Shadow resistance of nearby enemies by $17697s1. The aura lasts until cancelled.", "Periodically reducing the Shadow resistance of nearby enemies." },
 	{ 17697, "", "", "Shadow resistance reduced by $s1." },
@@ -6921,17 +6276,11 @@ You will be revived automatically in $d" },
 	{ 17709, "", "Right Click to summon and dismiss your zergling.", "" },
 	{ 17715, "", "Causes the caster to periodically inflict $17716s1 Shadow damage to all enemies in a selected area, slowing their movement to $17716s2%. Lasts $d.", "Periodically damaging and slowing enemies in a selected area." },
 	{ 17716, "", "", "Movement speed slowed by $s2%." },
-	{ 17727, "", "Creates a Greater Spellstone for the caster.  When equipped and used, the Greater Spellstone removes all magic effects from the caster and will absorb $17729s2 magic damage for $17729d.  In addition, equipping the Greater Spellstone improves your chance to get a critical strike with spells by $18384s1%.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 17728, "", "Creates a Major Spellstone for the caster.  When equipped and used, the Major Spellstone removes all magic effects from the caster and will absorb $17730s2 magic damage for $17730d.  In addition, equipping the Major Spellstone improves your chance to get a critical strike with spells by $18384s1%.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 17727, "", "Creates a Greater Spellstone for the caster.  When equipped and used, the Greater Spellstone removes all magic effects from the caster and will absorb $17729s2 magic damage for $17729d.  In addition, equipping the Greater Spellstone improves your chance to get a critical strike with spells by $18384s1%. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 17728, "", "Creates a Major Spellstone for the caster.  When equipped and used, the Major Spellstone removes all magic effects from the caster and will absorb $17730s2 magic damage for $17730d.  In addition, equipping the Major Spellstone improves your chance to get a critical strike with spells by $18384s1%. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 17734, "", "NPCs will not speak to you for the duration of the spell.", "NPCs will not speak to you for the duration of the spell." },
 	{ 17735, "Rank 1", "Taunts all enemies within $a1 yards, increasing the chance that they will attack the Voidwalker.", "" },
-	{ 17738, "", "Transforms an enemy into a rat, forcing it to wander around and deal $17739s1 Nature damage every $t3 sec to nearby allies for up to $d. While wandering, the rat cannot attack or cast spells, but regenerates very quickly. Only one target can be cursed at a time.", "Cannot attack or cast spells.
-Inflicting $17739s1 Nature damage every $t3 sec to nearby allies.
-Increased health regeneration." },
+	{ 17738, "", "Transforms an enemy into a rat, forcing it to wander around and deal $17739s1 Nature damage every $t3 sec to nearby allies for up to $d. While wandering, the rat cannot attack or cast spells, but regenerates very quickly. Only one target can be cursed at a time.", "Cannot attack or cast spells. \n Inflicting $17739s1 Nature damage every $t3 sec to nearby allies. \n Increased health regeneration." },
 	{ 17740, "", "Enfolds the caster in a protective shield that lasts $d. and absorbs up to $s1 Physical damage, draining mana instead of health. Drains $e mana per point of damage absorbed.", "Shielded against Physical damage: losing mana instead of health." },
 	{ 17745, "", "Spits at an enemy, inflicting Nature damage and reducing its Stamina for $d.", "Reduced Stamina." },
 	{ 17746, "", "Increases your effective stealth level by 1.", "" },
@@ -7017,15 +6366,9 @@ Increased health regeneration." },
 	{ 17947, "Rank 3", "Enchants the main hand weapon with fire, granting each attack a chance to deal $17934s1 additional fire damage.", "" },
 	{ 17949, "Rank 4", "Enchants the main hand weapon with fire, granting each attack a chance to deal $17935s1 additional fire damage.", "" },
 	{ 17950, "", "Teleports an enemy to one of 6 locations within Scholomance.", "" },
-	{ 17951, "", "Creates a Firestone which can be equipped in the off hand.  When equipped, enchants the main hand weapon with fire, granting each attack a chance to deal $17933s1 additional Fire damage.  In addition, equipping the Firestone increases the damage done by fire spells by $23481s1.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 17952, "", "Creates a Greater Firestone which can be equipped in the off hand.  When equipped, enchants the main hand weapon with fire, granting each attack a chance to deal $17934s1 additional Fire damage.  In addition, equipping the Greater Firestone increases the damage done by fire spells by $23482s1.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 17953, "", "Creates a Major Firestone which can be equipped in the off hand.  When equipped, enchants the main hand weapon with fire, granting each attack a chance to deal $17935s1 additional Fire damage.  In addition, equipping the Major Firestone increases the damage done by fire spells by $23483s1.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 17951, "", "Creates a Firestone which can be equipped in the off hand.  When equipped, enchants the main hand weapon with fire, granting each attack a chance to deal $17933s1 additional Fire damage.  In addition, equipping the Firestone increases the damage done by fire spells by $23481s1. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 17952, "", "Creates a Greater Firestone which can be equipped in the off hand.  When equipped, enchants the main hand weapon with fire, granting each attack a chance to deal $17934s1 additional Fire damage.  In addition, equipping the Greater Firestone increases the damage done by fire spells by $23482s1. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 17953, "", "Creates a Major Firestone which can be equipped in the off hand.  When equipped, enchants the main hand weapon with fire, granting each attack a chance to deal $17935s1 additional Fire damage.  In addition, equipping the Major Firestone increases the damage done by fire spells by $23483s1. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 17959, "Rank 1", "Increases the critical strike damage bonus of your Destruction spells by $s1%.", "" },
 	{ 17961, "", "Disguised as a member of the Scarlet Crusade", "Disguised as a member of the Scarlet Crusade" },
 	{ 17962, "Rank 1", "Ignites a target that is already afflicted by Immolate, dealing $s1 Fire damage and consuming the Immolate spell.", "" },
@@ -7035,13 +6378,10 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 18094, "Rank 1", "Gives your Corruption and Drain Life spells a 2% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by $17941s1%.", "" },
 	{ 18095, "Rank 2", "Gives your Corruption and Drain Life spells a 4% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by $17941s1%.", "" },
 	{ 18096, "Rank 1", "Gives your Rain of Fire, Hellfire, and Soul Fire spells a 13% chance to stun the target for $18093d.", "" },
-	{ 18097, "", "When struck in combat has a 1% chance of raising a thorny shield that inflicts $17154s1 Nature damage to attackers when hit and increases Nature resistance by $17154s2 for $17154d.
-", "" },
+	{ 18097, "", "When struck in combat has a 1% chance of raising a thorny shield that inflicts $17154s1 Nature damage to attackers when hit and increases Nature resistance by $17154s2 for $17154d. \n ", "" },
 	{ 18099, "", "Blasts nearby enemies for Frost damage, knocking them back and reducing their movement speed for up to $d.", "Reduced movement speed." },
-	{ 18100, "", "Encases the caster in a layer of frost that lasts $d. The thick ice increases armor by $s1, slows melee attackers' movement to $18101s2%, and increases the time between their attacks by $18101s1%.", "Armor increased by $s1.
-Slowing melee attackers' movement and attacks." },
-	{ 18101, "Rank 1", "", "Time between attacks increased by $s1%.
-Movement speed reduced by $s2%." },
+	{ 18100, "", "Encases the caster in a layer of frost that lasts $d. The thick ice increases armor by $s1, slows melee attackers' movement to $18101s2%, and increases the time between their attacks by $18101s1%.", "Armor increased by $s1. \n Slowing melee attackers' movement and attacks." },
+	{ 18101, "Rank 1", "", "Time between attacks increased by $s1%. \n Movement speed reduced by $s2%." },
 	{ 18113, "", "Arcane Explosion Visual on the caster.", "" },
 	{ 18118, "", "", "Movement slowed by $s1%." },
 	{ 18119, "Rank 1", "Gives your Destruction spells a $h% chance to daze the target for $18118d.", "" },
@@ -7069,10 +6409,7 @@ Movement speed reduced by $s2%." },
 	{ 18153, "", "Kodo Kombobulator on any Ancient, Aged, or Dying Kodo to lure the Kodo to follow (one at a time).", "" },
 	{ 18163, "", "Causes Arko'narin to become an elite mob.", "With the power of Lightforge on her side, Arko will fight out of Jaedenar!" },
 	{ 18172, "", "The Kodo casts on Player to give player condition for Quest Credit", "Kombobulator is attracting a Kodo." },
-	{ 18173, "", "", "Damage done increased by $s1%.
-Spells cast are all instant.
-Reduces max health by $23619s1% every second.
-Deals $*2;23478s1 damage to surrounding allies on death." },
+	{ 18173, "", "", "Damage done increased by $s1%. \n Spells cast are all instant. \n Reduces max health by $23619s1% every second. \n Deals $*2;23478s1 damage to surrounding allies on death." },
 	{ 18174, "Rank 1", "Reduces the chance for enemies to resist your Affliction spells by $s1%.", "" },
 	{ 18175, "Rank 2", "Reduces the chance for enemies to resist your Affliction spells by $s1%.", "" },
 	{ 18176, "Rank 3", "Reduces the chance for enemies to resist your Affliction spells by $s1%.", "" },
@@ -7124,8 +6461,7 @@ Deals $*2;23478s1 damage to surrounding allies on death." },
 	{ 18288, "", "Increases the effect of your next Curse of Weakness or Curse of Agony by $s1%, or your next Curse of Exhaustion by $s2%.  Lasts $d.", "Increases effect for your next Curse of Weakness or Curse of Agony by $s1%, or your next Curse of Exhaustion by $s2%." },
 	{ 18289, "", "Diseases target enemy for $s1 Nature damage every $t1 sec for $d.", "$s1 Nature damage inflicted every $t1 sec." },
 	{ 18307, "", "Calls forth 3 servants of the House Barov that will fight, cook, and clean for you.", "" },
-	{ 18309, "Shapeshift", "Shapeshifts into a bear, increasing armor and hit points, as well as allowing the use of various bear abilities. Lasts until cancelled.", "Shapeshifted into bear.
-Armor and hit points increased." },
+	{ 18309, "Shapeshift", "Shapeshifts into a bear, increasing armor and hit points, as well as allowing the use of various bear abilities. Lasts until cancelled.", "Shapeshifted into bear. \n Armor and hit points increased." },
 	{ 18310, "Rank 1", "Increases the speed reduction of your Curse of Exhaustion by $s1%.", "" },
 	{ 18311, "Rank 2", "Increases the speed reduction of your Curse of Exhaustion by $s1%.", "" },
 	{ 18312, "Rank 3", "Increases the speed reduction of your Curse of Exhaustion by $s1%.", "" },
@@ -7179,8 +6515,7 @@ Armor and hit points increased." },
 	{ 18497, "", "Teaches you how to sew Runecloth Boots.", "" },
 	{ 18499, "", "The warrior enters a berserker rage, becoming immune to Fear and Incapacitate effects and generating extra rage when taking damage.  Lasts $d.", "Immune to Fear and Incapacitate effects.  Generating extra rage when taking damage." },
 	{ 18500, "", "Inflicts $s2 damage to enemies in a cone in front of the caster, knocking them back.", "" },
-	{ 18501, "", "Increases the Physical damage dealt by the caster by $s1 and speeds its attacks by $s2% for $d.", "Physical damage dealt is increased by $s1.
-Attack speed increased by $s2%." },
+	{ 18501, "", "Increases the Physical damage dealt by the caster by $s1 and speeds its attacks by $s2% for $d.", "Physical damage dealt is increased by $s1. \n Attack speed increased by $s2%." },
 	{ 18502, "", "Drains $s1 mana from an enemy every $t1 sec., transferring it to the caster over $d.", "$s1 mana leeched every $t1 sec." },
 	{ 18503, "", "Transforms an enemy into a chicken, rendering it unable to attack or cast spells for $d.", "Hexed." },
 	{ 18507, "", "Teaches you how to sew Frostweave Pants.", "" },
@@ -7216,8 +6551,7 @@ Attack speed increased by $s2%." },
 	{ 18540, "", "Begins a ritual that sacrifices a random participant to summon a doomguard.  The doomguard must be immediately enslaved or it will attack the ritual participants.  Requires the caster and 4 additional party members to complete the ritual.  In order to participate, all players must right-click the portal and not move until the ritual is complete.", "" },
 	{ 18544, "Rank 1", "Increases your spell damage by $s2% and the critical strike chance of your offensive spells by $s1%.", "" },
 	{ 18545, "", "Stings an enemy, reducing its Strength and Agility by $s1 for $d.", "Strength and Agility reduced by $s1." },
-	{ 18546, "", "Immobilizes the caster, but increases its attack speed by $s2% for $d.", "Immobilized.
-Attack speed increased by $s2%." },
+	{ 18546, "", "Immobilizes the caster, but increases its attack speed by $s2% for $d.", "Immobilized. \n Attack speed increased by $s2%." },
 	{ 18547, "Rank 2", "Increases your spell damage by $s2% and the critical strike chance of your offensive spells by $s1%.", "" },
 	{ 18548, "Rank 3", "Increases your spell damage by $s2% and the critical strike chance of your offensive spells by $s1%.", "" },
 	{ 18549, "Rank 4", "Increases your spell damage by $s2% and the critical strike chance of your offensive spells by $s1%.", "" },
@@ -7276,8 +6610,7 @@ Attack speed increased by $s2%." },
 	{ 18757, "Rank 1", "Reduces the Mana cost and casting time of your Stone creation spells by $s1%.", "" },
 	{ 18758, "Rank 2", "Reduces the Mana cost and casting time of your Stone creation spells by $s1%.", "" },
 	{ 18762, "", "Close Demon Portals.", "" },
-	{ 18763, "", "Stuns an enemy and inflicts Frost damage every $t1 sec. for $d.", "Stunned.
-Frost damage inflicted every $t1 sec." },
+	{ 18763, "", "Stuns an enemy and inflicts Frost damage every $t1 sec. for $d.", "Stunned. \n Frost damage inflicted every $t1 sec." },
 	{ 18764, "Rank 1", "Restores $s1 health every $t1 sec.", "Restores $s1 health every $t1 sec." },
 	{ 18765, "", "Causes the caster's next $n melee attacks to strike an additional nearby enemy. This battle frenzy is tiring, however, and lasts $d. at most.", "Melee attacks are striking an additional nearby enemy." },
 	{ 18767, "Rank 1", "Increases the bonus Fire damage from Firestones and the Firestone effect by $s1%.", "" },
@@ -7290,15 +6623,7 @@ Frost damage inflicted every $t1 sec." },
 	{ 18774, "Rank 1", "Increases the amount of damage absorbed by your Spellstone by $s1%.", "" },
 	{ 18775, "Rank 2", "Increases the amount of damage absorbed by your Spellstone by $s1%.", "" },
 	{ 18787, "", "Increases Attack Power by $s1 for $d.", "Increased attack power." },
-	{ 18788, "", "When activated, sacrifices your summoned demon to grant you an effect that lasts $18789d.  The effect is canceled if any Demon is summoned.
-
-Imp: Increases your Fire damage by $18789s1%.
-
-Voidwalker: Restores $18790s1% of total Health every $18790t1 sec.
-
-Succubus: Increases your Shadow damage by $18791s1%.
-
-Felhunter: Restores $18792s1% of total Mana every $18792t1 sec.", "" },
+	{ 18788, "", "When activated, sacrifices your summoned demon to grant you an effect that lasts $18789d.  The effect is canceled if any Demon is summoned. \n  \n Imp: Increases your Fire damage by $18789s1%. \n  \n Voidwalker: Restores $18790s1% of total Health every $18790t1 sec. \n  \n Succubus: Increases your Shadow damage by $18791s1%. \n  \n Felhunter: Restores $18792s1% of total Mana every $18792t1 sec.", "" },
 	{ 18789, "", "", "Fire damage increased by $s1%." },
 	{ 18790, "", "", "Restores $s1% of total Health every $t1 sec." },
 	{ 18792, "", "", "Restores $s1% of total Mana every $t1 sec." },
@@ -7371,8 +6696,7 @@ Felhunter: Restores $18792s1% of total Mana every $18792t1 sec.", "" },
 	{ 19129, "", "Causes a massive ground tremor, inflicting $s1 damage to nearby enemies and interrupts any spell being cast for $d..", "" },
 	{ 19131, "", "Charges an enemy, knocking it back and inflicting normal damage plus $s3.", "" },
 	{ 19134, "", "Shouts at an enemy, paralyzing it with terror for $d. and causing all other nearby enemies to flee in fear.", "Intimidated." },
-	{ 19135, "", "Increases the Physical damage dealt by the caster by $s1% and enhances its armor by $s2% for $d.", "Physical damage dealt is increased by $s1%.
-Armor increased by $s2%." },
+	{ 19135, "", "Increases the Physical damage dealt by the caster by $s1% and enhances its armor by $s2% for $d.", "Physical damage dealt is increased by $s1%. \n Armor increased by $s2%." },
 	{ 19136, "", "Inflicts $s1 damage to an enemy, stunning it for $d.", "Stunned." },
 	{ 19149, "", "Teaches you how to craft Heavy Scorpid Bracers.", "" },
 	{ 19151, "Rank 1", "Increases all damage caused against Humanoid targets by $s1% and increases critical damage caused against Humanoid targets by an additional $s2%.", "" },
@@ -7509,15 +6833,13 @@ Armor increased by $s2%." },
 	{ 19319, "", "Bites an enemy, inflicting Physical damage.", "" },
 	{ 19363, "", "Summons a mechanical yeti that will protect you for $d.", "" },
 	{ 19364, "", "Stomps the ground, stunning nearby enemies for $d.", "Stunned." },
-	{ 19365, "", "Reduces an enemy's casting speed by $s1% and increases the time between its attacks by $s2% for $d.", "Casting speed reduced by $s1%.
-Time between attacks increased by $s2%." },
+	{ 19365, "", "Reduces an enemy's casting speed by $s1% and increases the time between its attacks by $s2% for $d.", "Casting speed reduced by $s1%. \n Time between attacks increased by $s2%." },
 	{ 19366, "", "Reduces the Fire resistance of nearby enemies by $s1 for $d.", "Fire resistance reduced by $s1." },
 	{ 19367, "", "Reduces an enemy's maximum health by $s1% for $d.", "Maximum health reduced by $s1%." },
 	{ 19369, "", "Disorients nearby enemies, causing them to stop attacking their targets and wander around for $d.", "Disoriented." },
 	{ 19370, "Rank 1", "Increases your critical strike chance with all attacks by $s1%.", "" },
 	{ 19371, "Rank 2", "Increases your critical strike chance with all attacks by $s1%.", "" },
-	{ 19372, "", "Reduces nearby enemies' Spirit by $s1% and their Intellect by $s2% for $d.", "Spirit reduced by $s1%.
-Intellect reduced by $s2%." },
+	{ 19372, "", "Reduces nearby enemies' Spirit by $s1% and their Intellect by $s2% for $d.", "Spirit reduced by $s1%. \n Intellect reduced by $s2%." },
 	{ 19373, "Rank 3", "Increases your critical strike chance with all attacks by $s1%.", "" },
 	{ 19376, "Rank 1", "Decreases the chance enemies will resist trap effects by $s1%.", "" },
 	{ 19377, "Rank 2", "Decreases the chance enemies will resist trap effects by $s1%.", "" },
@@ -7531,9 +6853,7 @@ Intellect reduced by $s2%." },
 	{ 19388, "Rank 3", "Gives your Immolation Trap, Frost Trap, and Explosive Trap a $h% chance to entrap the target, preventing them from moving for $19185d.", "" },
 	{ 19389, "Rank 4", "Gives your Immolation Trap, Frost Trap, and Explosive Trap a $h% chance to entrap the target, preventing them from moving for $19185d.", "" },
 	{ 19390, "Rank 5", "Gives your Immolation Trap, Frost Trap, and Explosive Trap a $h% chance to entrap the target, preventing them from moving for $19185d.", "" },
-	{ 19393, "", "Inflicts $o1 Fire damage to an enemy over $d, preventing it from casting spells and reducing the Physical damage it deals by $s3%.", "$o1 Fire damage inflicted over $d.
-Physical damage dealt is decreased by $s3%.
-Silenced." },
+	{ 19393, "", "Inflicts $o1 Fire damage to an enemy over $d, preventing it from casting spells and reducing the Physical damage it deals by $s3%.", "$o1 Fire damage inflicted over $d. \n Physical damage dealt is decreased by $s3%. \n Silenced." },
 	{ 19396, "", "", "Fire damage taken is increased by $s1." },
 	{ 19407, "Rank 1", "Gives your Concussive Shot a $h% chance to stun the target for $19410d.", "" },
 	{ 19408, "", "Panics nearby enemies, causing them to flee in fear for $d.", "Fleeing in fear." },
@@ -7579,8 +6899,7 @@ Silenced." },
 	{ 19466, "Rank 3", "Increases the damage done by your Serpent Sting by $s1%.", "" },
 	{ 19467, "Rank 4", "Increases the damage done by your Serpent Sting by $s1%.", "" },
 	{ 19468, "Rank 5", "Increases the damage done by your Serpent Sting by $s1%.", "" },
-	{ 19469, "", "Takes control of an enemy up to level $s1 and inflicts Nature damage every $t2 sec. for $d.", "Charmed.
-Nature damage inflicted every $t2 sec." },
+	{ 19469, "", "Takes control of an enemy up to level $s1 and inflicts Nature damage every $t2 sec. for $d.", "Charmed. \n Nature damage inflicted every $t2 sec." },
 	{ 19470, "", "Places gem in Naga statue", "" },
 	{ 19478, "Rank 1", "Taints the Felhunter's blood for $d.  When the Felhunter is hit with a melee attack, the attacker will lose $19479s1 melee attack power for $19479d.  Stacks up to 5 times on a single target.", "Drains $19479s1 melee attack power when hit.  Stacks up to 5 times." },
 	{ 19479, "Rank 1", "", "Melee attack power reduced by $s1." },
@@ -7672,12 +6991,10 @@ Nature damage inflicted every $t2 sec." },
 	{ 19624, "Rank 4", "Gives your pet a $s1% chance to gain a $19615s1% attack speed increase for $19615d after dealing a critical strike.", "" },
 	{ 19625, "Rank 5", "Gives your pet a $s1% chance to gain a $19615s1% attack speed increase for $19615d after dealing a critical strike.", "" },
 	{ 19634, "", "Restores $s1 mana every $t1 sec for $d.", "Restores $s1 mana every $t1 seconds." },
-	{ 19636, "", "Causes flames to blossom from the caster, immobilizing it and periodically inflicting $19637s1 Fire damage to an enemy for $d.", "Immobilized.
-Periodically inflicting $19637s1 Fire damage to an enemy." },
+	{ 19636, "", "Causes flames to blossom from the caster, immobilizing it and periodically inflicting $19637s1 Fire damage to an enemy for $d.", "Immobilized. \n Periodically inflicting $19637s1 Fire damage to an enemy." },
 	{ 19638, "", "Increases all resistances by $s1 for $d.", "" },
 	{ 19639, "", "Pummels an enemy and interrupts the spell being cast for $d.", "" },
-	{ 19641, "", "Inflicts $o2 Fire damage to enemies in a cone in front of the caster, stunning them for $d.", "Stunned.
-$o2 Fire damage inflicted over $d." },
+	{ 19641, "", "Inflicts $o2 Fire damage to enemies in a cone in front of the caster, stunning them for $d.", "Stunned. \n $o2 Fire damage inflicted over $d." },
 	{ 19643, "", "Inflicts $s1% weapon damage to an enemy and leaves it wounded, reducing the effectiveness of any healing by $s2% for $d.", "Healing effects reduced by $s2%." },
 	{ 19646, "", "Allows opening of simple locks.  The skeleton key is consumed in the process.", "" },
 	{ 19647, "Rank 2", "Silences the enemy for $24259d.  If used on a casting target, it will counter the enemy's spellcast, preventing any spell from that school of magic from being cast for $d.", "" },
@@ -7699,8 +7016,7 @@ $o2 Fire damage inflicted over $d." },
 	{ 19692, "", "Begins taming a Swoop to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.", "Taming Swoop." },
 	{ 19693, "", "Begins taming a Webwood Lurker to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.", "Taming Webwood Lurker." },
 	{ 19694, "", "Begins taming a Dire Mottled Boar to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.", "Taming Dire Mottled Boar." },
-	{ 19695, "", "Surrounds the caster with an inferno that periodically inflicts Fire damage to nearby enemies for $d. While the caster is aflame, $ghe:she; cannot move or use $ghis:her; abilities.", "Unable to move or use abilities.
-Periodically inflicting Fire damage to nearby enemies." },
+	{ 19695, "", "Surrounds the caster with an inferno that periodically inflicts Fire damage to nearby enemies for $d. While the caster is aflame, $ghe:she; cannot move or use $ghis:her; abilities.", "Unable to move or use abilities. \n Periodically inflicting Fire damage to nearby enemies." },
 	{ 19696, "", "Begins taming a Surf Crawler to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.", "Taming Surf Crawler." },
 	{ 19697, "", "Begins taming an Armored Scorpid to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.", "Taming Armored Scorpid." },
 	{ 19699, "", "Begins taming a Nightsaber Stalker to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.", "Taming Nightsaber Stalker." },
@@ -7733,8 +7049,7 @@ Periodically inflicting Fire damage to nearby enemies." },
 	{ 19775, "", "Uses dark magic to heal an ally for $s1 damage.", "" },
 	{ 19777, "", "Consecrates the caster's weapon, inflicting $s1 additional damage on its next attack. All damage caused is considered Shadow damage.", "" },
 	{ 19778, "", "Reduces the melee and ranged attack power of nearby enemies by $s1 for $d.", "Melee and ranged attack power reduced by $s1." },
-	{ 19779, "", "Increases the Physical damage dealt by an ally by $s2% and speeds its attacks by $s1% for $d.", "Attack speed increased by $s1%.
-Physical damage dealt is increased by $s2%." },
+	{ 19779, "", "Increases the Physical damage dealt by an ally by $s2% and speeds its attacks by $s1% for $d.", "Attack speed increased by $s1%. \n Physical damage dealt is increased by $s2%." },
 	{ 19780, "", "Inflicts $s3 Fire damage to nearby enemies, knocking them back and stunning them for $d.", "Stunned." },
 	{ 19781, "", "Tosses a spear of flame, inflicting $s1 Fire damage to an enemy, as well as scorching any other enemies in the vicinity of the target.", "" },
 	{ 19784, "", "Inflicts $s1 Fire damage and stuns targets in a $a1 yard radius for $d.  Any damage will break the effect.", "Stunned.  Any damage will break the effect." },
@@ -7746,8 +7061,7 @@ Physical damage dealt is increased by $s2%." },
 	{ 19804, "", "Activates your Arcanite Dragonling to fight for you for $d.  It requires an hour to cool down before it can be used again.", "" },
 	{ 19806, "", "Injures caster of spell by $s1.", "" },
 	{ 19810, "", "Injures caster of spell by $s2 on spawn.", "" },
-	{ 19820, "", "Inflicts $s2 damage to an enemy every $t2 sec. and slows its movement by $s1% for $d.", "Movement speed reduced by $s1%.
-$s2 Physical damage inflicted every $t2 sec." },
+	{ 19820, "", "Inflicts $s2 damage to an enemy every $t2 sec. and slows its movement by $s1% for $d.", "Movement speed reduced by $s1%. \n $s2 Physical damage inflicted every $t2 sec." },
 	{ 19821, "", "Drains $s1 mana from those in the blast radius and does 50% of the mana drained in damage to the target.  Also Silences targets in the blast for $d.", "Silenced." },
 	{ 19822, "", "", "Feigning death." },
 	{ 19832, "", "", "Possessed." },
@@ -7826,9 +7140,7 @@ $s2 Physical damage inflicted every $t2 sec." },
 	{ 20017, "", "Permanently enchant a shield to give +7 Stamina.", "" },
 	{ 20019, "", "Sets an enemy aflame, inflicting $o1 Fire damage over $d. and sending it into a state of panic. While the target is affected, the flames periodically scorch its nearby allies for $20021s1 damage as well.", "You're burning!" },
 	{ 20020, "", "Permanently enchant boots to give +7 Stamina.", "" },
-	{ 20022, "", "Creates a Soulstone that is automatically used upon death, restoring its owner to life at $3026s1% health and mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 20022, "", "Creates a Soulstone that is automatically used upon death, restoring its owner to life at $3026s1% health and mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 20023, "", "Permanently enchant boots to give +7 Agility.", "" },
 	{ 20024, "", "Permanently enchant boots to give +5 Spirit.", "" },
 	{ 20025, "", "Permanently enchant a piece of chest armor to grant +4 to all stats.", "" },
@@ -7906,18 +7218,10 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 20149, "Rank 2", "Increases the amount of damage absorbed by your shield by $s1%.", "" },
 	{ 20150, "Rank 3", "Increases the amount of damage absorbed by your shield by $s1%.", "" },
 	{ 20154, "Rank 1", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;s1 to $/25;s1 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.", "Melee attacks cause an additional $/87;20187s3 to $/25;20187s3 Holy damage." },
-	{ 20162, "Rank 2", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20188d, increasing Holy damage taken by up to $20188s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
-	{ 20164, "", "Fills the Paladin with the spirit of justice for $d, giving each melee attack a chance to stun for $20170d.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20184d, preventing them from fleeing.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to stun for $20170d." },
-	{ 20165, "Rank 1", "Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20167s1.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20185d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20267s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to heal you for $20167s1." },
-	{ 20166, "Rank 1", "Fills the Paladin with divine wisdom for $d, giving each melee attack a chance to restore $20168s1 of the Paladin's mana.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20186d, granting attacks and spells used against the judged enemy a chance to restore $20268s1 mana to the attacker.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to restore $20168s1 mana." },
+	{ 20162, "Rank 2", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20188d, increasing Holy damage taken by up to $20188s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
+	{ 20164, "", "Fills the Paladin with the spirit of justice for $d, giving each melee attack a chance to stun for $20170d.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20184d, preventing them from fleeing.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to stun for $20170d." },
+	{ 20165, "Rank 1", "Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20167s1.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20185d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20267s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to heal you for $20167s1." },
+	{ 20166, "Rank 1", "Fills the Paladin with divine wisdom for $d, giving each melee attack a chance to restore $20168s1 of the Paladin's mana.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20186d, granting attacks and spells used against the judged enemy a chance to restore $20268s1 mana to the attacker.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to restore $20168s1 mana." },
 	{ 20174, "Rank 1", "Reduces the cooldown of your Blessing of Protection by $/1000;s1 sec and increases the duration of your Blessing of Freedom by $/1000;s2 sec.", "" },
 	{ 20175, "Rank 2", "Reduces the cooldown of your Blessing of Protection by $/1000;s1 sec and increases the duration of your Blessing of Freedom by $/1000;s2 sec.", "" },
 	{ 20177, "Rank 1", "Gives you a $h% chance to gain an extra attack after being the victim of a critical strike.", "" },
@@ -7991,44 +7295,22 @@ Unleashing this Seal's energy will judge an enemy for $20186d, granting attacks 
 	{ 20271, "", "Unleashes the energy of a Seal spell upon an enemy.  Refer to individual Seals for Judgement effect.", "" },
 	{ 20274, "", "Helps gather termites from a termite mound in Eastern Plaguelands.", "" },
 	{ 20279, "", "Summons an enemy player.", "" },
-	{ 20287, "Rank 2", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20280s3 to $/25;20280s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will cause $20280s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20280s3 to $/25;20280s3 Holy damage." },
-	{ 20288, "Rank 3", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20281s3 to $/25;20281s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will cause $20281s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20281s3 to $/25;20281s3 Holy damage." },
-	{ 20289, "Rank 4", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20282s3 to $/25;20282s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will cause $20282s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20282s3 to $/25;20282s3 Holy damage." },
-	{ 20290, "Rank 5", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20283s3 to $/25;20283s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will cause $20283s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20283s3 to $/25;20283s3 Holy damage." },
-	{ 20291, "Rank 6", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20284s3 to $/25;20284s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will cause $20284s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20284s3 to $/25;20284s3 Holy damage." },
-	{ 20292, "Rank 7", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20285s3 to $/25;20285s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will cause $20285s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20285s3 to $/25;20285s3 Holy damage." },
-	{ 20293, "Rank 8", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20286s3 to $/25;20286s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will cause $20286s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20286s3 to $/25;20286s3 Holy damage." },
+	{ 20287, "Rank 2", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20280s3 to $/25;20280s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will cause $20280s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20280s3 to $/25;20280s3 Holy damage." },
+	{ 20288, "Rank 3", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20281s3 to $/25;20281s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will cause $20281s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20281s3 to $/25;20281s3 Holy damage." },
+	{ 20289, "Rank 4", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20282s3 to $/25;20282s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will cause $20282s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20282s3 to $/25;20282s3 Holy damage." },
+	{ 20290, "Rank 5", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20283s3 to $/25;20283s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will cause $20283s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20283s3 to $/25;20283s3 Holy damage." },
+	{ 20291, "Rank 6", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20284s3 to $/25;20284s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will cause $20284s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20284s3 to $/25;20284s3 Holy damage." },
+	{ 20292, "Rank 7", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20285s3 to $/25;20285s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will cause $20285s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20285s3 to $/25;20285s3 Holy damage." },
+	{ 20293, "Rank 8", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20286s3 to $/25;20286s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will cause $20286s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20286s3 to $/25;20286s3 Holy damage." },
 	{ 20294, "", "Inflicts $s2 Fire damage to an enemy and scorches it for an additional $s1 damage every $t1 sec. for $d.", "$s1 Fire damage inflicted every $t1 sec." },
 	{ 20300, "Rank 3", "", "Increases Holy damage taken by up to $s1." },
 	{ 20301, "Rank 4", "", "Increases Holy damage taken by up to $s1." },
 	{ 20302, "Rank 5", "", "Increases Holy damage taken by up to $s1." },
 	{ 20303, "Rank 6", "", "Increases Holy damage taken by up to $s1." },
-	{ 20305, "Rank 3", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20300d, increasing Holy damage taken by up to $20300s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
-	{ 20306, "Rank 4", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20301d, increasing Holy damage taken by up to $20301s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
-	{ 20307, "Rank 5", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20302d, increasing Holy damage taken by up to $20302s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
-	{ 20308, "Rank 6", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20303d, increasing Holy damage taken by up to $20303s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
+	{ 20305, "Rank 3", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20300d, increasing Holy damage taken by up to $20300s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
+	{ 20306, "Rank 4", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20301d, increasing Holy damage taken by up to $20301s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
+	{ 20307, "Rank 5", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20302d, increasing Holy damage taken by up to $20302s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
+	{ 20308, "Rank 6", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20303d, increasing Holy damage taken by up to $20303s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
 	{ 20312, "Rank 3", "Teaches Imp Firebolt (Rank 3).", "" },
 	{ 20313, "Rank 4", "Teaches Imp Firebolt (Rank 4).", "" },
 	{ 20314, "Rank 5", "Teaches Imp Firebolt (Rank 5).", "" },
@@ -8054,30 +7336,18 @@ Unleashing this Seal's energy will judge an enemy for $20303d, increasing Holy d
 	{ 20344, "Rank 2", "", "Melee attacks made against you have a chance of causing the attacker to be healed for $20341s1." },
 	{ 20345, "Rank 3", "", "Melee attacks made against you have a chance of causing the attacker to be healed for $20342s1." },
 	{ 20346, "Rank 4", "", "Melee attacks made against you have a chance of causing the attacker to be healed for $20343s1." },
-	{ 20347, "Rank 2", "Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20333s1.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20344d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20341s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to heal you for $20333s1." },
-	{ 20348, "Rank 3", "Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20334s1.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20345d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20342s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to heal you for $20334s1." },
-	{ 20349, "Rank 4", "Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20340s1.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20346d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20343s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to heal you for $20340s1." },
+	{ 20347, "Rank 2", "Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20333s1.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20344d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20341s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to heal you for $20333s1." },
+	{ 20348, "Rank 3", "Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20334s1.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20345d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20342s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to heal you for $20334s1." },
+	{ 20349, "Rank 4", "Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20340s1.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20346d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20343s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to heal you for $20340s1." },
 	{ 20354, "Rank 2", "", "Attacks and spells used against you have a chance of restoring $20352s1 of the attacker's mana." },
 	{ 20355, "Rank 3", "", "Attacks and spells used against you have a chance of restoring $20353s1 of the attacker's mana." },
-	{ 20356, "Rank 2", "Fills the Paladin with divine wisdom for $d, giving each melee attack a chance to restore $20350s1 of the Paladin's mana.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20354d, granting attacks and spells used against the judged enemy a chance to restore $20352s1 mana to the attacker.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to restore $20350s1 mana." },
-	{ 20357, "Rank 3", "Fills the Paladin with divine wisdom for $d, giving each melee attack a chance to restore $20351s1 of the Paladin's mana.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $20355d, granting attacks and spells used against the judged enemy a chance to restore $20353s1 mana to the attacker.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to restore $20351s1 mana." },
+	{ 20356, "Rank 2", "Fills the Paladin with divine wisdom for $d, giving each melee attack a chance to restore $20350s1 of the Paladin's mana.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20354d, granting attacks and spells used against the judged enemy a chance to restore $20352s1 mana to the attacker.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to restore $20350s1 mana." },
+	{ 20357, "Rank 3", "Fills the Paladin with divine wisdom for $d, giving each melee attack a chance to restore $20351s1 of the Paladin's mana.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $20355d, granting attacks and spells used against the judged enemy a chance to restore $20353s1 mana to the attacker.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attacks have a chance to restore $20351s1 mana." },
 	{ 20359, "Rank 1", "Increases the duration of your Judgement of Light and Judgement of Wisdom by $/1000;s1 sec.", "" },
 	{ 20360, "Rank 2", "Increases the duration of your Judgement of Light and Judgement of Wisdom by $/1000;s1 sec.", "" },
 	{ 20361, "Rank 3", "Increases the duration of your Judgement of Light and Judgement of Wisdom by $/1000;s1 sec.", "" },
 	{ 20364, "", "Bury at Marla's Grave.", "" },
-	{ 20375, "Rank 1", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d.
-
-Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20467s1 Holy damage, $20467s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
+	{ 20375, "Rank 1", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d. \n  \n Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20467s1 Holy damage, $20467s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
 	{ 20377, "Rank 3", "Teaches Voidwalker Torment (Rank 3).", "" },
 	{ 20378, "Rank 4", "Teaches Voidwalker Torment (Rank 4).", "" },
 	{ 20379, "Rank 5", "Teaches Voidwalker Torment (Rank 5).", "" },
@@ -8150,10 +7420,8 @@ Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20467s1
 	{ 20530, "", "Bind pages 5-8 into Chapter 2 of the Shredder Operating Manual.", "" },
 	{ 20531, "", "Bind pages 9-12 into Chapter 3 of the Shredder Operating Manual.", "" },
 	{ 20534, "", "Teleports an enemy into the midst of burning coals.", "" },
-	{ 20540, "Rank 1", "Puts the caster in stealth mode, but slows its movement by $s2%. Lasts until cancelled.", "Stealthed.
-Movement speed slowed by $s2%." },
-	{ 20542, "", "Inflicts $s1 Nature damage to nearby enemies every $t1 sec. and increases the Nature damage they take by $s2 for $d.", "$s1 Nature damage inflicted every $t1 sec.
-Nature damage taken is increased by $s2." },
+	{ 20540, "Rank 1", "Puts the caster in stealth mode, but slows its movement by $s2%. Lasts until cancelled.", "Stealthed. \n Movement speed slowed by $s2%." },
+	{ 20542, "", "Inflicts $s1 Nature damage to nearby enemies every $t1 sec. and increases the Nature damage they take by $s2 for $d.", "$s1 Nature damage inflicted every $t1 sec. \n Nature damage taken is increased by $s2." },
 	{ 20547, "", "", "$20476s1 Fire damage inflicted to nearby allies after $t1 sec." },
 	{ 20549, "Racial", "Stuns up to $i enemies within $a1 yds for $d.", "Stunned." },
 	{ 20550, "Racial Passive", "Total Health increased by $s1%.", "" },
@@ -8202,23 +7470,17 @@ Nature damage taken is increased by $s2." },
 	{ 20617, "Rank 3", "Charge an enemy, causing $20615s2 damage and stunning it for $20615d.", "" },
 	{ 20619, "", "Causes all nearby allies to reflect $s1% of harmful spells for $d.", "$s1% chance to reflect spells." },
 	{ 20628, "", "Teaches you how to cook a hot Undermine Clam Chowder.", "" },
-	{ 20629, "", "Spits poison at an enemy, inflicting harm, reducing the target's armor, and causing additional Nature damage every $t2 sec. for $d.", "Reduced armor.
-Nature damage inflicted every $t2 sec." },
+	{ 20629, "", "Spits poison at an enemy, inflicting harm, reducing the target's armor, and causing additional Nature damage every $t2 sec. for $d.", "Reduced armor. \n Nature damage inflicted every $t2 sec." },
 	{ 20631, "Rank 1", "Restores $s1 health every $t1 sec for $d.", "Restores $s1 health every $t1 sec." },
-	{ 20654, "", "Entangles nearby enemies in roots, inflicting Nature damage every $t2 sec. and immobilizing them for up to $d.", "Immobilized.
-Nature damage inflicted every $t2 sec." },
-	{ 20655, "", "Heals an ally for $s2 damage every $t2 sec. and increases its armor by $s1 for $d.", "Armor increased by $s1.
-$s2 damage healed every $t2 sec." },
+	{ 20654, "", "Entangles nearby enemies in roots, inflicting Nature damage every $t2 sec. and immobilizing them for up to $d.", "Immobilized. \n Nature damage inflicted every $t2 sec." },
+	{ 20655, "", "Heals an ally for $s2 damage every $t2 sec. and increases its armor by $s1 for $d.", "Armor increased by $s1. \n $s2 damage healed every $t2 sec." },
 	{ 20658, "Rank 2", "Attempt to finish off a wounded foe, causing $s1 damage and converting each extra point of rage into $*10;F1 additional damage.  Only usable on enemies that have 20% or less health.", "" },
 	{ 20660, "Rank 3", "Attempt to finish off a wounded foe, causing $s1 damage and converting each extra point of rage into $*10;F1 additional damage.  Only usable on enemies that have 20% or less health.", "" },
 	{ 20661, "Rank 4", "Attempt to finish off a wounded foe, causing $s1 damage and converting each extra point of rage into $*10;F1 additional damage.  Only usable on enemies that have 20% or less health.", "" },
 	{ 20662, "Rank 5", "Attempt to finish off a wounded foe, causing $s1 damage and converting each extra point of rage into $*10;F1 additional damage.  Only usable on enemies that have 20% or less health.", "" },
 	{ 20666, "", "Inflicts weapon damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets and knocking them back.", "" },
-	{ 20668, "", "Takes control of a humanoid enemy up to level $s1 for $d, increases the magical damage it deals by $s2, and increases the Physical damage it deals by $s3.", "Charmed.
-Magical damage dealt is increased by $s2.
-Physical damage dealt is increased by $s3." },
-	{ 20672, "", "Turns the caster invisible and increases its movement speed by $s3% for $d.", "Invisible.
-Movement speed increased by $s3%." },
+	{ 20668, "", "Takes control of a humanoid enemy up to level $s1 for $d, increases the magical damage it deals by $s2, and increases the Physical damage it deals by $s3.", "Charmed. \n Magical damage dealt is increased by $s2. \n Physical damage dealt is increased by $s3." },
+	{ 20672, "", "Turns the caster invisible and increases its movement speed by $s3% for $d.", "Invisible. \n Movement speed increased by $s3%." },
 	{ 20677, "", "Inflicts Physical damage to an enemy and its nearest allies, affecting up to $x1 targets.", "" },
 	{ 20682, "", "Teleports an enemy above Theramore Harbor.", "" },
 	{ 20685, "", "Throws a hammer at an enemy, inflicting $s1 Physical damage and stunning the target for $d.", "Stunned." },
@@ -8229,15 +7491,13 @@ Movement speed increased by $s3%." },
 	{ 20694, "", "Causes an explosion of divine light, inflicting $s1 Holy damage to nearby enemies and reducing the caster's threat level for $d.", "" },
 	{ 20695, "", "Smites an enemy, inflicting $s1 Holy damage.", "" },
 	{ 20698, "", "Hurls a bolt of lightning at an enemy, inflicting $s1 Nature damage.", "" },
-	{ 20699, "", "Entangles nearby enemies in roots, inflicting $s2 Nature damage every $t2 sec. and immobilizing them for up to $d.", "Immobilized.
-$s2 Nature damage inflicted every $t2 sec." },
+	{ 20699, "", "Entangles nearby enemies in roots, inflicting $s2 Nature damage every $t2 sec. and immobilizing them for up to $d.", "Immobilized. \n $s2 Nature damage inflicted every $t2 sec." },
 	{ 20705, "", "When the victim of a critical hit in combat, $s1% chance to be sheathed in a magical shield absorbing the next $20706s1 damage.", "" },
 	{ 20706, "Rank 7", "Draws on the soul of the target to shield them, absorbing $s1 damage.  Lasts $d.  While the shield holds, spellcasting will not be interrupted by damage.  Once shielded, the target cannot be shielded again for $6788d.", "Absorbs damage." },
 	{ 20707, "", "Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $3026s1 health and $3026q1 mana.", "Soul is stored." },
 	{ 20710, "", "+$s1% chance to resist Fear spells and effects.", "" },
 	{ 20711, "", "Upon death, the priest becomes the Spirit of Redemption for $27827d.  The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects.  While in this form the priest can cast any healing spell free of cost.  When the effect ends, the priest dies.", "" },
-	{ 20716, "", "Inflicts Arcane damage to enemies in a cone in front of the caster, reducing their movement and increasing the time between their attacks for $d.", "Reduced movement speed.
-Increased time between attacks." },
+	{ 20716, "", "Inflicts Arcane damage to enemies in a cone in front of the caster, reducing their movement and increasing the time between their attacks for $d.", "Reduced movement speed. \n Increased time between attacks." },
 	{ 20729, "Rank 2", "Places a Blessing on the party member, transfering $s1 damage taken per hit to the caster.  Lasts $d.  Players may only have one Blessing on them per Paladin at any one time.", "Transfers $s1 damage taken per hit to the paladin." },
 	{ 20733, "", "Curses an enemy, inflicting periodic Shadow damage over $d. If the target dies while afflicted by Black Arrow, $20734s1 $lSkeleton:Skeletons; will be summoned from the target's corpse.", "Shadow damage periodically inflicted over $d." },
 	{ 20736, "Rank 1", "Distract the target, causing threat.", "" },
@@ -8247,18 +7507,10 @@ Increased time between attacks." },
 	{ 20743, "", "Drains $o1 health from nearby enemies over $d., transferring it to the caster.", "$o1 health leeched over $d." },
 	{ 20747, "Rank 4", "Returns the spirit to the body, restoring a dead target to life with $s1 health and $q mana.", "" },
 	{ 20748, "Rank 5", "Returns the spirit to the body, restoring a dead target to life with $s1 health and $q mana.", "" },
-	{ 20752, "", "Creates a Lesser Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20758s1 health and $20758q1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 20755, "", "Creates a Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20759s1 health and $20759q1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 20756, "", "Creates a Greater Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20760s1 health and $20760q1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
-	{ 20757, "", "Creates a Major Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20761s1 health and $20761q1 mana.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 20752, "", "Creates a Lesser Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20758s1 health and $20758q1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 20755, "", "Creates a Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20759s1 health and $20759q1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 20756, "", "Creates a Greater Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20760s1 health and $20760q1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 20757, "", "Creates a Major Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20761s1 health and $20761q1 mana. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 20762, "", "Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20758s1 health and $20758q1 mana.", "Soul is stored." },
 	{ 20763, "", "Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20759s1 health and $20759q1 mana.", "Soul is stored." },
 	{ 20764, "", "Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20760s1 health and $20760q1 mana.", "Soul is stored." },
@@ -8271,14 +7523,11 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 20785, "", "", "$s1% resistance to charm effects." },
 	{ 20788, "", "Counters an enemy's spell.", "" },
 	{ 20790, "", "Calls upon Nature magic to heal an ally for $s1 damage.", "" },
-	{ 20798, "", "Increases the caster's armor by $s1 and speeds its health regeneration for $d.", "Armor increased by $s1.
-Increased health regeneration." },
+	{ 20798, "", "Increases the caster's armor by $s1 and speeds its health regeneration for $d.", "Armor increased by $s1. \n Increased health regeneration." },
 	{ 20799, "Rank 1", "Teaches Inferno.", "" },
 	{ 20801, "", "Shoots a bolt of flame at an enemy, inflicting Fire damage.", "" },
 	{ 20804, "", "Use on Injured, Badly Injured, and Critically Injured Soldiers.", "" },
-	{ 20812, "", "Increased the time between an enemy's attacks by $s2% and its movement by $s1%, in addition to reducing its Strength by $s3%. Lasts $d.", "Movement speed reduced by $s1%.
-Time between attacks increased by $s2%.
-Strength reduced by $s3%." },
+	{ 20812, "", "Increased the time between an enemy's attacks by $s2% and its movement by $s1%, in addition to reducing its Strength by $s3%. Lasts $d.", "Movement speed reduced by $s1%. \n Time between attacks increased by $s2%. \n Strength reduced by $s3%." },
 	{ 20814, "", "Fill at the Dire Pool.", "" },
 	{ 20847, "", "When struck in combat has a 1% chance of increasing all party member's armor by $18946s1 for $18946d.", "" },
 	{ 20850, "", "Teaches you how to sew a Flarecore Mantle.", "" },
@@ -8318,18 +7567,10 @@ Strength reduced by $s3%." },
 	{ 20912, "Rank 2", "Places a Blessing on the friendly target, reducing damage dealt from all sources by up to $s1 for $d.  In addition, when the target blocks a melee attack the attacker will take $s2 Holy damage.  Players may only have one Blessing on them per Paladin at any one time.", "Damage taken reduced by up to $s1 and blocked melee attacks cause $s2 Holy damage to the attacker." },
 	{ 20913, "Rank 3", "Places a Blessing on the friendly target, reducing damage dealt from all sources by up to $s1 for $d.  In addition, when the target blocks a melee attack the attacker will take $s2 Holy damage.  Players may only have one Blessing on them per Paladin at any one time.", "Damage taken reduced by up to $s1 and blocked melee attacks cause $s2 Holy damage to the attacker." },
 	{ 20914, "Rank 4", "Places a Blessing on the friendly target, reducing damage dealt from all sources by up to $s1 for $d.  In addition, when the target blocks a melee attack the attacker will take $s2 Holy damage.  Players may only have one Blessing on them per Paladin at any one time.", "Damage taken reduced by up to $s1 and blocked melee attacks cause $s2 Holy damage to the attacker." },
-	{ 20915, "Rank 2", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d.
-
-Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20963s1 Holy damage, $20963s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
-	{ 20918, "Rank 3", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d.
-
-Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20964s1 Holy damage, $20964s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
-	{ 20919, "Rank 4", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d.
-
-Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20965s1 Holy damage, $20965s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
-	{ 20920, "Rank 5", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d.
-
-Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20966s1 Holy damage, $20966s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
+	{ 20915, "Rank 2", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d. \n  \n Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20963s1 Holy damage, $20963s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
+	{ 20918, "Rank 3", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d. \n  \n Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20964s1 Holy damage, $20964s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
+	{ 20919, "Rank 4", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d. \n  \n Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20965s1 Holy damage, $20965s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
+	{ 20920, "Rank 5", "Gives the Paladin a chance to deal additional Holy damage equal to $20424s1% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts $d. \n  \n Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20966s1 Holy damage, $20966s1 if the target is stunned or incapacitated.", "Melee attacks have a chance to deal additional Holy damage." },
 	{ 20921, "", "Teaches you how to cook Mithril Head Trout.", "" },
 	{ 20922, "Rank 3", "Consecrates the land beneath Paladin, doing $o1 Holy damage over $d to enemies who enter the area.", "$s1 damage every $t1 $lsecond:seconds;." },
 	{ 20923, "Rank 4", "Consecrates the land beneath Paladin, doing $o1 Holy damage over $d to enemies who enter the area.", "$s1 damage every $t1 $lsecond:seconds;." },
@@ -8350,31 +7591,24 @@ Unleashing this Seal's energy will judge an enemy, instantly causing $/2;20966s1
 	{ 21050, "", "Use to lull the vermin infesting the Deeprun Tram into a state of raptured bliss.", "" },
 	{ 21052, "", "DND", "" },
 	{ 21055, "", "Bash at an enemy's armor, reducing it by $s1 per Crush Armor. Can be applied up to 5 times. Lasts $d.", "Reduced armor." },
-	{ 21056, "", "", "Drains $s1 mana every $t second.
-Explodes when unable to drain mana." },
+	{ 21056, "", "", "Drains $s1 mana every $t second. \n Explodes when unable to drain mana." },
 	{ 21060, "", "Blinds the target, causing it to wander confused for up to $d.  Any damage caused will remove the effect.", "Confused." },
 	{ 21061, "", "Adds a chance to cast Putrid Breath on enemy when hit by a melee attack.", "" },
-	{ 21062, "", "", "Agility reduced by $s1%.
-Spirit reduced by $s2%." },
+	{ 21062, "", "", "Agility reduced by $s1%. \n Spirit reduced by $s2%." },
 	{ 21063, "", "", "When damaged, heals the attacker for $21064s1" },
 	{ 21067, "", "Shoots poison at an enemy, inflicting Nature damage, then additional damage every $t2 sec. for $d.", "Nature damage inflicted every $t2 sec." },
 	{ 21071, "", "Hurls boulders at nearby enemies, inflicting Physical damage.", "" },
 	{ 21075, "", "Causes $s1 arcane damage to any creature that strikes a nearby minion.", "$s1 damage inflicted to melee attackers." },
 	{ 21076, "", "Dispels magic on nearbv targets, removing $s1 harmful spells from allies.", "" },
-	{ 21082, "Rank 1", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will judge an enemy for $21183d, increasing Holy damage taken by up to $21183s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
-	{ 21084, "Rank 1", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20187s3 to $/25;20187s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.
-
-Unleashing this Seal's energy will cause $20187s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20187s3 to $/25;20187s3 Holy damage." },
+	{ 21082, "Rank 1", "Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will judge an enemy for $21183d, increasing Holy damage taken by up to $21183s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.", "Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage." },
+	{ 21084, "Rank 1", "Fills the Paladin with holy spirit for $d, granting each melee attack an additional $/87;20187s3 to $/25;20187s3 Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time. \n  \n Unleashing this Seal's energy will cause $20187s1 Holy damage to an enemy.", "Melee attacks cause an additional $/87;20187s3 to $/25;20187s3 Holy damage." },
 	{ 21088, "", "Your Arcane Intellect provides +$s1 more Intellect than normal.", "" },
 	{ 21089, "", "$s1% chance your next Smite after casting Greater Heal requires $21091s1 less mana to cast.", "" },
 	{ 21091, "", "", "Your next Smite requires less mana." },
 	{ 21092, "", "Improves your chance to get a critical strike with Holy spells by $s1%.", "" },
 	{ 21093, "", "Your Power Word: Fortitude provides +$s1 more Stamina than normal.", "" },
 	{ 21097, "", "Calls down a mana storm that lasts $d., inflicting $s1 Frost damage and draining $s2 mana every $t1 sec. to all enemies in a selected area.", "" },
-	{ 21098, "", "Blasts nearby enemies with ice, dealing $s1 damage, increasing the time between their attacks by $s2%, and movement speed by $s3%.", "Time between attacks increased by $s2%.
-Movement speed reduced by $s3%." },
+	{ 21098, "", "Blasts nearby enemies with ice, dealing $s1 damage, increasing the time between their attacks by $s2%, and movement speed by $s3%.", "Time between attacks increased by $s2%. \n Movement speed reduced by $s3%." },
 	{ 21127, "", "Creates a portal, teleporting group members that use it to Earth Song Falls in inner Maraudon.", "" },
 	{ 21134, "", "Instills awe and wonder amongst worshippers of Ragnaros.", "Emitting the Will of Ragnaros." },
 	{ 21142, "", "Deals $s1 Fire damage to anyone who strikes you with a melee attack.", "" },
@@ -8439,17 +7673,14 @@ Movement speed reduced by $s3%." },
 	{ 21688, "", "Places the Goblin Land Mine on the ground.  It will explode for $11815s1 fire damage the next time a hostile creature passes near it.", "" },
 	{ 21729, "", "Plants the beacon in the  Eastern Crater. Protect it from harm!", "" },
 	{ 21736, "", "Shows the location of all nearby humanoids in Winterax Hold for $d.", "Shows the location of all nearby humanoids in Winterax Hold for $d." },
-	{ 21737, "", "Periodically knocks enemies away", "Periodically knock enemies away, reducing their hate.
-Immune to taunt." },
+	{ 21737, "", "Periodically knocks enemies away", "Periodically knock enemies away, reducing their hate. \n Immune to taunt." },
 	{ 21740, "", "", "Pet's stamina and spell resistances increased." },
 	{ 21741, "", "Your pet gains $21740s1 stamina and $21740s2 spell resistance against all schools of magic.", "" },
 	{ 21744, "", "Reduces the casting cost of all your Blessings by $s1.", "" },
 	{ 21747, "", "Gives the Paladin a chance on every melee hit to heal your party for $23544s1.", "" },
 	{ 21748, "", "Deals $s1 damage to nearby enemies, knocking them down for $d.", "Stunned." },
 	{ 21791, "", "Regenerates all nearby group members for $s1 every $t1 seconds for $d.  Druid must channel to maintain the spell.", "Heals nearby party members for $s1 every $t1 seconds." },
-	{ 21793, "", "Deals nature damage to enemies in an area over $d, slowing their movement by $s2% and increasing the time between their attacks by $s3%.", "Deals nature damage every $t sec.
-Reduces movement speed by $s2%.
-Time between attacks increased by $s3%." },
+	{ 21793, "", "Deals nature damage to enemies in an area over $d, slowing their movement by $s2% and increasing the time between their attacks by $s3%.", "Deals nature damage every $t sec. \n Reduces movement speed by $s2%. \n Time between attacks increased by $s3%." },
 	{ 21794, "", "Use to muzzle a Frostwolf. Return the muzzled animal to the Frostwolf Stable Master.", "" },
 	{ 21808, "", "Summons Theradrim Shardlings every 2 seconds and stuns enemies in an area for $d.", "Stunned." },
 	{ 21831, "Rank 3", "Increases the bleed damage done by your Rend ability by $s1 per period.", "" },
@@ -8554,18 +7785,13 @@ Time between attacks increased by $s3%." },
 	{ 22106, "QASpell", "Permanently enchant gloves to grant a $13928s1 attack speed bonus.", "" },
 	{ 22120, "", "Charges an enemy, inflicting normal damage plus $s3.", "" },
 	{ 22188, "", "Increased Crossbows +$s1.", "" },
-	{ 22203, "", "", "
-Reduced movement speed." },
-	{ 22247, "", "", "Movement speed reduced by $s1%.
-Time between attacks increased by $s2%.
-Casting speed reduced by $s3%." },
+	{ 22203, "", "", " \n Reduced movement speed." },
+	{ 22247, "", "", "Movement speed reduced by $s1%. \n Time between attacks increased by $s2%. \n Casting speed reduced by $s3%." },
 	{ 22270, "", "Resurrect the target player with $s1% health and mana.  Can be used while dead.", "" },
-	{ 22274, "", "Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.", "Cannot attack or cast spells.
-Health regeneration increased." },
+	{ 22274, "", "Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.", "Cannot attack or cast spells. \n Health regeneration increased." },
 	{ 22284, "", "", "Deals $o1 damage every $t1 sec." },
 	{ 22290, "", "", "Increases the time between attacks by $s1%." },
-	{ 22291, "", "", "Caught in a sandstorm!
-Dealing damage to nearby allies." },
+	{ 22291, "", "", "Caught in a sandstorm! \n Dealing damage to nearby allies." },
 	{ 22351, "", "Causes $s1 Nature damage to any creature that strikes the caster.", "$s1 Nature damage inflicted to melee attackers." },
 	{ 22352, "", "", "Phased." },
 	{ 22357, "", "Inflicts Frost damage to and stuns an enemy for $d.", "Stunned." },
@@ -8580,29 +7806,16 @@ Dealing damage to nearby allies." },
 	{ 22442, "", "", "Deals $s1 damage every $t1 sec." },
 	{ 22460, "", "Causes an explosion of arcane magic around the caster, causing $s1 Arcane damage to all targets within $a1 yards.", "" },
 	{ 22478, "", "Inflicts $s1 Shadow damage to nearby enemies every $t1 sec. for $d.", "$s1 Shadow damage inflicted every $t1 sec." },
-	{ 22479, "", "Inflicts $s1 Frost damage to an enemy.", "Time between attacks increased by $s2%
-Movement speed slowed by $s3%." },
+	{ 22479, "", "Inflicts $s1 Frost damage to an enemy.", "Time between attacks increased by $s2% \n Movement speed slowed by $s3%." },
 	{ 22481, "", "Teaches you how to cook a Tender Wolf Steak.", "" },
 	{ 22482, "Rank 1", "Your next $n melee weapon swings strike an additional nearby opponent.", "Blade Flurry." },
 	{ 22539, "", "Inflicts $s1 Shadow damage to enemies in a cone in front of the caster.", "" },
 	{ 22563, "", "Returns you to the sanctuary of Frostwolf Keep.", "" },
 	{ 22564, "", "Returns you to the sanctuary of Dun Baldar.", "" },
 	{ 22567, "", "Summons Ar'lia of the Moro'gai.", "" },
-	{ 22568, "Rank 1", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power.
-   1 point  : 50-66 damage
-   2 points: 86-102 damage
-   3 points: 122-138 damage
-   4 points: 158-174 damage
-   5 points: 194-210 damage
-", "" },
-	{ 22570, "Rank 1", "Finishing move that causes damage, disorients the opponent, and turns off your attack.  Any damage caused will revive the target.  Causes more damage and lasts longer per combo point:
-   1 point  : 7-11 damage and 2 seconds
-   2 points: 13-19 damage and 3 seconds
-   3 points: 19-24 damage and 4 seconds
-   4 points: 25-30 damage and 5 seconds
-   5 points: 31-37 damage and 6 seconds", "Disoriented." },
-	{ 22572, "", "Strikes at an enemy, inflicting weapon damage plus $s1.", "Strength reduced by $s2%.
-Agility reduced by $s3%." },
+	{ 22568, "Rank 1", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power. \n    1 point  : 50-66 damage \n    2 points: 86-102 damage \n    3 points: 122-138 damage \n    4 points: 158-174 damage \n    5 points: 194-210 damage \n ", "" },
+	{ 22570, "Rank 1", "Finishing move that causes damage, disorients the opponent, and turns off your attack.  Any damage caused will revive the target.  Causes more damage and lasts longer per combo point: \n    1 point  : 7-11 damage and 2 seconds \n    2 points: 13-19 damage and 3 seconds \n    3 points: 19-24 damage and 4 seconds \n    4 points: 25-30 damage and 5 seconds \n    5 points: 31-37 damage and 6 seconds", "Disoriented." },
+	{ 22572, "", "Strikes at an enemy, inflicting weapon damage plus $s1.", "Strength reduced by $s2%. \n Agility reduced by $s3%." },
 	{ 22573, "", "Causes a creature to cast this dummy spell on themself when they detect more than 5 enemies. Add as a spell reaction on a mob's creature level action trigger and use a despawn action. Only use on approved mobs/zones.", "" },
 	{ 22593, "", "Permanently adds 5 fire resistance to a shoulder slot item.", "" },
 	{ 22594, "", "Permanently adds 5 frost resistance to a shoulder slot item.", "" },
@@ -8613,18 +7826,13 @@ Agility reduced by $s3%." },
 	{ 22618, "", "When the shield blocks it releases an electrical charge that damages all nearby enemies.   This also has a chance of damaging the shield.", "" },
 	{ 22639, "", "Slows enemy's movement by $s2% and causes them to bleed for $o1 damage over $d.", "Movement slowed by $s2% and bleeding for $s1 damage every $t1 sec." },
 	{ 22641, "", "Charge an enemy, knocking it silly for 30 seconds. Also knocks you down, stunning you for a short period of time. Any damage caused will revive the target.", "" },
-	{ 22642, "", "", "Casting speed reduced by $s2%.
-Time between attacks increased by $s3%." },
-	{ 22647, "", "", "All damage dealt is increased by $s1%.
-Maximum health is increased by $s2%." },
+	{ 22642, "", "", "Casting speed reduced by $s2%. \n Time between attacks increased by $s3%." },
+	{ 22647, "", "", "All damage dealt is increased by $s1%. \n Maximum health is increased by $s2%." },
 	{ 22648, "", "1% chance on a melee critical hit to call forth the spirit of Eskhandar to protect you in battle for $22649d.", "" },
 	{ 22649, "", "Calls forth the spirit of Eskhandar to protect you in battle for $d.", "" },
-	{ 22651, "", "", "Stunned.
-$s3 health leeched every $t3 sec." },
+	{ 22651, "", "", "Stunned. \n $s3 health leeched every $t3 sec." },
 	{ 22661, "", "", "$s1 mana drained every $t1 sec." },
-	{ 22662, "", "", "$s2 Nature damage inflicted every $t2 sec.
-Strength reduced by $s3.
-" },
+	{ 22662, "", "", "$s2 Nature damage inflicted every $t2 sec. \n Strength reduced by $s3. \n " },
 	{ 22667, "", "", "Charmed!" },
 	{ 22682, "", "", "$s1 damage every second." },
 	{ 22683, "", "Protects the wearer from being fully engulfed by Shadow Flame.", "" },
@@ -8669,8 +7877,7 @@ Strength reduced by $s3.
 	{ 22796, "", "Teaches you how to make a Core Marksman Rifle.", "" },
 	{ 22798, "", "Teaches you how to make a Force Reactive Disk.", "" },
 	{ 22799, "", "You are the king of the Gordok ogres!  It's good to be the king...", "You are the king of the Gordok ogres!  It's good to be the king..." },
-	{ 22800, "", "", "Unable to move.
-Reduced movement speed." },
+	{ 22800, "", "", "Unable to move. \n Reduced movement speed." },
 	{ 22801, "Rank 1", "Increases the speed of your Ghost Wolf ability by $s1%.", "" },
 	{ 22802, "", "", "Deals $s1 nature damage every $t1 second." },
 	{ 22804, "Rank 1", "Improves your chance to get a critical strike with all Shock spells by $s1%.", "" },
@@ -8679,34 +7886,17 @@ Reduced movement speed." },
 	{ 22817, "", "Attack power increased by $s1.", "Attack power increased by $s1." },
 	{ 22818, "", "Overall Stamina increased by $s1%.", "Overall Stamina increased by $s1%." },
 	{ 22820, "", "Chance for a critical hit with a spell increased by $s1%.", "Chance for a critical hit with a spell increased by $s1%." },
-	{ 22821, "", "", "Causes $s1 every $t1
-Reduced movement speed." },
+	{ 22821, "", "", "Causes $s1 every $t1 \n Reduced movement speed." },
 	{ 22822, "", "Rains starshards down on the enemy target's head, causing $o1 Arcane damage over $d.", "$s1 Arcane damage every $t1 seconds." },
-	{ 22827, "Rank 2", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power.
-   1 point  : 79-103 damage
-   2 points: 138-162 damage
-   3 points: 197-221 damage
-   4 points: 256-280 damage
-   5 points: 315-339 damage", "" },
-	{ 22828, "Rank 3", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power.
-   1 point  : 122-162 damage
-   2 points: 214-254 damage
-   3 points: 306-346 damage
-   4 points: 398-438 damage
-   5 points: 490-530 damage", "" },
-	{ 22829, "Rank 4", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power.
-   1 point  : 173-223 damage
-   2 points: 301-351 damage
-   3 points: 429-479 damage
-   4 points: 557-607 damage
-   5 points: 685-735 damage", "" },
+	{ 22827, "Rank 2", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power. \n    1 point  : 79-103 damage \n    2 points: 138-162 damage \n    3 points: 197-221 damage \n    4 points: 256-280 damage \n    5 points: 315-339 damage", "" },
+	{ 22828, "Rank 3", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power. \n    1 point  : 122-162 damage \n    2 points: 214-254 damage \n    3 points: 306-346 damage \n    4 points: 398-438 damage \n    5 points: 490-530 damage", "" },
+	{ 22829, "Rank 4", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power. \n    1 point  : 173-223 damage \n    2 points: 301-351 damage \n    3 points: 429-479 damage \n    4 points: 557-607 damage \n    5 points: 685-735 damage", "" },
 	{ 22836, "", "+$s1 Attack Power when fighting Elementals.", "" },
 	{ 22840, "", "Permanently adds 1% haste to a leg or head slot item. Does not stack with other enchantments for the selected equipment slot.", "" },
 	{ 22842, "Rank 1", "Converts up to 10 rage per second into health for $d.  Each point of rage is converted into $s1 health.", "Converting rage into health." },
 	{ 22844, "", "Permanently adds +8 to your Healing and Damage from spells to a leg or head slot item. Does not stack with other enchantments for the selected equipment slot.", "" },
 	{ 22846, "", "Permanently adds 1% dodge to a leg or head slot item. Does not stack with other enchantments for the selected equipment slot.", "" },
-	{ 22850, "", "When active, grants the wielder $s1 defense and $s2 armor for $d.", "Armor increased by $s2.
-Defense increased by $s1." },
+	{ 22850, "", "When active, grants the wielder $s1 defense and $s2 armor for $d.", "Armor increased by $s2. \n Defense increased by $s1." },
 	{ 22854, "", "Increases the damage done by your pets by 4%.", "" },
 	{ 22855, "", "Increases the damage of your Imp's Firebolt spell by $s1.", "" },
 	{ 22857, "", "Instantly counterattack any enemy that strikes you in melee for $d.  Melee attacks made from behind cannot be counterattacked.", "Counterattacking all melee attacks." },
@@ -8725,9 +7915,7 @@ Defense increased by $s1." },
 	{ 22905, "", "Place under the flaming breath of Onyxia.", "" },
 	{ 22906, "", "Drive into the heart of the brood mother to temper the heated blade.", "" },
 	{ 22908, "", "Continuously fires a volley of ammo at the target area, causing $s1 Arcane damage to enemy targets within $a1 yards every second for $d.", "" },
-	{ 22909, "", "", "Movement speed slowed by $s1%.
-Time between attacks increased by $s2%.
-Casting speed slowed by $s3%." },
+	{ 22909, "", "", "Movement speed slowed by $s1%. \n Time between attacks increased by $s2%. \n Casting speed slowed by $s3%." },
 	{ 22910, "", "Place a fire trap that will burn the first enemy to approach for $14301o1 Fire damage over $14301d.  Trap will exist for $d.  Traps can only be placed when out of combat.  Only one trap can be active at a time.", "" },
 	{ 22911, "", "Charges an enemy, inflicting normal damage plus $s3 and stuns the opponent for $d.", "" },
 	{ 22929, "", "Teaches you how to craft a Girdle of Insight.", "" },
@@ -8743,8 +7931,7 @@ Casting speed slowed by $s3%." },
 	{ 22989, "", "Detaches the twin blades, forming two separate warglaives.", "" },
 	{ 22990, "", "Connects the twin warglaives of Azzinoth, forming the Twin Blades of Azzinoth.", "" },
 	{ 22996, "", "Place a Battle Standard that increases the maximum health of all friendly units' that stay within $22998a1 yards of the Battle Standard by $22998s1%.  Lasts $d.", "" },
-	{ 22997, "", "", "Nature damage inflicted every $t1 sec.
-Periodically inflicting Nature damage on nearby party members" },
+	{ 22997, "", "", "Nature damage inflicted every $t1 sec. \n Periodically inflicting Nature damage on nearby party members" },
 	{ 22998, "", "", "Increases maximum health by $s1%." },
 	{ 23000, "", "Inflicts $s1 Fire damage in a 5 yard radius (Assuming that it gets to the target, some restrictions may apply.)", "" },
 	{ 23004, "", "Summons an Alarm-O-Bot for 10 minutes that occasionally sends out a pulse that detects nearby stealthy or invisible enemies.", "" },
@@ -8753,8 +7940,7 @@ Periodically inflicting Nature damage on nearby party members" },
 	{ 23008, "", "Blasts open nearly any locked door.", "" },
 	{ 23012, "", "Right Click to summon and dismiss the orphan you've agreed to look after for Children's Week.", "" },
 	{ 23015, "", "Imprisons a Doomguard Commander.", "" },
-	{ 23021, "", "", "Time between attacks increased by $s2%
-Physical damage dealt reduced by $s3%" },
+	{ 23021, "", "", "Time between attacks increased by $s2% \n Physical damage dealt reduced by $s3%" },
 	{ 23025, "Rank 1", "Reduces the cooldown of your Blink spell by $/1000;S1 sec.", "" },
 	{ 23028, "Rank 1", "Infuses the target's party with brilliance, increasing their Intellect by $s1 for $d.", "Increases Intellect by $s1." },
 	{ 23030, "Rank 1", "Teaches Arcane Brilliance (Rank 1).", "" },
@@ -8795,8 +7981,7 @@ Physical damage dealt reduced by $s3%" },
 	{ 23110, "Rank 3", "Increases movement speed by $s1% for $d.", "Increases movement speed by $s1%." },
 	{ 23120, "", "", "Damage taken reduced by $s1" },
 	{ 23126, "", "Enlarges the entire world for $d or until you attack.", "You have enlarged the entire world!" },
-	{ 23128, "", "", "Attack speed increased by $s1%.
-Spell damage increased by $s3%." },
+	{ 23128, "", "", "Attack speed increased by $s1%. \n Spell damage increased by $s3%." },
 	{ 23130, "", "Teaches you how to make a World Enlarger.", "" },
 	{ 23131, "", "Reflects Frost spells back at their caster for $d.", "Reflecting Frost spells." },
 	{ 23132, "", "Reflects Shadow spells back at their caster for $d.", "Reflecting Shadow spells." },
@@ -8809,26 +7994,21 @@ Spell damage increased by $s3%." },
 	{ 23144, "QASpell", "Permanently enchant a Melee Weapon to add up to $22748s1 points of healing to healing spells.", "" },
 	{ 23151, "", "Forms Benediction when combined with the Eye of Shadow and the Eye of Divinity.", "" },
 	{ 23152, "", "Summon a Xorothian Dreadsteed within an empowered Circle of Dark Summoning.", "" },
-	{ 23153, "", "", "Burns $23393s1 mana every $t1 sec.
-Casting speed reduced by $s2%.
-Movement speed reduced by $s3%." },
+	{ 23153, "", "", "Burns $23393s1 mana every $t1 sec. \n Casting speed reduced by $s2%. \n Movement speed reduced by $s3%." },
 	{ 23154, "", "", "Increases fire damage taken by $s1%." },
-	{ 23155, "", "", "Deals $s1 damage every $t1 sec.
-On Death, Heals Chromaggus." },
+	{ 23155, "", "", "Deals $s1 damage every $t1 sec. \n On Death, Heals Chromaggus." },
 	{ 23157, "", "Reduces the mana cost of your Arcane Shot by $s1.", "" },
 	{ 23158, "", "Reduces the cooldown of your Concussive Shot by $/1000;s1 sec.", "" },
 	{ 23161, "Summon", "Summons a Dreadsteed, which serves as a mount for the caster.  Speed is increased by $s2%.", "Increases speed by $s2%." },
 	{ 23162, "Rank 1", "Decreases Defense by $s1 for $d.  This decrease increases the chance attacks will Hit and Critical the target and reduces the chance the target will Block, Dodge, or Parry the attack.", "Decreases Defense by $s1 for $d." },
 	{ 23164, "Rank 2", "Decreases Defense by $s1 for $d.  This decrease increases the chance attacks will Hit and Critical the target and reduces the chance the target will Block, Dodge, or Parry the attack.", "Decreases Defense by $s1 for $d." },
 	{ 23165, "Rank 3", "Decreases Defense by $s1 for $d.  This decrease increases the chance attacks will Hit and Critical the target and reduces the chance the target will Block, Dodge, or Parry the attack.", "Decreases Defense by $s1 for $d." },
-	{ 23169, "", "", "Deals $s1 damage every $t1 sec.
-Healing effects reduced by $s2%." },
+	{ 23169, "", "", "Deals $s1 damage every $t1 sec. \n Healing effects reduced by $s2%." },
 	{ 23170, "", "", "Periodically stuns for $23171d." },
 	{ 23174, "", "", "You've been mutated!" },
 	{ 23179, "", "Infuses imbiber with a taint of shadow, making $ghim:her; friendly to the denizens of Jaedenar.  Lasts 20 minutes.", "You are friendly to Jaedenar." },
 	{ 23180, "", "Release the imp near the Scholomance's alchemy lab.", "" },
-	{ 23182, "", "", "You have been weakened by death!
-Susceptible to Azuregos's Aura of Frost." },
+	{ 23182, "", "", "You have been weakened by death! \n Susceptible to Azuregos's Aura of Frost." },
 	{ 23187, "", "", "Increases the time between attacks by $s2%." },
 	{ 23191, "", "Teaches you how to craft a Heavy Leather Ball.", "" },
 	{ 23192, "", "Forms Rhok'delar, Longbow of the Ancient Keepers, when combined with Enchanted Black Dragon Sinew.", "" },
@@ -8879,10 +8059,8 @@ Susceptible to Azuregos's Aura of Frost." },
 	{ 23298, "", "", "$s1 shadow damage every $t1 seconds." },
 	{ 23300, "", "Increases the Holy damage bonus of your Judgement of the Crusader by $s1.", "" },
 	{ 23302, "", "Reduces the cooldown of your Hammer of Justice by $/1000;s1 sec.", "" },
-	{ 23310, "", "", "Frozen in time!
-Health reduced by $s2%." },
-	{ 23313, "", "", "Deals $s1 damage every $t1 sec.
-Armor reduced by $s2." },
+	{ 23310, "", "", "Frozen in time! \n Health reduced by $s2%." },
+	{ 23313, "", "", "Deals $s1 damage every $t1 sec. \n Armor reduced by $s2." },
 	{ 23333, "", "", "You are holding the Warsong Flag." },
 	{ 23335, "", "", "You are holding the Silverwing Flag." },
 	{ 23338, "", "Summons and dismisses a rideable Swift Stormsaber.  This is a very fast mount.", "Increases speed by $s2%." },
@@ -8890,8 +8068,7 @@ Armor reduced by $s2." },
 	{ 23356, "", "Teaches Tame Beast, Call Pet and Dismiss Pet.", "" },
 	{ 23357, "", "Teaches Beast Training, Feed Pet and Revive Pet.", "" },
 	{ 23359, "", "Zap a Feralas giant into a more manageable form.", "Zapped!" },
-	{ 23397, "", "", "Forced into Berseker Stance.
-Increases damage taken by $s3%." },
+	{ 23397, "", "", "Forced into Berseker Stance. \n Increases damage taken by $s3%." },
 	{ 23398, "", "", "Forced into cat form." },
 	{ 23400, "", "Teaches you how to craft Barbaric Bracers.", "" },
 	{ 23401, "", "", "Direct healing spells cause the target to take damage over time." },
@@ -8929,9 +8106,7 @@ Increases damage taken by $s3%." },
 	{ 23508, "", "Teaches you how to make a Snake Burst Firework.", "" },
 	{ 23509, "", "Summons and dismisses a rideable Frostwolf Howler.  This is a very fast mount.", "Increases speed by $s2%." },
 	{ 23510, "", "Summons and dismisses a rideable Stormpike Battle Charger.  This is a very fast mount.", "Increases speed by $s2%." },
-	{ 23513, "", "", "Restores $s1 Mana per second.
-Restores $s2 Energy per second.
-Generates $/10;s3 Rage per second." },
+	{ 23513, "", "", "Restores $s1 Mana per second. \n Restores $s2 Energy per second. \n Generates $/10;s3 Rage per second." },
 	{ 23514, "", "Place near the well at the center of Aerie Peak. Show those filthy dwarven dogs your resolve! Then run away...", "" },
 	{ 23530, "", "Right Click to summon and dismiss your tiny red dragon.", "" },
 	{ 23531, "", "Right Click to summon and dismiss your tiny green dragon.", "" },
@@ -8969,8 +8144,7 @@ Generates $/10;s3 Rage per second." },
 	{ 23577, "", "", "All attackers gain $s1 Ranged Attack Power against this target." },
 	{ 23578, "", "You have a chance whenever you deal ranged damage to apply an Expose Weakness effect to the target. Expose Weakness increases the Ranged Attack Power of all attackers against that target by $23577s1 for $23577d.", "" },
 	{ 23580, "", "", "Heals $s2 damage per second." },
-	{ 23581, "", "Gives the Rogue a chance to inflict $23580s1 damage on the target and heal the Rogue for $23580s2 health every $23580t2 sec. for $23580d. on a melee hit.
-", "" },
+	{ 23581, "", "Gives the Rogue a chance to inflict $23580s1 damage on the target and heal the Rogue for $23580s2 health every $23580t2 sec. for $23580d. on a melee hit. \n ", "" },
 	{ 23582, "", "Heals the rogue for $23583s1 when Vanish is performed.", "" },
 	{ 23591, "", "Inflicts $23590s1 additional Holy damage on the target of a Paladin's Judgement.", "" },
 	{ 23595, "", "Removes one Bleed effect.", "" },
@@ -9022,19 +8196,15 @@ Generates $/10;s3 Rage per second." },
 	{ 23716, "", "Teaches you how to craft Chromatic Gauntlets.", "" },
 	{ 23717, "", "Teaches you how to craft a Corehound Belt.", "" },
 	{ 23718, "", "Teaches you how to craft a Molten Belt.", "" },
-	{ 23720, "", "Empowers your pet, increasing pet damage by $s1% and increasing pet armor by $s2% for $d. This spell will only affect an Imp, Succubus, Voidwalker, or Felhunter.", "Damage dealt is increased by $s1%.
-Armor is increased by $s2%." },
+	{ 23720, "", "Empowers your pet, increasing pet damage by $s1% and increasing pet armor by $s2% for $d. This spell will only affect an Imp, Succubus, Voidwalker, or Felhunter.", "Damage dealt is increased by $s1%. \n Armor is increased by $s2%." },
 	{ 23721, "", "Infuses you with Arcane energy, causing your next Arcane Shot fired within $d to detonate at the target. The Arcane Detonation will deal $23722s1 damage to enemies near the target.", "Your next Arcane Shot will create an Arcane Detonation." },
 	{ 23723, "", "Quickens the mind, increasing the Mage's casting speed by $s1% for $d.", "Casting speed increased by $s1%." },
 	{ 23724, "", "Decreases the mana cost of all Druid shapeshifting forms by $s1% for $d.", "Shapeshifting mana cost reduced by $s1%." },
 	{ 23725, "", "Heals yourself for 15% of your maximum health, and increases your maximum health by 15% for 20 sec.", "Maximum health increased by 15%." },
 	{ 23726, "", "Increases the chance to apply Rogue poisons to your target by $s1% for $d.", "Chance to apply poisons to your target increased by $s1%." },
 	{ 23727, "", "Improves your chance to hit with spells by $s1%.", "" },
-	{ 23733, "", "Energizes a Paladin with light, increasing melee attack speed by $s2% and spell casting speed by $s1% for $d.", "Attack speed increased by $s2%.
-Casting speed increased by $s1%." },
-	{ 23734, "", "Aligns the Shaman with nature, increasing spell damage by $s1%, improving heal effects by $s2%, and increasing mana cost of spells by $s3% for $d.", "Spell damage increased by $s1%.
-Healing effects increased by $s2%.
-Mana cost increased by $s3%." },
+	{ 23733, "", "Energizes a Paladin with light, increasing melee attack speed by $s2% and spell casting speed by $s1% for $d.", "Attack speed increased by $s2%. \n Casting speed increased by $s1%." },
+	{ 23734, "", "Aligns the Shaman with nature, increasing spell damage by $s1%, improving heal effects by $s2%, and increasing mana cost of spells by $s3% for $d.", "Spell damage increased by $s1%. \n Healing effects increased by $s2%. \n Mana cost increased by $s3%." },
 	{ 23735, "", "", "Increases strength by $s1%." },
 	{ 23736, "", "", "Increases agility by $s1%." },
 	{ 23737, "", "", "Increases stamina by $s1%." },
@@ -9047,18 +8217,9 @@ Mana cost increased by $s3%." },
 	{ 23767, "", "", "Increases armor by $s1%." },
 	{ 23769, "", "", "Increases all magical resistances by $s1." },
 	{ 23775, "", "Stuns the target until the effect is dispelled.", "" },
-	{ 23780, "", "Increases armor by $s1, and heals $23781s1 damage every time you take ranged or melee damage for $d.", "Armor increased by $s1.
-Heals $23781s1 damage every time you take ranged or melee damage." },
+	{ 23780, "", "Increases armor by $s1, and heals $23781s1 damage every time you take ranged or melee damage for $d.", "Armor increased by $s1. \n Heals $23781s1 damage every time you take ranged or melee damage." },
 	{ 23782, "", "Heals yourself for 15%, and increases your maximum health by 15% for $d.", "Maximum health increased by 15%." },
-	{ 23785, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active.
-
-Imp - Reduces threat caused by $23759s1%.
-
-Voidwalker - Reduces physical damage taken by $23760s1%.
-
-Succubus - Increases all damage caused by $23761s1%.
-
-Felhunter - Increases all resistances by .2 per level.", "" },
+	{ 23785, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active. \n  \n Imp - Reduces threat caused by $23759s1%. \n  \n Voidwalker - Reduces physical damage taken by $23760s1%. \n  \n Succubus - Increases all damage caused by $23761s1%. \n  \n Felhunter - Increases all resistances by .2 per level.", "" },
 	{ 23786, "", "Target is cured of poisons up to level 60.", "" },
 	{ 23787, "", "Creates a Vial of Powerful Anti-Venom.", "" },
 	{ 23788, "", "Teaches you how to make Powerful Anti-Venom.", "" },
@@ -9077,42 +8238,10 @@ Felhunter - Increases all resistances by .2 per level.", "" },
 	{ 23809, "", "Teaches you how to permanently enchant a weapon to increase your spirit by 20.", "" },
 	{ 23810, "", "Teaches you how to permanently enchant a weapon to increase your intellect by 22.", "" },
 	{ 23811, "", "Right Click to summon and dismiss your Jubling.", "" },
-	{ 23822, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active.
-
-Imp - Reduces threat caused by $23826s1%.
-
-Voidwalker - Reduces physical damage taken by $23841s1%.
-
-Succubus - Increases all damage caused by $23833s1%.
-
-Felhunter - Increases all resistances by .4 per level.", "" },
-	{ 23823, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active.
-
-Imp - Reduces threat caused by $23827s1%.
-
-Voidwalker - Reduces physical damage taken by $23842s1%.
-
-Succubus - Increases all damage caused by $23834s1%.
-
-Felhunter - Increases all resistances by .6 per level.", "" },
-	{ 23824, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active.
-
-Imp - Reduces threat caused by $23828s1%.
-
-Voidwalker - Reduces physical damage taken by $23843s1%.
-
-Succubus - Increases all damage caused by $23835s1%.
-
-Felhunter - Increases all resistances by .8 per level.", "" },
-	{ 23825, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active.
-
-Imp - Reduces threat caused by $23829s1%.
-
-Voidwalker - Reduces physical damage taken by $23844s1%.
-
-Succubus - Increases all damage caused by $23836s1%.
-
-Felhunter - Increases all resistances by 1 per level.", "" },
+	{ 23822, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active. \n  \n Imp - Reduces threat caused by $23826s1%. \n  \n Voidwalker - Reduces physical damage taken by $23841s1%. \n  \n Succubus - Increases all damage caused by $23833s1%. \n  \n Felhunter - Increases all resistances by .4 per level.", "" },
+	{ 23823, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active. \n  \n Imp - Reduces threat caused by $23827s1%. \n  \n Voidwalker - Reduces physical damage taken by $23842s1%. \n  \n Succubus - Increases all damage caused by $23834s1%. \n  \n Felhunter - Increases all resistances by .6 per level.", "" },
+	{ 23824, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active. \n  \n Imp - Reduces threat caused by $23828s1%. \n  \n Voidwalker - Reduces physical damage taken by $23843s1%. \n  \n Succubus - Increases all damage caused by $23835s1%. \n  \n Felhunter - Increases all resistances by .8 per level.", "" },
+	{ 23825, "", "Grants both the Warlock and the summoned demon an effect as long as that demon is active. \n  \n Imp - Reduces threat caused by $23829s1%. \n  \n Voidwalker - Reduces physical damage taken by $23844s1%. \n  \n Succubus - Increases all damage caused by $23836s1%. \n  \n Felhunter - Increases all resistances by 1 per level.", "" },
 	{ 23848, "Rank 4", "A vicious strike that deals $s3% weapon damage plus $/2;s2 and wounds the target, reducing the effectiveness of any healing by $s1% for $d.", "Healing effects reduced by $s1%." },
 	{ 23850, "Rank 4", "A vicious strike that deals $s3% weapon damage plus 396 and wounds the target, reducing the effectiveness of any healing by $s1% for $d.", "Healing effects reduced by $s1%." },
 	{ 23851, "", "Hatch a Jubling from the Egg.   It will take a while before the egg is ready to hatch.", "" },
@@ -9135,8 +8264,7 @@ Felhunter - Increases all resistances by 1 per level.", "" },
 	{ 23947, "Rank 5", "Power infuses the target increasing their Stamina by $M1 for $d.", "Increases Stamina by $M1." },
 	{ 23948, "Rank 6", "Power infuses the target increasing their Stamina by $M1 for $d.", "Increases Stamina by $M1." },
 	{ 23952, "", "Utters a word of darkness, inflicting Shadow damage to an enemy every $t1 sec. for $d.", "$s1 Shadow damage inflicted every $t1 sec." },
-	{ 23953, "", "Inflicts Shadow damage to an enemy and reduces its movement speed for $d.", "$s1 Shadow damage inflicted every second for $d.
-Reduced movement speed." },
+	{ 23953, "", "Inflicts Shadow damage to an enemy and reduces its movement speed for $d.", "$s1 Shadow damage inflicted every second for $d. \n Reduced movement speed." },
 	{ 23958, "", "", "Unable to use the Orb of Domination." },
 	{ 23959, "Rank 8", "Backstab the target, causing $s2% weapon damage plus 334 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.", "" },
 	{ 23960, "Rank 8", "An instant strike that causes $/2;s1 damage in addition to your normal weapon damage.  Awards $s2 combo $lpoint:points;.", "" },
@@ -9145,14 +8273,9 @@ Reduced movement speed." },
 	{ 23989, "", "When activated, this ability immediately finishes the cooldown on your Deterrence, Feign Death and Trap abilities.", "" },
 	{ 23990, "", "Run speed increased slightly.", "" },
 	{ 23992, "Rank 1", "Increases Fire resistance by $s1.", "Increases Fire resistance by $s1." },
-	{ 24002, "", "", "Time between attacks increased by $s1%.
-Reduces movement speed by $s2%.
-Drains $/10;s3 rage per second.
-Getting sleepy..." },
+	{ 24002, "", "", "Time between attacks increased by $s1%. \n Reduces movement speed by $s2%. \n Drains $/10;s3 rage per second. \n Getting sleepy..." },
 	{ 24005, "", "Restores $s1% of your health per second for $d.  Must remain seated while eating.", "Restores $s1% of your health per second." },
-	{ 24006, "", "Conjures $s1 food from the harvest.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 24006, "", "Conjures $s1 food from the harvest. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 24018, "", "Attacks nearby enemies in a flurry of axes that lasts $d.", "Attacking all nearby enemies." },
 	{ 24042, "Rank 4", "Instant attack plus $s1 damage.", "" },
 	{ 24048, "", "Inflicts normal damage plus $s1 to nearby enemies.", "Stunned." },
@@ -9198,26 +8321,15 @@ Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 24198, "", "Increases damage done to Undead by magical spells and effects by up to $s1.  It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.", "" },
 	{ 24210, "", "", "Attracting Minions of Arlokk." },
 	{ 24226, "", "Increase your reputation permanently with the Zandalar Tribe.", "" },
-	{ 24238, "Rank 6", "Finishing move that causes damage over time.  Damage increases per combo point:
-   1 point  : 228 damage over $d.
-   2 points: 354 damage over $d.
-   3 points: 480 damage over $d.
-   4 points: 606 damage over $d.
-   5 points: 732 damage over $d.", "Bleed damage every $t1 seconds." },
+	{ 24238, "Rank 6", "Finishing move that causes damage over time.  Damage increases per combo point: \n    1 point  : 228 damage over $d. \n    2 points: 354 damage over $d. \n    3 points: 480 damage over $d. \n    4 points: 606 damage over $d. \n    5 points: 732 damage over $d.", "Bleed damage every $t1 seconds." },
 	{ 24239, "Rank 3", "Hurls a hammer that strikes an enemy for $s1 Holy damage.  Only usable on enemies that have 20% or less health.", "" },
 	{ 24241, "", "Attempts to decapitate the target, causing $s1 damage.", "" },
 	{ 24245, "", "Combine with 5 Channeler's Heads into a Gurubashi Head Collection.", "" },
-	{ 24248, "Rank 4", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage:
-   1 point  : 170-220 damage
-   2 points: 295-345 damage
-   3 points: 420-470 damage
-   4 points: 545-595 damage
-   5 points: 670-720 damage", "" },
+	{ 24248, "Rank 4", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage: \n    1 point  : 170-220 damage \n    2 points: 295-345 damage \n    3 points: 420-470 damage \n    4 points: 545-595 damage \n    5 points: 670-720 damage", "" },
 	{ 24251, "", "Slices the enemy for $s1 Nature damage.", "" },
 	{ 24252, "", "Summons and dismisses a rideable Tiger.  This is a very fast mount.", "Increases speed by $s2%." },
 	{ 24254, "", "Blasts the enemy with poison for $s1 Nature damage.", "" },
-	{ 24255, "", "Infuses the caster with a blessing from the Primal Gods. Ranged and melee attack power increased by $s1 for $d.", "Melee attack power increased by $s1.
-Ranged attack power increased by $s2." },
+	{ 24255, "", "Infuses the caster with a blessing from the Primal Gods. Ranged and melee attack power increased by $s1 for $d.", "Melee attack power increased by $s1. \n Ranged attack power increased by $s2." },
 	{ 24256, "", "Grants a small chance when ranged or melee damage is dealt to infuse the wielder with a blessing from the Primal Gods. Ranged and melee attack power increased by 300 for 12 seconds.", "" },
 	{ 24263, "", "Create the Empowered Mojo Bundle.", "" },
 	{ 24264, "", "Extinguishes the Brazier of Madness.", "" },
@@ -9233,21 +8345,17 @@ Ranged attack power increased by $s2." },
 	{ 24296, "Rank 4", "Increases your Agility by $s1%.", "" },
 	{ 24297, "Rank 5", "Increases your Agility by $s1%.", "" },
 	{ 24302, "", "Replaces the fishing line on your fishing pole with a high test eternium line.", "" },
-	{ 24306, "", "", "Deals $s1 damage every $t1 sec.
-Your eyes tingle..." },
+	{ 24306, "", "", "Deals $s1 damage every $t1 sec. \n Your eyes tingle..." },
 	{ 24314, "", "", "Bloodlord Mandokir is watching you closely..." },
-	{ 24322, "", "", "Deals $s1 damage per second.
-Feeding Hakkar $*5;s1 health per second." },
-	{ 24323, "", "", "Your blood is Poisonous!
-Dealing $s1 damage per second to Hakkar." },
+	{ 24322, "", "", "Deals $s1 damage per second. \n Feeding Hakkar $*5;s1 health per second." },
+	{ 24323, "", "", "Your blood is Poisonous! \n Dealing $s1 damage per second to Hakkar." },
 	{ 24325, "", "Load with 5 Zulian Mudskunks, and then cast from Pagle's Point in Zul'Gurub.", "" },
 	{ 24328, "", "", "Deals $s2 damage every $t2 sec." },
 	{ 24331, "", "Rake the target for $s1 damage and an additional $o2 damage over $d.", "Bleeding for $s2 damage every $t2 seconds." },
 	{ 24335, "", "A stinging shot that puts the target to sleep for $d.  Any damage will cancel the effect.  When the target wakes up, the Sting causes $24336o1 Nature damage over $24336d.", "Asleep." },
 	{ 24336, "", "", "$s1 Nature damage every $t1 seconds." },
 	{ 24337, "", "Ambush the target, causing $s1 damage.", "" },
-	{ 24339, "", "Inflicts Nature damage to an enemy every $t1 sec. and increases the Physical damage it takes for $d.", "$s1 nature damage inflicted every $t1 sec.
-Increased Physical damage taken by $s2." },
+	{ 24339, "", "Inflicts Nature damage to an enemy every $t1 sec. and increases the Physical damage it takes for $d.", "$s1 nature damage inflicted every $t1 sec. \n Increased Physical damage taken by $s2." },
 	{ 24340, "", "Do damage divided up evenly among all affected targets", "" },
 	{ 24346, "", "Turns you into a fish and increases your movement speed, but does not allow casting or attack.", "" },
 	{ 24347, "", "Turns you into a fish giving water breath and increasing your movement speed, but attacking or casting while in this form breaks the effect.  Does not work out of water or at the water's surface.", "Water Breath and increased speed." },
@@ -9289,9 +8397,7 @@ Increased Physical damage taken by $s2." },
 	{ 24412, "Rank 6", "Heals $o1 damage over $d.  Usable only inside Arathi Basin.", "Healing $s1 damage every $t1 seconds." },
 	{ 24413, "Rank 8", "Heals $o1 damage over $d.  Usable only inside Arathi Basin.", "Healing $s1 damage every $t1 seconds." },
 	{ 24414, "Rank 10", "Heals $o1 damage over $d.  Usable only inside Arathi Basin.", "Healing $s1 damage every $t1 seconds." },
-	{ 24415, "", "Increases the time between nearby enemies' attacks by $s1%, slows their movement by $s2%, and slow casting speed by $s3% for $d.", "Time between attacks increased by $s1%.
-Movement speed reduced by $s2%.
-Casting speed reduced by $s3%." },
+	{ 24415, "", "Increases the time between nearby enemies' attacks by $s1%, slows their movement by $s2%, and slow casting speed by $s3% for $d.", "Time between attacks increased by $s1%. \n Movement speed reduced by $s2%. \n Casting speed reduced by $s3%." },
 	{ 24416, "Rank 1", "Allows Aspect of the Beast and $s1% of the effect of Aspect of the Monkey to be shared with the Hunter's party.", "" },
 	{ 24417, "", "Increases the chance that the player will reflect hostile spells cast on them by $s1% for $d. Will automatically reflect the first offensive spell cast against the user. Only one type of Zanza potion may be active at any given time.", "Hostile spells reflected $s1% of the time." },
 	{ 24419, "", "Teaches you how to cook a Heavy Crocilisk Stew.", "" },
@@ -9320,13 +8426,10 @@ Casting speed reduced by $s3%." },
 	{ 24447, "Rank 2", "Increases Frost resistance by $s1.", "Increases Frost resistance by $s1." },
 	{ 24448, "Rank 3", "Increases Frost resistance by $s1.", "Increases Frost resistance by $s1." },
 	{ 24449, "Rank 4", "Increases Frost resistance by $s1.", "Increases Frost resistance by $s1." },
-	{ 24450, "Rank 1", "Puts your pet in stealth mode, but slows its movement speed by $s2%. The first attack from stealth receives a $s3% bonus to damage.  Lasts until cancelled.", "Stealthed.
-Movement speed slowed by $s2%." },
+	{ 24450, "Rank 1", "Puts your pet in stealth mode, but slows its movement speed by $s2%. The first attack from stealth receives a $s3% bonus to damage.  Lasts until cancelled.", "Stealthed. \n Movement speed slowed by $s2%." },
 	{ 24451, "Rank 1", "Puts your pet in stealth mode, but slows its movement to $24450s2% of normal. The first attack from stealth receives a $24450s3% bonus to damage.  Lasts until cancelled.", "" },
-	{ 24452, "Rank 2", "Puts your pet in stealth mode, but slows its movement speed by $s2%. The first attack from stealth receives a $s3% bonus to damage.  Lasts until cancelled.", "Stealthed.
-Movement speed slowed by $s2%." },
-	{ 24453, "Rank 3", "Puts your pet in stealth mode, but slows its movement speed by $s2%. The first attack from stealth receives a $s3% bonus to damage.  Lasts until cancelled.", "Stealthed.
-Movement speed slowed by $s2%." },
+	{ 24452, "Rank 2", "Puts your pet in stealth mode, but slows its movement speed by $s2%. The first attack from stealth receives a $s3% bonus to damage.  Lasts until cancelled.", "Stealthed. \n Movement speed slowed by $s2%." },
+	{ 24453, "Rank 3", "Puts your pet in stealth mode, but slows its movement speed by $s2%. The first attack from stealth receives a $s3% bonus to damage.  Lasts until cancelled.", "Stealthed. \n Movement speed slowed by $s2%." },
 	{ 24454, "Rank 2", "Puts your pet in stealth mode, but slows its movement to $24452s2% of normal. The first attack from stealth receives a $24452s3% bonus to damage.  Lasts until cancelled.", "" },
 	{ 24455, "Rank 3", "Puts your pet in stealth mode, but slows its movement to $24453s2% of normal. The first attack from stealth receives a $24453s3% bonus to damage.  Lasts until cancelled.", "" },
 	{ 24456, "", "Decreases the cooldown of Intimidating Shout by $/1000;s1 sec.", "" },
@@ -9406,14 +8509,11 @@ Movement speed slowed by $s2%." },
 	{ 24539, "Rank 7", "Increases Stamina by $4193s1.", "" },
 	{ 24540, "Rank 8", "Increases Stamina by $4194s1.", "" },
 	{ 24541, "Rank 9", "Increases Stamina by $5041s1.", "" },
-	{ 24542, "", "Reduces the casting time of your Healing Touch spells by $s1%, and reduces the mana cost of your healing spells by $s2% for $d.", "Healing Touch casting time decreased by $s1%.
-Healing spell mana cost reduced by $s2%." },
+	{ 24542, "", "Reduces the casting time of your Healing Touch spells by $s1%, and reduces the mana cost of your healing spells by $s2% for $d.", "Healing Touch casting time decreased by $s1%. \n Healing spell mana cost reduced by $s2%." },
 	{ 24543, "", "Increases the critical hit chance of your Destruction spells by $s1% for $d.", "Destruction spell critical hit chance increased by $s1%." },
-	{ 24544, "", "Increases the critical hit chance of your Arcane spells by $s1%, and increases the critical hit damage of your Arcane spells by $s2% for $d.", "Arcane spell critical hit chance increased by $s1%.
-Arcane spell critical hit damage increased by $s2%." },
+	{ 24544, "", "Increases the critical hit chance of your Arcane spells by $s1%, and increases the critical hit damage of your Arcane spells by $s2% for $d.", "Arcane spell critical hit chance increased by $s1%. \n Arcane spell critical hit damage increased by $s2%." },
 	{ 24545, "Rank 1", "Armor increased by $s1.", "" },
-	{ 24546, "", "Reduces the casting time of your Greater Heal spells by $s1%, and reduces the mana cost of your healing spells by $s2% for $d.", "Greater Heal casting time decreased by $s1%.
-Healing spell mana cost reduced by $s2%." },
+	{ 24546, "", "Reduces the casting time of your Greater Heal spells by $s1%, and reduces the mana cost of your healing spells by $s2% for $d.", "Greater Heal casting time decreased by $s1%. \n Healing spell mana cost reduced by $s2%." },
 	{ 24547, "Rank 1", "Armor increased by $24545s1.", "" },
 	{ 24549, "Rank 2", "Armor increased by $s1.", "" },
 	{ 24550, "Rank 3", "Armor increased by $s1.", "" },
@@ -9431,8 +8531,7 @@ Healing spell mana cost reduced by $s2%." },
 	{ 24562, "Rank 8", "Armor increased by $24555s1.", "" },
 	{ 24571, "", "Instantly increases your rage by $/10;s1.", "" },
 	{ 24574, "", "Increases your armor by 2000 and defense skill by 30 for $d. Every time you take melee or ranged damage, this bonus is reduced by 200 armor and 3 defense.", "" },
-	{ 24575, "", "", "Armor increased by $s1.
-Defense increased by $s2." },
+	{ 24575, "", "", "Armor increased by $s1. \n Defense increased by $s2." },
 	{ 24576, "", "Summons and dismisses a rideable Chromatic Drake.  This is a very fast mount. You wish!", "Increases speed by $s2%." },
 	{ 24577, "Rank 2", "Blasts a single enemy for $s1 damage and lowers the attack power of all enemies in melee range by $s2.  Effect lasts $d.", "Melee attack power reduced by $s2." },
 	{ 24578, "Rank 3", "Blasts a single enemy for $s1 damage and lowers the melee attack power of all enemies in melee range by $s2.  Effect lasts $d.", "Melee attack power reduced by $s2." },
@@ -9446,8 +8545,7 @@ Defense increased by $s2." },
 	{ 24587, "Rank 4", "Inflicts $o2 Nature damage over $d. Effect can stack up to 5 times on a single target.", "$s2 Nature damage every $t2 sec." },
 	{ 24588, "Rank 3", "Inflicts $24586o2 Nature damage over $24586d. Effect can stack up to 5 times on a single target.", "" },
 	{ 24589, "Rank 4", "Inflicts $24587o2 Nature damage over $24587d. Effect can stack up to 5 times on a single target.", "" },
-	{ 24596, "", "", "Chance to fall down.
-Chance to drop melee weapon in combat." },
+	{ 24596, "", "", "Chance to fall down. \n Chance to drop melee weapon in combat." },
 	{ 24597, "Rank 4", "Party members within $a1 yards receive an extra $s1 damage to their next Physical attack.  Lasts $d.", "Extra $s1 damage on your next Physical attack." },
 	{ 24599, "Rank 4", "Party members within $24597a1 yards receive an extra $24597s1 damage to their next Physical attack.  Lasts $24597d.", "" },
 	{ 24603, "Rank 3", "Party members within $a1 yards receive an extra $s1 damage to their next Physical attack.  Lasts $d.", "Extra $s1 damage on your next Physical attack." },
@@ -9458,8 +8556,7 @@ Chance to drop melee weapon in combat." },
 	{ 24609, "Rank 1", "Party members within $24604a1 yards receive an extra $24604s1 damage to their next Physical attack.  Lasts $24604d.", "" },
 	{ 24610, "", "Increases the chance to hit with spells by $s1% for $d.", "Spell hit chance increased by $s1%." },
 	{ 24611, "", "Inflicts Fire damage to an enemy.", "$s2 damage every $t2 sec." },
-	{ 24619, "", "", "$s1 mana burned every $t1 sec.
-Cannot cast spells." },
+	{ 24619, "", "", "$s1 mana burned every $t1 sec. \n Cannot cast spells." },
 	{ 24629, "Rank 9", "Armor increased by $s1.", "" },
 	{ 24630, "Rank 10", "Armor increased by $s1.", "" },
 	{ 24631, "Rank 9", "Armor increased by $24629s1.", "" },
@@ -9467,11 +8564,9 @@ Cannot cast spells." },
 	{ 24636, "Rank 10", "Increases Stamina by $5042s1.", "" },
 	{ 24640, "Rank 1", "Inflicts $o2 Nature damage over $d. Effect can stack up to 5 times on a single target.", "$s2 Nature damage every $t2 sec." },
 	{ 24641, "Rank 1", "Inflicts $24640o2 Nature damage over $24640d. Effect can stack up to 5 times on a single target.", "" },
-	{ 24648, "", "Entangles an enemy in roots, inflicting Nature damage every $t2 sec. and immobilizing it for up to $d.", "Immobilized.
-$s2 Nature damage inflicted every $t2 sec." },
+	{ 24648, "", "Entangles an enemy in roots, inflicting Nature damage every $t2 sec. and immobilizing it for up to $d.", "Immobilized. \n $s2 Nature damage inflicted every $t2 sec." },
 	{ 24658, "", "Increases your spell damage by up to 204 and your healing by up to 408 for $d. Every time you cast a spell, the bonus is reduced by 17 spell damage and 34 healing.", "" },
-	{ 24659, "", "", "Spell damage increased by up to $s1.
-Healing increased by up to $s2." },
+	{ 24659, "", "", "Spell damage increased by up to $s1. \n Healing increased by up to $s2." },
 	{ 24661, "", "Increases your melee and ranged damage by 40 for $d. Every time you hit a target, this bonus is reduced by 2.", "" },
 	{ 24662, "", "", "Melee and ranged damage increased by $s1." },
 	{ 24670, "", "Summons a meteor from the Twisting Nether, causing $22699s1 Fire damage and stunning all enemy targets in the area for $20310d.  An Infernal rises from the crater, under the command of the caster for $20882d.  Once control is lost, the Infernal must be Enslaved to maintain control.  Can only be used outdoors.", "" },
@@ -9499,21 +8594,18 @@ Healing increased by up to $s2." },
 	{ 24737, "", "Puts a ghost costume on targeted party member.", "" },
 	{ 24740, "", "", "Wisp Costume.   Cannot attack or cast spells while in wisp form.  Right-Click this icon to remove the effect." },
 	{ 24741, "", "Puts a Wisp costume on targeted party member.", "" },
-	{ 24742, "", "", "Slows falling speed.
-Right click to remove at the appropriate time." },
+	{ 24742, "", "", "Slows falling speed. \n Right click to remove at the appropriate time." },
 	{ 24746, "", "Bestows the wearer with the evil aura of a Twilight's Hammer cultist.", "" },
 	{ 24748, "", "When worn with the Twilight Trappings Set, allows access to a Wind Stone in Silithus.", "" },
 	{ 24751, "", "Target gets a trick or a treat.", "" },
-	{ 24753, "", "", "TRICK!
-You cannot cast or attack." },
+	{ 24753, "", "", "TRICK! \n You cannot cast or attack." },
 	{ 24754, "", "", "GET READY!" },
 	{ 24755, "", "", "You have been Tricked or Treated recently." },
 	{ 24782, "", "When worn with the Twilight Trappings Set and the Medallion of Station, allows access to a Greater Wind Stone.", "" },
 	{ 24799, "", "", "Strength increased by $s1." },
 	{ 24800, "", "Restores $o1 health over $d.  Must remain seated while eating.  If you spend at least 10 seconds eating you will become well fed and gain $24799s1 Strength for $24799d.", "Restores $/5;s1 health per second." },
 	{ 24815, "", "Required to draw ancient glyphs into the sand at the Bones of Grakkarond.", "" },
-	{ 24818, "", "", "Deals $s2 damage every $t2 sec.
-Cooldowns increased by $/1000;s1 sec." },
+	{ 24818, "", "", "Deals $s2 damage every $t2 sec. \n Cooldowns increased by $/1000;s1 sec." },
 	{ 24826, "", "Incinerates the target for $d Fire damage.", "Damages self and all nearby enemies." },
 	{ 24827, "", "Creates a Soul Shard.", "" },
 	{ 24828, "", "Creates $o1 Soul Shards.", "" },
@@ -9525,9 +8617,7 @@ Cooldowns increased by $/1000;s1 sec." },
 	{ 24854, "", "Summons a Mana Spring Totem with $s1 health at the feet of the caster for $d that restores $24853s1 mana every $24853t1 seconds to group members within $24853a1 yards.", "" },
 	{ 24855, "", "Teaches you how to craft Spitfire Bracers.", "" },
 	{ 24856, "", "Teaches you how to craft Spitfire Gauntlets.", "" },
-	{ 24858, "Shapeshift", "Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by $24905s1% and all party members within $24907a1 yards have their spell critical chance increased by $24907s1%.  The Moonkin can only cast Balance spells while shapeshifted.
-
-The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Armor contribution from items is increased by $24905s1%." },
+	{ 24858, "Shapeshift", "Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by $24905s1% and all party members within $24907a1 yards have their spell critical chance increased by $24907s1%.  The Moonkin can only cast Balance spells while shapeshifted. \n  \n The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.", "Immune to Polymorph effects.  Armor contribution from items is increased by $24905s1%." },
 	{ 24859, "", "Teaches you how to craft a Spitfire Breastplate.", "" },
 	{ 24860, "", "Teaches you how to craft Sandstalker Bracers.", "" },
 	{ 24861, "", "Teaches you how to craft Sandstalker Gauntlets.", "" },
@@ -9604,20 +8694,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 	{ 25016, "Rank 5", "Breathes lightning, instantly dealing $25011s1 Nature damage to a single target.", "" },
 	{ 25017, "Rank 6", "Breathes lightning, instantly dealing $25012s1 Nature damage to a single target.", "" },
 	{ 25018, "", "Right Click to summon and dismiss your Murki.", "" },
-	{ 25022, "", "", "Spooked!
-Time between attacks increased by $s1%.
-Movement speed reduced by $s2%.
-" },
+	{ 25022, "", "", "Spooked! \n Time between attacks increased by $s1%. \n Movement speed reduced by $s2%. \n " },
 	{ 25024, "", "Deploys a land mine. Mines take 3 seconds to arm and deal $25099s1 damage to all tonks in a $25099a1 yard radius once triggered.", "" },
-	{ 25026, "", "10 mana per second.
-Automatically fires a shot at the nearest enemy tonk within $25032a1 yards every $t1 sec, dealing $25032s1 damage per shot.
-", "" },
-	{ 25027, "", "10 mana per second.
-Deals $25029s1 damage every $t1 sec to all tonks in front of you within $25029a1 yards. Also slows movement to $25029s2% and deals $25029s3 damage per second for $25029d.", "" },
-	{ 25029, "", "", "Deals $s3 damage every $t3 sec.
-Movement speed slowed by $s2%." },
-	{ 25040, "", "", "You have been weakened by death!
-Susceptible to Aura of Nature." },
+	{ 25026, "", "10 mana per second. \n Automatically fires a shot at the nearest enemy tonk within $25032a1 yards every $t1 sec, dealing $25032s1 damage per shot. \n ", "" },
+	{ 25027, "", "10 mana per second. \n Deals $25029s1 damage every $t1 sec to all tonks in front of you within $25029a1 yards. Also slows movement to $25029s2% and deals $25029s3 damage per second for $25029d.", "" },
+	{ 25029, "", "", "Deals $s3 damage every $t3 sec. \n Movement speed slowed by $s2%." },
+	{ 25040, "", "", "You have been weakened by death! \n Susceptible to Aura of Nature." },
 	{ 25064, "", "Increases damage done by shadow spells and effects by up to $s1.", "" },
 	{ 25065, "", "Increases damage done by fire spells and effects by up to $s1.", "" },
 	{ 25066, "", "Increases damage done by frost spells and effects by up to $s1.", "" },
@@ -9677,21 +8759,13 @@ Susceptible to Aura of Nature." },
 	{ 25163, "", "Reduces master's resistance and defense by 20.", "Reduces all resistances by $s1 and defense by $s2.   ICK!" },
 	{ 25174, "", "Inflicts normal damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.  Hits also reduce armor by $s2.", "Armor reduced by $s2." },
 	{ 25176, "", "", "Damage increased by $s1%" },
-	{ 25177, "", "", "Fire resistance reduced by $s1%
-Fire damage taken increased by $s2%" },
-	{ 25178, "", "", "Frost resistance reduced by $s1%
-Frost damage taken increased by $s2%" },
-	{ 25180, "", "", "Nature resistance reduced by $s1%
-Nature damage taken increased by $s2%" },
-	{ 25181, "", "", "Arcane resistance reduced by $s1%
-Arcane damage taken increased by $s2%" },
-	{ 25183, "", "", "Shadow resistance reduced by $s1%
-Shadow damage taken increased by $s2%" },
-	{ 25185, "", "Inflict an itch on the target that eventually turns into a poison.", "Your skin feels itchy
-" },
-	{ 25187, "", "", "Movement speed reduced by $s1%.
-$s2 damage every $t2 seconds.
-Increased damage from Hive'Zara Stings." },
+	{ 25177, "", "", "Fire resistance reduced by $s1% \n Fire damage taken increased by $s2%" },
+	{ 25178, "", "", "Frost resistance reduced by $s1% \n Frost damage taken increased by $s2%" },
+	{ 25180, "", "", "Nature resistance reduced by $s1% \n Nature damage taken increased by $s2%" },
+	{ 25181, "", "", "Arcane resistance reduced by $s1% \n Arcane damage taken increased by $s2%" },
+	{ 25183, "", "", "Shadow resistance reduced by $s1% \n Shadow damage taken increased by $s2%" },
+	{ 25185, "", "Inflict an itch on the target that eventually turns into a poison.", "Your skin feels itchy \n " },
+	{ 25187, "", "", "Movement speed reduced by $s1%. \n $s2 damage every $t2 seconds. \n Increased damage from Hive'Zara Stings." },
 	{ 25189, "", "Surrounds an enemy with a cyclone for up to $d. If the target takes any damage, it will break free of the imprisoning winds.", "Stunned." },
 	{ 25190, "", "Charges an enemy, inflicting normal damage plus $s2 ", "" },
 	{ 25199, "", "Transform yourself into a frog.  Lasts $d.", "Frogger." },
@@ -9721,11 +8795,9 @@ Increased damage from Hive'Zara Stings." },
 	{ 25316, "Rank 5", "A powerful prayer heals party members within $a1 yards for $s1.", "" },
 	{ 25345, "Rank 8", "Launches Arcane Missiles at the enemy, causing $25346s1 Arcane damage each second for $d.", "" },
 	{ 25346, "Rank 8", "Launches an Arcane Missile at the enemy, causing $s1 Arcane damage.", "" },
-	{ 25347, "Rank 5", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy for $25349o1 Nature damage over $25349d.  Stacks up to 5 times on a single target.  105 charges.", "" },
+	{ 25347, "Rank 5", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a 30% chance of poisoning the enemy for $25349o1 Nature damage over $25349d.  Stacks up to 5 times on a single target.  105 charges.", "" },
 	{ 25349, "Rank 5", "", "Target takes $s1 Nature damage every $t1 seconds." },
-	{ 25351, "Rank 5", "Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy for $25349o1 Nature damage over $25349d.  Stacks up to 5 times on a single target.  120 charges.", "" },
+	{ 25351, "Rank 5", "Coats a weapon with poison that lasts for 30 minutes. \n Each strike has a $h% chance of poisoning the enemy for $25349o1 Nature damage over $25349d.  Stacks up to 5 times on a single target.  120 charges.", "" },
 	{ 25359, "Rank 3", "Summons a Grace of Air Totem with $s1 health at the feet of the caster.  The totem increases the agility of party members within $25360a1 yards by $25360s1.  Lasts $d.", "" },
 	{ 25360, "Rank 3", "", "Increases Agility by $s1." },
 	{ 25361, "Rank 5", "Summons a Strength of Earth Totem with $s1 health at the feet of the caster.  The totem increases the strength of party members within $25362a1 yards by $25362s1.  Lasts $d.", "" },
@@ -9736,13 +8808,10 @@ Each strike has a $h% chance of poisoning the enemy for $25349o1 Nature damage o
 	{ 25465, "", "Shoots a firework at target.", "" },
 	{ 25471, "", "", "Marked for death..." },
 	{ 25503, "", "Generates 20 rage over $d, but reduces base armor by 27% in Bear Form and 16% in Dire Bear Form.  The druid is considered in combat for the duration.", "Gain $/10;s1 rage per second.  Armor reduced." },
-	{ 25516, "", "", "Heals $s1 health every $t1 sec.
-Attack speed increased by $s2%
-Casting speed increased by $s3%" },
+	{ 25516, "", "", "Heals $s1 health every $t1 sec. \n Attack speed increased by $s2% \n Casting speed increased by $s3%" },
 	{ 25605, "", "Inflicts Nature damage to an enemy every $t1 sec. for $d.", "Deals $s1 nature damage every $t1 sec." },
 	{ 25646, "", "", "Healing reduced by $s1%." },
-	{ 25656, "", "", "Chance to hit reduced by $s2%.
-Unable to cast spells." },
+	{ 25656, "", "", "Chance to hit reduced by $s2%. \n Unable to cast spells." },
 	{ 25658, "", "Teaches you how to cook Dirge's Kickin' Chimaerok Chops.", "" },
 	{ 25660, "", "Restores $o1 health over $d.  Must remain seated while eating.  If you spend at least 10 seconds eating you will become well fed and gain 25 Stamina for $24799d.", "Restores $/5;s1 health per second." },
 	{ 25669, "", "Chance to decapitate the target on a melee swing, causing $24241s1 damage.", "" },
@@ -9777,19 +8846,12 @@ Unable to cast spells." },
 	{ 25780, "", "Increases the threat generated by your Holy attacks by $s1%.  Lasts $d.", "Increases the threat generated by your Holy attacks by $s1%." },
 	{ 25782, "Rank 1", "Gives all members of the raid or group that share the same class with the target the Greater Blessing of Might, increasing melee attack power by $s1 for $d.  Players may only have one Blessing on them per Paladin at any one time.", "Increases melee attack power by $s1." },
 	{ 25783, "", "Places Arcanite Buoy at the Swirling Maelstrom in the Bay of Storms. This should coax Maws out of his minnow disguise. Hopefully, you brought some friends!", "" },
-	{ 25790, "", "", "Attack speed increased by $s1%.
-Physical damage increased by $s2%." },
+	{ 25790, "", "", "Attack speed increased by $s1%. \n Physical damage increased by $s2%." },
 	{ 25793, "", "Place the torch in the mouth of High Chief Winterfall's cave to summon the demon that is corrupting the Winterfall furbolgs.  Bring some friends before planting it...", "" },
-	{ 25794, "", "", "Damage taken reduced.
-Stamina increased.
-Health regeneration increased." },
-	{ 25797, "", "", "Damage taken reduced.
-Intellect increased.
-Magic damage dealt increased." },
+	{ 25794, "", "", "Damage taken reduced. \n Stamina increased. \n Health regeneration increased." },
+	{ 25797, "", "", "Damage taken reduced. \n Intellect increased. \n Magic damage dealt increased." },
 	{ 25801, "", "Increases the attack speed of all nearby party members by $s1% and attack damage by $s2%", "Attack speed increased by $s1%." },
-	{ 25805, "", "All stats reduced by 100.
-$s1 Shadow damage inflicted every $t1 sec.", "All stats reduced by 100.
-$s2 Shadow damage inflicted every $t2 sec." },
+	{ 25805, "", "All stats reduced by 100. \n $s1 Shadow damage inflicted every $t1 sec.", "All stats reduced by 100. \n $s2 Shadow damage inflicted every $t2 sec." },
 	{ 25806, "", "Takes control of a humanoid enemy up to level $s1 for $d.", "Charmed and bent on destruction." },
 	{ 25810, "", "", "Casting speed slowed by $s1%." },
 	{ 25812, "", "Inflicts Nature damage to an enemy.", "Deals $s2 nature damage every $t2 seconds." },
@@ -9858,8 +8920,7 @@ $s2 Shadow damage inflicted every $t2 sec." },
 	{ 25984, "Rank 10", "Teaches Renew (Rank 10).", "" },
 	{ 25985, "Rank 5", "Teaches Prayer of Healing (Rank 5).", "" },
 	{ 25988, "Rank 2", "All spell criticals against you cause $s1% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.", "" },
-	{ 25989, "", "", "Deals $s1 damage every $t1 sec.
-Slows movement by $s2%." },
+	{ 25989, "", "", "Deals $s1 damage every $t1 sec. \n Slows movement by $s2%." },
 	{ 25990, "", "Restores $s1% of your health and mana per second for $d.  Must remain seated while eating.  You should also probably like the taste of fruitcake.", "Restores $s1% of your health and mana per second.  Mmmm... fruitcake..." },
 	{ 25991, "", "Shoots poison at an enemy, inflicting Nature damage, then additional damage every $t2 sec. for $d.", "$s2 nature damage inflicted every $t2 sec." },
 	{ 25992, "", "Increase your reputation permanently with the Brood of Nozdormu.", "" },
@@ -9878,22 +8939,16 @@ Slows movement by $s2%." },
 	{ 26023, "Rank 2", "Increases movement and mounted movement speed by $s1%.  This does not stack with other movement speed increasing effects.", "" },
 	{ 26025, "", "Inflicts Physical damage to an enemy every $t2 sec. for $d.", "$s2 damage inflicted every $t2 sec." },
 	{ 26035, "", "Celebrate good times!", "+$s1% to all stats!" },
-	{ 26044, "", "Inflicts Shadow damage to an enemy and reduces its movement speed for $d.", "$s1 Shadow damage inflicted every second for $d.
-Reduced movement speed.
-Fleeing in fear." },
+	{ 26044, "", "Inflicts Shadow damage to an enemy and reduces its movement speed for $d.", "$s1 Shadow damage inflicted every second for $d. \n Reduced movement speed. \n Fleeing in fear." },
 	{ 26045, "", "Right Click to summon and dismiss your snowman.", "" },
 	{ 26049, "", "Hits nearby enemies with anti-mana bolts. For each point of mana consumed from a target, that target takes $e1 damage.", "Fleeing in fear." },
-	{ 26053, "", "", "Deals $s1 nature damage every $t1 sec.
-Cannot cast spells." },
+	{ 26053, "", "", "Deals $s1 nature damage every $t1 sec. \n Cannot cast spells." },
 	{ 26064, "Rank 1", "Reduces all damage your pet takes by $s1%, but increases the time between your pet's attacks by $s2%.  Lasts $d.", "Damage reduced by $s1% and time between attacks increased by $s2%." },
 	{ 26066, "", "Calls forth a Timbermaw Ancestor to fight at your side and heal you.", "" },
 	{ 26067, "", "Summons a mechanical Greench that will protect you for $d.", "" },
 	{ 26074, "", "Fills targets with holiday cheer.", "" },
-	{ 26078, "", "", "Movement speed reduced by $s1%.
-$s2 damage every $t2 seconds.
-Increased damage from Vekniss Stings." },
-	{ 26083, "", "Attacks nearby enemies in a whirlwind of steel that lasts $d. and inflicts normal damage plus $15576s1.", "Attacking all nearby enemies for normal damage plus $15576s1.
-Immune to stun." },
+	{ 26078, "", "", "Movement speed reduced by $s1%. \n $s2 damage every $t2 seconds. \n Increased damage from Vekniss Stings." },
+	{ 26083, "", "Attacks nearby enemies in a whirlwind of steel that lasts $d. and inflicts normal damage plus $15576s1.", "Attacking all nearby enemies for normal damage plus $15576s1. \n Immune to stun." },
 	{ 26088, "", "Teaches you how to sew a Soul Pouch.", "" },
 	{ 26089, "", "Teaches you how to sew a Felcloth Bag.", "" },
 	{ 26090, "Rank 1", "Shakes the ground with thundering force, doing $s1 Nature damage to all enemies within $a1 yards.", "" },
@@ -9922,11 +8977,9 @@ Immune to stun." },
 	{ 26131, "", "$s1% increase to the total damage absorbed by Mana Shield.", "" },
 	{ 26132, "", "", "Uninterruptable while casting Blizzard." },
 	{ 26135, "", "20% chance to regain 100 mana when you cast a Judgement.", "" },
-	{ 26143, "", "Inflicts Shadow damage to an enemy and reduces its movement speed for $d.", "$s1 Shadow damage inflicted every second for $d.
-Movement speed reduced to $s2% of normal." },
+	{ 26143, "", "Inflicts Shadow damage to an enemy and reduces its movement speed for $d.", "$s1 Shadow damage inflicted every second for $d. \n Movement speed reduced to $s2% of normal." },
 	{ 26157, "", "", "Happy Holidays!" },
-	{ 26166, "", "Increases damage done by magical spells and effects by up to $s1, and decreases the magical resistances of your spell targets by $s2 for $d.", "Magical damage increased by up to $s1.
-Magical resistances of your spell targets reduced by $s2." },
+	{ 26166, "", "Increases damage done by magical spells and effects by up to $s1, and decreases the magical resistances of your spell targets by $s2 for $d.", "Magical damage increased by up to $s1. \n Magical resistances of your spell targets reduced by $s2." },
 	{ 26168, "", "Spikes sprout from you causing $s1 Nature damage to attackers when hit.  Lasts $d.", "Causes $s1 Nature damage to attackers." },
 	{ 26169, "", "20% chance that your heals on others will also heal you 10% of the amount healed.", "" },
 	{ 26171, "", "Increases the duration of your Renew spell by $/1000;s1 sec.", "" },
@@ -10018,8 +9071,7 @@ Magical resistances of your spell targets reduced by $s2." },
 	{ 26587, "", "Opens a Scarab Coffer.", "" },
 	{ 26588, "", "Opens a Greater Scarab Coffer.", "" },
 	{ 26592, "", "Disorient.", "" },
-	{ 26607, "", "Ice shards pelt the target area doing $o1 Frost damage over $d.", "$s1 Frost damage every $t1 $lsecond:seconds;.
-Movement speed reduced by $s2%." },
+	{ 26607, "", "Ice shards pelt the target area doing $o1 Frost damage over $d.", "$s1 Frost damage every $t1 $lsecond:seconds;. \n Movement speed reduced by $s2%." },
 	{ 26613, "", "Inflicts $s1% weapon damage and leaves the target unbalanced, reducing their defense skill by $s2 for $d.", "Defense skill reduced by $s2." },
 	{ 26622, "", "Shoots a firework at Omen's Head.", "" },
 	{ 26624, "", "Shoots a firework at Omen's Chest.", "" },
@@ -10028,9 +9080,7 @@ Movement speed reduced by $s2%." },
 	{ 26641, "", "You have looked into the abyss and the abyss looked back. Feared.", "You have looked into the abyss and the abyss looked back. Feared." },
 	{ 26647, "", "Restores $/5;s1 mana every sec.", "" },
 	{ 26649, "", "Shoots a firework at Omen's Left Hand.", "" },
-	{ 26651, "", "Designer Note:
-
-This marks the warrior as having just used Execute.", "" },
+	{ 26651, "", "Designer Note: \n  \n This marks the warrior as having just used Execute.", "" },
 	{ 26656, "", "Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.", "" },
 	{ 26664, "", "", "Can you feel it?" },
 	{ 26668, "", "Pick a piece of heart candy from the bag.", "" },
@@ -10129,9 +9179,7 @@ This marks the warrior as having just used Execute.", "" },
 	{ 27621, "Rank 3", "Summons a Windfury Totem with $s1 health at the feet of the caster.  The totem enchants all party members main-hand weapons with wind, if they are within $10611a1 yards.  Each hit has a 20% chance of granting the attacker $10610s2 extra $lattack:attacks; with $10610s1 extra attack power.  Lasts $d.", "" },
 	{ 27635, "", "Casts a bolt of lightning at the target for $s1 Nature damage.", "" },
 	{ 27648, "", "", "Increases time between attacks by $s1%." },
-	{ 27650, "", "", "Physical damage increased by $s1%
-Magic damage increased by $s3%
-Movement speed increased by $s2%." },
+	{ 27650, "", "", "Physical damage increased by $s1% \n Magic damage increased by $s3% \n Movement speed increased by $s2%." },
 	{ 27652, "", "Increases all magical resistances by $s1 for $d.", "Magical resistances increased by $s1." },
 	{ 27653, "", "Increases chance to dodge by $s1% for $d.", "Dodge chance increased by 3%." },
 	{ 27655, "", "Flame Lash for $s1 Fire damage.", "" },
@@ -10147,18 +9195,14 @@ Movement speed increased by $s2%." },
 	{ 27670, "", "Combines a Basket of Flowers, a Satchel of Cards and a Thunder Bluff Pledge Collection into a Thunder Bluff Gift Collection.", "Your Stamina is increased by $m2." },
 	{ 27671, "", "Combines a Book of Romantic Poetry, a Sheaf of Cards and an Undercity Pledge Collection into an Undercity Gift Collection.", "Your Intellect is increased by $m2." },
 	{ 27673, "", "Inflict one of the five wounds to mortally wound the target", "Taking five steps after taking five hits of this ancient technique will cause your heart to explode." },
-	{ 27675, "", "Increases your spell damage by up to 100 and your healing by up to 190 for $d.", "Spell damage increased by up to $s1.
-Healing increased by up to $s2." },
-	{ 27680, "", "Increases the caster's movement speed by $s2% and the Physical damage it deals by $s1 for $d.", "Physical damage dealt is increased by $s1.
-Movement speed increased by $s2%." },
+	{ 27675, "", "Increases your spell damage by up to 100 and your healing by up to 190 for $d.", "Spell damage increased by up to $s1. \n Healing increased by up to $s2." },
+	{ 27680, "", "Increases the caster's movement speed by $s2% and the Physical damage it deals by $s1 for $d.", "Physical damage dealt is increased by $s1. \n Movement speed increased by $s2%." },
 	{ 27681, "Rank 1", "Power infuses the target's party, increasing their Spirit by $s1 for $d.", "Increases Spirit by $s1." },
 	{ 27682, "Rank 1", "Teaches Prayer of Spirit (Rank 1).", "" },
 	{ 27683, "Rank 1", "Power infuses the target's party, increasing their Shadow resistance by $s1 for $d.", "Increases Shadow Resistance by $s1." },
 	{ 27684, "Rank 1", "Teaches Prayer of Shadow Protection (Rank 1).", "" },
 	{ 27685, "Rank 6", "Charges an enemy, immobilizes it for $7922d, and adds $s2 melee attack power to the boar's next attack.", "" },
-	{ 27688, "", "", "Absorbs damage.
-$s2 damage inflicted to melee and ranged attackers.
-$s2 damage inflicted to spell casters." },
+	{ 27688, "", "", "Absorbs damage. \n $s2 damage inflicted to melee and ranged attackers. \n $s2 damage inflicted to spell casters." },
 	{ 27700, "", "Combines 5 loaves of Homemade Bread into a Sack of Homemade Bread.", "" },
 	{ 27701, "", "Combines 5 Stormwind Guard's Cards into a Bundle of Cards.", "" },
 	{ 27702, "", "Right Click to combine 5 Pledges of Loyalty: Stormwind into a Stormwind Pledge Collection.", "" },
@@ -10180,8 +9224,7 @@ $s2 damage inflicted to spell casters." },
 	{ 27718, "", "Combines 5 Guardian's Moldy Cards into a Sheaf of Cards.", "" },
 	{ 27719, "", "Combines 5 Pledges of Loyalty: Undercity into an Undercity Pledge Collection.", "" },
 	{ 27720, "", "Increases Defense by $s1 for $d.", "Defense increased by $s1." },
-	{ 27721, "", "Increases damage done from spells by up to $s1 for $d.", "Magical damage dealt is increased by up to $s1.
-" },
+	{ 27721, "", "Increases damage done from spells by up to $s1 for $d.", "Magical damage dealt is increased by up to $s1. \n " },
 	{ 27722, "", "Increases healing done by magical spells by up to $s1 for $d.", "Healing done by magical spells is increased by up to $s1." },
 	{ 27723, "", "Improves your chance to hit by $s1% for $d.", "Chance to hit increased by $s1%." },
 	{ 27726, "", "Teaches you how to sew an Enchanted Mageweave Pouch.", "" },
@@ -10190,8 +9233,7 @@ $s2 damage inflicted to spell casters." },
 	{ 27729, "", "Teaches you how to sew a Cenarion Herb Bag.", "" },
 	{ 27730, "", "Teaches you how to sew a Satchel of Cenarius.", "" },
 	{ 27733, "", "Increases your chance to resist Silence and Interrupt effects by $s2%.", "Chance to resist Silence and Interrupt effects increased by $s2%." },
-	{ 27746, "", "10 mana per second.
-Increases movement speed by $s1%.", "Movement speed increased by $s1%." },
+	{ 27746, "", "10 mana per second. \n Increases movement speed by $s1%.", "Movement speed increased by $s1%." },
 	{ 27758, "", "Inflicts normal damage plus $s3 to nearby enemies and stunning them for $d.", "Stunned." },
 	{ 27759, "", "Protects you with a mana shield which can absorb up to $s1 damage. Two points of mana are drained per point of damage taken.", "" },
 	{ 27774, "", "Chance on spell cast to increase your damage and healing by up to $27775s1 for $27775d.", "" },
@@ -10213,10 +9255,8 @@ Increases movement speed by $s1%.", "Movement speed increased by $s1%." },
 	{ 27800, "Rank 5", "Causes an explosion of holy light around the caster, causing $s1 Holy damage to all enemy targets within $a1 yards and healing all party members within $27804a1 yards for $27804s1.  These effects cause no threat.", "" },
 	{ 27801, "Rank 6", "Causes an explosion of holy light around the caster, causing $s1 Holy damage to all enemy targets within $a1 yards and healing all party members within $27805a1 yards for $27805s1.  These effects cause no threat.", "" },
 	{ 27806, "", "Spits poison at an enemy, inflicting Nature damage.", "" },
-	{ 27807, "", "Inflicts $s2 Nature damage and an additional $s1 damage every $t1 sec. to enemies in a cone in front of the caster. Nature resistance is reduced by $s2. Lasts $d.", "$s2 Nature damage inflicted every $t2 sec.
-Nature resistance is reduced by $s3." },
-	{ 27808, "", "", "Stunned.
-Deals periodic frost damage." },
+	{ 27807, "", "Inflicts $s2 Nature damage and an additional $s1 damage every $t1 sec. to enemies in a cone in front of the caster. Nature resistance is reduced by $s2. Lasts $d.", "$s2 Nature damage inflicted every $t2 sec. \n Nature resistance is reduced by $s3." },
+	{ 27808, "", "", "Stunned. \n Deals periodic frost damage." },
 	{ 27811, "Rank 1", "After being struck by a melee or ranged critical hit, heal $s1% of the damage taken over $27813d.", "" },
 	{ 27813, "Rank 1", "Heals the target over $d.", "Heals $27811s1% of damage from a recent crit over $d." },
 	{ 27815, "Rank 2", "After being struck by a melee or ranged critical hit, heal $s1% of the damage taken over $27817d.", "" },
@@ -10267,11 +9307,9 @@ Deals periodic frost damage." },
 	{ 27987, "", "Causes the caster to automatically inflict $17466s1 Shadow damage every $t1 sec. to nearby enemies. The aura lasts until cancelled.", "Automatically inflicting $27988s1 Shadow damage every $t1 sec. to nearby enemies." },
 	{ 27993, "", "Inflicts normal damage plus $s1 to nearby enemies, reducing movement speed for $d.", "Movement speed reduced by $s2%." },
 	{ 27995, "", "Increases an ally's attack speed by $s1% for $d..", "Attack speed increased by $s1%." },
-	{ 28059, "", "", "Damage done increased by nearby positively charged allies.
-Deals $28062s1 damage to nearby allies that are not positively charged every $t2 sec." },
+	{ 28059, "", "", "Damage done increased by nearby positively charged allies. \n Deals $28062s1 damage to nearby allies that are not positively charged every $t2 sec." },
 	{ 28081, "", "Reduces the Energy cost of your Sinister Strike ability by $s1 and your Backstab ability by $s2.", "" },
-	{ 28084, "", "", "Damage done increased by nearby negatively charged allies.
-Deals $28085s1 damage to nearby allies that are not negatively charged every $t2 sec." },
+	{ 28084, "", "", "Damage done increased by nearby negatively charged allies. \n Deals $28085s1 damage to nearby allies that are not negatively charged every $t2 sec." },
 	{ 28107, "", "Increases the haste effect of your Slice and Dice ability by $s1%.", "Increases the haste effect of your Slice and Dice ability by $s1%." },
 	{ 28114, "", "", "Attracting Everything." },
 	{ 28137, "", "Slime nearby targets", "Inflicts $o1 Nature damage to an enemy over $d." },
@@ -10280,8 +9318,7 @@ Deals $28085s1 damage to nearby allies that are not negatively charged every $t2
 	{ 28144, "", "Increases healing done by magical spells and effects of all party members within $a1 yards by up to $s1. ", "Increases healing done by magical spells and effects by up to $s1. " },
 	{ 28145, "", "Restores $s1 mana per 5 seconds to all party members within $a1 yards.", "Restores $s1 mana per 5 seconds." },
 	{ 28148, "", "Creates a portal, teleporting group members that use it to Karazhan.", "" },
-	{ 28155, "", "Increases your spell damage by up to 120 and your healing by up to 300. ", "Spell damage increased by $s2 
-Healing increased by $s1. " },
+	{ 28155, "", "Increases your spell damage by up to 120 and your healing by up to 300. ", "Spell damage increased by $s2  \n Healing increased by $s1. " },
 	{ 28156, "", "", "Damaging nearby enemies every $d." },
 	{ 28161, "", "Permanently adds 10 nature resistance to a leg or head slot item. Does not stack with other enchantments for the selected equipment slot.", "" },
 	{ 28163, "", "Permanently adds 10 frost resistance to a leg or head slot item. Does not stack with other enchantments for the selected equipment slot.", "" },
@@ -10328,8 +9365,7 @@ Healing increased by $s1. " },
 	{ 28353, "", "Raise two skeletons from a fallen squire.", "" },
 	{ 28354, "", "Exorcises the taint of Sargeras from Atiesh. Only usable on consecrated earth.", "" },
 	{ 28364, "", "Physical Damage vs. units that have the ROYAL_GUARD string ID.", "" },
-	{ 28371, "", "", "Attack speed increased by $s1%.
-Damage increased by $s2%." },
+	{ 28371, "", "", "Attack speed increased by $s1%. \n Damage increased by $s2%." },
 	{ 28377, "Rank 1", "Casts a bolt of shadow at the target for $s1 Shadow damage.", "" },
 	{ 28378, "Rank 2", "Casts a bolt of shadow at the target for $s1 Shadow damage.", "" },
 	{ 28379, "Rank 3", "Casts a bolt of shadow at the target for $s1 Shadow damage.", "" },
@@ -10342,9 +9378,7 @@ Damage increased by $s2%." },
 	{ 28396, "", "Increase your reputation permanently with Everlook.", "" },
 	{ 28397, "", "Increase your reputation permanently with Gadgetzan.", "" },
 	{ 28406, "", "", "Polymorph gone wrong." },
-	{ 28410, "", "", "Charmed.
-Damage increased by $s2%.
-Healing increased by $s3%." },
+	{ 28410, "", "", "Charmed. \n Damage increased by $s2%. \n Healing increased by $s3%." },
 	{ 28412, "", "Causes the enemy target to run in horror for $d and causes $s1 Shadow damage.  The caster gains 100% of the damage caused in health.", "Horrified." },
 	{ 28413, "", "Curses an enemy with agony, inflicting Shadow damage every $t1 sec. over $d. Only one curse per warlock can be active on any one target.", "$s1 Shadow damage inflicted every $t1 sec." },
 	{ 28418, "", "While active, target's size increases, damage done increases by 10%.", "While active, target's size increases, damage done increases by 10%." },
@@ -10370,8 +9404,7 @@ Healing increased by $s3%." },
 	{ 28539, "", "Increases the damage done by your Multi-Shot by $s1%.", "" },
 	{ 28541, "", "Increases the damge dealt and health regained by your Death Coil spell by $s1%.", "" },
 	{ 28542, "", "", "Drains $s1 health and heals Sapphiron for $*2;s1 every $t1 sec." },
-	{ 28547, "", "", "Deals $s1 damage every $t1 sec.
-Slows movement speed by $s2%." },
+	{ 28547, "", "", "Deals $s1 damage every $t1 sec. \n Slows movement speed by $s2%." },
 	{ 28559, "", "The caster becomes untrackable.", "Untrackable." },
 	{ 28574, "", "Increases your armor by an amount equal to $s1% of your Intellect.", "" },
 	{ 28592, "Rank 2", "Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $12579u times.", "" },
@@ -10381,13 +9414,10 @@ Slows movement speed by $s2%." },
 	{ 28609, "Rank 5", "Absorbs $s1 Frost damage.  Lasts $d.", "Absorbs Frost damage." },
 	{ 28610, "Rank 4", "Absorbs $s1 shadow damage.  Lasts $d.", "Absorbs Shadow damage." },
 	{ 28611, "Rank 4", "Teaches Shadow Ward (Rank 4).", "" },
-	{ 28612, "Rank 7", "Conjures $s1 $lcinnamon roll:cinnamon rolls;, providing the mage and $ghis:her; allies with something to eat.
-
-Conjured items disappear if logged out for more than 15 minutes.", "" },
+	{ 28612, "Rank 7", "Conjures $s1 $lcinnamon roll:cinnamon rolls;, providing the mage and $ghis:her; allies with something to eat. \n  \n Conjured items disappear if logged out for more than 15 minutes.", "" },
 	{ 28613, "Rank 7", "Teaches Conjure Food (Rank 7).", "" },
 	{ 28614, "", "Throw a pointy spike.", "" },
-	{ 28622, "", "", "Stunned.
-Deals $s2 damage every $t2 sec." },
+	{ 28622, "", "", "Stunned. \n Deals $s2 damage every $t2 sec." },
 	{ 28679, "", "Reduce enemy's health and mana by $s1%.", "All stats reduced by $s1%." },
 	{ 28681, "", "", "Increases all damage caused by $s1%." },
 	{ 28682, "", "", "Increases critical strike chance from Fire damage spells by $s1%." },
@@ -10427,20 +9457,16 @@ Deals $s2 damage every $t2 sec." },
 	{ 28778, "", "Increases resistances to all schools of magic by $s1 for $d.", "All magic resistances increased by $s1." },
 	{ 28779, "", "Increases damage and healing done by magical spells and effects by up to $s1 for $d.", "Spell damage and healing increased by up to $s1." },
 	{ 28780, "", "Increases healing done by the next 5 spells by up to $s1 for $d.", "Healing spells increased by up to $s1." },
-	{ 28786, "", "", "Deals $s1 nature damage every $t1 sec.
-Unable to attack.
-Unable to cast spells." },
+	{ 28786, "", "", "Deals $s1 nature damage every $t1 sec. \n Unable to attack. \n Unable to cast spells." },
 	{ 28787, "", "Your Cleanse spell also heals the target for 200.", "" },
 	{ 28789, "", "Your Flash of Light and Holy Light spells have a chance to imbue your target with Holy Power.", "" },
 	{ 28790, "", "Increases the friendly target's armor by $s1 for $d.", "Increases armor by $s1." },
 	{ 28791, "", "Increases the friendly target's attack power by $s1 for $d.", "Increases attack power by $s1." },
 	{ 28793, "", "Increases the friendly target's spell damage and healing by up to $s1 for $d.", "Increases spell damage and healing by up to $s1." },
 	{ 28795, "", "Increases the friendly target's mana regeneration by $s1 per 5 sec. for $d.", "Restores $s1 mana per 5 sec." },
-	{ 28798, "", "Increases the caster's attack speed by $s2% and the Physical damage it deals by $s1 for $d.", "Physical damage dealt is increased by $s1%.
-Attack speed increased by $s2%." },
+	{ 28798, "", "Increases the caster's attack speed by $s2% and the Physical damage it deals by $s1 for $d.", "Physical damage dealt is increased by $s1%. \n Attack speed increased by $s2%." },
 	{ 28800, "", "Use on a Frozen Rune to melt it free.", "" },
-	{ 28801, "", "", "All attributes reduced by $s1%.
-Deals $s2 nature damage every $t2 sec." },
+	{ 28801, "", "", "All attributes reduced by $s1%. \n Deals $s2 nature damage every $t2 sec." },
 	{ 28802, "", "Each spell you cast can trigger an Epiphany, increasing your mana regeneration by $28804s1 for $28804d.", "" },
 	{ 28806, "", "Toss into a Fire Festival Bonfire!", "" },
 	{ 28807, "", "Reduces the mana cost of your Renew spell by $s1%.", "" },
@@ -10553,9 +9579,7 @@ Deals $s2 nature damage every $t2 sec." },
 	{ 29220, "", "Occasionally belch flame at enemies struck in melee for the next $d.", "That brew sure warmed you up!" },
 	{ 29228, "Rank 6", "Instantly sears the target with fire, causing $s1 Fire damage immediately and $o2 Fire damage over $d.", "$s2 Fire damage every $t2 seconds." },
 	{ 29229, "Rank 6", "Teaches Flame Shock (Rank 6).", "" },
-	{ 29232, "", "", "Critical-hit chance increased by $s2%.
-Spell critical-hit chance increased by $s3%.
-Spells and abilities cause no threat." },
+	{ 29232, "", "", "Critical-hit chance increased by $s2%. \n Spell critical-hit chance increased by $s3%. \n Spells and abilities cause no threat." },
 	{ 29235, "", "Increases Stamina by 30 for $d.", "Increases Stamina by 30." },
 	{ 29274, "", "Designer Note: The only purpose of this aura is to mark a player who just cast Nature's Swiftness.", "" },
 	{ 29305, "", "Summons a Cinder Elemental that will protect you for $d.", "" },
@@ -10604,22 +9628,16 @@ Spells and abilities cause no threat." },
 	{ 29653, "", "Venom Shot for $s1 Nature damage.", "" },
 	{ 29655, "", "Keeper's Sting for $s1 Nature damage.", "" },
 	{ 29659, "", "", "Damage done increased by $s1%." },
-	{ 29820, "", "DEBUG
-Assist a raid when it wipes.  For use on Test Realms only.", "" },
+	{ 29820, "", "DEBUG \n Assist a raid when it wipes.  For use on Test Realms only.", "" },
 	{ 29915, "", "Inflicts $s1 damage to an enemy every $t2 sec. for $d.", "Physical damage inflicted every $t2 sec." },
-	{ 29998, "", "", "Maximum health reduced by $s1%
-Deals $s2 nature damage every $t2 seconds." },
+	{ 29998, "", "", "Maximum health reduced by $s1% \n Deals $s2 nature damage every $t2 seconds." },
 	{ 30003, "", "Increases the chance that the player will reflect hostile spells cast on them by $s1% for $d.  Only one type of Zanza potion may be active at any given time.", "Hostile spells reflected $s1% of the time." },
 	{ 30020, "", "Heals $o1 damage over $d.", "Healing $s1 damage every $t1 seconds." },
 	{ 30043, "", "Shoots poison at an enemy, inflicting $s1 Nature damage.", "" },
 	{ 30046, "", "Teaches you how to make a Crystal Infused Bandage.", "" },
 	{ 30048, "", "Teaches you how to create Crystal Throat Lozenges.", "" },
-	{ 30080, "", "", "Physical damage taken is increased by $s1.
-Stamina reduced by $s2.
-$h% chance to spread Retching Plague on hit." },
-	{ 30081, "", "Diseases an enemy for $d., increasing the Physical damage it takes by $s1 and reducing its Stamina by $s2. The diseased target has $h% chance of spreading its illness to one of its nearby allies when struck in combat.", "Physical damage taken is increased by $s1.
-Stamina reduced by $s2.
-$h% chance to spread Retching Plague on hit." },
+	{ 30080, "", "", "Physical damage taken is increased by $s1. \n Stamina reduced by $s2. \n $h% chance to spread Retching Plague on hit." },
+	{ 30081, "", "Diseases an enemy for $d., increasing the Physical damage it takes by $s1 and reducing its Stamina by $s2. The diseased target has $h% chance of spreading its illness to one of its nearby allies when struck in combat.", "Physical damage taken is increased by $s1. \n Stamina reduced by $s2. \n $h% chance to spread Retching Plague on hit." },
 	{ 30088, "", "Increases Stamina for 1 hour.", "Increases Stamina by $s." },
 	{ 30089, "", "Increases Stamina for 1 hour.", "Increases Stamina by $s1." },
 	{ 30109, "", "Inflicts $s1 Nature damage to nearby enemies, and reduces their movement speed by $s2% for $d.", "Movement speed reduced by $s2%." },
@@ -10693,19 +9711,9 @@ $h% chance to spread Retching Plague on hit." },
 	{ 30918, "", "Removes snares and roots.", "" },
 	{ 30919, "Rank 1", "Increases your skill with Sword, Fist and Dagger weapons by $s1.", "" },
 	{ 30920, "Rank 2", "Increases your skill with Sword, Fist and Dagger weapons by $s1.", "" },
-	{ 31016, "Rank 9", "Finishing move that causes damage per combo point, increased by Attack Power:
-   1 point  : 224-332 damage
-   2 points: 394-502 damage
-   3 points: 564-672 damage
-   4 points: 734-842 damage
-   5 points: 904-1012 damage", "" },
+	{ 31016, "Rank 9", "Finishing move that causes damage per combo point, increased by Attack Power: \n    1 point  : 224-332 damage \n    2 points: 394-502 damage \n    3 points: 564-672 damage \n    4 points: 734-842 damage \n    5 points: 904-1012 damage", "" },
 	{ 31017, "Rank 9", "Teaches Eviscerate (Rank 9).", "" },
-	{ 31018, "Rank 5", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power.
-   1 point  : 199-259 damage
-   2 points: 346-406 damage
-   3 points: 493-553 damage
-   4 points: 640-700 damage
-   5 points: 787-847 damage", "" },
+	{ 31018, "Rank 5", "Finishing move that causes damage per combo point and converts each extra point of energy into $f1 additional damage.  Damage is increased by your Attack Power. \n    1 point  : 199-259 damage \n    2 points: 346-406 damage \n    3 points: 493-553 damage \n    4 points: 640-700 damage \n    5 points: 787-847 damage", "" },
 	{ 31020, "Rank 5", "Teaches Ferocious Bite (Rank 5).", "" },
 	{ 31255, "Rank 1", "Increases your movement speed by 10% whenever you deal damage to a target who is below 20% health.", "" },
 	{ 31364, "", "$s1 Fire damage to area enemies. ", "" },
