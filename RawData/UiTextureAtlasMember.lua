@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- CommittedName, ID, UiTextureAtlasID, CommittedLeft, CommittedRight, CommittedTop, CommittedBottom, UiTextureAtlasElementID, CommittedFlags, UiCanvasID
 UiTextureAtlasMember = {
 	{ "MainPet-PetFamilyFrame", 2009, 88, 881, 915, 987, 1021, 7931, 0, 0 },

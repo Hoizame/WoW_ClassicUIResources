@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, ModelType1, ItemVisual, ParticleColorID, ItemRangedDisplayInfoID, OverrideSwooshSoundKitID, SheatheTransformMatrixID, StateSpellVisualKitID, SheathedSpellVisualKitID, UnsheathedSpellVisualKitID, Flags, ModelResourcesID{}, ModelMaterialResourcesID{}, GeosetGroup{}, AttachmentGeosetGroup{}, HelmetGeosetVis{}
 ItemDisplayInfo = {
 	{ 220, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, { 0, 0 }, { 0, 0 }, { 1, 0, 1, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0 }, { 0, 0 } },

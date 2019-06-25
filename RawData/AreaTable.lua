@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, ZoneName, AreaName_lang, ContinentID, ParentAreaID, AreaBit, SoundProviderPref, SoundProviderPrefUnderwater, AmbienceID, UwAmbience, ZoneMusic, UwZoneMusic, ExplorationLevel, IntroSound, UwIntroSound, FactionGroupMask, Ambient_multiplier, MountFlags, PvpCombatWorldStateID, WildBattlePetLevelMin, WildBattlePetLevelMax, WindSettingsID, Flags{}, LiquidTypeID{}
 AreaTable = {
 	{ 1, "DunMorogh", "Dun Morogh", 0, 0, 119, 0, 11, 42, 675, 8, 0, 0, 0, 0, 2, 0, 0, -1, 0, 0, 0, { 65, 0 }, { 0, 0, 0, 0 } },

@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, GeoBox{}, Flags, FileDataID, BloodID, FootprintTextureID, FootprintTextureLength, FootprintTextureWidth, FootprintParticleScale, FoleyMaterialID, FootstepCameraEffectID, DeathThudCameraEffectID, SoundID, SizeClass, CollisionWidth, CollisionHeight, WorldEffectScale, CreatureGeosetDataID, HoverHeight, AttachedEffectScale, ModelScale, MissileCollisionRadius, MissileCollisionPush, MissileCollisionRaise, MountHeight, OverrideLootEffectScale, OverrideNameScale, OverrideSelectionRadius, TamedPetBaseScale
 CreatureModelData = {
 	{ 1, { -6.11824, -3.009243, -0.2058423, 2.869513, 3.082281, 2.069802 }, 10, 123020, 1, 7, 18, 12, 1, 0, 0, 0, 1, 1, 0.6944445, 2.083333, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1 },

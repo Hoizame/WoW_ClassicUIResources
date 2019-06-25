@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- [ID] = { SpellName, NameSubtext_lang, Description_lang, CategoryCD, CD, GCD }, -- CD -> ms
 [1] = { "Word of Recall (OLD)", "", "", 0, 0, 0 },
 [5] = { "Death Touch", "", "Instantly Kills the target.  I hope you feel good about yourself now.....", 0, 0, 0 },
@@ -9342,8 +9342,8 @@
 [28249] = { "Plans: Icebane Bracers", "", "Teaches you how to make Icebane Bracers.", 0, 0, 0 },
 [28266] = { "Tractor Beam", "", "Pull everybody towards you", 0, 0, 0 },
 [28270] = { "Polymorph: Cow", "", "Transforms the enemy into a cow, forcing it to wander around for up to $d.  While wandering, the cow cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", 0, 0, 1500 },
-[28271] = { "Polymorph: Turtle", "", "Transforms the enemy into a turtle, forcing it to wander around for up to $d.  While wandering, the turtle cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", 0, 0, 1500 },
-[28272] = { "Polymorph: Pig", "", "Transforms the enemy into a pig, forcing it to wander around for up to $d.  While wandering, the pig cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", 0, 0, 1500 },
+[28271] = { "Polymorph", "Turtle", "Transforms the enemy into a turtle, forcing it to wander around for up to $d.  While wandering, the turtle cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", 0, 0, 1500 },
+[28272] = { "Polymorph", "Pig", "Transforms the enemy into a pig, forcing it to wander around for up to $d.  While wandering, the pig cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", 0, 0, 1500 },
 [28282] = { "Ashbringer", "", "Inflicts the will of the Ashbringer upon the wielder.", 0, 0, 0 },
 [28286] = { "Polymorph: Turtle", "", "Teaches Polymorph: Turtle.", 0, 0, 0 },
 [28293] = { "Chain Lightning", "", "Strikes nearby enemies with a lightning bolt that arcs to another nearby enemies. The spell affects up to $x1 targets, inflicting greater Nature damage to each successive target.", 0, 0, 0 },

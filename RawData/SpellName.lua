@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Name_lang
 SpellName = {
 	{ 1, "Word of Recall (OLD)" },
@@ -19977,8 +19977,8 @@ SpellName = {
 	{ 28265, "Scourge Strike" },
 	{ 28266, "Tractor Beam" },
 	{ 28270, "Polymorph: Cow" },
-	{ 28271, "Polymorph: Turtle" },
-	{ 28272, "Polymorph: Pig" },
+	{ 28271, "Polymorph" },
+	{ 28272, "Polymorph" },
 	{ 28278, "Open Circle" },
 	{ 28280, "Bombard Slime" },
 	{ 28281, "Communique, Camp-to-Relay" },

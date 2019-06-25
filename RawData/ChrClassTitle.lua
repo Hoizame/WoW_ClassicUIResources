@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Name_male_lang, Name_female_lang, ChrClassID
 ChrClassTitle = {
 	{ 1, "Battlelord", "", 1 },

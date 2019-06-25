@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, SpellID, RequiredTotemCategoryID{}, Totem{}
 SpellTotems = {
 	{ 12346, 10015, { 0, 0 }, { 5956, 0 } },

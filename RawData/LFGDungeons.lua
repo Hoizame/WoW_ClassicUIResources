@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Name_lang, Description_lang, MinLevel, MaxLevel, TypeID, Subtype, Faction, IconTextureFileID, RewardsBgTextureFileID, PopupBgTextureFileID, ExpansionLevel, MapID, DifficultyID, MinGear, Group_ID, Order_index, Required_player_condition_ID, Target_level, Target_level_min, Target_level_max, Random_ID, ScenarioID, FinalEncounterID, Count_tank, Count_healer, Count_damage, Min_count_tank, Min_count_healer, Min_count_damage, Bonus_reputation_amount, MentorItemLevel, MentorCharLevel, Flags{}
 LFGDungeons = {
 	{ 1, "Wailing Caverns", "", 15, 28, 1, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, { 0, 0 } },

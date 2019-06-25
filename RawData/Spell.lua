@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, NameSubtext_lang, Description_lang, AuraDescription_lang
 Spell = {
 	{ 1, "", "", "" },
@@ -9343,8 +9343,8 @@ Spell = {
 	{ 28249, "", "Teaches you how to make Icebane Bracers.", "" },
 	{ 28266, "", "Pull everybody towards you", "" },
 	{ 28270, "", "Transforms the enemy into a cow, forcing it to wander around for up to $d.  While wandering, the cow cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", "Cannot attack or cast spells.  Increased regeneration." },
-	{ 28271, "", "Transforms the enemy into a turtle, forcing it to wander around for up to $d.  While wandering, the turtle cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", "Cannot attack or cast spells.  Increased regeneration." },
-	{ 28272, "", "Transforms the enemy into a pig, forcing it to wander around for up to $d.  While wandering, the pig cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", "Cannot attack or cast spells.  Increased regeneration." },
+	{ 28271, "Turtle", "Transforms the enemy into a turtle, forcing it to wander around for up to $d.  While wandering, the turtle cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", "Cannot attack or cast spells.  Increased regeneration." },
+	{ 28272, "Pig", "Transforms the enemy into a pig, forcing it to wander around for up to $d.  While wandering, the pig cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.", "Cannot attack or cast spells.  Increased regeneration." },
 	{ 28282, "", "Inflicts the will of the Ashbringer upon the wielder.", "Inflicts the will of the Ashbringer upon the wielder." },
 	{ 28286, "", "Teaches Polymorph: Turtle.", "" },
 	{ 28293, "", "Strikes nearby enemies with a lightning bolt that arcs to another nearby enemies. The spell affects up to $x1 targets, inflicting greater Nature damage to each successive target.", "" },

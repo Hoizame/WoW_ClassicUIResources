@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, WidgetTag, ParentSetID, VisID, MapID, PlayerConditionID, OrderIndex
 UiWidget = {
 	{ 1879, "", 1, 1335, 0, 69968, 136 },

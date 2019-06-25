@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, ModelName, GeoBox{}, FileDataID, Field_1_13_2_30128_003, Field_1_13_2_30128_004, Field_1_13_2_30128_005
 GameObjectDisplayInfo = {
 	{ 1, "World\Generic\ActiveDoodads\Chest02\Chest02.mdx", { -0.2607333, -0.4512289, 0.007418468, 0.2606174, 0.4493598, 0.6864136 }, 196979, 0, 0, 0 },

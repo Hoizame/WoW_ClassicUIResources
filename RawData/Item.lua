@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, ClassID, SubclassID, Material, InventoryType, MaxDurability, AmmoType, SheatheType, Sound_override_subclassID, IconFileDataID, ItemGroupSoundsID, DisplayInfoID, DamageMin{}, DamageMax{}, DamageType{}, DefensiveStats{}
 Item = {
 	{ 17, 4, 4, 6, 4, 0, 0, 3, -1, 132759, 11, 7016, { 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0 } },

@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, PlayerKillingAllowed, Roleplaying, PlayerAttackSpeedBase, MaxDamageReductionPctPhysical
 Cfg_Configs = {
 	{ 1, 0, 0, 2000, 0.75 },

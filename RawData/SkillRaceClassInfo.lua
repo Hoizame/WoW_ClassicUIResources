@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, RaceMask, SkillID, ClassMask, Flags, Availability, MinLevel, SkillTierID
 SkillRaceClassInfo = {
 	{ 4, 511, 95, 1535, 128, 1, 0, 0 },

@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Pos{}, SequenceID, TimeIndex, TransportID
 TransportAnimation = {
 	{ 86, { 0, 0, 0 }, 0, 0, 2074 },

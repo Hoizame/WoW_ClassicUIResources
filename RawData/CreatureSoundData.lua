@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, SoundExertionID, SoundExertionCriticalID, SoundInjuryID, SoundInjuryCriticalID, SoundInjuryCrushingBlowID, SoundDeathID, SoundStunID, SoundStandID, SoundFootstepID, SoundAggroID, SoundWingFlapID, SoundWingGlideID, SoundAlertID, SoundJumpStartID, SoundJumpEndID, SoundPetAttackID, SoundPetOrderID, SoundPetDismissID, LoopSoundID, BirthSoundID, SpellCastDirectedSoundID, SubmergeSoundID, SubmergedSoundID, WindupSoundID, WindupCriticalSoundID, ChargeSoundID, ChargeCriticalSoundID, BattleShoutSoundID, BattleShoutCriticalSoundID, TauntSoundID, CreatureSoundDataIDPet, FidgetDelaySecondsMin, FidgetDelaySecondsMax, CreatureImpactType, NPCSoundID, SoundFidget{}, CustomAttack{}
 CreatureSoundData = {
 	{ 1, 565, 0, 567, 568, 0, 569, 0, 0, 0, 570, 433, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, { 0, 0, 571, 572, 0 }, { 0, 7374, 0, 0 } },

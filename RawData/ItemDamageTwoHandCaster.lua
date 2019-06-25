@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, ItemLevel, Quality{}
 ItemDamageTwoHandCaster = {
 	{ 1, 1, { 0.2230667, 0.3345333, 0.4048, 0.6758667, 1.206, 1.206, 1.206 } },

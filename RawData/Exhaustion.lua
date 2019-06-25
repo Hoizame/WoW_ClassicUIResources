@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- Name_lang, CombatLogText, ID, Xp, Factor, OutdoorHours, InnHours, Threshold
 Exhaustion = {
 	{ "Rested", "COMBATLOG_XPGAIN_EXHAUSTION1", 1, 10000, 2, -1, 8, 12 },

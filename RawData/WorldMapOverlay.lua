@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, UiMapArtID, TextureWidth, TextureHeight, OffsetX, OffsetY, HitRectTop, HitRectBottom, HitRectLeft, HitRectRight, PlayerConditionID, Flags, AreaID{}
 WorldMapOverlay = {
 	{ 84, 1244, 160, 210, 382, 281, 305, 460, 420, 510, 0, 0, { 736, 0, 0, 0 } },

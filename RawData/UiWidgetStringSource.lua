@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Value_lang, ReqID, ParentWidgetID
 UiWidgetStringSource = {
 	{ 4401, "Towers Controlled: %2327w", 2, 1879 },

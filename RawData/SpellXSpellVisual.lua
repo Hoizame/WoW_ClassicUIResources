@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, DifficultyID, SpellVisualID, Probability, Flags, Priority, SpellIconFileID, ActiveIconFileID, ViewerUnitConditionID, ViewerPlayerConditionID, CasterUnitConditionID, CasterPlayerConditionID, SpellID
 SpellXSpellVisual = {
 	{ 236579, 0, 222, 1, 0, 1, 0, 0, 0, 0, 0, 0, 539 },

@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- Icon, String_lang, Tooltip_lang, DynamicTooltip_lang, ExtendedUI, ID, MapID, AreaID, StateVariable, Type, DynamicIconFileID, DynamicFlashIconFileID, OrderIndex, PhaseUseFlags, PhaseID, PhaseGroupID, ExtendedUIStateVariable{}
 WorldStateUI = {
 	{ "Interface\TargetingFrame\UI-PVP-Horde", "%1582w/%1601w", "Horde flag captures", "Alliance flag has been picked up", "", 3, 489, 0, 2338, 0, 0, 0, 0, 0, 0, 0, { 0, 0, 0 } },

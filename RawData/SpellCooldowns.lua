@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, DifficultyID, CategoryRecoveryTime, RecoveryTime, StartRecoveryTime, SpellID
 SpellCooldowns = {
 	{ 52899, 0, 30000, 0, 1500, 543 },

@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- Name_lang, Description_lang, ID, Pos{}, PortLocID, PlayerConditionID, UiTextureAtlasMemberID, Flags, WMOGroupID, PoiDataType, PoiData, ContinentID, AreaID, WorldStateID, UiWidgetParentSetID, Importance, Icon
 AreaPOI = {
 	{ "Anvilmar", "", 1, { -6134.28, 383.763, 0 }, 0, 0, 0, 5, 0, 0, 0, 0, 132, 0, 0, 3, 6 },

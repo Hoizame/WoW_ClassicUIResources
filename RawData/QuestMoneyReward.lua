@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Difficulty{}
 QuestMoneyReward = {
 	{ 1, { 0, 2, 4, 8, 12, 15, 30, 50, 0, 0 } },

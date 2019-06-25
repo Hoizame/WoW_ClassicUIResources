@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Pos{}, MapID
 CommentatorStartLocation = {
 	{ 2, { -2065.369, 6638.608, 31.13 }, 1505 },

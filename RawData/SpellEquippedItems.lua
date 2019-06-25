@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, SpellID, EquippedItemClass, EquippedItemInvTypes, EquippedItemSubclass
 SpellEquippedItems = {
 	{ 164791, 262, 2, 0, 2048 },

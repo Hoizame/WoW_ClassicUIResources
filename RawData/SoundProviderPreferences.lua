@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Description, EAXEnvironmentSelection, EAXDecayTime, EAX2EnvironmentSize, EAX2EnvironmentDiffusion, EAX2Room, EAX2RoomHF, EAX2DecayHFRatio, EAX2Reflections, EAX2ReflectionsDelay, EAX2Reverb, EAX2ReverbDelay, EAX2RoomRolloff, EAX2AirAbsorption, EAX3RoomLF, EAX3DecayLFRatio, EAX3EchoTime, EAX3EchoDepth, EAX3ModulationTime, EAX3ModulationDepth, EAX3HFReference, EAX3LFReference, Flags
 SoundProviderPreferences = {
 	{ 3, "TESTVOLUMENONE", 0, 0.1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, -0.05, 0, 0.1, 0.25, 0, 1, 0, 5000, 250, 0 },

@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Field_1_13_2_30073_000{}, Field_1_13_2_30073_001{}, CasterImpactKit, TargetImpactKit, MissileAttachment, MissileDestinationAttachment, Field_1_13_2_30073_006, Field_1_13_2_30073_007, Field_1_13_2_30073_008, Field_1_13_2_30073_009, Field_1_13_2_30073_010, Field_1_13_2_30073_011, Field_1_13_2_30073_012, Field_1_13_2_30073_013, Field_1_13_2_30073_014, AnimEventSoundID
 SpellVisual = {
 	{ 1, { 0, 0, 0 }, { 0, 0, 0 }, 0, 0, -1, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 },

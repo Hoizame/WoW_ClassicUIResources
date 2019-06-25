@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Map{}, JournalEncounterID, MapDisplayConditionID, Flags, UiMapID
 JournalEncounterXMapLoc = {
 	{ 1613, { 0.6367, 0.4625748 }, 178, 0, 1, 0 },

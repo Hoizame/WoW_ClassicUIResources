@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, Name_lang, CreatureType, Flags, AttackIconFileID, BonusActionBar, CombatRoundTime, DamageVariance, MountTypeID, CreatureDisplayID{}, PresetSpellID{}
 SpellShapeshiftForm = {
 	{ 1, "Cat Form", 1, 112, 132116, 1, 1000, 0.4, 0, { 892, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0 } },

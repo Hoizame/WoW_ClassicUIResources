@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- [AreaID] = { ZoneName, AreaName_lang, ParentAreaID }
 [1] = { "DunMorogh", "Dun Morogh", 0 },
 [2] = { "Longshore", "Longshore", 40 },

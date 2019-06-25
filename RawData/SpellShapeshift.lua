@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, SpellID, StanceBarOrder, ShapeshiftExclude{}, ShapeshiftMask{}
 SpellShapeshift = {
 	{ 39297, 598, -1, { 134217728, 0 }, { 0, 0 } },

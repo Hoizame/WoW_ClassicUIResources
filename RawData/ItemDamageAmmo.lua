@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, ItemLevel, Quality{}
 ItemDamageAmmo = {
 	{ 1, 1, { 0.45447, 0.954546, 1.319857, 2.23027, 3.617832, 3.617832, 3.617832 } },

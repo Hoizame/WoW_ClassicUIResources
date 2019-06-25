@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- Offset{}, OffsetVariation{}, ID, SpellVisualEffectNameID, AttachmentID, PositionerID, Yaw, Pitch, Roll, YawVariation, PitchVariation, RollVariation, Scale, ScaleVariation, StartAnimID, AnimID, EndAnimID, AnimKitID, Flags, LowDefModelAttachID, StartDelay, ParentSpellVisualKitID
 SpellVisualKitModelAttach = {
 	{ { 0, 0, 0 }, { 0, 0, 0 }, 307639, 27848, -1, 120, 0, 0, 0, 0, 0, 0, 1, 0, -1, -1, -1, 0, 12, 0, 1, 55751 },

@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, SoundKitID, InnerRadius2D, OuterRadius2D, TimeA, TimeB, TimeC, TimeD, RandomOffsetRange, Usage, TimeIntervalMin, TimeIntervalMax, DelayMin, DelayMax, VolumeSliderCategory, DuckToSFX, DuckToMusic, DuckToAmbience, DuckToDialog, DuckToSuppressors, DuckToCinematicSFX, DuckToCinematicMusic, InnerRadiusOfInfluence, OuterRadiusOfInfluence, TimeToDuck, TimeToUnduck, InsideAngle, OutsideAngle, OutsideVolume, MinRandomPosOffset, MaxRandomPosOffset, MsOffset, TimeCooldownMin, TimeCooldownMax, MaxInstancesBehavior, VolumeControlType, VolumeFadeInTimeMin, VolumeFadeInTimeMax, VolumeFadeInCurveID, VolumeFadeOutTimeMin, VolumeFadeOutTimeMax, VolumeFadeOutCurveID, ChanceToPlay
 SoundKitAdvanced = {
 	{ 84622, 1519, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 360, 360, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, 3159, -1, -1, 3160, 1 },

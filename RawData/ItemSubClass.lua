@@ -1,5 +1,5 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30862
+-- 1.13.2.30901
 -- ID, DisplayName_lang, VerboseName_lang, ClassID, SubClassID, AuctionHouseSortOrder, PrerequisiteProficiency, Flags, DisplayFlags, WeaponSwingSize, PostrequisiteProficiency
 ItemSubClass = {
 	{ 1, "NewItem", "", -1, -1, 0, -1, 0, 1, 0, -1 },
