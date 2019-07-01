@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, ItemLevel, Quality{}
 ItemDamageOneHand = {
 	{ 1, 1, { 0.3466456, 0.5198648, 0.6290592, 1.050297, 1.874124, 1.874124, 1.874124 } },

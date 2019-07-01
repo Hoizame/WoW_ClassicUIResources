@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- Name_lang, ID, MapID, DifficultyID, OrderIndex, Bit, CreatureDisplayID, Flags, SpellIconFileID
 DungeonEncounter = {
 	{ "Razorgore the Untamed", 610, 469, 0, 0, 0, 10115, 0, 0 },

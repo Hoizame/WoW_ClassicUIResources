@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Subclass, Quality, MinLevel, MaxLevel, SkillRequired, ExpansionID, Class
 ItemDisenchantLoot = {
 	{ 3, -1, 2, 5, 15, 0, -2, 2 },

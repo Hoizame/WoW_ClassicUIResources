@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- Loc{}, ID, PathID, NodeIndex, ContinentID, Flags, Delay, ArrivalEventID, DepartureEventID
 TaxiPathNode = {
 	{ { -8851.658, 498.5518, 111.256 }, 35, 6, 0, 0, 0, 0, 0, 0 },

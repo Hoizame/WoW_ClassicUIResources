@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, FromTaxiNode, ToTaxiNode, Cost
 TaxiPath = {
 	{ 6, 2, 4, 110 },

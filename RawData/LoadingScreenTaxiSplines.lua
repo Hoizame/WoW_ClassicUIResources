@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, PathID, LegIndex, LoadingScreenID, Locx{}, Locy{}
 LoadingScreenTaxiSplines = {
 	{ 101, 241, 0, 0, { 0.2828713, 0.534392, 0.652557, 0.7184486, 0, 0, 0, 0, 0, 0 }, { 0.4738528, 0.376238, 0.19604, 0.1867526, 0, 0, 0, 0, 0, 0 } },

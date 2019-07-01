@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, SpellID, Reagent{}, ReagentCount{}
 SpellReagents = {
 	{ 19416, 10015, { 3860, 6037, 7910, 7081, 7966, 4304, 0, 0 }, { 30, 16, 6, 4, 8, 6, 0, 0 } },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Origin{}, SoundID, OriginFacing, FileDataID
 CinematicCamera = {
 	{ 1, { -9282.42, -3329.66, 116.341 }, 0, 4.60767, 116919 },

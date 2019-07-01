@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Name_lang, SetFlags, RequiredSkill, RequiredSkillRank, ItemID{}
 ItemSet = {
 	{ 1, "The Gladiator", 0, 0, 0, { 11729, 11726, 11728, 11731, 11730, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } },

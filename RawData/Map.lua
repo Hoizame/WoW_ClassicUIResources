@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Directory, MapName_lang, MapDescription0_lang, MapDescription1_lang, PvpShortDescription_lang, PvpLongDescription_lang, MapType, InstanceType, ExpansionID, AreaTableID, LoadingScreenID, TimeOfDayOverride, ParentMapID, CosmeticParentMapID, TimeOffset, MinimapIconScale, CorpseMapID, MaxPlayers, WindSettingsID, ZmpFileDataID, Flags{}
 Map = {
 	{ 0, "Azeroth", "Eastern Kingdoms", "", "", "", "", 1, 0, 0, 0, 4, -1, -1, -1, 0, 1, -1, 0, 0, 804940, { 16858641, 1310728 } },

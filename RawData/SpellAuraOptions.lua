@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, DifficultyID, CumulativeAura, ProcCategoryRecovery, ProcChance, ProcCharges, SpellProcsPerMinuteID, ProcTypeMask{}, SpellID
 SpellAuraOptions = {
 	{ 115647, 0, 0, 0, 101, 0, 0, { 0, 0 }, 539 },

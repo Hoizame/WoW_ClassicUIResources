@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, TACTID{}
 TactKeyLookup = {
 	{ 15, { 62, 203, 106, 18, 120, 80, 80, 250 } },

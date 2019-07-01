@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Spells{}, Availability{}
 CreatureSpellData = {
 	{ 5525, { 24450, 0, 0, 0 }, { 100, 0, 0, 0 } },

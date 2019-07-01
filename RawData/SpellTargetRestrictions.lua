@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, DifficultyID, ConeDegrees, MaxTargets, MaxTargetLevel, TargetCreatureType, Targets, Width, SpellID
 SpellTargetRestrictions = {
 	{ 196786, 0, 60, 0, 0, 0, 0, 0, 539 },

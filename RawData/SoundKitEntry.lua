@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, SoundKitID, FileDataID, Frequency, Volume
 SoundKitEntry = {
 	{ 3540, 2523, 53492, 1, 1 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, DifficultyID, CastingTimeIndex, DurationIndex, RangeIndex, SchoolMask, Speed, LaunchDelay, MinDuration, SpellIconFileDataID, ActiveIconFileDataID, Attributes{}, SpellID
 SpellMisc = {
 	{ 314052, 0, 14, 0, 1, 1, 0, 0, 0, 136235, 0, { 65792, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, 539 },

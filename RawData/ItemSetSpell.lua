@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, ChrSpecID, SpellID, Threshold, ItemSetID
 ItemSetSpell = {
 	{ 1589, 0, 21618, 2, 476 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Key{}
 TactKey = {
 	{ 15, { 189, 197, 24, 98, 171, 237, 121, 178, 222, 72, 200, 231, 230, 108, 98, 0 } },

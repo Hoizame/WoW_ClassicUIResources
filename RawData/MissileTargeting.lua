@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, TurnLingering, PitchLingering, MouseLingering, EndOpacity, ArcSpeed, ArcRepeat, ArcWidth, ImpactTexRadius, ArcTextureFileID, ImpactTextureFileID, ImpactRadius{}, ImpactModelFileID{}
 MissileTargeting = {
 	{ 336, 1, 2, 3, 0.67, 4, 0.2, 6, 0, 237680, 0, { 7, 0 }, { 237714, 237715 } },

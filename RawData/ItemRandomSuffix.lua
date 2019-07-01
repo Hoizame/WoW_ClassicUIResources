@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Name_lang, Enchantment{}, AllocationPct{}
 ItemRandomSuffix = {
 	{ 9, "of the Owl", { 2804, 2806, 0, 0, 0 }, { 6666, 6666, 0, 0, 0 } },

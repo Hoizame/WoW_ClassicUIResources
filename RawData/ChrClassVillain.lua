@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Name_lang, ChrClassID, Gender
 ChrClassVillain = {
 	{ 1, "Magtheridon", 1, 0 },

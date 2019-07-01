@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Pos{}, CurveID, OrderIndex
 CurvePoint = {
 	{ 527, { 0, 0 }, 104, 0 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- Name_lang, Pos{}, Rot{}, ID, OwnerID, DisplayID, Scale, TypeID, PhaseUseFlags, PhaseID, PhaseGroupID, PropValue{}
 GameObjects = {
 	{ "Old Coast Road", { -9979.134, 1007.325, 32.75878 }, { 0.100685, -0.025144, 0.052291, 0.993225 }, 80, 0, 22, 1, 5, 1, 0, 0, { 1, 1, 0, 0, 0, 0, 0, 0 } },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- AreaName_lang, ID, WMOID, NameSetID, WMOGroupID, SoundProviderPref, SoundProviderPrefUnderwater, AmbienceID, UwAmbience, ZoneMusic, UwZoneMusic, IntroSound, UwIntroSound, AreaTableID, Flags
 WMOAreaTable = {
 	{ "", 11438, 540, 0, -1, 0, 0, 0, 675, 0, 0, 0, 0, 0, 0 },

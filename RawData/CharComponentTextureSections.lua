@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, CharComponentTextureLayoutID, SectionType, X, Y, Width, Height, OverlapSectionMask
 CharComponentTextureSections = {
 	{ 1, 1, 0, 0, 0, 256, 128, 0 },

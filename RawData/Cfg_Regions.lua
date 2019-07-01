@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Tag, Region_ID, Raidorigin, Region_group_mask, Challenge_origin
 Cfg_Regions = {
 	{ 1, "US", 1, 1127228400, 1, 1135695600 },

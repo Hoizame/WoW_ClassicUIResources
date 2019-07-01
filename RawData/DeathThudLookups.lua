@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, SizeClass, TerrainTypeSoundID, SoundEntryID, SoundEntryIDWater
 DeathThudLookups = {
 	{ 1, 0, 1, 907, 1266 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Warning_lang, Type
 ConfigurationWarning = {
 	{ 2, "<html><body><p align=\"CENTER\">Warning: Your graphics card will not be supported in future versions of World of Warcraft, which will require a Shader Model 3 capable graphics card or better.</p></body></html>", 0 },

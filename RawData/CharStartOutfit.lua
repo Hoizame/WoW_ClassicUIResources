@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, ClassID, SexID, OutfitID, PetDisplayID, PetFamilyID, ItemID{}, RaceID
 CharStartOutfit = {
 	{ 1, 1, 0, 0, 0, 0, { 38, 39, 40, 0, 25, 2362, 117, 6948, -1, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, 1 },

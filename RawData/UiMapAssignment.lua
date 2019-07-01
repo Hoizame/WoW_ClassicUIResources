@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- UiMin{}, UiMax{}, Region{}, ID, UiMapID, OrderIndex, MapID, AreaID, WMODoodadPlacementID, WMOGroupID
 UiMapAssignment = {
 	{ { 0, 0 }, { 1, 1 }, { -1716.667, -7250, -1000000, 1808.333, -1962.5, 1000000 }, 46721, 1411, 0, 1, 14, 0, 0 },

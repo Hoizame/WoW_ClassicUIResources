@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, StartEvent, EndEvent, StartMinOffsetMs, StartMaxOffsetMs, EndMinOffsetMs, EndMaxOffsetMs, TargetType, SpellVisualKitID, SpellVisualID
 SpellVisualEvent = {
 	{ 183497, 1, 2, 0, 0, 0, 0, 1, 60, 863 },

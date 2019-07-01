@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- RaceMask, ID, SkillLine, Spell, MinSkillLineRank, ClassMask, Field_1_13_2_30073_006, AcquireMethod, TrivialSkillLineRankHigh, TrivialSkillLineRankLow, Field_1_13_2_30073_010, Field_1_13_2_30073_011, Field_1_13_2_30073_012, Field_1_13_2_30073_013, Field_1_13_2_30073_014, NumSkillUps{}
 SkillLineAbility = {
 	{ 0, 69, 6, 116, 1, 128, 0, 0, 0, 0, 0, 1, 0, 0, 0, { 0, 0 } },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Name_lang, HordeName_lang, EffectArg{}, EffectScalingPoints{}, TransmogPlayerConditionID, TransmogCost, IconFileDataID, EffectPointsMin{}, ItemVisual, Flags, RequiredSkillID, RequiredSkillRank, ItemLevel, Charges, Effect{}, ScalingClass, ScalingClassRestricted, Condition_ID, MinLevel, MaxLevel
 SpellItemEnchantment = {
 	{ 1, "Rockbiter 3", "", { 15568, 0, 0 }, { 0, 0, 0 }, 0, 0, 0, { 0, 0, 0 }, 61, 1, 0, 0, 1, 0, { 3, 0, 0 }, 0, 0, 0, 0, 0 },

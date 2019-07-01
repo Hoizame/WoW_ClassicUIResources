@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- Name_lang, ResourceName_lang, Verb_lang, CursorName, ID
 LockType = {
 	{ "Pick Lock", "Locked Items", "Pick", "PickLock", 1 },

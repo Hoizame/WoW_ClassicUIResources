@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, InfoName_lang, Type, Modifiers, Profession
 QuestInfo = {
 	{ 1, "Elite", 0, 0, 0 },

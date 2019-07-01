@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- Field_1_13_2_30073_000_lang, Pos{}, ID, ContinentID, Field_1_13_2_30073_004, Field_1_13_2_30073_005, Field_1_13_2_30073_006, Radius, Box_length, Box_width, Box_height, Box_yaw, ShapeType, Field_1_13_2_30073_013, AreaTriggerActionSetID, Field_1_13_2_30073_015
 AreaTrigger = {
 	{ "You must be at least level 20 to enter.", { 2924.38, -798.429, 161.611 }, 45, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 18440, 0 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Name_lang, BackgroundFile, OrderIndex, RaceMask, ClassMask
 TalentTab = {
 	{ 41, "Fire", "MageFire", 1, 511, 128 },

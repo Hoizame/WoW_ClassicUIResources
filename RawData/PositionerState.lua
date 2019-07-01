@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, NextStateID, TransformMatrixID, PosEntryID, RotEntryID, ScaleEntryID, Flags, EndLife, EndLifePercent
 PositionerState = {
 	{ 1, 0, 0, 1, 0, 0, 7, 100, 100 },

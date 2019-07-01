@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, GenderIndex, ClassID, RaceID, PositionIndex
 ComponentModelFileData = {
 	{ 137443, 1, 0, 10, -1 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Message_lang, ItemContextPickerID, ContentTuningID, DifficultyID, LockID, ResetInterval, MaxPlayers, ItemContext, Flags, MapID
 MapDifficulty = {
 	{ 2, "", 0, 0, 1, 0, 0, 0, 0, 0, 1 },

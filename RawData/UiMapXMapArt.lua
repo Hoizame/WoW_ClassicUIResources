@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, PhaseID, UiMapArtID, UiMapID
 UiMapXMapArt = {
 	{ 1883, 0, 970, 947 },

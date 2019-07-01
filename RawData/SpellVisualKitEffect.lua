@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, EffectType, Effect, ParentSpellVisualKitID
 SpellVisualKitEffect = {
 	{ 114095, 2, 307639, 55751 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- [ClassID] = ClassName_lang
 [0] = "Consumable",
 [1] = "Container",

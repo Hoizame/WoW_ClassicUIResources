@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, ParentAnimKitID, OrderIndex, AnimID, AnimStartTime, AnimKitConfigID, StartCondition, StartConditionParam, StartConditionDelay, EndCondition, EndConditionParam, EndConditionDelay, Speed, SegmentFlags, ForcedVariation, OverrideConfigFlags, LoopToSegmentIndex, BlendInTimeMs, BlendOutTimeMs
 AnimKitSegment = {
 	{ 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, -1, 0, 0 },

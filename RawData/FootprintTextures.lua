@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, FileDataID, TextureBlendsetID, Flags
 FootprintTextures = {
 	{ 1, 180055, 0, 0 },

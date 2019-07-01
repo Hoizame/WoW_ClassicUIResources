@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Text_lang, SortIndex, Min_level, Max_level
 GameTips = {
 	{ 201, "|cffffd100Tip:|r Your spell casting can be cancelled by moving, jumping or hitting the escape key. \n  \n ", 1, 0, 60 },

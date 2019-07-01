@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, RaceID, SexID, VariationID, GeosetID, Showscalp, VariationType, GeosetType, ColorIndex, CustomGeoFileDataID, HdCustomGeoFileDataID
 CharHairGeosets = {
 	{ 21, 1, 0, 0, 1, 1, 3, 0, -1, 0, 0 },

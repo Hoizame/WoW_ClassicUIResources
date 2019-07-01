@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Description_lang, TierID, Flags, ColumnIndex, ClassID, SpecID, SpellID, OverridesSpellID, TabID, RequiredSpellID, CategoryMask{}, SpellRank{}, PrereqTalent{}, PrereqRank{}
 Talent = {
 	{ 23, "", 2, 0, 3, 0, 0, 0, 0, 41, 0, { 0, 0 }, { 11083, 12351, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } },

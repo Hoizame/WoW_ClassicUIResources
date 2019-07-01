@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, LightParamID, Time, DirectColor, AmbientColor, SkyTopColor, SkyMiddleColor, SkyBand1Color, SkyBand2Color, SkySmogColor, SkyFogColor, SunColor, CloudSunColor, CloudEmissiveColor, CloudLayer1AmbientColor, CloudLayer2AmbientColor, OceanCloseColor, OceanFarColor, RiverCloseColor, RiverFarColor, ShadowOpacity, FogEnd, FogScaler, FogDensity, FogHeight, FogHeightScaler, FogHeightDensity, SunFogAngle, CloudDensity, ColorGradingFileDataID, HorizonAmbientColor, GroundAmbientColor, EndFogColor, EndFogColorDistance, SunFogColor, SunFogStrength, FogHeightColor
 LightData = {
 	{ 42305, 378, 0, 4351366, 925236, 1981772, 3500936, 3567758, 3699085, 861477, 1387070, 5996702, 5401211, 0, 4220285, 0, 2635575, 1387070, 1856070, 861477, 4351366, 15000, -0.9, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0 },

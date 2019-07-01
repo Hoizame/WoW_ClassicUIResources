@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, DifficultyID, InterruptFlags, AuraInterruptFlags{}, ChannelInterruptFlags{}, SpellID
 SpellInterrupts = {
 	{ 123481, 0, 15, { 0, 0 }, { 0, 0 }, 539 },

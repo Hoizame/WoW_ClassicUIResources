@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Type, TransitionSkyBox, AmbienceID, SoundAmbienceID, EffectType, EffectTextureFileDataID, WindSettingsID, Scale, Volatility, TwinkleIntensity, FallModifier, RotationalSpeed, ParticulateFileDataID, VolumeEdgeFadeStart, OverrideColor, OverrideColorIntensity, OverrideCount, OverrideOpacity, VolumeFlags, LightningID, Intensity{}, EffectColor{}
 Weather = {
 	{ 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, { 0, 0 }, { 1, 1, 1 } },

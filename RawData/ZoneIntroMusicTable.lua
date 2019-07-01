@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Name, SoundID, Priority, MinDelayMinutes
 ZoneIntroMusicTable = {
 	{ 61, "Valley of Heroes", 2541, 1, 60 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, Name, Texture{}, Flags, SoundBank, SoundID, SpellID, MaxDarkenDepth, FogDarkenIntensity, AmbDarkenIntensity, DirDarkenIntensity, LightID, ParticleScale, ParticleMovement, ParticleTexSlots, MaterialID, MinimapStaticCol, FrameCountTexture{}, Color{}, Float{}, Int{}, Coefficient{}
 LiquidType = {
 	{ 1, "Water", { "XTextures\river\lake_a.%d.blp", "proceduralRiverDepthTex", "XTextures\ocean\newoceanbump.blp", "XTextures\foam\waterchop7bw.blp", "", "" }, 15, 0, 1111, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, -1626169131, { 30, 1, 1, 1, 1, 1 }, { 0, 0 }, { 1, 0, 1, 1, 2.5, 90, 1, 0.5, 0.5, 0.2, 0.7, 0.2, 0.1, 1, 0.5, 2.5, 0, 0 }, { 0, 1250, 0, 0 }, { 0, 0, 0, 0 } },

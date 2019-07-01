@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, DisplayRaceID, DisplaySexID, DisplayClassID, SkinID, FaceID, HairStyleID, HairColorID, FacialHairID, Flags, BakeMaterialResourcesID, HDBakeMaterialResourcesID, CustomDisplayOption{}
 CreatureDisplayInfoExtra = {
 	{ 23, 3, 0, 0, 1, 1, 6, 3, 2, 0, 116271, 0, { 0, 0, 0 } },

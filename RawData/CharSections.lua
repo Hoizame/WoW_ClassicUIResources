@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, RaceID, SexID, BaseSection, VariationIndex, ColorIndex, Flags, MaterialResourcesID{}
 CharSections = {
 	{ 1, 1, 0, 0, 0, 0, 17, { 5559, 0, 0 } },

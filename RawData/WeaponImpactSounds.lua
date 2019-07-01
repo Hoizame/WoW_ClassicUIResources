@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, WeaponSubClassID, ParrySoundType, ImpactSource, ImpactSoundID{}, CritImpactSoundID{}, PierceImpactSoundID{}, PierceCritImpactSoundID{}
 WeaponImpactSounds = {
 	{ 1, 0, 1, 0, { 171, 173, 175, 3263, 3262, 1002, 1001, 3202, 3206, 3210, 0 }, { 172, 174, 176, 3263, 3262, 1002, 1001, 3203, 3207, 3210, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } },

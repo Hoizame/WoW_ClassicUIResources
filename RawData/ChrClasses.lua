@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- Name_lang, Filename, Name_male_lang, Name_female_lang, PetNameToken, ID, Field_1_13_2_30073_006, Field_1_13_2_30073_007, Field_1_13_2_30073_008, Field_1_13_2_30073_009, StartingLevel, Field_1_13_2_30073_011, Field_1_13_2_30073_012, Field_1_13_2_30073_013, Field_1_13_2_30073_014, DisplayPower, Field_1_13_2_30073_016, Field_1_13_2_30073_017, Field_1_13_2_30073_018, SpellClassSet, Flags
 ChrClasses = {
 	{ "Warrior", "WARRIOR", "Warrior", "", "PET", 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 4, 0 },

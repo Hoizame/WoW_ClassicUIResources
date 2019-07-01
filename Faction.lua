@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- [FactionID] = { Name_lang, Description_lang, ParentFactionID }
 [1] = { "PLAYER, Human", "", 0 },
 [2] = { "PLAYER, Orc", "", 0 },

@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- ID, RowIndex, ColIndex, LayerIndex, FileDataID, UiMapArtID
 UiMapArtTile = {
 	{ 44083, 0, 0, 0, 271420, 1194 },

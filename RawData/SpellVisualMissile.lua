@@ -1,5 +1,4 @@
 -- This file is automatic generated and changes are not be reflected in future updates
--- 1.13.2.30901
 -- CastOffset{}, ImpactOffset{}, ID, SpellVisualEffectNameID, SoundEntriesID, Attachment, DestinationAttachment, CastPositionerID, ImpactPositionerID, FollowGroundHeight, FollowGroundDropSpeed, FollowGroundApproach, Flags, SpellMissileMotionID, AnimKitID, SpellVisualMissileSetID
 SpellVisualMissile = {
 	{ { 0, 0, 0 }, { 0, 0, 0 }, 11611, 675, 0, -1, 34, 0, 0, 0, 0, 0, 0, 0, 0, 9803 },
