@@ -15239,7 +15239,7 @@ GlobalStrings = {
 	{ 34266, "CREDITS_WOW_LEGION", "Legion Credits", 2 },
 	{ 34267, "CREDITS_WOW_BC", "Burning Crusade Credits", 2 },
 	{ 34268, "CREDITS_WOW_CC", "Cataclysm Credits", 2 },
-	{ 34269, "CREDITS_WOW_CLASSIC", "World of Warcraft Credits", 2 },
+	{ 34269, "CREDITS_WOW_VANILLA", "World of Warcraft 2004 Credits", 2 },
 	{ 34270, "CREDITS_WOW_LK", "Wrath of the Lich King Credits", 2 },
 	{ 34271, "CREDITS_WOW_MOP", "Mists of Pandaria Credits", 2 },
 	{ 34272, "CREDITS_WOW_WOD", "Warlords of Draenor Credits", 2 },
@@ -17405,4 +17405,5 @@ GlobalStrings = {
 	{ 41512, "GRAPHICS_QUALITY_CLASSIC", "Graphics Quality (Classic)", 3 },
 	{ 41522, "SHOW_MINIMAP_CLOCK", "Show Minimap Clock", 1 },
 	{ 41523, "OPTION_TOOLTIP_SHOW_MINIMAP_CLOCK", "Uncheck this to hide the clock below the minimap.", 1 },
+	{ 41615, "CREDITS_WOW_CLASSIC", "World of Warcraft Classic Credits", 2 },
 }

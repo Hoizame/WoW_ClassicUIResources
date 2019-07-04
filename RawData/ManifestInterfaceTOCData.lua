@@ -22,6 +22,7 @@ ManifestInterfaceTOCData = {
 	{ 903168, "Interface\AddOns\Blizzard_StoreUI\" },
 	{ 940322, "Interface\AddOns\Blizzard_AuthChallengeUI\" },
 	{ 1090582, "Interface\AddOns\Blizzard_SocialUI\" },
+	{ 1090585, "Interface\AddOns\Blizzard_DeathRecap\" },
 	{ 1116204, "Interface\AddOns\Blizzard_WowTokenUI\" },
 	{ 1302844, "Interface\AddOns\Blizzard_NamePlates\" },
 	{ 1383759, "Interface\AddOns\Blizzard_MapCanvas\" },
