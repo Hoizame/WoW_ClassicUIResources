@@ -65,13 +65,15 @@ local INVITE_RESTRICTION_NO_GAME_ACCOUNTS = 0;
 local INVITE_RESTRICTION_CLIENT = 1;
 local INVITE_RESTRICTION_LEADER = 2;
 local INVITE_RESTRICTION_FACTION = 3;
-local INVITE_RESTRICTION_INFO = 4;
-local INVITE_RESTRICTION_WOW_PROJECT_ID = 5;
-local INVITE_RESTRICTION_WOW_PROJECT_MAINLINE = 6;
-local INVITE_RESTRICTION_WOW_PROJECT_CLASSIC = 7;
+local INVITE_RESTRICTION_REALM = 4;
+local INVITE_RESTRICTION_INFO = 5;
+local INVITE_RESTRICTION_WOW_PROJECT_ID = 6;
+local INVITE_RESTRICTION_WOW_PROJECT_MAINLINE = 7;
+local INVITE_RESTRICTION_WOW_PROJECT_CLASSIC = 8;
 local INVITE_RESTRICTION_NONE = 8;
 
 local FriendListEntries = { };
+local playerRealmID;
 local playerRealmName;
 local playerFactionGroup;
 
@@ -1224,6 +1226,7 @@ function FriendsFrame_CheckBattlenetStatus()
 	if ( BNFeaturesEnabled() ) then
 		local frame = FriendsFrameBattlenetFrame;
 		if ( BNConnected() ) then
+			playerRealmID = GetRealmID();
 			playerRealmName = GetRealmName();
 			playerFactionGroup = UnitFactionGroup("player");
 			FriendsFrameBattlenetFrame_UpdateBroadcast();
@@ -2260,6 +2263,8 @@ function FriendsFrame_GetInviteRestriction(index)
 				restriction = max(INVITE_RESTRICTION_FACTION, restriction);
 			elseif ( realmID == 0 ) then
 				restriction = max(INVITE_RESTRICTION_INFO, restriction);
+			elseif (wowProjectID == WOW_PROJECT_CLASSIC) and (realmID ~= playerRealmID) then
+				restriction = max(INVITE_RESTRICTION_REALM, restriction);
 			else
 				-- there is at lease 1 game account that can be invited
 				return INVITE_RESTRICTION_NONE;
@@ -2276,6 +2281,8 @@ function FriendsFrame_GetInviteRestrictionText(restriction)
 		return ERR_TRAVEL_PASS_NOT_LEADER;
 	elseif ( restriction == INVITE_RESTRICTION_FACTION ) then
 		return ERR_TRAVEL_PASS_NOT_ALLIED;
+	elseif ( restriction == INVITE_RESTRICTION_REALM ) then
+		return ERR_TRAVEL_PASS_DIFFERENT_REALM;
 	elseif ( restriction == INVITE_RESTRICTION_INFO ) then
 		return ERR_TRAVEL_PASS_NO_INFO;
 	elseif ( restriction == INVITE_RESTRICTION_CLIENT ) then
@@ -2360,6 +2367,8 @@ function TravelPassDropDown_Initialize(self)
 				restriction = INVITE_RESTRICTION_WOW_PROJECT_ID;
 			elseif ( realmID == 0 ) then
 				restriction = INVITE_RESTRICTION_INFO;
+			elseif (wowProjectID == WOW_PROJECT_CLASSIC) and (realmID ~= playerRealmID) then
+				restriction = INVITE_RESTRICTION_REALM;
 			end
 			if ( restriction == INVITE_RESTRICTION_NONE ) then
 				info.text = string.format(FRIENDS_TOOLTIP_WOW_TOON_TEMPLATE, characterName, level, race, class);

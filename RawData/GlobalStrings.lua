@@ -17297,6 +17297,7 @@ GlobalStrings = {
 	{ 36816, "ERROR_CLUB_TICKET_COUNT_AT_MAX_COMMUNITY", "Can't create any more invite links for this group.", 1 },
 	{ 36817, "ERROR_CLUB_TICKET_NO_SUCH_TICKET", "It has expired.", 1 },
 	{ 36818, "ERROR_CLUB_TICKET_HAS_CONSUMED_ALLOWED_REDEEM_COUNT", "It has expired.", 1 },
+	{ 36820, "CHAT_CONFIG_CHANNEL_SETTINGS_TITLE_WITH_DRAG_INSTRUCTIONS", "Channels |cff808080(Drag to Reorder)|r", 1 },
 	{ 36824, "ATTACK_POWER_COLON", "Power:", 1 },
 	{ 36829, "OPTION_CONTRAST", "Contrast", 3 },
 	{ 36833, "CHAT_COMMUNITIES_CHANNEL_BN_GET", "%s:\32", 1 },
@@ -17406,4 +17407,8 @@ GlobalStrings = {
 	{ 41522, "SHOW_MINIMAP_CLOCK", "Show Minimap Clock", 1 },
 	{ 41523, "OPTION_TOOLTIP_SHOW_MINIMAP_CLOCK", "Uncheck this to hide the clock below the minimap.", 1 },
 	{ 41615, "CREDITS_WOW_CLASSIC", "World of Warcraft Classic Credits", 2 },
+	{ 41640, "BNET_FRIEND_ZONE_WOW_CLASSIC", "WoW Classic: %s", 1 },
+	{ 41641, "BNET_FRIEND_TOOLTIP_WOW_CLASSIC", "WoW Classic", 1 },
+	{ 41649, "AVAILABLE_CHANNELS", "Available Channels", 1 },
+	{ 41656, "ERR_TRAVEL_PASS_DIFFERENT_REALM", "In World of Warcraft: Classic you cannot invite players that are on a different realm.", 1 },
 }

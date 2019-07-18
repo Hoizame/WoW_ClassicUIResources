@@ -258,6 +258,7 @@ CHAT_CONFIG_OTHER_SYSTEM = {
 }
 
 CHAT_CONFIG_CHANNEL_LIST = {};
+CHAT_CONFIG_AVAILABLE_CHANNEL_LIST = {};
 
 -- Combat Options
 COMBAT_CONFIG_MESSAGESOURCES_BY = {
@@ -696,6 +697,7 @@ COMBAT_CONFIG_UNIT_COLORS = {
 function ChatConfigFrame_OnLoad(self)
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");
 	self:RegisterEvent("CHANNEL_UI_UPDATE");
+	self:RegisterEvent("CHAT_MSG_CHANNEL_NOTICE");
 	ChatConfigCombatSettingsFilters.selectedFilter = 1;
 end
 
@@ -724,8 +726,80 @@ function ChatConfigFrame_OnEvent(self, event, ...)
 		-- Default selections
 		ChatConfigCategory_OnClick(ChatConfigCategoryFrameButton2);
 		ChatConfig_UpdateCombatTabs(1);
-	elseif ( event == "CHANNEL_UI_UPDATE" ) then
-		ChatConfigCategory_UpdateEnabled();
+	elseif ( event == "CHANNEL_UI_UPDATE" or event == "CHAT_MSG_CHANNEL_NOTICE" ) then
+		ChatConfigChannelSettings_OnShow();
+	end
+end
+
+-- Like ChatConfig_CreateCheckboxes, but without the checkboxes.
+function ChatConfig_CreateBoxes(frame, boxTable, boxTemplate, title)
+	local boxNameString = frame:GetName().."Box";
+	local boxName, box;
+	local width, height;
+	local padding = 8;
+	local text;
+	local boxFontString;
+	
+	frame.boxTable = boxTable;
+	if ( title ) then
+		_G[frame:GetName().."Title"]:SetText(title);
+	end
+	for index, value in ipairs(boxTable) do
+		--If no box then create it
+		boxName = boxNameString..index;
+		box = _G[boxName];
+		if ( not box ) then
+			box = CreateFrame("Frame", boxName, frame, boxTemplate);
+			box:SetID(index);
+		end
+		if ( not width ) then
+			width = box:GetWidth();
+			height = box:GetHeight();
+		end
+		if ( index > 1 ) then
+			box:SetPoint("TOPLEFT", boxNameString..(index-1), "BOTTOMLEFT", 0, 0);
+		else
+			box:SetPoint("TOPLEFT", frame, "TOPLEFT", 4, -4);
+		end
+		if ( value.text ) then
+			text = value.text;
+		else
+			text = _G[value.type];
+		end
+		if ( value.buttonText ) then
+			box.Button:SetText(value.buttonText);
+		end
+		if ( value.buttonFunc ) then
+			box.Button:SetScript("OnClick", value.buttonFunc);
+		end
+		box.type = value.type;
+		boxFontString = _G[boxName.."Text"];
+		boxFontString:SetText(text);
+		boxFontString:SetMaxLines(1);
+		if ( value.maxWidth ) then
+			boxFontString:SetWidth(0);
+			if ( boxFontString:GetWidth() > value.maxWidth ) then
+				boxFontString:SetWidth(value.maxWidth);
+			end
+		end
+		box:Show();
+	end
+	
+	for index = #boxTable + 1, MAX_WOW_CHAT_CHANNELS do
+		boxName = boxNameString..index;
+		box = _G[boxName];
+		if box then
+			box:Hide();
+		end
+	end
+	
+	--Set Parent frame dimensions
+	if ( #boxTable > 0 ) then
+		frame:SetWidth(width+padding);
+		frame:SetHeight(#boxTable*height+padding);
+		frame:Show();
+	else
+		frame:Hide();
 	end
 end
 
@@ -793,6 +867,9 @@ function ChatConfig_CreateCheckboxes(frame, checkBoxTable, checkBoxTemplate, tit
 	if ( #checkBoxTable > 0 ) then
 		frame:SetWidth(width+padding);
 		frame:SetHeight(#checkBoxTable*height+padding);
+		frame:Show();
+	else
+		frame:Hide();
 	end
 end
 
@@ -1530,14 +1607,6 @@ function UpdateDefaultButtons(combatLogSelected)
 	end
 end
 
-function ChatConfigCategory_UpdateEnabled()
-	if ( GetChannelList() ) then
-		ChatConfigCategoryFrameButton3:Enable();
-	else
-		ChatConfigCategoryFrameButton3:Disable();
-	end
-end
-
 function CreateChatChannelList(self, ...)
 	if ( not FCF_GetCurrentChatFrame() ) then
 		return;
@@ -1591,6 +1660,28 @@ function CreateChatChannelList(self, ...)
 							ToggleChatChannel(checked, CHAT_CONFIG_CHANNEL_LIST[self:GetID()].channelName); 
 							end;
 		count = count+1;
+	end
+end
+
+function CreateAvailableChatChannelList(self, ...)
+	local channelName;
+	local count = 1;
+	CHAT_CONFIG_AVAILABLE_CHANNEL_LIST = {};
+	for i=1, select("#", ...), 1 do
+		channelName = select(i, ...);
+		-- If not in the channel, add it to the list.
+		if (GetChannelName(channelName) == 0) then
+			CHAT_CONFIG_AVAILABLE_CHANNEL_LIST[count] = {};
+			CHAT_CONFIG_AVAILABLE_CHANNEL_LIST[count].text = channelName;
+			CHAT_CONFIG_AVAILABLE_CHANNEL_LIST[count].channelName = channelName;
+			CHAT_CONFIG_AVAILABLE_CHANNEL_LIST[count].type = "CHANNEL_"..channelName;
+			CHAT_CONFIG_AVAILABLE_CHANNEL_LIST[count].maxWidth = CHATCONFIG_CHANNELS_MAXWIDTH;
+			CHAT_CONFIG_AVAILABLE_CHANNEL_LIST[count].buttonText = CHAT_JOIN;
+			CHAT_CONFIG_AVAILABLE_CHANNEL_LIST[count].buttonFunc = function (self)
+					SlashCmdList["JOIN"](CHAT_CONFIG_AVAILABLE_CHANNEL_LIST[self:GetParent():GetID()].channelName); 
+				end;
+			count = count+1;
+		end
 	end
 end
 
@@ -1967,7 +2058,6 @@ function ChatConfigCategoryFrame_Refresh(preserveCategorySelection)
 	end
 	ChatConfigFrameHeaderText:SetText(format(CHATCONFIG_HEADER, FCF_GetCurrentChatFrame().name));
 	ChatConfigFrameHeader:SetWidth(ChatConfigFrameHeaderText:GetWidth()+200);
-	ChatConfigCategory_UpdateEnabled();
 end
 
 function ChatConfig_RefreshCurrentChatCategory(preserveCategorySelection)
@@ -1994,6 +2084,10 @@ function ChatConfigChannelSettings_OnShow()
 	CreateChatChannelList(ChatConfigChannelSettings, GetChannelList());
 	ChatConfig_CreateCheckboxes(ChatConfigChannelSettingsLeft, CHAT_CONFIG_CHANNEL_LIST, "MovableChatConfigWideCheckBoxWithSwatchTemplate", CHAT_CONFIG_CHANNEL_SETTINGS_TITLE_WITH_DRAG_INSTRUCTIONS);
 	ChatConfig_UpdateCheckboxes(ChatConfigChannelSettingsLeft);
+
+	CreateAvailableChatChannelList(ChatConfigChannelSettings, EnumerateServerChannels());
+	ChatConfig_CreateBoxes(ChatConfigChannelSettingsAvailable, CHAT_CONFIG_AVAILABLE_CHANNEL_LIST, "ChatConfigTextBoxTemplateWithButton", AVAILABLE_CHANNELS);
+
 	UpdateDefaultButtons(false);
 end
 
