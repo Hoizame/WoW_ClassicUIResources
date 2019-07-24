@@ -39,57 +39,47 @@ CHAT_CONFIG_CHAT_LEFT = {
 		func = function (self, checked) ToggleChatMessageGroup(checked, "OFFICER"); end;
 	},
 	[6] = {
-		type = "GUILD_ACHIEVEMENT",
-		checked = function () return IsListeningForMessageType("GUILD_ACHIEVEMENT"); end;
-		func = function (self, checked) ToggleChatMessageGroup(checked, "GUILD_ACHIEVEMENT"); end;
-	},
-	[7] = {
-		type = "ACHIEVEMENT",
-		checked = function () return IsListeningForMessageType("ACHIEVEMENT"); end;
-		func = function (self, checked) ToggleChatMessageGroup(checked, "ACHIEVEMENT"); end;
-	},
-	[8] = {
 		type = "WHISPER",
 		checked = function () return IsListeningForMessageType("WHISPER"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "WHISPER"); end;
 	},
-	[9] = {
+	[7] = {
 		type = "BN_WHISPER",
 		noClassColor = 1,
 		checked = function () return IsListeningForMessageType("BN_WHISPER"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "BN_WHISPER"); end;
 	},
-	[10] = {
+	[8] = {
 		type = "PARTY",
 		checked = function () return IsListeningForMessageType("PARTY"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "PARTY"); end;
 	},
-	[11] = {
+	[9] = {
 		type = "PARTY_LEADER",
 		checked = function () return IsListeningForMessageType("PARTY_LEADER"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "PARTY_LEADER"); end;
 	},
-	[12] = {
+	[10] = {
 		type = "RAID",
 		checked = function () return IsListeningForMessageType("RAID"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "RAID"); end;
 	},
-	[13] = {
+	[11] = {
 		type = "RAID_LEADER",
 		checked = function () return IsListeningForMessageType("RAID_LEADER"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "RAID_LEADER"); end;
 	},
-	[14] = {
+	[12] = {
 		type = "RAID_WARNING",
 		checked = function () return IsListeningForMessageType("RAID_WARNING"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "RAID_WARNING"); end;
 	},
-	[15] = {
+	[13] = {
 		type = "INSTANCE_CHAT",
 		checked = function () return IsListeningForMessageType("INSTANCE_CHAT"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "INSTANCE_CHAT"); end;
 	},
-	[16] = {
+	[14] = {
 		type = "INSTANCE_CHAT_LEADER",
 		checked = function () return IsListeningForMessageType("INSTANCE_CHAT_LEADER"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "INSTANCE_CHAT_LEADER"); end;
@@ -162,33 +152,27 @@ CHAT_CONFIG_OTHER_COMBAT = {
  		func = function (self, checked) ToggleChatMessageGroup(checked, "LOOT"); end;
  	},
 	[6] = {
- 		text = CURRENCY,
- 		type = "CURRENCY",
- 		checked = function () return IsListeningForMessageType("CURRENCY"); end;
- 		func = function (self, checked) ToggleChatMessageGroup(checked, "CURRENCY"); end;
- 	},
-	[7] = {
  		text = MONEY_LOOT,
  		type = "MONEY",
  		checked = function () return IsListeningForMessageType("MONEY"); end;
  		func = function (self, checked) ToggleChatMessageGroup(checked, "MONEY"); end;
  	},
-	[8] = {
+	[7] = {
  		type = "TRADESKILLS",
  		checked = function () return IsListeningForMessageType("TRADESKILLS"); end;
  		func = function (self, checked) ToggleChatMessageGroup(checked, "TRADESKILLS"); end;
  	},
-	[9] = {
+	[8] = {
  		type = "OPENING",
  		checked = function () return IsListeningForMessageType("OPENING"); end;
  		func = function (self, checked) ToggleChatMessageGroup(checked, "OPENING"); end;
  	},
-	[10] = {
+	[9] = {
  		type = "PET_INFO",
  		checked = function () return IsListeningForMessageType("PET_INFO"); end;
  		func = function (self, checked) ToggleChatMessageGroup(checked, "PET_INFO"); end;
  	},
-	[11] = {
+	[10] = {
  		type = "COMBAT_MISC_INFO",
 		checked = function () return IsListeningForMessageType("COMBAT_MISC_INFO"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "COMBAT_MISC_INFO"); end;
@@ -244,16 +228,6 @@ CHAT_CONFIG_OTHER_SYSTEM = {
 		type = "BN_INLINE_TOAST_ALERT",
 		checked = function () return IsListeningForMessageType("BN_INLINE_TOAST_ALERT"); end;
 		func = function (self, checked) ToggleChatMessageGroup(checked, "BN_INLINE_TOAST_ALERT"); end;
-	},
-	[7] = {
-		type = "PET_BATTLE_COMBAT_LOG",
-		checked = function() return IsListeningForMessageType("PET_BATTLE_COMBAT_LOG"); end;
-		func = function (self, checked) ToggleChatMessageGroup(checked, "PET_BATTLE_COMBAT_LOG"); end;
-	},
-	[8] = {
-		type = "PET_BATTLE_INFO",
-		checked = function() return IsListeningForMessageType("PET_BATTLE_INFO"); end;
-		func = function (self, checked) ToggleChatMessageGroup(checked, "PET_BATTLE_INFO"); end;
 	},
 }
 
@@ -582,20 +556,6 @@ COMBAT_CONFIG_MESSAGETYPES_RIGHT = {
 				checked = function () return HasMessageType("SPELL_RESURRECT"); end;
 				func = function (self, checked) ToggleMessageType(checked, "SPELL_RESURRECT"); end;
 				tooltip = SPELL_RESURRECT_COMBATLOG_TOOLTIP,
-			},
-			[9] = {
-				text = BUILDING_DAMAGE,
-				type = {"SPELL_BUILDING_DAMAGE"};
-				checked = function () return HasMessageType("SPELL_BUILDING_DAMAGE"); end;
-				func = function (self, checked) ToggleMessageType(checked, "SPELL_BUILDING_DAMAGE"); end;
-				tooltip = BUILDING_DAMAGE_COMBATLOG_TOOLTIP,
-			},
-			[10] = {
-				text = BUILDING_HEAL,
-				type = {"SPELL_BUILDING_HEAL"};
-				checked = function () return HasMessageType("SPELL_BUILDING_HEAL"); end;
-				func = function (self, checked) ToggleMessageType(checked, "SPELL_BUILDING_HEAL"); end;
-				tooltip = BUILDING_HEAL_COMBATLOG_TOOLTIP,
 			},
 		}
 	},

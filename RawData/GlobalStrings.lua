@@ -7164,7 +7164,7 @@ GlobalStrings = {
 	{ 18400, "SPELL_DAMAGE_COMBATLOG_TOOLTIP", "Show messages when a spell or ability deals damage.", 1 },
 	{ 18401, "SPELL_MISSED_COMBATLOG_TOOLTIP", "Show messages when a spell or ability fails to deal damage. This includes dodges, parries, blocks, deflections, immunes, absorbs and evades.", 1 },
 	{ 18402, "SPELL_HEAL_COMBATLOG_TOOLTIP", "Show messages when a spell or ability heals damage.", 1 },
-	{ 18403, "POWER_GAINS_COMBATLOG_TOOLTIP", "Show messages when a spell or ability restores mana, energy, rage, focus, chi, holy power, or shadow orbs.", 1 },
+	{ 18403, "POWER_GAINS_COMBATLOG_TOOLTIP", "Show messages when a spell or ability restores mana, energy, rage, focus, or pet happiness.", 1 },
 	{ 18404, "SPELL_DRAIN_COMBATLOG_TOOLTIP", "Show messages when a spell or ability reduces mana, energy, rage, or focus.", 1 },
 	{ 18405, "SPELL_INTERRUPT_COMBATLOG_TOOLTIP", "Show messages when a spell or ability interrupts another spell.", 1 },
 	{ 18406, "SPELL_INSTAKILL_COMBATLOG_TOOLTIP", "Show messages about special spell types, such as those that inflict durability loss or share damage with a pet.", 1 },

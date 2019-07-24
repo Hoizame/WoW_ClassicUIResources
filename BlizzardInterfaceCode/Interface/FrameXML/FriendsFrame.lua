@@ -1295,6 +1295,19 @@ function FriendsFrame_UpdateFriends()
 	HybridScrollFrame_Update(scrollFrame, scrollFrame.totalFriendListEntriesHeight, usedHeight);
 end
 
+local function ShowRichPresenceOnly(client, wowProjectID, faction, realmID)
+	if (client ~= BNET_CLIENT_WOW) or (wowProjectID ~= WOW_PROJECT_ID) then
+		-- If they are not in wow or in a different version of wow, always show rich presence only
+		return true;
+	elseif (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC) and ((faction ~= playerFactionGroup) or (realmID ~= playerRealmID)) then
+		-- If we are both in wow classic and our factions or realms don't match, show rich presence only
+		return true;
+	else
+		-- Otherwise show more detailed info about them
+		return false;
+	end;
+end
+
 function FriendsFrame_UpdateFriendButton(button)
 	local index = button.index;
 	button.buttonType = FriendListEntries[index].buttonType;
@@ -1363,16 +1376,26 @@ function FriendsFrame_UpdateFriendButton(button)
 			else
 				button.status:SetTexture(FRIENDS_TEXTURE_ONLINE);
 			end
-			if ( client == BNET_CLIENT_WOW and wowProjectID == WOW_PROJECT_ID ) then
+
+			if ShowRichPresenceOnly(client, wowProjectID, faction, realmID) then
+				infoText = gameText;
+			else
 				if ( not zoneName or zoneName == "" ) then
 					infoText = UNKNOWN;
 				else
 					infoText = zoneName;
 				end
-			else
-				infoText = gameText;
 			end
+			
 			button.gameIcon:SetTexture(BNet_GetClientTexture(client));
+
+			local fadeIcon = (client == BNET_CLIENT_WOW) and (wowProjectID ~= WOW_PROJECT_ID);
+			if fadeIcon then
+				button.gameIcon:SetAlpha(0.6);
+			else
+				button.gameIcon:SetAlpha(1);
+			end
+
 			nameColor = FRIENDS_BNET_NAME_COLOR;
 
 			--Note - this logic should match the logic in FriendsFrame_ShouldShowSummonButton
@@ -1655,7 +1678,14 @@ function FriendsFrameTooltip_Show(self)
 			level = level or "";
 			race = race or "";
 			class = class or "";
-			if ( client == BNET_CLIENT_WOW and wowProjectID == WOW_PROJECT_ID ) then
+			
+			if ShowRichPresenceOnly(client, wowProjectID, faction, realmID) then
+				if ( isOnline ) then
+					characterName = BNet_GetValidatedCharacterName(characterName, battleTag, client) or "";
+				end
+				FriendsFrameTooltip_SetLine(FriendsTooltipGameAccount1Name, nil, characterName);
+				anchor = FriendsFrameTooltip_SetLine(FriendsTooltipGameAccount1Info, nil, gameText, -4);
+			else
 				if ( CanCooperateWithGameAccount(bnetIDGameAccount) ) then
 					text = string.format(FRIENDS_TOOLTIP_WOW_TOON_TEMPLATE, characterName, level, race, class);
 				else
@@ -1663,12 +1693,6 @@ function FriendsFrameTooltip_Show(self)
 				end
 				FriendsFrameTooltip_SetLine(FriendsTooltipGameAccount1Name, nil, text);
 				anchor = FriendsFrameTooltip_SetLine(FriendsTooltipGameAccount1Info, nil, string.format(FRIENDS_TOOLTIP_WOW_INFO_TEMPLATE, zoneName, realmName), -4);
-			else
-				if ( isOnline ) then
-					characterName = BNet_GetValidatedCharacterName(characterName, battleTag, client) or "";
-				end
-				FriendsFrameTooltip_SetLine(FriendsTooltipGameAccount1Name, nil, characterName);
-				anchor = FriendsFrameTooltip_SetLine(FriendsTooltipGameAccount1Info, nil, gameText, -4);
 			end
 		else
 			FriendsTooltipGameAccount1Info:Hide();
@@ -2731,12 +2755,14 @@ function GuildStatus_Update()
 			GuildFrameDemoteButton:Disable();
 		end
 		-- Hide promote/demote buttons if both disabled
-		if ( GuildFrameDemoteButton:IsEnabled() == 0 and GuildFramePromoteButton:IsEnabled() == 0 ) then
+		if ( not GuildFrameDemoteButton:IsEnabled() and not GuildFramePromoteButton:IsEnabled() ) then
 			GuildFramePromoteButton:Hide();
 			GuildFrameDemoteButton:Hide();
+			GuildMemberDetailRankText:SetPoint("RIGHT", "GuildMemberDetailFrame", "RIGHT", -10, 0);
 		else
 			GuildFramePromoteButton:Show();
 			GuildFrameDemoteButton:Show();
+			GuildMemberDetailRankText:SetPoint("RIGHT", "GuildFramePromoteButton", "LEFT", 3, 0);
 		end
 		if ( CanGuildRemove() and ( rankIndex >= 1 ) and ( rankIndex > guildRankIndex ) ) then
 			GuildMemberRemoveButton:Enable();
