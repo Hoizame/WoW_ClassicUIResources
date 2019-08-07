@@ -21044,4 +21044,5 @@ SpellName = {
 	{ 301091, "Alliance Flag" },
 	{ 301100, "Recently Dropped Flag" },
 	{ 301101, "Recently Dropped Flag" },
+	{ 308395, "CS Care Package" },
 }
