@@ -1,3 +1,5 @@
+#1.13.2.31650
+
 ### AreaTable.lua
 RawData now contains all .db2 files as Lua table.
 
