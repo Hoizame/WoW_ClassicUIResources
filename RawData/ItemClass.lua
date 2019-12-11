@@ -17,4 +17,5 @@ ItemClass = {
 	{ 14, "Key", 13, 0.25, 0 },
 	{ 15, "Permanent(OBSOLETE)", 14, 0.25, 0 },
 	{ 16, "Miscellaneous", 15, 0.25, 0 },
+	{ 19, "WoW Token", 18, 0.25, 0 },
 }

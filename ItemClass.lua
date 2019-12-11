@@ -16,3 +16,4 @@
 [13] = "Key",
 [14] = "Permanent(OBSOLETE)",
 [15] = "Miscellaneous",
+[18] = "WoW Token",

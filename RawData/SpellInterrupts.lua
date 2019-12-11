@@ -1,6 +1,10 @@
 -- This file is automatic generated and changes are not be reflected in future updates
 -- ID, DifficultyID, InterruptFlags, AuraInterruptFlags{}, ChannelInterruptFlags{}, SpellID
 SpellInterrupts = {
+	{ 8257, 0, 0, { 8912896, 0 }, { 0, 0 }, 43680 },
+	{ 8258, 0, 0, { 8912896, 0 }, { 0, 0 }, 43681 },
+	{ 63181, 0, 0, { 8912896, 0 }, { 0, 0 }, 219003 },
+	{ 63182, 0, 0, { 8912896, 0 }, { 0, 0 }, 219004 },
 	{ 123481, 0, 15, { 0, 0 }, { 0, 0 }, 539 },
 	{ 123482, 0, 15, { 0, 0 }, { 0, 0 }, 540 },
 	{ 123483, 0, 15, { 0, 0 }, { 0, 0 }, 541 },

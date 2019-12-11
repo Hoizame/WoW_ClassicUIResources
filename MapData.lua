@@ -1,7 +1,7 @@
 -- This file is automatic generated and changes are not be reflected in future updates
 -- [MapID] = { MapName_lang, Directory, MapType, InstanceType, ResetInterval, MaxPlayers }
-[0] = { "Eastern Kingdoms", "Azeroth", 1, 0, 0, 5 },
-[1] = { "Kalimdor", "Kalimdor", 1, 0, 0, 5 },
+[0] = { "Eastern Kingdoms", "Azeroth", 1, 0, 0, 0 },
+[1] = { "Kalimdor", "Kalimdor", 1, 0, 0, 0 },
 [13] = { "Testing", "test", 2, 0, 0, 5 },
 [25] = { "Scott Test", "ScottTest", 2, 0, 0, 5 },
 [29] = { "CashTest", "TEST_01", 2, 1, 0, 0 },
@@ -35,10 +35,10 @@
 [389] = { "Ragefire Chasm", "OrgrimmarInstance", 2, 1, 0, 5 },
 [409] = { "Molten Core", "MoltenCore", 2, 2, 2, 40 },
 [429] = { "Dire Maul", "DireMaul", 2, 1, 0, 5 },
-[449] = { "Alliance PVP Barracks", "AlliancePVPBarracks", 2, 0, 0, 5 },
-[450] = { "Horde PVP Barracks", "HordePVPBarracks", 2, 0, 0, 5 },
+[449] = { "Alliance PVP Barracks", "AlliancePVPBarracks", 2, 0, 0, 0 },
+[450] = { "Horde PVP Barracks", "HordePVPBarracks", 2, 0, 0, 0 },
 [451] = { "Development Land", "development", 1, 0, 0, 5 },
-[469] = { "Blackwing Lair", "BlackwingLair", 1, 2, 0, 40 },
+[469] = { "Blackwing Lair", "BlackwingLair", 1, 2, 2, 40 },
 [489] = { "Warsong Gulch", "PVPZone03", 1, 3, 0, 0 },
 [509] = { "Ruins of Ahn'Qiraj", "AhnQiraj", 1, 2, 3, 20 },
 [529] = { "Arathi Basin", "PVPZone04", 1, 3, 0, 0 },

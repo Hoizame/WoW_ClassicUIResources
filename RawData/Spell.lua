@@ -9720,6 +9720,8 @@ Spell = {
 	{ 31565, "", "", "I got my foot pedal on the floor, but..." },
 	{ 31599, "", "", "You are entering the nether..." },
 	{ 31750, "QASpell", "Increases damage and healing done by magical spells and effects by up to $s1.", "" },
+	{ 43680, "", "Your teammates have reported you for laziness!  Enter PvP combat or you will be marked Inactive and unable to receive Honor Points.", "Your teammates have reported you for laziness!  Enter PvP combat or you will be marked Inactive and unable to receive Honor Points." },
+	{ 43681, "", "Cannot receive Honor Points until you enter PvP combat. \n You will be kicked from the battleground if you remain Inactive.", "Cannot receive Honor Points until you enter PvP combat. \n You will be kicked from the battleground if you remain Inactive." },
 	{ 285224, "", "", "Chromie is only able to keep you anchored in the past for a limited time. Once exhausted, you will need to wait until she has regained enough energy before attempting to come back." },
 	{ 301089, "", "Carrying the Horde flag. Take it back to your home base to capture it.", "Carrying the Horde flag. Take it back to your home base to capture it." },
 	{ 301091, "", "Carrying the Alliance flag. Take it back to your home base to capture it.", "Carrying the Alliance flag. Take it back to your home base to capture it." },

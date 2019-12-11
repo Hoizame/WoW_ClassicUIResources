@@ -9719,6 +9719,8 @@
 [31565] = { "I can't drive 55", "", "", 0, 0, 0 },
 [31599] = { "Netherwalk", "", "", 0, 0, 0 },
 [31750] = { "QATest +1000 Spell Dmg", "QASpell", "Increases damage and healing done by magical spells and effects by up to $s1.", 0, 0, 0 },
+[43680] = { "Idle", "", "Your teammates have reported you for laziness!  Enter PvP combat or you will be marked Inactive and unable to receive Honor Points.", 0, 0, 0 },
+[43681] = { "Inactive", "", "Cannot receive Honor Points until you enter PvP combat. \n You will be kicked from the battleground if you remain Inactive.", 0, 0, 0 },
 [285224] = { "BlizzCon Exhaustion", "", "", 0, 0, 0 },
 [301089] = { "Horde Flag", "", "Carrying the Horde flag. Take it back to your home base to capture it.", 0, 0, 0 },
 [301091] = { "Alliance Flag", "", "Carrying the Alliance flag. Take it back to your home base to capture it.", 0, 0, 0 },

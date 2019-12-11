@@ -60,4 +60,5 @@ ManifestInterfaceTOCData = {
 	{ 3014753, "Interface\AddOns\DesignerMenu3\AdvancedStats\" },
 	{ 3014774, "Interface\AddOns\DesignerMenu3\KeyBindingsProfiler\" },
 	{ 3014812, "Interface\AddOns\DEV__Templates\" },
+	{ 3193195, "Interface\AddOns\Blizzard_Kiosk\" },
 }
